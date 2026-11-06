@@ -1,0 +1,38 @@
+﻿Region or subject,Location or workspace,Plan,Created or rule,Operations note
+EU-1,"Primary storage in Frankfurt, Germany.",,,
+EU-2,"Primary storage in Paris, France.",,,
+US-1,"Primary storage in Northern Virginia, United States.",,,
+CA-1,"Primary storage in Montreal, Canada.",,,
+Selection,Starter uses EU-1 by default for contracts signed in the European Union.,,,
+Team,Team may choose EU-1 or US-1 at workspace creation.,,,
+Enterprise,Enterprise may select any listed region at creation.,,,
+Migration,A region migration requires Enterprise and a scheduled maintenance window.,,,
+Support access,Support routing language does not change the storage region.,,,
+EU-1,Cedar Studio / 1,Starter,2026-09-01,selection captured before workspace creation; interface language does not set region
+US-1,North Paper / 1,Team,2026-09-02,selection captured before workspace creation; interface language does not set region
+EU-1,Atelier Nacre / 1,Enterprise,2026-09-03,selection captured before workspace creation; interface language does not set region
+US-1,Open Lane / 1,Team,2026-09-04,selection captured before workspace creation; interface language does not set region
+EU-1,Harbor Works / 1,Starter,2026-09-05,selection captured before workspace creation; interface language does not set region
+US-1,Maple Research / 1,Team,2026-09-06,selection captured before workspace creation; interface language does not set region
+EU-2,Quartz Lab / 1,Enterprise,2026-09-07,selection captured before workspace creation; interface language does not set region
+US-1,Plain Supply / 1,Team,2026-09-08,selection captured before workspace creation; interface language does not set region
+EU-1,Cedar Studio / 2,Starter,2026-09-09,selection captured before workspace creation; interface language does not set region
+US-1,North Paper / 2,Team,2026-09-10,selection captured before workspace creation; interface language does not set region
+CA-1,Atelier Nacre / 2,Enterprise,2026-09-11,selection captured before workspace creation; interface language does not set region
+US-1,Open Lane / 2,Team,2026-09-12,selection captured before workspace creation; interface language does not set region
+EU-1,Harbor Works / 2,Starter,2026-09-13,selection captured before workspace creation; interface language does not set region
+US-1,Maple Research / 2,Team,2026-09-14,selection captured before workspace creation; interface language does not set region
+EU-1,Quartz Lab / 2,Enterprise,2026-09-15,selection captured before workspace creation; interface language does not set region
+US-1,Plain Supply / 2,Team,2026-09-16,selection captured before workspace creation; interface language does not set region
+EU-1,Cedar Studio / 3,Starter,2026-09-17,selection captured before workspace creation; interface language does not set region
+US-1,North Paper / 3,Team,2026-09-18,selection captured before workspace creation; interface language does not set region
+EU-2,Atelier Nacre / 3,Enterprise,2026-09-19,selection captured before workspace creation; interface language does not set region
+US-1,Open Lane / 3,Team,2026-09-20,selection captured before workspace creation; interface language does not set region
+EU-1,Harbor Works / 3,Starter,2026-09-21,selection captured before workspace creation; interface language does not set region
+US-1,Maple Research / 3,Team,2026-09-22,selection captured before workspace creation; interface language does not set region
+CA-1,Quartz Lab / 3,Enterprise,2026-09-23,selection captured before workspace creation; interface language does not set region
+US-1,Plain Supply / 3,Team,2026-09-24,selection captured before workspace creation; interface language does not set region
+EU-1,Cedar Studio / 4,Starter,2026-09-01,selection captured before workspace creation; interface language does not set region
+US-1,North Paper / 4,Team,2026-09-02,selection captured before workspace creation; interface language does not set region
+EU-1,Atelier Nacre / 4,Enterprise,2026-09-03,selection captured before workspace creation; interface language does not set region
+US-1,Open Lane / 4,Team,2026-09-04,selection captured before workspace creation; interface language does not set region

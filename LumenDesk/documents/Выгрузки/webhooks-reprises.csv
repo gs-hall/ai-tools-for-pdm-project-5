@@ -1,0 +1,36 @@
+﻿Nature;Étape ou livraison;Minutes depuis envoi initial;Événement;HTTP;Observation
+calendrier;Tentative 1;0;;;Envoi initial à 0 minute.
+calendrier;Tentative 2;1;;;Nouvel envoi à 1 minute.
+calendrier;Tentative 3;5;;;Nouvel envoi à 5 minutes.
+calendrier;Tentative 4;15;;;Nouvel envoi à 15 minutes.
+calendrier;Tentative 5;60;;;Nouvel envoi à 60 minutes.
+calendrier;Tentative 6;240;;;Dernier envoi à 240 minutes.
+consigne;Échec final;;;;Après la sixième tentative en échec, l’événement prend l’état dead_letter.
+consigne;Suspension;;;;Trois événements dead_letter en une heure suspendent l’abonnement.
+consigne;Reprise;;;;Un administrateur réactive l’abonnement après un test HTTP 2xx.
+consigne;Identifiant;;;;L’event ID reste identique pendant toutes les tentatives.
+consigne;Délai réseau;;;;Chaque tentative a un délai de réponse maximal de 10 secondes.
+journal du test du 8 septembre;livraison-31;0;cartes.cree;503;"service aval indisponible; horloge mesurée depuis le premier envoi du même événement"
+journal du test du 8 septembre;livraison-32;1;commentaire.ajoute;429;"Retry-After reçu; horloge mesurée depuis le premier envoi du même événement"
+journal du test du 8 septembre;livraison-33;5;carte.modifie;200;"accusé de réception; horloge mesurée depuis le premier envoi du même événement"
+journal du test du 8 septembre;livraison-34;15;fichier.disponible;504;"délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement"
+journal du test du 8 septembre;livraison-35;60;membre.invite;202;"traitement accepté; horloge mesurée depuis le premier envoi du même événement"
+journal du test du 8 septembre;livraison-36;240;carte.archive;500;"erreur du destinataire; horloge mesurée depuis le premier envoi du même événement"
+journal du test du 8 septembre;livraison-37;0;cartes.cree;503;"service aval indisponible; horloge mesurée depuis le premier envoi du même événement"
+journal du test du 8 septembre;livraison-38;1;commentaire.ajoute;429;"Retry-After reçu; horloge mesurée depuis le premier envoi du même événement"
+journal du test du 8 septembre;livraison-39;5;carte.modifie;200;"accusé de réception; horloge mesurée depuis le premier envoi du même événement"
+journal du test du 8 septembre;livraison-40;15;fichier.disponible;504;"délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement"
+journal du test du 8 septembre;livraison-41;60;membre.invite;202;"traitement accepté; horloge mesurée depuis le premier envoi du même événement"
+journal du test du 8 septembre;livraison-42;240;carte.archive;500;"erreur du destinataire; horloge mesurée depuis le premier envoi du même événement"
+journal du test du 8 septembre;livraison-43;0;cartes.cree;503;"service aval indisponible; horloge mesurée depuis le premier envoi du même événement"
+journal du test du 8 septembre;livraison-44;1;commentaire.ajoute;429;"Retry-After reçu; horloge mesurée depuis le premier envoi du même événement"
+journal du test du 8 septembre;livraison-45;5;carte.modifie;200;"accusé de réception; horloge mesurée depuis le premier envoi du même événement"
+journal du test du 8 septembre;livraison-46;15;fichier.disponible;504;"délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement"
+journal du test du 8 septembre;livraison-47;60;membre.invite;202;"traitement accepté; horloge mesurée depuis le premier envoi du même événement"
+journal du test du 8 septembre;livraison-48;240;carte.archive;500;"erreur du destinataire; horloge mesurée depuis le premier envoi du même événement"
+journal du test du 8 septembre;livraison-49;0;cartes.cree;503;"service aval indisponible; horloge mesurée depuis le premier envoi du même événement"
+journal du test du 8 septembre;livraison-50;1;commentaire.ajoute;429;"Retry-After reçu; horloge mesurée depuis le premier envoi du même événement"
+journal du test du 8 septembre;livraison-51;5;carte.modifie;200;"accusé de réception; horloge mesurée depuis le premier envoi du même événement"
+journal du test du 8 septembre;livraison-52;15;fichier.disponible;504;"délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement"
+journal du test du 8 septembre;livraison-53;60;membre.invite;202;"traitement accepté; horloge mesurée depuis le premier envoi du même événement"
+journal du test du 8 septembre;livraison-54;240;carte.archive;500;"erreur du destinataire; horloge mesurée depuis le premier envoi du même événement"

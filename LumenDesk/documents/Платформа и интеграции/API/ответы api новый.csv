@@ -1,0 +1,42 @@
+﻿Код или условие,Действие,Время запроса,Запрос,Безопасный контекст
+400 invalid_filter,Проверить имена полей и синтаксис фильтра.,,,
+401 key_expired,Создать новый ключ и проверить срок старого.,,,
+403 scope_missing,Проверить scopes и доступ ключа к пространству.,,,
+404 resource_not_found,Проверить object ID и права на объект.,,,
+409 version_conflict,Перечитать объект и повторить изменение с актуальной версией.,,,
+413 attachment_too_large,Сравнить размер одного вложения с лимитом тарифа.,,,
+429 rate_limited,Повторить после интервала из Retry-After в секундах.,,,
+503 temporarily_unavailable,Повторить с увеличивающейся задержкой и проверить страницу статуса.,,,
+Предел повторов,Клиенту рекомендуется не более 5 повторов одного запроса при временной ошибке.,,,
+400 invalid_filter,Исправлен синтаксис фильтра,2026-09-09 12:00 UTC,req-3100,field: updatedAt
+401 key_expired,Администратор проверяет срок ключа,2026-09-09 12:06 UTC,req-3101,credentials omitted
+403 scope_missing,Проверяется разрешение на пространство,2026-09-09 12:12 UTC,req-3102,space: operations
+404 resource_not_found,Проверены права до вывода об удалении,2026-09-09 12:18 UTC,req-3103,object: card
+409 version_conflict,Объект перечитан перед изменением,2026-09-09 12:24 UTC,req-3104,version mismatch
+413 attachment_too_large,Размер одного файла сверили с тарифом,2026-09-09 12:30 UTC,req-3105,plan: Team
+429 rate_limited,Повтор отложен на указанный интервал,2026-09-09 12:36 UTC,req-3106,Retry-After: 12
+503 temporarily_unavailable,Технический сбой; повтор с увеличением задержки,2026-09-09 12:42 UTC,req-3107,status page checked
+400 invalid_filter,Исправлен синтаксис фильтра,2026-09-10 12:00 UTC,req-3108,field: updatedAt
+401 key_expired,Администратор проверяет срок ключа,2026-09-10 12:06 UTC,req-3109,credentials omitted
+403 scope_missing,Проверяется разрешение на пространство,2026-09-10 12:12 UTC,req-3110,space: operations
+404 resource_not_found,Проверены права до вывода об удалении,2026-09-10 12:18 UTC,req-3111,object: card
+409 version_conflict,Объект перечитан перед изменением,2026-09-10 12:24 UTC,req-3112,version mismatch
+413 attachment_too_large,Размер одного файла сверили с тарифом,2026-09-10 12:30 UTC,req-3113,plan: Team
+429 rate_limited,Повтор отложен на указанный интервал,2026-09-10 12:36 UTC,req-3114,Retry-After: 12
+503 temporarily_unavailable,Технический сбой; повтор с увеличением задержки,2026-09-10 12:42 UTC,req-3115,status page checked
+400 invalid_filter,Исправлен синтаксис фильтра,2026-09-11 12:00 UTC,req-3116,field: updatedAt
+401 key_expired,Администратор проверяет срок ключа,2026-09-11 12:06 UTC,req-3117,credentials omitted
+403 scope_missing,Проверяется разрешение на пространство,2026-09-11 12:12 UTC,req-3118,space: operations
+404 resource_not_found,Проверены права до вывода об удалении,2026-09-11 12:18 UTC,req-3119,object: card
+409 version_conflict,Объект перечитан перед изменением,2026-09-11 12:24 UTC,req-3120,version mismatch
+413 attachment_too_large,Размер одного файла сверили с тарифом,2026-09-11 12:30 UTC,req-3121,plan: Team
+429 rate_limited,Повтор отложен на указанный интервал,2026-09-11 12:36 UTC,req-3122,Retry-After: 12
+503 temporarily_unavailable,Технический сбой; повтор с увеличением задержки,2026-09-11 12:42 UTC,req-3123,status page checked
+400 invalid_filter,Исправлен синтаксис фильтра,2026-09-12 12:00 UTC,req-3124,field: updatedAt
+401 key_expired,Администратор проверяет срок ключа,2026-09-12 12:06 UTC,req-3125,credentials omitted
+403 scope_missing,Проверяется разрешение на пространство,2026-09-12 12:12 UTC,req-3126,space: operations
+404 resource_not_found,Проверены права до вывода об удалении,2026-09-12 12:18 UTC,req-3127,object: card
+409 version_conflict,Объект перечитан перед изменением,2026-09-12 12:24 UTC,req-3128,version mismatch
+413 attachment_too_large,Размер одного файла сверили с тарифом,2026-09-12 12:30 UTC,req-3129,plan: Team
+429 rate_limited,Повтор отложен на указанный интервал,2026-09-12 12:36 UTC,req-3130,Retry-After: 12
+503 temporarily_unavailable,Технический сбой; повтор с увеличением задержки,2026-09-12 12:42 UTC,req-3131,status page checked

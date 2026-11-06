@@ -1,0 +1,40 @@
+﻿Trigger,Channel or rule,Delay or explanation,Observed at,Member timezone,Outcome
+Mention,rule,A direct mention creates an in-app notification immediately.,,,
+Email,rule,Mention email is sent after a 5 minute delay if the item remains unread.,,,
+Digest,rule,The daily digest is delivered at 08:00 in the member timezone.,,,
+Quiet hours,rule,Quiet hours suppress email and push between 22:00 and 08:00 local time.,,,
+Critical notices,rule,Security sign-in alerts ignore quiet hours.,,,
+Muted thread,rule,A muted thread suppresses ordinary replies but still allows direct mentions.,,,
+Membership,rule,Removed members receive no new workspace notifications.,,,
+Troubleshooting,rule,"Check user preferences, timezone and spam folder before escalating.",,,
+Evidence,rule,"Collect notification ID and delivery timestamp, never a mailbox password.",,,
+direct mention,in-app,immediate,2026-09-07 07:00 UTC,Europe/Berlin,unread
+direct mention,email,5 minutes,2026-09-07 07:07 UTC,Europe/Paris,read before delay; email cancelled
+thread reply,email,suppressed,2026-09-07 07:14 UTC,America/Toronto,muted thread
+security sign-in,email,immediate,2026-09-07 07:21 UTC,Europe/Berlin,quiet hours do not suppress security
+daily digest,email,08:00 local,2026-09-07 07:28 UTC,Europe/Paris,member timezone
+removed member,all,none,2026-09-07 07:35 UTC,America/Toronto,membership ended
+direct mention,in-app,immediate,2026-09-08 07:00 UTC,Europe/Berlin,unread
+direct mention,email,5 minutes,2026-09-08 07:07 UTC,Europe/Paris,read before delay; email cancelled
+thread reply,email,suppressed,2026-09-08 07:14 UTC,America/Toronto,muted thread
+security sign-in,email,immediate,2026-09-08 07:21 UTC,Europe/Berlin,quiet hours do not suppress security
+daily digest,email,08:00 local,2026-09-08 07:28 UTC,Europe/Paris,member timezone
+removed member,all,none,2026-09-08 07:35 UTC,America/Toronto,membership ended
+direct mention,in-app,immediate,2026-09-09 07:00 UTC,Europe/Berlin,unread
+direct mention,email,5 minutes,2026-09-09 07:07 UTC,Europe/Paris,read before delay; email cancelled
+thread reply,email,suppressed,2026-09-09 07:14 UTC,America/Toronto,muted thread
+security sign-in,email,immediate,2026-09-09 07:21 UTC,Europe/Berlin,quiet hours do not suppress security
+daily digest,email,08:00 local,2026-09-09 07:28 UTC,Europe/Paris,member timezone
+removed member,all,none,2026-09-09 07:35 UTC,America/Toronto,membership ended
+direct mention,in-app,immediate,2026-09-10 07:00 UTC,Europe/Berlin,unread
+direct mention,email,5 minutes,2026-09-10 07:07 UTC,Europe/Paris,read before delay; email cancelled
+thread reply,email,suppressed,2026-09-10 07:14 UTC,America/Toronto,muted thread
+security sign-in,email,immediate,2026-09-10 07:21 UTC,Europe/Berlin,quiet hours do not suppress security
+daily digest,email,08:00 local,2026-09-10 07:28 UTC,Europe/Paris,member timezone
+removed member,all,none,2026-09-10 07:35 UTC,America/Toronto,membership ended
+direct mention,in-app,immediate,2026-09-11 07:00 UTC,Europe/Berlin,unread
+direct mention,email,5 minutes,2026-09-11 07:07 UTC,Europe/Paris,read before delay; email cancelled
+thread reply,email,suppressed,2026-09-11 07:14 UTC,America/Toronto,muted thread
+security sign-in,email,immediate,2026-09-11 07:21 UTC,Europe/Berlin,quiet hours do not suppress security
+daily digest,email,08:00 local,2026-09-11 07:28 UTC,Europe/Paris,member timezone
+removed member,all,none,2026-09-11 07:35 UTC,America/Toronto,membership ended

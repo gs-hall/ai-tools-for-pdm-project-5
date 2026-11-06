@@ -1,0 +1,33 @@
+Trash: the customer conversation and recovery
+
+From September 1, 2026, Workspace Platform uses this procedure for LumenDesk cards and documents. Both frontline specialists and support leads refer to it when a customer reports an accidental deletion. People often begin with “everything was there yesterday,” but the decision requires more precise information. Before promising to return an item, establish the workspace plan and the deletion time. Do not start by assuming that an administrator will definitely find the card in Trash: that possibility depends on the time window.
+
+Requests commonly mix two questions: who deleted the item and who can restore it. The item owner or a workspace administrator may delete a card or document. A workspace administrator performs restoration through Trash. These actions are not symmetrical. A card owner who has no administrative powers in the workspace can legitimately delete it and still need an administrator's help to return it. Explain this calmly, especially when the customer sees the absence of a restoration button as an interface problem.
+
+Working out the time remaining
+
+For Team, the recovery window is 30 calendar days from deletion. For Starter it is 7 calendar days, and for Enterprise it is 90 calendar days. These are calendar days; weekends do not pause the count. The timer starts when the item is deleted. Timestamps are stored in UTC, so distinguish the instant of the event from the way it is displayed to a person in their timezone. “Deleted on Monday evening” is not yet enough to check the window.
+
+Ask the customer for the deletion time, and if they see local time, clarify the timezone. Keep an unambiguous UTC time in the request notes. Two people in different offices may give different dates for the same event if deletion happened near midnight. That does not mean they have different recovery windows. They are describing one instant from different perspectives. Do not round the time down to the beginning of a day or replace the deletion time with the date when the customer first contacted support.
+
+A useful way to explain the rule is to name the plan, then the window, and only then discuss the particular item. For example: “Team allows recovery for 30 calendar days after deletion; let us check the time for this card.” This helps the customer understand why a colleague in another workspace may have had a different result. The organisation's name does not reveal the plan of the particular workspace. Check it separately rather than relying on a memory of an earlier request.
+
+What to request and what stays with the customer
+
+The check needs the workspace ID, object ID, and deletion time. Sending the contents of the card or document is unnecessary. This is particularly helpful when the customer works with internal plans, contracts, or team materials: establishing whether recovery is available does not require copying their text into the ticket. If the customer supplies only a familiar title instead of an identifier, explain that several items may share a name and that the identifier of the actual deleted item is needed.
+
+Separate the customer's recollection from confirmed information in the working note. “Maria remembers deleting it after a meeting” is useful context, but not an exact timestamp. “Object ID and deletion time in UTC received” is information that supports the next check. Do not turn the conversation into a demand for a large packet of screenshots: the more unnecessary content enters the exchange, the harder it becomes to see the three values that matter. A short note should still be understandable to the next specialist without asking the customer everything again.
+
+The administrator performs the actual restoration in Trash. Support explains the procedure and helps check the starting information, but does not promise to bypass workspace administrative powers. If the person writing is not an administrator, suggest passing the necessary identifiers to their administrator. Do not ask them to hand over a password or sign in through somebody else's account. It is enough to understand who on the customer's team may perform the action and connect that person with the particular card or document.
+
+Comments, attachments, and expectations
+
+Comments and attachments return with the item if their own retention windows have not expired. A correct promise therefore concerns recovery of the item subject to the survival of related data, rather than unconditional return of every file that ever existed. Discuss “will everything come back as it was?” before the action is performed. Explain the relationship between the windows in plain language, and do not ask the customer to send the attachments themselves to prove that they once belonged to the card.
+
+If someone asks about an absent comment or attachment after restoration, do not conclude from that observation alone that recovery of the whole card failed. First establish which part of the data they mean. The separate-window condition matters in precisely these conversations: the card and all its surrounding data do not have one indivisible retention window. At the same time, support should not invent additional retention periods for comments or attachments from this note; it does not give specific values for them.
+
+When the window has ended
+
+After the window ends, recovery is permanently unavailable. Support cannot extend it. Say this directly, without promising to “try returning it through engineering” and creating an expectation of a separate hidden method. The difficulty for the customer is understandable, but urgency does not change the deletion time or the length of the window. Do not suggest repeating the request tomorrow or treat a request from a senior customer contact as a reason to stop the timer.
+
+At the end of the conversation, connect the answer to the information checked: the workspace and item under discussion, its plan, and the deletion time used. This helps prevent a later request about a different item from inheriting the previous conclusion. If restoration is available, the customer knows who should act in Trash. If the window has ended, they receive a definite answer without waiting indefinitely. The purpose of this note is to give a precise basis to a conversation in which people usually want a promise before the facts have been established.

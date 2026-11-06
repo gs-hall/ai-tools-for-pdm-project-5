@@ -1,0 +1,22 @@
+﻿Partie du travail;Sujet;Hypothèse ou commentaire;À discuter
+Hypothèses;Team;Hypothèse de 9999 messages par workspace et par mois.;Camille / réunion produit du 9 septembre
+Hypothèses;Starter;Hypothèse de 500 messages par workspace et par mois.;Camille / réunion produit du 9 septembre
+Hypothèses;Enterprise;Hypothèse de 50000 messages par workspace et par mois.;Camille / réunion produit du 9 septembre
+Hypothèses;Réinitialisation;Une remise à zéro quotidienne est envisagée.;Camille / réunion produit du 9 septembre
+Évaluation;Panel;Le panel prévu contient 6 organisations volontaires.;Camille / réunion produit du 9 septembre
+Évaluation;Durée;La durée proposée est de 14 jours.;Camille / réunion produit du 9 septembre
+Évaluation;Budget;Le budget de l’expérience attend une validation.;Camille / réunion produit du 9 septembre
+Évaluation;Contrat;Aucun avenant client ne reprend ces valeurs.;Camille / réunion produit du 9 septembre
+Évaluation;Décision;Le comité produit doit encore décider si l’expérience sera lancée.;Camille / réunion produit du 9 septembre
+Camille / discussion du 9 septembre;distribution;"Comparer les demandes courtes et les longs fils; un total seul masque la longueur des conversations.";Préparer deux exemples anonymisés pour le comité
+Noémie / discussion du 9 septembre;coût;Nous avons une estimation par message mais pas encore le coût de reprise des longs contextes.;Demander une fourchette à Assistant Product
+Hugo / discussion du 9 septembre;recrutement;Deux organisations contactées souhaitent connaître le temps demandé à leurs administrateurs.;Ne pas envoyer d’invitation avant accord de participation
+Léa / discussion du 9 septembre;Team;"L’hypothèse de 9999 messages doit être testée avec le panel; le budget n’est pas validé.";Conserver le scénario dans le dossier de préparation
+Camille / discussion du 9 septembre;réinitialisation;Une remise à zéro quotidienne compliquerait la comparaison avec une utilisation mensuelle.;Présenter les deux méthodes au comité, sans décider aujourd’hui
+Adrien / discussion du 9 septembre;contrat;Le formulaire de participation ne contient pas encore la phrase sur l’absence d’avenant commercial.;Faire relire le formulaire avant les invitations
+Noémie / discussion du 9 septembre;support;Les agents demandent qui répondra aux questions des participants pendant les quatorze jours envisagés.;Prévoir un contact et une relève dans le plan du test
+Hugo / discussion du 9 septembre;panel;"Le panel prévu reste limité à six organisations; les volontaires supplémentaires attendront la décision.";Vérifier la diversité des usages avant de choisir
+Léa / discussion du 9 septembre;mesure;Séparer une erreur serveur d’une demande envoyée pour ne pas surestimer la consommation observée.;Ajouter le résultat technique aux observations
+Adrien / discussion du 9 septembre;confidentialité;Les retours qualitatifs ne doivent pas contenir de texte privé issu des conversations clients.;Demander un résumé anonymisé plutôt qu’un export
+Camille / discussion du 9 septembre;planning;"Aucune date de lancement n’a été arrêtée; la revue budgétaire est encore à organiser.";Revenir avec les réponses Finance au prochain comité
+Noémie / discussion du 9 septembre;sortie du test;Il faut expliquer aux volontaires ce qui se passera à la fin de l’expérience proposée.;Préparer une note de clôture avant de lancer le panel
