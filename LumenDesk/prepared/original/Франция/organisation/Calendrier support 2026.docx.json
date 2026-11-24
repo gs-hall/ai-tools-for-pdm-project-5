@@ -1,0 +1,199 @@
+{
+  "source": "documents/Франция/organisation/Calendrier support 2026.docx",
+  "sha256": "7e97d6d84c160487b0255faf03c417e6c7749d0640a72f149ea9810a8c7be58f",
+  "extractor_version": 2,
+  "fragments": [
+    {
+      "location": {
+        "section": "Calendrier du support en France",
+        "paragraph": 1
+      },
+      "original": "Calendrier du support en France",
+      "id": 1
+    },
+    {
+      "location": {
+        "section": "Calendrier du support en France",
+        "paragraph": 2
+      },
+      "original": "Note de Support France pour l’organisation du calendrier 2026, relue le 1er septembre. Elle explique comment proposer ou reporter un rappel ordinaire lorsque le contrat relève de la France. Les engagements d’urgence Enterprise continuent selon le contrat et les consignes de permanence. La présence d’un jour férié dans ce calendrier ne signifie donc pas que toute demande ou tout incident est laissé sans orientation.",
+      "id": 2
+    },
+    {
+      "location": {
+        "section": "Calendrier du support en France",
+        "paragraph": 3
+      },
+      "original": "Le calendrier applicable vient du pays du contrat, pas seulement de la langue utilisée par le client. Une organisation belge peut écrire en français et doit conserver son calendrier belge. Avant de déplacer un rendez-vous, vérifier le pays du contrat et la disponibilité réelle du contact. La confirmation du rendez-vous affiche le fuseau horaire afin que le client et le collègue chargé de l’appel parlent du même créneau.",
+      "id": 3
+    },
+    {
+      "location": {
+        "section": "Jours et horaires",
+        "paragraph": 4
+      },
+      "original": "Jours et horaires",
+      "id": 4
+    },
+    {
+      "location": {
+        "section": "Jours et horaires",
+        "paragraph": 5
+      },
+      "original": "Les rappels ordinaires sont fermés le 14 juillet.",
+      "id": 5
+    },
+    {
+      "location": {
+        "section": "Jours et horaires",
+        "paragraph": 6
+      },
+      "original": "Les rappels ordinaires sont fermés le 25 décembre.",
+      "id": 6
+    },
+    {
+      "location": {
+        "section": "Jours et horaires",
+        "paragraph": 7
+      },
+      "original": "Hors jours fériés, les rappels ordinaires ont lieu de 09:00 à 17:00 Europe/Paris du lundi au vendredi.",
+      "id": 7
+    },
+    {
+      "location": {
+        "section": "Jours et horaires",
+        "paragraph": 8
+      },
+      "original": "Le formulaire reste accessible pendant les jours fériés.",
+      "id": 8
+    },
+    {
+      "location": {
+        "section": "Coordination",
+        "paragraph": 9
+      },
+      "original": "Coordination",
+      "id": 9
+    },
+    {
+      "location": {
+        "section": "Coordination",
+        "paragraph": 10
+      },
+      "original": "Les incidents P1 Enterprise restent orientés vers l’astreinte.",
+      "id": 10
+    },
+    {
+      "location": {
+        "section": "Coordination",
+        "paragraph": 11
+      },
+      "original": "Le fuseau horaire est affiché dans la confirmation du rendez-vous.",
+      "id": 11
+    },
+    {
+      "location": {
+        "section": "Coordination",
+        "paragraph": 12
+      },
+      "original": "Un rendez-vous ordinaire tombant un jour férié est proposé au prochain jour ouvré disponible.",
+      "id": 12
+    },
+    {
+      "location": {
+        "section": "Coordination",
+        "paragraph": 13
+      },
+      "original": "Le calendrier belge doit être utilisé pour un contrat belge.",
+      "id": 13
+    },
+    {
+      "location": {
+        "section": "Coordination",
+        "paragraph": 14
+      },
+      "original": "L’agent conserve le numéro de demande lors d’un report.",
+      "id": 14
+    },
+    {
+      "location": {
+        "section": "Organiser le report",
+        "paragraph": 15
+      },
+      "original": "Organiser le report",
+      "id": 15
+    },
+    {
+      "location": {
+        "section": "Organiser le report",
+        "paragraph": 16
+      },
+      "original": "Lorsqu’un rappel ordinaire tombe un jour de fermeture, proposer le prochain jour ouvré disponible qui convient au client. Conserver le numéro de demande et expliquer la raison du report. Le changement de rendez-vous ne doit pas effacer la question initiale ni les vérifications déjà réalisées. Si le collègue qui reprend le dossier n’a pas participé à l’échange, il doit comprendre ce qui reste à faire et pourquoi l’ancien créneau n’a pas été conservé.",
+      "id": 16
+    },
+    {
+      "location": {
+        "section": "Organiser le report",
+        "paragraph": 17
+      },
+      "original": "Les horaires ordinaires sont de 09:00 à 17:00 Europe/Paris du lundi au vendredi hors jours fériés. Le 14 juillet et le 25 décembre, les rappels ordinaires sont fermés. Ne pas considérer ces deux dates comme une liste universelle des calendriers de tous les pays. Cette note rappelle leur traitement pour la France. Pour une question concernant une autre date contractuelle ou une autre organisation, vérifier le dossier applicable avant de promettre un créneau.",
+      "id": 17
+    },
+    {
+      "location": {
+        "section": "Ce qui reste ouvert",
+        "paragraph": 18
+      },
+      "original": "Ce qui reste ouvert",
+      "id": 18
+    },
+    {
+      "location": {
+        "section": "Ce qui reste ouvert",
+        "paragraph": 19
+      },
+      "original": "Le formulaire écrit reste accessible pendant les jours fériés. Expliquer cette possibilité au client sans laisser entendre qu’un rappel ordinaire sera forcément effectué ce jour-là. Les incidents P1 Enterprise restent orientés vers l’astreinte. L’agent vérifie l’impact et le contrat, puis applique les consignes détaillées de rappel d’urgence. Un rendez-vous commercial reporté et un incident de production n’ont pas le même traitement, même s’ils arrivent dans la même conversation.",
+      "id": 19
+    },
+    {
+      "location": {
+        "section": "Ce qui reste ouvert",
+        "paragraph": 20
+      },
+      "original": "Pendant une relève, transmettre le canal choisi par le client, le fuseau confirmé et la dernière action convenue. Une liste de créneaux sans contexte est insuffisante lorsque le dossier nécessite une adaptation de communication ou la présence d’un administrateur. Si le client change de pays pendant un déplacement, confirmer son heure de disponibilité tout en gardant le calendrier contractuel. Le lieu physique du demandeur ne modifie pas à lui seul les règles de rappel de son organisation.",
+      "id": 20
+    },
+    {
+      "location": {
+        "section": "Exemples de la réunion de planning",
+        "paragraph": 21
+      },
+      "original": "Exemples de la réunion de planning",
+      "id": 21
+    },
+    {
+      "location": {
+        "section": "Exemples de la réunion de planning",
+        "paragraph": 22
+      },
+      "original": "Une demande ordinaire était prévue le 14 juillet dans le calendrier partagé. L’équipe l’a déplacée au prochain jour ouvré disponible avec l’accord du client et a conservé la même demande. Le compte rendu ne disait pas «incident clos», car aucun diagnostic technique n’avait été terminé par ce déplacement. Le client a reçu une nouvelle confirmation mentionnant Europe/Paris et le sujet de l’appel. Les vérifications déjà faites sont restées dans le dossier initial.",
+      "id": 22
+    },
+    {
+      "location": {
+        "section": "Exemples de la réunion de planning",
+        "paragraph": 23
+      },
+      "original": "Un autre message rédigé en français provenait d’un contrat belge. Le collègue a vérifié le pays au lieu de reprendre automatiquement le calendrier français. La bonne orientation évite de fermer un créneau sur la base d’une hypothèse de langue. Enfin, un P1 Enterprise signalé pendant un jour férié a été adressé à la permanence, sans être rangé parmi les simples reports. Le détail du délai exceptionnel se trouve dans la procédure de rappels France, à consulter lorsque ce cas se présente.",
+      "id": 23
+    },
+    {
+      "location": {
+        "section": "Exemples de la réunion de planning",
+        "paragraph": 24
+      },
+      "original": "Avant les congés, chaque responsable de plage vérifie les demandes à reprendre et le collègue de relais. Les notes personnelles peuvent aider à préparer la relève, mais la prochaine action doit être inscrite dans la demande accessible à l’équipe. Si une ancienne invitation subsiste dans le calendrier du client, la corriger explicitement pour éviter deux horaires concurrents. Le suivi est terminé lorsque le client sait quel canal utiliser et à quel moment la suite est attendue.",
+      "id": 24
+    }
+  ]
+}

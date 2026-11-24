@@ -1,0 +1,1169 @@
+[
+  {
+    "source": "documents/Архив 2025/экспорт-карточек.txt",
+    "language": "ru",
+    "status": "historical",
+    "roles": [],
+    "owner": "Data Portability",
+    "purpose": "Исторические условия экспорта карточек",
+    "evidence": "Строки 3–5: датировано 10.11.2025, заменено в сентябре 2026 года, назван преемник «Выгрузка карточек». Применение — историческая переписка.",
+    "duplicates": [],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+    "language": "en",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Identity Platform",
+    "purpose": "Порядок подключения Enterprise SAML и подготовки смены сертификата",
+    "evidence": "Строка 3: Identity Platform после сверки 01.09.2026 использует записку на звонках с администраторами. Разделы Pilot и Certificates относятся к подготовке и указывают источник окна перекрытия. Рабочая инструкция поддержки.",
+    "duplicates": [
+      "documents/Выгрузки/параметры-входа.csv",
+      "documents/Платформа и интеграции/SAML incident handling.docx"
+    ],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Выгрузки/Downloads/Поиск - заметки 01 09.txt",
+    "language": "ru",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Search Platform",
+    "purpose": "Диагностика поиска карточек",
+    "evidence": "Строка 3: Search Platform, 01.09.2026, заметки для разбора обращений. В тексте разделены правила поиска, права и наблюдения по обращениям.",
+    "duplicates": [],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Выгрузки/September incident register.xlsx",
+    "language": "en",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Infrastructure",
+    "purpose": "Правила публикации сведений о подтверждённых сбоях",
+    "evidence": "September!A3 называет документ рабочим реестром Infrastructure за сентябрь. В индекс идёт только Reporting notes с правилами сообщения о влиянии, обновлениях и доказательствах. Записи September и Updates описывают отдельные инциденты, а не общие правила.",
+    "duplicates": [
+      "documents/Клиентский сервис/response targets final.xlsx",
+      "documents/Клиентский сервис/Сбой сервиса - рассылка.pdf"
+    ],
+    "exclude_fragments": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ]
+  },
+  {
+    "source": "documents/Выгрузки/hosting regions export.csv",
+    "language": "en",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Не указан; операционная выгрузка о размещении",
+    "purpose": "Регионы хранения, выбор тарифа и условие миграции",
+    "evidence": "Строки 2–10 — самостоятельный блок общих правил перед датированными примерами создания workspace. EU-2 и различие языка/региона подтверждаются пояснением Infrastructure на строка 1 «Résidence Paris». Примеры, где указан конкретный workspace, исключены.",
+    "duplicates": [
+      "documents/Финансы/Contrats France/Résidence Paris.pdf"
+    ],
+    "exclude_fragments": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "source": "documents/Выгрузки/webhooks-reprises.csv",
+    "language": "fr",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Не указан; эксплуатация вебхуков",
+    "purpose": "Расписание, завершение доставки и приостановка подписки",
+    "evidence": "Строки 2–12 размечены calendrier/consigne и задают эксплуатационные правила. Строки 13–36 размечены как журнал теста от 8 сентября и исключены. Запретов на использование правил поддержкой нет; владелец и дата утверждения не названы.",
+    "duplicates": [],
+    "exclude_fragments": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ]
+  },
+  {
+    "source": "documents/Выгрузки/параметры-входа.csv",
+    "language": "ru",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Identity Platform",
+    "purpose": "Действующие настройки приёма сертификатов и диагностики Enterprise SAML",
+    "evidence": "Строки 2–10 подписаны параметрами Identity Platform от 01.09.2026. На регистр ссылаются записка о подключении и SAML runbook. Строки 11–34 — отдельные инженерные проверки, исключены.",
+    "duplicates": [
+      "documents/Выгрузки/Downloads/SAML cutover - September.md",
+      "documents/Платформа и интеграции/SAML incident handling.docx"
+    ],
+    "exclude_fragments": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ]
+  },
+  {
+    "source": "documents/Клиентский сервис/Customer handover.docx",
+    "language": "en",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Customer Success и Support",
+    "purpose": "Карточка передачи после первоначального подключения",
+    "evidence": "Абз. 2: используется Customer Success и Support с сентября 2026 года. Поля и принятие владельцем приведены в абз. 5–13, 15 и пояснениях. Абз. 14 и 29 содержат дословные данные клиента, исключены из индекса правил.",
+    "duplicates": [],
+    "exclude_fragments": [
+      14,
+      29
+    ]
+  },
+  {
+    "source": "documents/Клиентский сервис/Privacy/Обращения о данных.pdf",
+    "language": "ru",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Privacy Operations и поддержка",
+    "purpose": "Обработка обращений по персональным данным",
+    "evidence": "Стр. 1: порядок согласован после сентябрьской сверки, первая линия регистрирует запрос, решение о выдаче или удалении ведёт Privacy Operations. Материал предназначен для работы с входящими запросами.",
+    "duplicates": [],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Клиентский сервис/Team service credits.docx",
+    "language": "en",
+    "status": "current",
+    "roles": [
+      "support_lead"
+    ],
+    "owner": "Support Operations",
+    "purpose": "Расчёт и совместное рассмотрение заявок на компенсацию Team P1",
+    "evidence": "Абз. 2–3: утверждённая редакция с 15.09.2026, сумма до согласования не обещается. Абз. 5, 10: условия заявки и ставка. Ограничено ролью, разбирающей заявку (support_lead). Такой же действующий документ Finance расходится по ставке; оба источника сохранены.",
+    "duplicates": [],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Клиентский сервис/response targets final.xlsx",
+    "language": "en",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Support Operations",
+    "purpose": "Целевые сроки первого ответа и сведения для замера",
+    "evidence": "Targets!A3: источник Support Operations, сентябрь 2026 года; таблица A7:D17 — первый ответ после полного сообщения, без обещания срока ремонта. Queue review — выборка, исключена; Shift discussion — согласованные пояснения.",
+    "duplicates": [
+      "documents/Выгрузки/September incident register.xlsx",
+      "documents/Клиентский сервис/Сбой сервиса - рассылка.pdf",
+      "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md"
+    ],
+    "exclude_fragments": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  {
+    "source": "documents/Клиентский сервис/Для руководителей/Разбор злоупотреблений.md",
+    "language": "ru",
+    "status": "current",
+    "roles": [
+      "support_lead"
+    ],
+    "owner": "Trust Operations",
+    "purpose": "Ручная проверка сигналов о злоупотреблениях",
+    "evidence": "Строки 1–6: только руководителям, сверено 01.09.2026. Внутренние пороги запрещено переносить в обычную клиентскую переписку; блокировка требует ручной проверки.",
+    "duplicates": [],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Клиентский сервис/Корзина и восстановление.md",
+    "language": "ru",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Workspace Platform",
+    "purpose": "Сроки и порядок восстановления объектов из Корзины",
+    "evidence": "Строка 3: порядок действует с 01.09.2026 и предназначен для первой линии и руководителей. «Как считать оставшееся время» и последующие разделы содержат условия. Английская копия того же содержания связана с основным текстом.",
+    "duplicates": [
+      "documents/Клиентский сервис/хранение - сверка сентября.csv",
+      "documents/Рабочие копии/recovery-notes.txt"
+    ],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Клиентский сервис/Письма/Пароль, письмо не пришло.txt",
+    "language": "ru",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Identity Platform",
+    "purpose": "Восстановление входа по email и диагностика отсутствия письма",
+    "evidence": "Строки 3–5: письмо от 01.09.2026 команде клиентского сервиса. Указана область локального входа, корпоративный SAML направляют к IdP.",
+    "duplicates": [],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Клиентский сервис/Сбой сервиса - рассылка.pdf",
+    "language": "ru",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Support Operations",
+    "purpose": "Рассылка и обновления статуса при сбое сервиса",
+    "evidence": "Стр. 1 PDF: порядок применяется с 01.09.2026; действия координатора и поддержка клиентских обращений. На стр. 2 явно отделено информирование от компенсации.",
+    "duplicates": [
+      "documents/Выгрузки/September incident register.xlsx",
+      "documents/Клиентский сервис/response targets final.xlsx",
+      "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md"
+    ],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+    "language": "ru",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Support Operations",
+    "purpose": "Назначение приоритета при инциденте",
+    "evidence": "Строка 3: текст фиксирует выводы встречи передачи смены 01.09.2026. Согласованные критерии отделены от иллюстративных вопросов.",
+    "duplicates": [
+      "documents/Клиентский сервис/response targets final.xlsx",
+      "documents/Клиентский сервис/Сбой сервиса - рассылка.pdf"
+    ],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+    "language": "ru",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Не указан; сверка клиентского сервиса",
+    "purpose": "Общие сроки восстановления, доступности журналов и экспорта",
+    "evidence": "Строки 2–10: блок общих сроков; строка 26 обозначает сверку правил от 01.09.2026. Проверочные случаи строки 11–25 исключены. Сроки Корзины и экспорта сопоставлены с соответствующими действующими инструкциями.",
+    "duplicates": [
+      "documents/Клиентский сервис/Корзина и восстановление.md",
+      "documents/Планирование/Тарифы новый.xlsx",
+      "documents/Платформа и интеграции/Выгрузка карточек.md",
+      "documents/Рабочие копии/Downloads/Export security final.pdf",
+      "documents/Рабочие копии/recovery-notes.txt",
+      "documents/Финансы/Для руководителей/Аудит сентябрь.xlsx"
+    ],
+    "exclude_fragments": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "source": "documents/Планирование/Procédures - publication copie.docx",
+    "language": "fr",
+    "status": "reference",
+    "roles": [],
+    "owner": "Knowledge Operations и авторы Support France",
+    "purpose": "Порядок редактирования и публикации справки",
+    "evidence": "Абз. 2: согласовано 11.09.2026 для редакционного процесса. Абз. 5, 11 распределяют функции авторов, владельцев разделов и Knowledge Operations. Вне вопросов о продукте в области ролей помощника.",
+    "duplicates": [],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Планирование/Team Flex — новый вариант.txt",
+    "language": "ru",
+    "status": "draft",
+    "roles": [],
+    "owner": "Product Planning",
+    "purpose": "Сценарий нового пакета Team Flex",
+    "evidence": "Строка 3: обсуждение от 01.09.2026, не опубликовано и не образует действующих условий договора. Ограничено контекстом продуктового планирования.",
+    "duplicates": [],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Планирование/assistant-hypotheses.csv",
+    "language": "fr",
+    "status": "draft",
+    "roles": [],
+    "owner": "Участники продуктовой встречи; владелец документа не указан",
+    "purpose": "Гипотезы эксперимента с квотами ассистента",
+    "evidence": "Строки 2–5 маркируют гипотезы; строки 9–10: значения не входят в подписанное дополнение и решение комитета ещё ожидается. Действующий опубликованный тариф приведён отдельно.",
+    "duplicates": [],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Планирование/Клиенты/Гости — новый порядок.md",
+    "language": "ru",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Workspace Platform",
+    "purpose": "Доступ гостей и отзыв приглашений",
+    "evidence": "Строка 3: пояснения Workspace Platform для клиентских разговоров от 01.09.2026. Разделы о видимости и завершении доступа описывают установленное поведение. Папка планирования не означает черновой статус.",
+    "duplicates": [
+      "documents/Планирование/Тарифы новый.xlsx"
+    ],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Планирование/Тарифы новый.xlsx",
+    "language": "ru",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Коммерческие возможности; владелец копии не указан",
+    "purpose": "Опции, ограничения и смена тарифов",
+    "evidence": "Возможности!A3: копия встречи 09.09.2026, коммерческие правила подтверждены с 01.09.2026; индивидуальные условия проверяют по contract ID. Лист «Разбор запросов» содержит отдельные организации и исключён.",
+    "duplicates": [
+      "documents/Клиентский сервис/хранение - сверка сентября.csv",
+      "documents/Планирование/Клиенты/Гости — новый порядок.md",
+      "documents/Финансы/Для руководителей/Аудит сентябрь.xlsx"
+    ],
+    "exclude_fragments": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "source": "documents/Платформа и интеграции/API/ответы api новый.csv",
+    "language": "ru",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Не указан; технические рекомендации поддержки REST API",
+    "purpose": "Диагностика ответа REST API по коду и безопасным данным запроса",
+    "evidence": "Строки 2–10 представляют общие действия, без временных меток и request ID; строки 11–42 — примеры устранения с датами сентября, исключены. Подсказки привязаны к конкретным кодам и не подменяют порядок ротации.",
+    "duplicates": [],
+    "exclude_fragments": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ]
+  },
+  {
+    "source": "documents/Платформа и интеграции/Browser notes final.txt",
+    "language": "en",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Client Platform",
+    "purpose": "Поддерживаемые браузеры и диагностика клиентской стороны",
+    "evidence": "Строка 3: Client Platform обсудила с поддержкой 01.09.2026 для текущих обращений; даны условия для стабильных выпусков браузеров и воспроизведения.",
+    "duplicates": [],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+    "language": "en",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Integrations",
+    "purpose": "Установка, разрешения и удаление приложений Marketplace",
+    "evidence": "Строка 3: рабочий регламент проверен Integrations 01.09.2026. Разделы описывают тест, порядок отключения и отдельное хранение у поставщика. Есть частичное пересечение с каталогом.",
+    "duplicates": [
+      "documents/Платформа и интеграции/marketplace capabilities.xlsx"
+    ],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Платформа и интеграции/SAML incident handling.docx",
+    "language": "en",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Identity Platform и Support Operations",
+    "purpose": "Критерии и порядок эскалации сбоев Enterprise SAML",
+    "evidence": "Абз. 2–3: сверено 01.09.2026 для специалиста поддержки, отдельный регистр отвечает за окно сертификатов. Абз. 5–6: критерии передачи руководителю. Требование передать кейс не ограничивает доступ первой линии к этому регламенту.",
+    "duplicates": [
+      "documents/Выгрузки/Downloads/SAML cutover - September.md",
+      "documents/Выгрузки/параметры-входа.csv"
+    ],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Платформа и интеграции/marketplace capabilities.xlsx",
+    "language": "en",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Integrations",
+    "purpose": "Возможности и ограничения интеграций Marketplace",
+    "evidence": "Capabilities!A3: каталог проверен Integrations для сентябрьского выпуска. Capabilities — правила и матрица интеграций, Vendor checks — выборка наблюдений, исключена.",
+    "duplicates": [
+      "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md"
+    ],
+    "exclude_fragments": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "source": "documents/Платформа и интеграции/Выгрузка карточек.md",
+    "language": "ru",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Data Portability",
+    "purpose": "Действующие лимиты и порядок административного экспорта карточек",
+    "evidence": "Строка 3: Data Portability уточнила правила 01.09.2026. В секциях указаны лимиты, параллельность и CSV. Финал документа прямо отделяет архивную редакцию 2025 года. Английская памятка даёт дополнительные правила безопасной выдачи.",
+    "duplicates": [
+      "documents/Клиентский сервис/хранение - сверка сентября.csv",
+      "documents/Рабочие копии/Downloads/Export security final.pdf",
+      "documents/Рабочие копии/квоты для презентации.csv"
+    ],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Платформа и интеграции/Лимиты файлов.xlsx",
+    "language": "ru",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Workspace Platform",
+    "purpose": "Размер одного вложения, единицы и границы загрузки",
+    "evidence": "Тарифы!A3: значения подтверждены 01.09.2026 и предназначены для поддержки; A7:D17 — таблица правил. Лист «Загрузки» содержит безопасные примеры, исключён. «Обсуждение» содержит действия для типовых вопросов.",
+    "duplicates": [
+      "documents/Рабочие копии/квоты для презентации.csv"
+    ],
+    "exclude_fragments": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52
+    ]
+  },
+  {
+    "source": "documents/Платформа и интеграции/Передача владельца копия.docx",
+    "language": "ru",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Account Operations",
+    "purpose": "Передача владения рабочим пространством",
+    "evidence": "Абз. 2–3: рабочая копия после сверки 01.09.2026. Инструкция предусмотрена для доступного действующего владельца; утрату доступа передают по отдельному маршруту.",
+    "duplicates": [],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Платформа и интеграции/Ротация ключей.md",
+    "language": "ru",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Security Operations",
+    "purpose": "Действующий порядок ротации сервисных ключей REST API",
+    "evidence": "Строка 3: процедура используется после сверки 01.09.2026 для сопровождения интеграций. Сохранена как основной источник. PDF воспроизводит тот же текст.",
+    "duplicates": [
+      "documents/Рабочие копии/Памятка ротации API.pdf"
+    ],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Рабочие копии/Downloads/Export security final.pdf",
+    "language": "en",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Data Portability",
+    "purpose": "Проверка полномочий и безопасная выдача административного экспорта",
+    "evidence": "Стр. 1 PDF: Data Portability подтвердила правила 01.09.2026, копия предназначена коллегам поддержки. Общие лимиты совпадают с регламентом; аутентифицированный канал выдачи и обращение с архивом сохраняются как отдельные правила.",
+    "duplicates": [
+      "documents/Клиентский сервис/хранение - сверка сентября.csv",
+      "documents/Платформа и интеграции/Выгрузка карточек.md"
+    ],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Рабочие копии/Downloads/notification-events sept.csv",
+    "language": "en",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Владелец выгрузки не указан; область Messaging Platform",
+    "purpose": "Правила доставки уведомлений и сбора диагностических данных",
+    "evidence": "Строки 2–10 имеют метку rule и согласуются с запиской Messaging Platform от 01.09.2026. Строки 11–40 — отдельные наблюдения с временем и результатом, исключены.",
+    "duplicates": [
+      "documents/Рабочие копии/Notifications final.md"
+    ],
+    "exclude_fragments": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "source": "documents/Рабочие копии/Downloads/Домен финальный.docx",
+    "language": "ru",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Identity Platform",
+    "purpose": "Подтверждение домена, DNS и границы политики приглашений",
+    "evidence": "Абз. 2: материал сентябрьской сверки, порядок действует с 01.09.2026. Абз. 5–11 различают действия владельца Enterprise и случаи обращения к руководителю.",
+    "duplicates": [],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Рабочие копии/Notifications final.md",
+    "language": "en",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Messaging Platform",
+    "purpose": "Каналы уведомлений, настройки и диагностика",
+    "evidence": "Строка 3: Messaging Platform распространила 01.09.2026 после сверки с поддержкой. Часть правил повторена в CSV; пояснения о каналах и порядке проверки сохраняются.",
+    "duplicates": [
+      "documents/Рабочие копии/Downloads/notification-events sept.csv"
+    ],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Рабочие копии/Relais français 2026-09.txt",
+    "language": "fr",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Support France",
+    "purpose": "Маршрутизация письменных запросов на французском",
+    "evidence": "Строка 3: актуализировано Support France 01.09.2026 для коллег, передающих запросы; язык сообщения и календарь договорной страны различаются.",
+    "duplicates": [],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Рабочие копии/recovery-notes.txt",
+    "language": "en",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Workspace Platform",
+    "purpose": "Английская копия инструкции Корзины",
+    "evidence": "Строка 3: та же дата вступления 01.09.2026, владелец, роли и пять последовательных разделов с одинаковыми правилами. После сверки смысла сохранена связь с русской основной копией; повторно не индексируется.",
+    "duplicates": [
+      "documents/Клиентский сервис/Корзина и восстановление.md",
+      "documents/Клиентский сервис/хранение - сверка сентября.csv"
+    ],
+    "exclude_fragments": [
+      1
+    ]
+  },
+  {
+    "source": "documents/Рабочие копии/Миграция/Приёмка - 18 сентября.xlsx",
+    "language": "ru",
+    "status": "reference",
+    "roles": [],
+    "owner": "Владелец миграции; имя или подразделение не указано",
+    "purpose": "Рабочий лист приёмки конкретного переноса",
+    "evidence": "Приёмка!A3: сверка 18.09.2026 и подпись владельца миграции до переключения. Дополнительные листы описывают конкретные исходные разделы и проверки. Общая применимость и доступ ролей поддержки не установлены.",
+    "duplicates": [],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Рабочие копии/Памятка ротации API.pdf",
+    "language": "ru",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Security Operations",
+    "purpose": "PDF-копия записки о ротации сервисных ключей",
+    "evidence": "Стр. 1–2: тот же владелец, дата, последовательность разделов и правила, что в Markdown. Различия представления вызваны страницами и переносами. PDF связан с основной копией и повторно не индексируется.",
+    "duplicates": [
+      "documents/Платформа и интеграции/Ротация ключей.md"
+    ],
+    "exclude_fragments": [
+      1,
+      2
+    ]
+  },
+  {
+    "source": "documents/Рабочие копии/квоты для презентации.csv",
+    "language": "ru",
+    "status": "uncertain",
+    "roles": [],
+    "owner": "Не указан",
+    "purpose": "Презентационная копия квот с примерами загрузок",
+    "evidence": "Строки 2–10 содержат заявленные правила без подтверждения владельца и даты действия. Лимиты вложений и параллельность совпадают с утверждёнными источниками; уникальные квоты остаются неподтверждёнными. Примеры строки 11–37 не подтверждают общий допуск.",
+    "duplicates": [
+      "documents/Платформа и интеграции/Выгрузка карточек.md",
+      "documents/Платформа и интеграции/Лимиты файлов.xlsx"
+    ],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Финансы/Contrats France/Résidence Paris.pdf",
+    "language": "fr",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Infrastructure",
+    "purpose": "Договорная опция резидентности EU-2 для Enterprise France",
+    "evidence": "Стр. 1 PDF: пояснение Infrastructure сопровождает договоры с сентября 2026 года и предназначено для ответов клиентам. Применяется к конкретному заказу с указанием Парижа; не выводится из языка поддержки.",
+    "duplicates": [
+      "documents/Выгрузки/hosting regions export.csv"
+    ],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Финансы/Invoice correction - mail copy.txt",
+    "language": "en",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Billing Operations",
+    "purpose": "Исправления реквизитов счетов и безопасная передача в Finance",
+    "evidence": "Строки 3–5: письмо Billing Operations к клиентским командам от 01.09.2026. Оплаченные и неоплаченные счета имеют разные процедуры.",
+    "duplicates": [],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Финансы/Team service credits.pdf",
+    "language": "en",
+    "status": "current",
+    "roles": [
+      "support_lead"
+    ],
+    "owner": "Finance",
+    "purpose": "Расчёт и совместное рассмотрение заявок на компенсацию Team P1",
+    "evidence": "Стр. 1 PDF: редакция действует с 15.09.2026, адресована подготавливающим и проверяющим заявки. Стр. 1–2: ставка расходится с одновременно утверждённой редакцией Support Operations; общей даты и владельца недостаточно, чтобы снять противоречие. Доступ ограничен ролью рассмотрения заявок.",
+    "duplicates": [],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Финансы/Для руководителей/Аудит сентябрь.xlsx",
+    "language": "ru",
+    "status": "current",
+    "roles": [
+      "support_lead"
+    ],
+    "owner": "Security Operations",
+    "purpose": "Роль, допуск и минимизация при работе с аудитом Enterprise",
+    "evidence": "Обращение!A3: только руководителям, первое звено не получает журнал. «События сентября» — выборка записей, исключена; правила и согласование остаются в индексе руководителя.",
+    "duplicates": [
+      "documents/Клиентский сервис/хранение - сверка сентября.csv",
+      "documents/Планирование/Тарифы новый.xlsx"
+    ],
+    "exclude_fragments": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ]
+  },
+  {
+    "source": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+    "language": "ru",
+    "status": "current",
+    "roles": [
+      "support_lead"
+    ],
+    "owner": "Finance Operations",
+    "purpose": "Внутренняя подготовка и согласование возврата оплаты",
+    "evidence": "Абз. 2 и 5: только руководителям, Finance Operations сверила порядок 01.09.2026. Первая линия передаёт запрос, проведение выполняет платёжная команда.",
+    "duplicates": [],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Франция/Accessibilité septembre.pdf",
+    "language": "fr",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Support France",
+    "purpose": "Адаптация каналов связи и инструкций для доступности",
+    "evidence": "Стр. 1 PDF: Support France пользуется памяткой после сентябрьской сверки. Правила рассчитаны на агентов при общении с клиентами и не снижают приоритет инцидента.",
+    "duplicates": [],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Франция/Assistant abonnement.xlsx",
+    "language": "fr",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Assistant Product",
+    "purpose": "Опубликованные месячные квоты и правила учёта сообщений",
+    "evidence": "Abonnement!A3: тарифная таблица опубликована Assistant Product и действует с 01.09.2026. Квота Team указана в A9:D9. «Exemples de comptage» содержит демонстрационные записи и исключён; «Questions clients» содержит согласованные ответы.",
+    "duplicates": [],
+    "exclude_fragments": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "source": "documents/Франция/Atelier équipe septembre.md",
+    "language": "fr",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Customer Enablement France",
+    "purpose": "Условия подготовки франкоязычного вводного семинара",
+    "evidence": "Строки 3–5: Customer Enablement France обновила порядок 01.09.2026 для клиентов. Названы условия применимости, бронирования и демонстрационных данных.",
+    "duplicates": [],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Франция/Rappels et jours fériés.pdf",
+    "language": "fr",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Support France",
+    "purpose": "Часы обратных звонков во Франции и исключение 14 июля",
+    "evidence": "Стр. 1 PDF: режим проверен Support France 01.09.2026 для договоров Франции; стр. 2 отдельно разъясняет исключение P1 Enterprise и момент отсчёта.",
+    "duplicates": [
+      "documents/Франция/organisation/Calendrier support 2026.docx"
+    ],
+    "exclude_fragments": []
+  },
+  {
+    "source": "documents/Франция/organisation/Calendrier support 2026.docx",
+    "language": "fr",
+    "status": "current",
+    "roles": [
+      "support_agent",
+      "support_lead"
+    ],
+    "owner": "Support France",
+    "purpose": "Календарь обычных обратных звонков по договорам Франции",
+    "evidence": "Абз. 2: пояснения календаря 2026 года, сверены 1 сентября. Абз. 5–8 описывают обычный режим и работу формы, абз. 10 сохраняет дежурный маршрут P1 Enterprise, подробности исключения даны в отдельной памятке.",
+    "duplicates": [
+      "documents/Франция/Rappels et jours fériés.pdf"
+    ],
+    "exclude_fragments": []
+  }
+]

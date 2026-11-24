@@ -1,0 +1,492 @@
+{
+  "run": "20261124T160821-166c2bcff770",
+  "time_utc": "2026-11-24T16:08:21.543261+00:00",
+  "role": "support_lead",
+  "question": "Какая компенсация предусмотрена на Team за подтверждённый инцидент P1 с недоступностью 120 минут?",
+  "settings": {
+    "model": "BAAI/bge-m3",
+    "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "normalize": true,
+    "prefix": "",
+    "max_tokens": 2048,
+    "per_source": 4,
+    "algorithm_version": 1,
+    "limit": 14
+  },
+  "matches": [
+    {
+      "source": "documents/Клиентский сервис/Team service credits.docx",
+      "language": "en",
+      "context": "Расчёт и совместное рассмотрение заявок на компенсацию Team P1 Eligibility",
+      "fragments": [
+        {
+          "location": {
+            "section": "Eligibility",
+            "paragraph": 4
+          },
+          "original": "Eligibility",
+          "id": 4,
+          "text": "Право на получение помощи"
+        },
+        {
+          "location": {
+            "section": "Eligibility",
+            "paragraph": 5
+          },
+          "original": "This schedule applies to a Team subscription with a confirmed P1 service outage lasting at least 120 consecutive minutes.",
+          "id": 5,
+          "text": "Это расписание применяется к подписке на команду с подтвержденным отключением службы P1 продолжительностью не менее 120 минут подряд."
+        },
+        {
+          "location": {
+            "section": "Eligibility",
+            "paragraph": 6
+          },
+          "original": "The percentage applies to the monthly subscription fee for the affected workspace, excluding taxes and usage add-ons.",
+          "id": 6,
+          "text": "Эта процентная доля относится к ежемесячным сборам за подписку на соответствующие рабочие места, за исключением налогов и дополнительных расходов на пользование."
+        },
+        {
+          "location": {
+            "section": "Eligibility",
+            "paragraph": 7
+          },
+          "original": "The billing owner must submit a claim within 10 calendar days after the incident ends.",
+          "id": 7,
+          "text": "Владелец счета должен подать иск в течение 10 календарных дней после окончания инцидента."
+        },
+        {
+          "location": {
+            "section": "Eligibility",
+            "paragraph": 8
+          },
+          "original": "A claim needs incident ID, workspace ID, impact interval in UTC and invoice ID.",
+          "id": 8,
+          "text": "Для предъявления претензии требуются идентификационные данные об инциденте, данные о рабочем пространстве, интервалы столкновения в UTC и идентификационные данные счета-фактуры."
+        }
+      ],
+      "id": "R1",
+      "score": 0.715772,
+      "copies": []
+    },
+    {
+      "source": "documents/Клиентский сервис/Team service credits.docx",
+      "language": "en",
+      "context": "Расчёт и совместное рассмотрение заявок на компенсацию Team P1 Settlement",
+      "fragments": [
+        {
+          "location": {
+            "section": "Settlement",
+            "paragraph": 9
+          },
+          "original": "Settlement",
+          "id": 9,
+          "text": "Урегулирование"
+        },
+        {
+          "location": {
+            "section": "Settlement",
+            "paragraph": 10
+          },
+          "original": "For an eligible Team P1 outage lasting at least 120 consecutive minutes, the service credit is 20 percent of the monthly subscription fee.",
+          "id": 10,
+          "text": "За выбытие группы P1 в течение не менее 120 минут подряд кредит на обслуживание составляет 20% от месячной подписки."
+        },
+        {
+          "location": {
+            "section": "Settlement",
+            "paragraph": 11
+          },
+          "original": "An approved credit offsets the next invoice and is not a cash payment.",
+          "id": 11,
+          "text": "Утвержденный кредит компенсирует следующий счет-фактуру и не является платежом наличными."
+        },
+        {
+          "location": {
+            "section": "Settlement",
+            "paragraph": 12
+          },
+          "original": "Total incident credits cannot exceed 50 percent of the same monthly subscription fee.",
+          "id": 12,
+          "text": "Общий объем кредитов на случай инцидентов не может превышать 50 процентов от той же месячной подписки."
+        },
+        {
+          "location": {
+            "section": "Settlement",
+            "paragraph": 13
+          },
+          "original": "Finance and Support Operations jointly review incomplete or disputed claims.",
+          "id": 13,
+          "text": "Операции по финансированию и поддержке совместно рассматривают неполные или спорные претензии."
+        },
+        {
+          "location": {
+            "section": "Settlement",
+            "paragraph": 14
+          },
+          "original": "Scheduled maintenance announced at least 48 hours in advance is outside this schedule.",
+          "id": 14,
+          "text": "Запланированное техническое обслуживание, объявленное по меньшей мере за 48 часов до начала работ, выходит за рамки этого графика."
+        }
+      ],
+      "id": "R2",
+      "score": 0.67363,
+      "copies": []
+    },
+    {
+      "source": "documents/Финансы/Team service credits.pdf",
+      "language": "en",
+      "context": "Расчёт и совместное рассмотрение заявок на компенсацию Team P1",
+      "fragments": [
+        {
+          "location": {
+            "page": 1
+          },
+          "original": "Team service credit schedule\n\nFinance circulation, effective 15 September 2026. This is the operating schedule for confirmed Team\nP1 service outages. Finance maintains the billing treatment in this document; Support Operations\nrecords impact and confirms the incident classification. Both teams use the same incident record.\nThis circulation is in force and is intended for the people preparing or reviewing claims, rather than for\nan automatic promise in a status update.\n\nA credit review begins with a specific affected workspace and a continuous interval of service\nunavailability. The existence of an infrastructure incident is useful evidence, but does not establish\nthat every customer or every workspace suffered the same impact. Read the scope of the incident\nand the customer account together. The rules below apply to a confirmed P1 outage on Team,\nincluding an outage lasting exactly 120 consecutive minutes.\n\nEligibility\n\nScope. This schedule applies to a Team subscription with a confirmed P1 service outage lasting at\nleast 120 consecutive minutes.\n\nBase. The percentage applies to the monthly subscription fee for the affected workspace, excluding\ntaxes and usage add-ons.\n\nClaim. The billing owner must submit a claim within 10 calendar days after the incident ends.\n\nEvidence. A claim needs incident ID, workspace ID, impact interval in UTC and invoice ID.\n\nSettlement\n\nRate. For an eligible Team P1 outage lasting at least 120 consecutive minutes, the service credit is\n15 percent of the monthly subscription fee.\n\nMethod. An approved credit offsets the next invoice and is not a cash payment.\n\nCap. Total incident credits cannot exceed 50 percent of the same monthly subscription fee.\n\nReview. Finance and Support Operations jointly review incomplete or disputed claims.\n\nExclusions. Scheduled maintenance announced at least 48 hours in advance is outside this schedule.\n\nPreparing the claim file\n\nStart with the incident identifier already used by the response team. Add the affected workspace, the\ninvoice and the UTC impact interval. A support conversation may contain the customer's local clock\ntime; retain that original observation and explain the conversion used in the review. Do not silently\nreplace the beginning of actual customer impact with the time at which an agent first opened the\nconversation. Where evidence is incomplete, record the uncertainty and ask the incident owner to\nclarify it.\n\nThe billing owner submits the request. Another participant may report the outage, collect evidence or\nhelp explain a workflow, but those actions do not make that participant the billing owner. Link the\nverified billing contact rather than copying account credentials into the file. The claim deadline is\nmeasured from the end of the incident in calendar days. A claim received on time can still require\nclarification before a credit is approved; submission and approval are separate events.\n\n\n\n\n\n\n                                                                                                                             1",
+          "id": 1,
+          "text": "График кредитования групп\n\nФинансовый оборот с 15 сентября 2026 года. Это рабочий график для подтвержденных перебоев в обслуживании группы P1. Финансы обеспечивают учет счетов в настоящем документе; операции по поддержке регистрируют последствия и подтверждают классификацию инцидентов. Обе команды используют одни и те же записи. Это обращение действует и предназначено для лиц, готовящих или пересматривающих претензии, а не для автоматического обещания при обновлении статуса.\n\nОбзор кредита начинается с конкретного затронутого рабочего места и непрерывного перерыва в работе. Наличие инцидента в области инфраструктуры является полезным доказательством, но не доказывает, что каждый заказчик или каждое рабочее место потерпели одинаковое воздействие. Прочитай все сведения о происшествии и о клиенте вместе. Приводимые ниже правила применяются к подтвержденному отставанию P1 в команде, включая отключение в течение ровно 120 минут подряд.\n\nПраво на получение помощи\n\nСфера охвата. Это расписание применяется к подписке на команду с подтвержденным отключением службы P1 продолжительностью не менее 120 минут подряд.\n\nБаза. Эта процентная доля относится к ежемесячным сборам за подписку на соответствующие рабочие места, за исключением налогов и дополнительных расходов на пользование.\n\nЗаявление. Владелец счета должен подать иск в течение 10 календарных дней после окончания инцидента.\n\nУлики. Для предъявления претензии требуются идентификационные данные об инциденте, данные о рабочем пространстве, интервалы столкновения в UTC и идентификационные данные счета-фактуры.\n\nУрегулирование\n\nСтавка. За выбытие группы P1 в течение по крайней мере 120 минут подряд сервисный кредит составляет 15% от месячной подписки.\n\nМетод. Утвержденный кредит компенсирует следующий счет-фактуру и не является платежом наличными.\n\nКэп. Общий объем кредитов на случай инцидентов не может превышать 50 процентов от той же месячной подписки.\n\nОбзор. Операции по финансированию и поддержке совместно рассматривают неполные или спорные претензии.\n\nИсключения. Запланированное техническое обслуживание, объявленное по меньшей мере за 48 часов до начала работ, выходит за рамки этого графика.\n\nПодготовка досье претензии\n\nНачните с идентификатора происшествия, уже используемого группой реагирования. Добавить пострадавшее рабочее пространство, счет-фактуру и интервалы столкновения с UTC. В разговоре о поддержке может содержаться информация о времени работы клиента на месте; оставьте это первоначальное наблюдение и объясните, как он переводится. Не заменяйте безмолвно начало фактического влияния клиента на время, когда агент впервые открыл разговор. В тех случаях, когда доказательства являются неполными, регистрируйте неопределенность и попросите владельца инцидента разъяснить ее.\n\nВладелец счетов представляет запрос. Другой участник может сообщить об отставании, собрать доказательства или помочь объяснить рабочий процесс, однако эти действия не делают этого участника собственником счетов. Привязывайте проверенный контакт с счетами, а не копирование вердиктов счетов в файл. Крайний срок подачи претензии определяется с момента окончания инцидента в календарные дни. Полученная своевременно претензия может по-прежнему требовать уточнения до утверждения кредита; представление и утверждение являются отдельными событиями.\n\n\n\n\n\n\n                                                                                                                             1"
+        }
+      ],
+      "id": "R3",
+      "score": 0.662948,
+      "copies": []
+    },
+    {
+      "source": "documents/Финансы/Team service credits.pdf",
+      "language": "en",
+      "context": "Расчёт и совместное рассмотрение заявок на компенсацию Team P1",
+      "fragments": [
+        {
+          "location": {
+            "page": 2
+          },
+          "original": "Worked review notes\n\nConsider a Team workspace whose monthly subscription fee is 400 EUR before tax and whose\neligible P1 outage lasted 120 consecutive minutes. Under this Finance schedule the credit calculation\nuses 15 percent of 400 EUR, or 60 EUR. Tax and an optional usage add-on are outside that base.\nThe example shows how to calculate the amount once eligibility is established. It is not an instruction\nto pay a customer merely because a conversation contains the number 120.\n\nFor a second workspace, the report lists two separate interruptions with a period of restored service\nbetween them. Do not join those intervals just to make a continuous outage appear longer. Ask for\nthe confirmed impact timeline and assess the request against the actual continuous interval.\nLikewise, a delay affecting one region should not be described as a global failure. Evidence in the\npublic incident summary and evidence in the individual claim should describe compatible scopes.\n\nIf the same workspace has already received an incident credit in the billing month, include that\napproved amount when checking the monthly cap. Keep a link to the earlier approval so the reviewer\ncan distinguish a new incident from a duplicate request. Do not create a second adjustment simply\nbecause the customer submitted the same request through a different channel. A correction to an\nexisting review should preserve the history of the calculation and the reason for the correction.\n\nSettlement and communication\n\nOnce approved, the credit is applied against the next invoice. It is not a cash refund, and this process\nshould not be used as a shortcut around a separate refund request. Tell the customer which invoice\ntreatment was approved and which incident the decision covers. Avoid promising a payment date\nbased on an unreviewed amount in a support conversation. The monthly cap remains 50 percent of\nthe same monthly subscription fee, even when several eligible incidents are considered together.\n\nPlanned maintenance announced at least 48 hours ahead is excluded from this schedule. The\nreviewer should keep the announcement and the maintenance window with the evidence rather than\ninfer advance notice from a calendar entry created afterwards. A maintenance label by itself is\ninsufficient: confirm that the notice actually covered the affected service and interval. Where the\ncustomer disputes the notice or the incident scope, Finance and Support Operations review the case\ntogether.\n\nIncomplete or disputed claims go to the joint Finance and Support Operations review. Keep the\ncustomer's question, the confirmed incident scope and the invoice calculation together so the\nreviewers can follow the request. If the customer submits additional evidence after the initial review,\nlink it to the existing claim rather than opening another adjustment. Questions about this circulation\nare collected for the service-credit review meeting, and the claim owner communicates the agreed\noutcome through the original request.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                                                                                             2",
+          "id": 2,
+          "text": "Рабочие записки по обзору\n\nРассмотрим рабочее место группы, месячная подписка на который составляет 400 евро до уплаты налогов и для которого период выбытия категории P1 составляет 120 минут подряд. Согласно этому финансовому графику, при расчете кредита используется 15% 400 евро, или 60 евро. Налоги и добавление к факультативному использованию не относятся к этой базе. Пример показывает, как рассчитывать сумму после установления права на получение пособия. Это не указание платить клиенту только потому, что в разговоре содержится номер 120.\n\nЧто касается второго рабочего места, то в отчете перечислены два отдельных перерыва с периодом восстановления их работы. Не присоединяйтесь к этим интервалам, чтобы не допустить непрерывного отключения. Запросить подтвержденный график удара и оценить запрос с учетом фактического непрерывного интервала. Аналогичным образом, задержка, затрагивающая один регион, не должна рассматриваться как глобальная неудача. В доказательствах, содержащихся в резюме публичного инцидента, и в доказательствах, содержащихся в индивидуальной претензии, должны быть указаны сопоставимые сферы охвата.\n\nЕсли то же рабочее место уже получило кредит на случай происшествия в месяц выставления счетов, то при проверке месячного верхнего предела включайте утвержденную сумму. Сохранять связь с ранее утвержденным утверждением, с тем чтобы обзорный орган мог отличить новый инцидент от дублирующего запроса. Не создавай вторую корректировку просто потому, что клиент представил один и тот же запрос по другому каналу. Исправление к существующему обзору должно сохранить историю расчета и причину исправления.\n\nУрегулирование и связь\n\nПосле утверждения аккредитив зачитывается в счет следующего счета-фактуры. Речь не идет о возмещении наличных средств, и этот процесс не должен использоваться в качестве связующего звена вокруг отдельного запроса о возмещении. Сообщите клиенту, какая обработка счетов-фактур была утверждена и какая случайность охватывает решение. Не обещайте, что в ходе беседы о поддержке будет выплачена непроверенная сумма. Ежемесячный предел по-прежнему составляет 50% от той же месячной подписки, даже в тех случаях, когда одновременно рассматриваются несколько соответствующих инцидентов.\n\nЗапланированное техническое обслуживание, объявленное по меньшей мере на 48 часов вперед, исключается из этого графика. Проверяющий орган должен хранить объявление и окно технического обслуживания с доказательствами, а не представлять предварительное уведомление из календаря, созданного после этого. Сама по себе маркировка технического обслуживания является недостаточной: подтвердить, что уведомление фактически охватывало затронутую услугу и интервал. В тех случаях, когда клиент оспаривает уведомление или сферу охвата инцидента, Финансовая и вспомогательная операции совместно рассматривают дело.\n\nНеполные или спорные претензии рассматриваются в рамках совместного обзора финансовых и вспомогательных операций. Следить за вопросом клиента, подтвержденной сферой охвата инцидента и расчетом счета-фактуры, с тем чтобы эксперты могли выполнить запрос. Если заказчик представляет дополнительные доказательства после первоначального рассмотрения, он вместо того, чтобы вводить новую корректировку, увязывает их с существующей претензией. Вопросы, касающиеся такого распространения, собираются для проведения совещания по рассмотрению кредита на услуги, и владелец претензии сообщает о согласованных результатах в первоначальной просьбе.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                                                                                             2"
+        }
+      ],
+      "id": "R4",
+      "score": 0.634108,
+      "copies": []
+    },
+    {
+      "source": "documents/Клиентский сервис/Team service credits.docx",
+      "language": "en",
+      "context": "Расчёт и совместное рассмотрение заявок на компенсацию Team P1 Team service credit schedule",
+      "fragments": [
+        {
+          "location": {
+            "section": "Team service credit schedule",
+            "paragraph": 1
+          },
+          "original": "Team service credit schedule",
+          "id": 1,
+          "text": "График кредитования групп"
+        },
+        {
+          "location": {
+            "section": "Team service credit schedule",
+            "paragraph": 2
+          },
+          "original": "Support Operations issue effective 15 September 2026. This is the operating schedule for a confirmed Team P1 service outage, approved for the support review process. Finance and Support Operations share responsibility for reviewing the claim evidence. The support reviewer prepares the impact record and the calculation before sending a complete claim to the joint review. Keep the existing request open until the agreed outcome has been communicated to the billing owner.",
+          "id": 2,
+          "text": "Вопрос о вспомогательных операциях вступает в силу 15 сентября 2026 года. Такой график работы для подтверждения прекращения службы группы С1, утвержденный для процесса обзора вспомогательного обслуживания. Ответственность за рассмотрение доказательств, представленных в претензии, несут финансовые и вспомогательные операции. До направления полной претензии в совместный обзор орган, проводивший обзор поддержки, готовит отчет о воздействии и расчеты. Сохранять существующий запрос открытым до тех пор, пока согласованный результат не будет доведен до сведения владельца счетов."
+        },
+        {
+          "location": {
+            "section": "Team service credit schedule",
+            "paragraph": 3
+          },
+          "original": "Use this procedure for the affected Team workspace, including an outage lasting exactly 120 consecutive minutes. The review concerns a continuous outage, not the sum of unrelated short interruptions. Classification and impact need confirmation before the support team can recommend settlement. The customer should receive a clear explanation of the review, but an agent must not turn an unreviewed claim into a promised payment.",
+          "id": 3,
+          "text": "Используйте эту процедуру в отношении рабочего пространства пострадавшей группы, включая отключение в течение ровно 120 минут подряд. Обзор касается непрерывного отключения, а не суммы не связанных с этим коротких перерывов. Прежде чем группа поддержки сможет рекомендовать урегулирование, необходимо подтвердить классификацию и воздействие. Клиент должен получить четкое объяснение результатов проверки, однако агент не должен превращать непроверенное требование в обещанный платеж."
+        }
+      ],
+      "id": "R5",
+      "score": 0.600909,
+      "copies": []
+    },
+    {
+      "source": "documents/Клиентский сервис/Team service credits.docx",
+      "language": "en",
+      "context": "Расчёт и совместное рассмотрение заявок на компенсацию Team P1 Cases discussed at the September handover",
+      "fragments": [
+        {
+          "location": {
+            "section": "Cases discussed at the September handover",
+            "paragraph": 21
+          },
+          "original": "Cases discussed at the September handover",
+          "id": 21,
+          "text": "Дела, обсуждавшиеся в ходе сентябрьской передачи"
+        },
+        {
+          "location": {
+            "section": "Cases discussed at the September handover",
+            "paragraph": 22
+          },
+          "original": "A customer reported two interruptions separated by restored service. The support reviewer asked the incident owner for the confirmed continuous intervals rather than adding the durations together. The evidence then allowed the customer to understand which interval was under review. In another case only one region was affected, while the customer's organisation operated several workspaces. The reviewer limited the claim to the affected workspace and did not imply that all subscriptions were automatically eligible.",
+          "id": 22,
+          "text": "Один из клиентов сообщил о двух перерывах, которые были прекращены реставрированными службами. Проверяющий персонал попросил владельца сообщения о том, что он должен иметь подтвержденные постоянные интервалы времени, вместо того чтобы добавлять их продолжительность. Эти доказательства позволили клиенту понять, какой интервал находится в стадии рассмотрения. В другом случае это затронуло лишь один регион, в то время как организация клиента имела несколько рабочих мест. Просмотрчик ограничил претензию затрагиваемым рабочим пространством и не подразумевал, что все подписные издания автоматически имеют право на получение такой подписки."
+        },
+        {
+          "location": {
+            "section": "Cases discussed at the September handover",
+            "paragraph": 23
+          },
+          "original": "A planned maintenance notice also requires examination. Scheduled maintenance announced at least forty-eight hours beforehand is outside this schedule, but the notice must actually cover the affected service and window. An internal calendar entry is not necessarily evidence of customer notice. If the customer disputes whether the announcement applied, attach the relevant communication and send the question to the joint review rather than deciding from the label maintenance alone.",
+          "id": 23,
+          "text": "Кроме того, необходимо проверить запланированное уведомление о техническом обслуживании. Scheduled maintenance announced at least forty-eight hours beforehand is outside this schedule, but the notice must actually cover the affected service and window. Внутренняя календарьная запись не обязательно является доказательством уведомления клиента. Если клиент оспаривает факт применения объявления, приложите соответствующее сообщение и направите вопрос для совместного рассмотрения, а не будет решать только вопрос о техническом обслуживании этикетки."
+        }
+      ],
+      "id": "R6",
+      "score": 0.577941,
+      "copies": []
+    },
+    {
+      "source": "documents/Клиентский сервис/Сбой сервиса - рассылка.pdf",
+      "language": "ru",
+      "context": "Рассылка и обновления статуса при сбое сервиса",
+      "fragments": [
+        {
+          "location": {
+            "page": 2
+          },
+          "original": "Сообщения во время расследования\n\nДля P1 обновления публикуют каждые тридцать минут. Если существенных технических\nизменений нет, сообщите, что расследование продолжается, какое влияние подтверждено и когда\nждать следующую связь. Обещание «скоро исправим» без основания создаёт новый вопрос\nвместо ответа. Дежурный, который принимает смену, проверяет время последней публикации и\nуже обещанное время следующей, чтобы передача команды не стала причиной тишины.\n\nОбходной путь описывают вместе с ограничениями. Если он помогает только администраторам\nили требует повторить изменения, это нужно сказать прямо. Не советуйте массово перезагружать\nстраницы с несохранённым текстом только потому, что это удобный универсальный ответ. Перед\nпубликацией координатор сверяет рекомендацию с технической командой. Клиент должен\nпонимать, для какого действия обход применим и какие данные стоит сохранить до его\nиспользования.\n\nПример передачи между сменами\n\nПервая смена подтвердила задержку очереди вебхуков в EU-1 и сообщила клиентам время\nследующего обновления. Вторая смена получила техническую отметку о восстановлении\nобработки, но ещё не имела подтверждения доставки накопленной очереди. В таком случае рано\nписать «всё восстановлено» только по одному внутреннему графику. В передаче указывают, что\nименно проверено, какие обращения ждут проверки и кто согласует следующее сообщение.\n\nПосле технического восстановления запросите проверку клиента. Если клиент по-прежнему видит\nпроблему, сохраните её наблюдение и сопоставьте с исходным инцидентом. Не закрывайте\nразговор автоматически на основании общего статуса. Публичный итог готовят в течение трёх\nрабочих дней; в нём должны сходиться влияние, хронология и подтверждённые действия. Ответ о\nкомпенсации готовится отдельно после проверки условий и не включается как обещанная сумма в\nстатусное обновление.\n\nПри закрытии смены проверьте ссылки в сообщениях и доступность итоговой записи для\nполучателя. В черновиках не оставляйте внутренние персональные контакты и незавершённые\nобсуждения причин. Если обнаружены разные действующие правила компенсации, сохраните оба\nисточника и передайте вопрос Finance и Support Operations. Коммуникация об инциденте должна\nпомогать клиенту работать с подтверждённой ситуацией, а не заменять решение по финансовой\nзаявке.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                                                                                2",
+          "id": 2,
+          "text": "Сообщения во время расследования\n\nДля P1 обновления публикуют каждые тридцать минут. Если существенных технических\nизменений нет, сообщите, что расследование продолжается, какое влияние подтверждено и когда\nждать следующую связь. Обещание «скоро исправим» без основания создаёт новый вопрос\nвместо ответа. Дежурный, который принимает смену, проверяет время последней публикации и\nуже обещанное время следующей, чтобы передача команды не стала причиной тишины.\n\nОбходной путь описывают вместе с ограничениями. Если он помогает только администраторам\nили требует повторить изменения, это нужно сказать прямо. Не советуйте массово перезагружать\nстраницы с несохранённым текстом только потому, что это удобный универсальный ответ. Перед\nпубликацией координатор сверяет рекомендацию с технической командой. Клиент должен\nпонимать, для какого действия обход применим и какие данные стоит сохранить до его\nиспользования.\n\nПример передачи между сменами\n\nПервая смена подтвердила задержку очереди вебхуков в EU-1 и сообщила клиентам время\nследующего обновления. Вторая смена получила техническую отметку о восстановлении\nобработки, но ещё не имела подтверждения доставки накопленной очереди. В таком случае рано\nписать «всё восстановлено» только по одному внутреннему графику. В передаче указывают, что\nименно проверено, какие обращения ждут проверки и кто согласует следующее сообщение.\n\nПосле технического восстановления запросите проверку клиента. Если клиент по-прежнему видит\nпроблему, сохраните её наблюдение и сопоставьте с исходным инцидентом. Не закрывайте\nразговор автоматически на основании общего статуса. Публичный итог готовят в течение трёх\nрабочих дней; в нём должны сходиться влияние, хронология и подтверждённые действия. Ответ о\nкомпенсации готовится отдельно после проверки условий и не включается как обещанная сумма в\nстатусное обновление.\n\nПри закрытии смены проверьте ссылки в сообщениях и доступность итоговой записи для\nполучателя. В черновиках не оставляйте внутренние персональные контакты и незавершённые\nобсуждения причин. Если обнаружены разные действующие правила компенсации, сохраните оба\nисточника и передайте вопрос Finance и Support Operations. Коммуникация об инциденте должна\nпомогать клиенту работать с подтверждённой ситуацией, а не заменять решение по финансовой\nзаявке.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                                                                                2"
+        }
+      ],
+      "id": "R7",
+      "score": 0.575026,
+      "copies": []
+    },
+    {
+      "source": "documents/Финансы/Для руководителей/Возвраты оплаты.docx",
+      "language": "ru",
+      "context": "Внутренняя подготовка и согласование возврата оплаты Передача в платёжную команду",
+      "fragments": [
+        {
+          "location": {
+            "section": "Передача в платёжную команду",
+            "paragraph": 21
+          },
+          "original": "Передача в платёжную команду",
+          "id": 21,
+          "text": "Передача в платёжную команду"
+        },
+        {
+          "location": {
+            "section": "Передача в платёжную команду",
+            "paragraph": 22
+          },
+          "original": "После согласования платёжная команда инициирует возврат в течение пяти рабочих дней. Этот срок не равен сроку поступления денег на банковский счёт клиента. Передавая статус, называйте фактическое действие и известное состояние, а не обещайте завершённое зачисление по внутренней отметке отправки. Клиент получает refund ID и ожидаемый срок банка. Внутренний маршрут согласований, фамилии согласующих и лимиты подразделений клиенту не сообщают.",
+          "id": 22,
+          "text": "После согласования платёжная команда инициирует возврат в течение пяти рабочих дней. Этот срок не равен сроку поступления денег на банковский счёт клиента. Передавая статус, называйте фактическое действие и известное состояние, а не обещайте завершённое зачисление по внутренней отметке отправки. Клиент получает refund ID и ожидаемый срок банка. Внутренний маршрут согласований, фамилии согласующих и лимиты подразделений клиенту не сообщают."
+        },
+        {
+          "location": {
+            "section": "Передача в платёжную команду",
+            "paragraph": 23
+          },
+          "original": "Для проверки на планёрке рассмотрели два случая: повторное обращение по уже созданному refund ID и частичный возврат при сохранении прежнего тарифа. В первом объединили историю и не создали дубликат платёжного действия. Во втором явно отделили возврат суммы от дальнейшей коммерческой заявки. Перед закрытием руководитель проверил связность платежа, согласования и refund ID, а также убедился, что в клиентском ответе не осталось выдержек из внутренней процедуры.",
+          "id": 23,
+          "text": "Для проверки на планёрке рассмотрели два случая: повторное обращение по уже созданному refund ID и частичный возврат при сохранении прежнего тарифа. В первом объединили историю и не создали дубликат платёжного действия. Во втором явно отделили возврат суммы от дальнейшей коммерческой заявки. Перед закрытием руководитель проверил связность платежа, согласования и refund ID, а также убедился, что в клиентском ответе не осталось выдержек из внутренней процедуры."
+        }
+      ],
+      "id": "R8",
+      "score": 0.555037,
+      "copies": []
+    },
+    {
+      "source": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+      "language": "ru",
+      "context": "Назначение приоритета при инциденте Обновления и смена приоритета",
+      "fragments": [
+        {
+          "location": {
+            "section": "Обновления и смена приоритета",
+            "lines": [
+              19,
+              27
+            ]
+          },
+          "original": "## Обновления и смена приоритета\n\nДля P1 даём обновления каждые 30 минут до восстановления. Обновление требуется и тогда, когда нет нового объяснения причины: клиенту важно понимать, что обращение сопровождается. Не подменяйте сообщение клиенту внутренней активностью в чате команды. Можно долго обсуждать ситуацию между собой, а для клиента всё это время будет выглядеть как отсутствие связи. В передаче смены полезно ясно указать последнее данное обновление, чтобы коллега продолжил разговор, не заставляя клиента начинать сначала.\n\n«Появился обходной путь, могу я снять P1?» Приоритет P1 понижает руководитель поддержки после подтверждения обходного пути. Уточнение о подтверждении здесь принципиально: предложение попробовать действие не равно работающему обходу. Специалист собирает сведения и передаёт их руководителю, который принимает решение о понижении. В истории остаётся причина изменения, а не только новая буква и цифра. Это помогает объяснить клиенту, почему оценка влияния изменилась, хотя окончательная причина ещё может разбираться.\n\nЗакрываем инцидент после проверки клиента либо двух подтверждённых проверок доступности. Не завершайте историю только потому, что в переписке стало тихо или смена подходит к концу. При передаче различайте «ждём проверку» и «проверка пройдена»: эти короткие слова определяют, нужно ли коллеге продолжать сопровождение. Нельзя считать обещание проверить одним из подтверждений. Если используем две проверки доступности, они должны быть именно подтверждёнными наблюдениями, а не двумя сообщениями об одном намерении.\n\nВ конце обсуждения вернулись к первому вопросу: зачем столько внимания формулировкам, если команда и так хочет помочь быстрее. Потому что приоритет — рабочая договорённость о влиянии. Когда в карточке есть масштаб, обходной путь, время и результаты проверок, следующая смена продолжает одну историю. Когда там только «очень срочно», ей приходится заново угадывать ситуацию и отвлекать клиента повторными вопросами. Нам нужна точная передача контекста, особенно в те минуты, когда кажется, что писать её некогда.",
+          "id": 3,
+          "text": "## Обновления и смена приоритета\n\nДля P1 даём обновления каждые 30 минут до восстановления. Обновление требуется и тогда, когда нет нового объяснения причины: клиенту важно понимать, что обращение сопровождается. Не подменяйте сообщение клиенту внутренней активностью в чате команды. Можно долго обсуждать ситуацию между собой, а для клиента всё это время будет выглядеть как отсутствие связи. В передаче смены полезно ясно указать последнее данное обновление, чтобы коллега продолжил разговор, не заставляя клиента начинать сначала.\n\n«Появился обходной путь, могу я снять P1?» Приоритет P1 понижает руководитель поддержки после подтверждения обходного пути. Уточнение о подтверждении здесь принципиально: предложение попробовать действие не равно работающему обходу. Специалист собирает сведения и передаёт их руководителю, который принимает решение о понижении. В истории остаётся причина изменения, а не только новая буква и цифра. Это помогает объяснить клиенту, почему оценка влияния изменилась, хотя окончательная причина ещё может разбираться.\n\nЗакрываем инцидент после проверки клиента либо двух подтверждённых проверок доступности. Не завершайте историю только потому, что в переписке стало тихо или смена подходит к концу. При передаче различайте «ждём проверку» и «проверка пройдена»: эти короткие слова определяют, нужно ли коллеге продолжать сопровождение. Нельзя считать обещание проверить одним из подтверждений. Если используем две проверки доступности, они должны быть именно подтверждёнными наблюдениями, а не двумя сообщениями об одном намерении.\n\nВ конце обсуждения вернулись к первому вопросу: зачем столько внимания формулировкам, если команда и так хочет помочь быстрее. Потому что приоритет — рабочая договорённость о влиянии. Когда в карточке есть масштаб, обходной путь, время и результаты проверок, следующая смена продолжает одну историю. Когда там только «очень срочно», ей приходится заново угадывать ситуацию и отвлекать клиента повторными вопросами. Нам нужна точная передача контекста, особенно в те минуты, когда кажется, что писать её некогда."
+        }
+      ],
+      "id": "R9",
+      "score": 0.538375,
+      "copies": []
+    },
+    {
+      "source": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+      "language": "ru",
+      "context": "Назначение приоритета при инциденте Разговор на передаче смены: почему это P1",
+      "fragments": [
+        {
+          "location": {
+            "section": "Разговор на передаче смены: почему это P1",
+            "lines": [
+              1,
+              10
+            ]
+          },
+          "original": "# Разговор на передаче смены: почему это P1\n\nНа встрече Support Operations 1 сентября 2026 года разбирали, как мы назначаем срочность обращения об инциденте. Ниже сохранены выводы и характерные вопросы смены. Основная договорённость: приоритет отражает влияние на работу клиента. Тон письма, должность отправителя и количество восклицательных знаков не описывают это влияние. До назначения приоритета выясняем наличие обходного пути и число затронутых workspace. Иначе две смены будут оценивать одну ситуацию по разным впечатлениям от переписки.\n\n«Клиент пишет, что всё остановилось. Сразу P1?» Сначала выясняем, что именно остановилось и для кого. P1 — полная недоступность рабочего процесса без обходного пути для всех участников workspace. Вопрос о том, могут ли остальные участники продолжать работу, здесь существенен. Если мы его не задали, в передаче остаётся эмоциональная формулировка клиента, но не картина влияния. При этом не стоит заставлять человека повторять длинный рассказ: достаточно направить уточнение на рабочий процесс, участников и наличие способа продолжить работу.\n\n«А если главная функция сломана, но команда делает то же самое другим способом?» Это соответствует P2: критичная функция нарушена, но временный обходной путь доступен. Обходной путь нужно описать так, чтобы следующая смена понимала, что именно клиент может сделать. Само слово «есть» мало помогает. Но мы не должны придумывать удобство такого пути или считать любой теоретический совет подтверждением его существования. Важна возможность продолжить работу в конкретной ситуации, которую обсуждаем с клиентом.\n\nP3 применяем к проблеме отдельного участника, которая не останавливает команду. Такая проблема может быть неприятной и требовать внимания; её определение просто описывает иной масштаб влияния. P4 — вопрос настройки, улучшения или пояснения интерфейса. Если запрос начинался как «кнопка пропала», это ещё не позволяет выбрать между уровнями. Кнопка может быть частью остановившегося рабочего процесса, индивидуальной проблемы или вопроса о настройке. Мы классифицируем результат для клиента, а не знакомые слова из названия обращения.",
+          "id": 1,
+          "text": "# Разговор на передаче смены: почему это P1\n\nНа встрече Support Operations 1 сентября 2026 года разбирали, как мы назначаем срочность обращения об инциденте. Ниже сохранены выводы и характерные вопросы смены. Основная договорённость: приоритет отражает влияние на работу клиента. Тон письма, должность отправителя и количество восклицательных знаков не описывают это влияние. До назначения приоритета выясняем наличие обходного пути и число затронутых workspace. Иначе две смены будут оценивать одну ситуацию по разным впечатлениям от переписки.\n\n«Клиент пишет, что всё остановилось. Сразу P1?» Сначала выясняем, что именно остановилось и для кого. P1 — полная недоступность рабочего процесса без обходного пути для всех участников workspace. Вопрос о том, могут ли остальные участники продолжать работу, здесь существенен. Если мы его не задали, в передаче остаётся эмоциональная формулировка клиента, но не картина влияния. При этом не стоит заставлять человека повторять длинный рассказ: достаточно направить уточнение на рабочий процесс, участников и наличие способа продолжить работу.\n\n«А если главная функция сломана, но команда делает то же самое другим способом?» Это соответствует P2: критичная функция нарушена, но временный обходной путь доступен. Обходной путь нужно описать так, чтобы следующая смена понимала, что именно клиент может сделать. Само слово «есть» мало помогает. Но мы не должны придумывать удобство такого пути или считать любой теоретический совет подтверждением его существования. Важна возможность продолжить работу в конкретной ситуации, которую обсуждаем с клиентом.\n\nP3 применяем к проблеме отдельного участника, которая не останавливает команду. Такая проблема может быть неприятной и требовать внимания; её определение просто описывает иной масштаб влияния. P4 — вопрос настройки, улучшения или пояснения интерфейса. Если запрос начинался как «кнопка пропала», это ещё не позволяет выбрать между уровнями. Кнопка может быть частью остановившегося рабочего процесса, индивидуальной проблемы или вопроса о настройке. Мы классифицируем результат для клиента, а не знакомые слова из названия обращения."
+        }
+      ],
+      "id": "R10",
+      "score": 0.537617,
+      "copies": []
+    },
+    {
+      "source": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+      "language": "ru",
+      "context": "Общие сроки восстановления, доступности журналов и экспорта",
+      "fragments": [
+        {
+          "location": {
+            "lines": [
+              2,
+              2
+            ],
+            "columns": [
+              "Область",
+              "Тариф или объект",
+              "Срок или действие",
+              "Удалено",
+              "Примечание проверки"
+            ]
+          },
+          "original": "Область: Корзина\nТариф или объект: Starter\nСрок или действие: Восстановление удалённых объектов: 7 дней.\nУдалено: \nПримечание проверки:",
+          "id": 1,
+          "text": "Область: Корзина\nТариф или объект: Starter\nСрок или действие: Восстановление удалённых объектов: 7 дней.\nУдалено: \nПримечание проверки:"
+        },
+        {
+          "location": {
+            "lines": [
+              3,
+              3
+            ],
+            "columns": [
+              "Область",
+              "Тариф или объект",
+              "Срок или действие",
+              "Удалено",
+              "Примечание проверки"
+            ]
+          },
+          "original": "Область: Корзина\nТариф или объект: Team\nСрок или действие: Восстановление удалённых объектов: 30 дней.\nУдалено: \nПримечание проверки:",
+          "id": 2,
+          "text": "Область: Корзина\nТариф или объект: Team\nСрок или действие: Восстановление удалённых объектов: 30 дней.\nУдалено: \nПримечание проверки:"
+        },
+        {
+          "location": {
+            "lines": [
+              4,
+              4
+            ],
+            "columns": [
+              "Область",
+              "Тариф или объект",
+              "Срок или действие",
+              "Удалено",
+              "Примечание проверки"
+            ]
+          },
+          "original": "Область: Корзина\nТариф или объект: Enterprise\nСрок или действие: Восстановление удалённых объектов: 90 дней.\nУдалено: \nПримечание проверки:",
+          "id": 3,
+          "text": "Область: Корзина\nТариф или объект: Enterprise\nСрок или действие: Восстановление удалённых объектов: 90 дней.\nУдалено: \nПримечание проверки:"
+        }
+      ],
+      "id": "R11",
+      "score": 0.532623,
+      "copies": []
+    },
+    {
+      "source": "documents/Планирование/Тарифы новый.xlsx",
+      "language": "ru",
+      "context": "Опции, ограничения и смена тарифов Возможности Тариф или предмет / Возможность / Единица / Граница",
+      "fragments": [
+        {
+          "location": {
+            "sheet": "Возможности",
+            "range": "A12:D12",
+            "headers": {
+              "A12": {
+                "cell": "A7",
+                "text": "Тариф или предмет"
+              },
+              "B12": {
+                "cell": "B7",
+                "text": "Возможность"
+              },
+              "C12": {
+                "cell": "C7",
+                "text": "Единица"
+              },
+              "D12": {
+                "cell": "D7",
+                "text": "Граница"
+              }
+            }
+          },
+          "original": "A12: История Team\nB12: 90\nC12: дней\nD12: Журнал активности",
+          "id": 8,
+          "text": "A12: История Team\nB12: 90\nC12: дней\nD12: Журнал активности"
+        }
+      ],
+      "id": "R12",
+      "score": 0.519656,
+      "copies": []
+    },
+    {
+      "source": "documents/Клиентский сервис/Сбой сервиса - рассылка.pdf",
+      "language": "ru",
+      "context": "Рассылка и обновления статуса при сбое сервиса",
+      "fragments": [
+        {
+          "location": {
+            "page": 1
+          },
+          "original": "Коммуникация при недоступности сервиса\n\n\nПорядок Support Operations для рассылки во время недоступности LumenDesk применяется с 1\nсентября 2026 года. Утренний разбор показал, что самая частая ошибка — попытка заполнить\nотсутствие технических сведений уверенным объяснением причины. Клиенту полезнее точное\nописание подтверждённого влияния и времени следующего обновления. Даже короткое\nсообщение должно оставлять понятный следующий шаг для клиента и команды поддержки.\n\nКоординатор коммуникации связывает клиентские обращения с общим incident ID. У каждой смены\nможет быть свой список контактов и свой черновик сообщения, но техническая история инцидента\nдолжна оставаться общей. Перед созданием нового инцидента проверьте, нет ли уже подходящей\nзаписи. Совпадение времени само по себе недостаточно: сопоставьте функцию, регион и\nнаблюдаемое влияние, чтобы не объединить разные проблемы.\n\nПервое сообщение\n\nУказать затронутую функцию и регион, если они подтверждены.\n\nУказать время начала в UTC и источник наблюдения.\n\nНеподтверждённую причину не представлять как установленную.\n\nСвязать обращение с существующим incident ID до создания нового.\n\nОбновления\n\nПубликовать обновления каждые 30 минут.\n\nОбходной путь описывать вместе с ограничениями и риском потери изменений.\n\nПосле технического восстановления запросить проверку клиента.\n\nПубличный итог инцидента готовят в течение 3 рабочих дней.\n\nКомпенсация требует отдельной проверки условий и не обещается в статусном сообщении.\n\nЧто считать подтверждённым\n\nСообщение клиента о невозможности открыть карточку — наблюдение в его рабочем\nпространстве. Для утверждения о полной недоступности региона нужны дополнительные\nподтверждения от расследующей команды. В первом ответе можно честно указать, что влияние\nуточняется. Не превращайте один скриншот ошибки в вывод о глобальном сбое. Сохраняйте\nисходное время наблюдения и поясняйте перевод в UTC, если клиент сообщил его в местном\nчасовом поясе.\n\nРазделяйте начало влияния, начало расследования и время публикации сообщения. Эти отметки\nпомогают при разборе и не обязаны совпадать. Если команда уточнила время начала, новое\nсообщение должно объяснять это уточнение, а не молча переписывать историю. Внутренние\nгипотезы о базе данных, провайдере или релизе остаются гипотезами, пока ответственный\nинженер не подтвердил причину и границы её применимости.\n\n\n\n\n\n\n\n\n\n\n\n                                                                                                              1",
+          "id": 1,
+          "text": "Коммуникация при недоступности сервиса\n\n\nПорядок Support Operations для рассылки во время недоступности LumenDesk применяется с 1\nсентября 2026 года. Утренний разбор показал, что самая частая ошибка — попытка заполнить\nотсутствие технических сведений уверенным объяснением причины. Клиенту полезнее точное\nописание подтверждённого влияния и времени следующего обновления. Даже короткое\nсообщение должно оставлять понятный следующий шаг для клиента и команды поддержки.\n\nКоординатор коммуникации связывает клиентские обращения с общим incident ID. У каждой смены\nможет быть свой список контактов и свой черновик сообщения, но техническая история инцидента\nдолжна оставаться общей. Перед созданием нового инцидента проверьте, нет ли уже подходящей\nзаписи. Совпадение времени само по себе недостаточно: сопоставьте функцию, регион и\nнаблюдаемое влияние, чтобы не объединить разные проблемы.\n\nПервое сообщение\n\nУказать затронутую функцию и регион, если они подтверждены.\n\nУказать время начала в UTC и источник наблюдения.\n\nНеподтверждённую причину не представлять как установленную.\n\nСвязать обращение с существующим incident ID до создания нового.\n\nОбновления\n\nПубликовать обновления каждые 30 минут.\n\nОбходной путь описывать вместе с ограничениями и риском потери изменений.\n\nПосле технического восстановления запросить проверку клиента.\n\nПубличный итог инцидента готовят в течение 3 рабочих дней.\n\nКомпенсация требует отдельной проверки условий и не обещается в статусном сообщении.\n\nЧто считать подтверждённым\n\nСообщение клиента о невозможности открыть карточку — наблюдение в его рабочем\nпространстве. Для утверждения о полной недоступности региона нужны дополнительные\nподтверждения от расследующей команды. В первом ответе можно честно указать, что влияние\nуточняется. Не превращайте один скриншот ошибки в вывод о глобальном сбое. Сохраняйте\nисходное время наблюдения и поясняйте перевод в UTC, если клиент сообщил его в местном\nчасовом поясе.\n\nРазделяйте начало влияния, начало расследования и время публикации сообщения. Эти отметки\nпомогают при разборе и не обязаны совпадать. Если команда уточнила время начала, новое\nсообщение должно объяснять это уточнение, а не молча переписывать историю. Внутренние\nгипотезы о базе данных, провайдере или релизе остаются гипотезами, пока ответственный\nинженер не подтвердил причину и границы её применимости.\n\n\n\n\n\n\n\n\n\n\n\n                                                                                                              1"
+        }
+      ],
+      "id": "R13",
+      "score": 0.51137,
+      "copies": []
+    },
+    {
+      "source": "documents/Выгрузки/параметры-входа.csv",
+      "language": "ru",
+      "context": "Действующие настройки приёма сертификатов и диагностики Enterprise SAML",
+      "fragments": [
+        {
+          "location": {
+            "lines": [
+              6,
+              6
+            ],
+            "columns": [
+              "Параметр или операция",
+              "Значение или результат",
+              "Применение",
+              "Запись"
+            ]
+          },
+          "original": "Параметр или операция: Рассинхронизация\nЗначение или результат: Допустимое расхождение часов составляет 120 секунд.\nПрименение: Enterprise\nЗапись: Параметры Identity Platform от 1 сентября 2026",
+          "id": 5,
+          "text": "Параметр или операция: Рассинхронизация\nЗначение или результат: Допустимое расхождение часов составляет 120 секунд.\nПрименение: Enterprise\nЗапись: Параметры Identity Platform от 1 сентября 2026"
+        }
+      ],
+      "id": "R14",
+      "score": 0.509474,
+      "copies": []
+    }
+  ]
+}

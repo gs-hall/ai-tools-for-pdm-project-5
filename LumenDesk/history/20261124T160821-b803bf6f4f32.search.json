@@ -1,0 +1,443 @@
+{
+  "run": "20261124T160821-b803bf6f4f32",
+  "time_utc": "2026-11-24T16:08:21.595847+00:00",
+  "role": "support_agent",
+  "question": "Какие внутренние пороги используются для проверки злоупотреблений?",
+  "settings": {
+    "model": "BAAI/bge-m3",
+    "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "normalize": true,
+    "prefix": "",
+    "max_tokens": 2048,
+    "per_source": 4,
+    "algorithm_version": 1,
+    "limit": 14
+  },
+  "matches": [
+    {
+      "source": "documents/Платформа и интеграции/SAML incident handling.docx",
+      "language": "en",
+      "context": "Критерии и порядок эскалации сбоев Enterprise SAML Close and hand over",
+      "fragments": [
+        {
+          "location": {
+            "section": "Close and hand over",
+            "paragraph": 29
+          },
+          "original": "Close and hand over",
+          "id": 29,
+          "text": "Закрыть и передать"
+        },
+        {
+          "location": {
+            "section": "Close and hand over",
+            "paragraph": 30
+          },
+          "original": "Before closing, record the successful retest, the certificate fingerprint and the approving owner. Confirm which users have been checked and what remains outside the tested scope. If another team must follow up, give it the next action and the safe evidence references. Do not leave a full assertion in the final handover merely because it was useful during an internal diagnostic conversation. The normal evidence-minimisation rules still apply after service is restored.",
+          "id": 30,
+          "text": "Перед закрытием запиши успешный повторный тест, отпечатки пальцев и разрешившего владельца. Подтвердить, какие пользователи были проверены и какие из них остаются за пределами испытанной области. Если еще одна группа должна будет принять последующие меры, предложи ей следующее действие и ссылки на надежные доказательства. Не оставляйте полного утверждения в последней передаче только потому, что оно было полезным во время внутреннего диагностического разговора. Нормальные правила сведения к минимуму доказательств по-прежнему применяются после восстановления службы."
+        },
+        {
+          "location": {
+            "section": "Close and hand over",
+            "paragraph": 31
+          },
+          "original": "If the expected operating parameter cannot be found, preserve that uncertainty and ask Identity Platform to clarify it. A personal note, an API-key instruction or a remembered value from another workspace is not an adequate substitute. This is especially important when a certificate is approaching the end of its overlap period. A clear statement of the missing parameter helps the lead coordinate a safe action; an invented deadline can cause an avoidable loss of sign-in access.",
+          "id": 31,
+          "text": "Если ожидаемый эксплуатационный параметр не может быть найден, сохраняйте эту неопределенность и просит Платформу идентификации уточнить его. Личная записка, инструкция API-ключ или запоминающаяся ценность из другого рабочего пространства не являются адекватной заменой. Это особенно важно, когда сертификат приближается к концу периода дублирования. Четкое указание недостающего параметра помогает лидеру координировать безопасное действие; изобретенный предельный срок может привести к избежанию потери доступа к входу."
+        }
+      ],
+      "id": "R1",
+      "score": 0.457252,
+      "copies": []
+    },
+    {
+      "source": "documents/Платформа и интеграции/SAML incident handling.docx",
+      "language": "en",
+      "context": "Критерии и порядок эскалации сбоев Enterprise SAML SAML incident escalation",
+      "fragments": [
+        {
+          "location": {
+            "section": "SAML incident escalation",
+            "paragraph": 1
+          },
+          "original": "SAML incident escalation",
+          "id": 1,
+          "text": "Рост числа инцидентов в САМЛ"
+        },
+        {
+          "location": {
+            "section": "SAML incident escalation",
+            "paragraph": 2
+          },
+          "original": "Identity Platform and Support Operations reviewed this Enterprise SAML runbook on 1 September 2026. It is for the support colleague handling failed sign-ins after setup or certificate changes. Keep a working emergency administrator session while collecting evidence. The immediate objective is to understand who cannot sign in and preserve a safe recovery route, rather than repeatedly change identity settings without a confirmed diagnosis.",
+          "id": 2,
+          "text": "1 сентября 2026 года эта программа была пересмотрена в рамках программы &quot; Organization SAML &quot; . Она предназначена для сотрудника по оказанию поддержки, занимающегося неудавшимися записями после установки или изменения сертификата. Продолжить рабочее заседание администратора при сборе доказательств. Непосредственная цель заключается в том, чтобы понять, кто не может подписаться и сохранить безопасный путь восстановления, а не постоянно менять параметры личности без подтвержденного диагноза."
+        },
+        {
+          "location": {
+            "section": "SAML incident escalation",
+            "paragraph": 3
+          },
+          "original": "The operating-parameters export maintained by Identity Platform contains the certificate acceptance window. Use that register for the duration of old and pending certificate overlap. This runbook defines the events that need a support lead and the evidence to collect. Do not substitute the ordinary API-key rotation window for a SAML certificate window: they are separate mechanisms, with different participants and different operating instructions.",
+          "id": 3,
+          "text": "Экспорт эксплуатационных парометров, поддерживаемый платформой идентификации, содержит окно приемки сертификатов. Используйте этот регистр на протяжении срока действия старого и еще не совпадающего сертификата. В этом справочнике определяются события, которые требуют поддержки, и доказательства, которые нужно собрать. Не заменять обычное окно вращения API- ключа окном сертификата SAML: они являются отдельными механизмами с различными участниками и различными оперативными инструкциями."
+        }
+      ],
+      "id": "R2",
+      "score": 0.457143,
+      "copies": []
+    },
+    {
+      "source": "documents/Выгрузки/параметры-входа.csv",
+      "language": "ru",
+      "context": "Действующие настройки приёма сертификатов и диагностики Enterprise SAML",
+      "fragments": [
+        {
+          "location": {
+            "lines": [
+              3,
+              3
+            ],
+            "columns": [
+              "Параметр или операция",
+              "Значение или результат",
+              "Применение",
+              "Запись"
+            ]
+          },
+          "original": "Параметр или операция: Проверка цепочки\nЗначение или результат: Самоподписанный сертификат IdP допускается после проверки отпечатка администратором.\nПрименение: Enterprise\nЗапись: Параметры Identity Platform от 1 сентября 2026",
+          "id": 2,
+          "text": "Параметр или операция: Проверка цепочки\nЗначение или результат: Самоподписанный сертификат IdP допускается после проверки отпечатка администратором.\nПрименение: Enterprise\nЗапись: Параметры Identity Platform от 1 сентября 2026"
+        }
+      ],
+      "id": "R3",
+      "score": 0.455249,
+      "copies": []
+    },
+    {
+      "source": "documents/Рабочие копии/Downloads/Домен финальный.docx",
+      "language": "ru",
+      "context": "Подтверждение домена, DNS и границы политики приглашений Проверка",
+      "fragments": [
+        {
+          "location": {
+            "section": "Проверка",
+            "paragraph": 4
+          },
+          "original": "Проверка",
+          "id": 4,
+          "text": "Проверка"
+        },
+        {
+          "location": {
+            "section": "Проверка",
+            "paragraph": 5
+          },
+          "original": "Запрос запускает владелец Enterprise workspace.",
+          "id": 5,
+          "text": "Запрос запускает владелец Enterprise workspace."
+        },
+        {
+          "location": {
+            "section": "Проверка",
+            "paragraph": 6
+          },
+          "original": "В DNS добавляют TXT запись со значением из панели Security.",
+          "id": 6,
+          "text": "В DNS добавляют TXT запись со значением из панели Security."
+        },
+        {
+          "location": {
+            "section": "Проверка",
+            "paragraph": 7
+          },
+          "original": "Токен проверки действителен 72 часа.",
+          "id": 7,
+          "text": "Токен проверки действителен 72 часа."
+        },
+        {
+          "location": {
+            "section": "Проверка",
+            "paragraph": 8
+          },
+          "original": "DNS изменения могут распространяться до 24 часов.",
+          "id": 8,
+          "text": "DNS изменения могут распространяться до 24 часов."
+        }
+      ],
+      "id": "R4",
+      "score": 0.448332,
+      "copies": []
+    },
+    {
+      "source": "documents/Платформа и интеграции/SAML incident handling.docx",
+      "language": "en",
+      "context": "Критерии и порядок эскалации сбоев Enterprise SAML Walkthrough from a certificate-change incident",
+      "fragments": [
+        {
+          "location": {
+            "section": "Walkthrough from a certificate-change incident",
+            "paragraph": 28
+          },
+          "original": "When recovery required disabling enforcement, the emergency administrator did so after the workspace owner's approval. The record states who approved the action and what was changed. After the configuration was corrected, the team tested two non-privileged pilot accounts before enforcement. A successful emergency administrator session was not used as a substitute for those pilot checks. The successful retest included the certificate fingerprint so the team could tell which configuration had actually worked.",
+          "id": 28,
+          "text": "Когда восстановление требует неисчерпания средств, администратор по чрезвычайным ситуациям делает это после одобрения владельца рабочего пространства. В отчете указывается, кто одобрил действие и что изменилось. После исправления конфигурации группа проверила два непривилегированных экспериментальных счета до обеспечения их соблюдения. Успешное проведение сессии администратора по чрезвычайным ситуациям не было использовано в качестве альтернативы этим экспериментальным проверкам. В успешном повторном тесте были отпечатки пальцев, чтобы команда могла определить, какая конфигурация действительно работала."
+        }
+      ],
+      "id": "R5",
+      "score": 0.447778,
+      "copies": []
+    },
+    {
+      "source": "documents/Выгрузки/параметры-входа.csv",
+      "language": "ru",
+      "context": "Действующие настройки приёма сертификатов и диагностики Enterprise SAML",
+      "fragments": [
+        {
+          "location": {
+            "lines": [
+              7,
+              7
+            ],
+            "columns": [
+              "Параметр или операция",
+              "Значение или результат",
+              "Применение",
+              "Запись"
+            ]
+          },
+          "original": "Параметр или операция: Тест\nЗначение или результат: Перед принудительным включением нужны 2 успешных тестовых входа.\nПрименение: Enterprise\nЗапись: Параметры Identity Platform от 1 сентября 2026",
+          "id": 6,
+          "text": "Параметр или операция: Тест\nЗначение или результат: Перед принудительным включением нужны 2 успешных тестовых входа.\nПрименение: Enterprise\nЗапись: Параметры Identity Platform от 1 сентября 2026"
+        }
+      ],
+      "id": "R6",
+      "score": 0.444377,
+      "copies": []
+    },
+    {
+      "source": "documents/Платформа и интеграции/SAML incident handling.docx",
+      "language": "en",
+      "context": "Критерии и порядок эскалации сбоев Enterprise SAML Evidence that is safe to share",
+      "fragments": [
+        {
+          "location": {
+            "section": "Evidence that is safe to share",
+            "paragraph": 22
+          },
+          "original": "Evidence that is safe to share",
+          "id": 22,
+          "text": "Доказательства, которые можно безопасно использовать"
+        },
+        {
+          "location": {
+            "section": "Evidence that is safe to share",
+            "paragraph": 23
+          },
+          "original": "Collect the workspace identifier, issuer, request identifier and failure times in UTC. A full SAML assertion can contain sensitive account data and must not be pasted into a support request. Ask for a sanitised diagnostic result that preserves the needed identifiers and error context. When a colleague sends a screenshot, check it before forwarding it into a wider incident discussion. The incident record should connect the evidence without creating unnecessary copies of authentication material.",
+          "id": 23,
+          "text": "Сбор идентификатора рабочего пространства, эмитента, идентификатора запроса и времени отказа в UTC. Полное утверждение SAML может содержать чувствительные данные по счетам и не должно вводиться в запрос на оказание поддержки. Спросите о санитированном диагностическом результате, который сохраняет необходимые идентификаторы и контекст ошибок. Когда коллега посылает скриншот, проверьте его, прежде чем передавать его для более широкого обсуждения. Протоколы инцидентов должны увязывать доказательства без создания ненужных копий удостоверяющих материалов."
+        },
+        {
+          "location": {
+            "section": "Evidence that is safe to share",
+            "paragraph": 24
+          },
+          "original": "Keep customer observations distinct from technical conclusions. The statement that a certificate was uploaded is an observation about an action; acceptance of a sign-in signed by that certificate is a separate check. Likewise, a report that someone cannot log in does not prove that enforcement should be disabled. Explain unresolved points in the handover so the receiving colleague does not repeat an unsafe change because a short summary implied that the diagnosis was complete.",
+          "id": 24,
+          "text": ":: держать наблюдения клиентов в стороне от технических выводов. Заявление о том, что сертификат был загружен, представляет собой наблюдение за действием; согласие на запись, подписанную этим сертификатом, является отдельной проверкой. Аналогичным образом, сообщение, в которое кто-либо не может зарегистрироваться, не доказывает, что правоприменительная деятельность должна быть отключена. Объясняйте неразрешенные моменты в передаче, с тем чтобы принимающий коллега не повторил небезопасных изменений, поскольку краткое резюме предполагало, что диагноз был завершен."
+        }
+      ],
+      "id": "R7",
+      "score": 0.443316,
+      "copies": []
+    },
+    {
+      "source": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+      "language": "en",
+      "context": "Порядок подключения Enterprise SAML и подготовки смены сертификата Pilot before enforcement",
+      "fragments": [
+        {
+          "location": {
+            "section": "Pilot before enforcement",
+            "lines": [
+              15,
+              22
+            ]
+          },
+          "original": "## Pilot before enforcement\n\nTest with two non-privileged pilot accounts before enforcement. Two separate accounts help the team discuss actual sign-in attempts rather than treating the administrator's existing session as a successful pilot. The test accounts should be non-privileged; the point of a pilot is not to expose all privileged access to an unproven configuration. Arrange the pilot with people who can describe what they see. A vague report that “the browser opened” is less useful than knowing which account attempted sign in and whether that attempt succeeded.\n\nKeep one registered emergency administrator outside SAML enforcement. Name the person or account in the customer's own administrative plan, without putting credentials into the support conversation. “We have another administrator somewhere” is not the same as keeping a registered emergency administrator available outside the enforced route. The people on the call should be able to distinguish this recovery arrangement from the two pilot accounts and from the session currently being kept open. They serve different purposes in the same transition.\n\nIf a privileged account is locked out, route the case to the support lead immediately. Do not let it disappear inside a general back-and-forth about claims or browser behaviour. The identity team may still need configuration context, but the fact of privileged-account lockout changes who must be brought into the conversation. In the handover, say what is known and what is still only a hypothesis. That keeps the receiving lead from assuming the incident has been limited to an ordinary pilot account.",
+          "id": 3,
+          "text": "## Экспериментальный этап до обеспечения исполнения\n\nПроверка двух непривилегированных экспериментальных счетов до обеспечения их соблюдения. Два отдельных счета помогают группе обсуждать фактические попытки регистрации вместо того, чтобы рассматривать существующую сессию администратора как успешный экспериментальный проект. Испытуемые счета не должны быть привилегированными; цель пилота заключается не в том, чтобы разоблачить все привилегированные возможности доступа к неподтвержденной конфигурации. Организуйте пилота с людьми, которые могут описать то, что они видят. Нечеткий отчет, который ЕЦ браузер открыл , менее полезен, чем знать, какой счет попытался подписать и удалось ли ему это сделать.\n\nДержите одного зарегистрированного администратора по чрезвычайным ситуациям вне спецслужбы SAML. Назовите имя лица или счет в своем административном плане, не вдавая при этом подтверждения в разговор о поддержке. ▪ У нас где-то есть другой администратор, но это не то же самое, что держать зарегистрированного администратора по чрезвычайным ситуациям вне принудительного маршрута. Лица, обращающиеся с призывом, должны иметь возможность проводить различие между этим механизмом возмещения расходов и двумя экспериментальными счетами и сессией, которая в настоящее время продолжается. Они служат различным целям в рамках одного и того же переходного периода.\n\nЕсли конфиденциальный счет заблокирован, немедленно передайте дело на счет поддержки. Не позволяйте ему исчезнуть в общем, задний и верхний, о требованиях или поведении браузера. Команда по идентификации все еще может нуждаться в конфигурированном контексте, но факт локаута с привилегированным счетом меняется, который должен быть включен в разговор. Скажи, что известно и что все еще только гипотеза. Это не позволяет получать информацию о том, что инцидент был ограничен обычным экспериментальным счетом."
+        }
+      ],
+      "id": "R8",
+      "score": 0.440011,
+      "copies": []
+    },
+    {
+      "source": "documents/Платформа и интеграции/Browser notes final.txt",
+      "language": "en",
+      "context": "Поддерживаемые браузеры и диагностика клиентской стороны",
+      "fragments": [
+        {
+          "location": {
+            "lines": [
+              1,
+              35
+            ]
+          },
+          "original": "Browser conversations: questions worth asking\n\nClient Platform discussed this copy with support on September 1, 2026. It is meant for the ordinary situation in which a customer can describe a browser problem but does not yet know whether the issue belongs to the client, their network, or a particular working session. LumenDesk supports stable browser releases with security updates. Begin by identifying the actual browser and operating system in use. A product name by itself is not enough to establish whether the customer is using a supported release.\n\nWhich Chrome and Edge releases are supported?\n\nThe latest two stable Chrome releases and the latest two stable Edge releases are supported. In a conversation, ask for the actual version rather than accepting “the latest one” as a recorded value. A person may reasonably believe that updates are automatic while their managed computer remains on another release. The useful note is what they are running, not an argument about why they think it should already be current. Keep the browser name beside the version so the next agent does not have to infer it from a screenshot.\n\nWhat should we say about Firefox and Safari?\n\nFor Firefox, the latest stable release and the current ESR are supported. Safari is supported on the latest two major macOS releases. These are different ways of describing supported clients, so do not flatten them into a single rule about two versions of every browser. Ask which operating system the Safari user is running. For Firefox, distinguish the ESR context from the ordinary stable release when recording what the customer reports. This prevents a later handover from treating a supported channel name as a confusing browser error.\n\nCould a private window explain why a session does not persist?\n\nPrivate browsing may prevent persistent sessions when third-party storage is blocked. Treat that as context to investigate, rather than claiming that every private-window report has the same cause. Ask whether the problem is that the person cannot complete a task now or that their session is not retained as expected. Those are different descriptions. If the customer has already compared ordinary and private browsing, preserve which observation belongs to which mode instead of writing the vague conclusion “tried another browser.”\n\nWhat does the environment need to allow?\n\nFirst-party cookies must be enabled. The network must allow secure WebSocket connections on port 443. The conversation can become tangled if everyone uses the word “connection” for a different thing. A page appearing on screen does not by itself describe whether the required secure WebSocket connection is allowed. Likewise, the fact that some cookies exist does not answer whether first-party cookies are enabled in the relevant browser context. Keep the question tied to the actual requirement instead of collecting broad statements that sound reassuring but do not establish it.\n\nHow do we approach a display problem?\n\nReproduce display issues with extensions disabled. This gives the team a clearer observation to discuss. Ask what changed in the comparison, and whether the same visible issue is still present. “We disabled something” is not as useful as knowing that the customer repeated the relevant action with extensions disabled. Do not let a long list of installed extensions become a replacement for the comparison. The goal is to understand the reported behaviour in a defined context, not to make the customer inventory unrelated parts of their computer.\n\nFor a stale asset, a hard refresh is sufficient; do not erase local drafts first. This warning is practical because people often jump from a page looking old to clearing every kind of browser data. If the customer is describing stale content or interface assets, keep the first action proportional to that observation. Be explicit that local drafts should not be erased as the opening move. A support conversation should not lose the customer's unfinished work while trying to make an old asset appear current.\n\nWhat evidence makes an escalation useful?\n\nCollect browser version, operating system, UTC time, and sanitized console errors. These details help another person compare the report with a specific environment and event. Sanitized errors should preserve the relevant error information without exposing unrelated sensitive material. Do not ask the customer to dump an entire browsing session into a message simply because the console is open. A smaller account that clearly relates to the reported action is easier to understand than a very large log containing events from several unrelated tasks.\n\nWhen asking for time, say UTC in the request or make the timezone explicit in the conversation. “This happened in the afternoon” is useful human context but cannot anchor a precise comparison between people in different offices. Keep the actual observation and the customer's description separate. Similarly, a screenshot showing the current browser version does not establish what version was running during an earlier event unless the customer can connect those moments. We should write what we know rather than quietly filling gaps to make the report look complete.\n\nWhat should the handover sound like?\n\nWrite a short narrative of the environment, the action, the visible issue, and the comparison already tried. Mention the relevant browser version and operating system, whether the display issue was reproduced with extensions disabled, and the UTC time of the example under discussion. Use only the parts actually checked. If persistent sessions are the question, preserve the private-browsing and storage context. If a stale asset was the question, say whether the hard refresh was tried without erasing local drafts. This gives the next colleague a clear continuation instead of a request to repeat every generic troubleshooting idea.",
+          "id": 1,
+          "text": "Беседы с просмотром: вопросы, которые стоит задать\n\nКлиентская платформа обсудила эту копию с поддержкой 1 сентября 2026 года. Она предназначена для обычной ситуации, в которой клиент может описать проблему браузера, но пока не знает, принадлежит ли этот вопрос клиенту, его сети или конкретной рабочей сессии. LumenDesk поддерживает стабильные браузеры с обновлениями безопасности. Начать с идентификации фактического браузера и используемой операционной системы. Одного названия продукта недостаточно для установления того, использует ли клиент защищенный выпуск.\n\nКакие релизы Chrome и Edge поддерживаются?\n\nПоддерживаются последние два устойчивых выпуска Chrome и последние два стабильных эдж-релиза. In a conversation, ask for the actual version rather than accepting “the latest one” as a recorded value. Человек может разумно полагать, что обновления являются автоматическими, а его компьютер остается в другом выпуске. Полезная записка заключается в том, что они ведут, а не в том, почему они считают, что она должна быть уже текущей. Сохранить имя браузера рядом с версией, так что следующий агент не должен делать вывод из скриншота.\n\nЧто мы должны сказать о Файерфоксе и Сафари?\n\nВ случае Firefox поддерживается последний стабильный выпуск и нынешний ЭСО. Сафари поддерживается в связи с двумя последними крупными выпусками пакоса. Это разные способы описания поддерживаемых клиентов, так что не сбавляйте их в одно правило о двух версиях каждого браузера. Спросите, какая операционная система работает сафари. Для Firefox: отличить контекст ESR от обычного стабильного релиза при регистрации того, что сообщает клиент. Это не позволяет более поздней передаче рассматривать поддерживаемое название канала как запутанную ошибку браузера.\n\nМожет ли личное окно объяснить, почему сеанс не продолжается?\n\nЧастный осмотр может предотвратить постоянные сеансы при блокировании хранения третьей стороной. Рассматривать это как контекст для расследования, а не как утверждение о том, что каждый частный доклад имеет одну и ту же причину. Задайся вопросом, заключается ли проблема в том, что данное лицо не может выполнить свою задачу сейчас или что его сеанс не будет сохранен так, как ожидалось. Это разные описания. Если клиент уже сравнил обычный и частный просмотр, оставьте, какое наблюдение принадлежит какому режиму вместо того, чтобы написать неопределенный вывод, выяснил другой браузер.\n\nЧто должна позволить окружающая среда?\n\nНеобходимо обеспечить возможность для печенья первой вечеринки. Сеть должна обеспечивать защищенное подключение WebSocket к порту 443. Разговор может запутаться, если все используют слово formula_BAR_ internation use use that this this that this that this this this that this this this that this that that that this this. Страница, появляющаяся на экране, сама по себе не описывает, допускается ли требуемое безопасное подключение к WebSocket. Аналогичным образом, тот факт, что некоторые печенья существуют, не дает ответа на вопрос о том, включены ли печенье первой партии в соответствующем контексте браузера. Держите этот вопрос в увязке с фактическим требованием, вместо того чтобы собирать широкие заявления, которые звучат успокаивающе, но не подтверждают его.\n\nКак мы подходим к проблеме дисплея?\n\nВоспроизвести вопросы дисплея с отключенными расширениями. Это дает группе более четкое наблюдение для обсуждения. Спроси, что изменилось в сравнении и существует ли та же самая заметная проблема. ▪ Мы отключили что-то, что не так полезно, как знание того, что клиент повторял соответствующие действия с отключенными расширениями. Не позволяйте длинному перечню установленных продлений стать заменой для сравнения. Цель заключается в том, чтобы понять поведение, о котором сообщается в конкретном контексте, а не сделать инвентарные запасы клиентов не связанными с их компьютером частями.\n\nДля запутанного актива достаточно жесткого обновления; не стирайте сначала местные проекты. Это предупреждение практично, потому что люди часто прыгают с страницы, которая выглядит старой, чтобы очистить все типы данных браузера. Если заказчик описывает спящее содержимое или интерфейсы, то первое действие должно быть пропорционально этому наблюдению. Будь прямо уверен, что местные проекты не следует стирать в качестве первого шага. В разговоре о поддержке не следует терять незаконченную работу клиента, пытаясь при этом сделать так, чтобы старый актив казался актуальным.\n\nКакие доказательства делают эскалацию полезной?\n\nСоберите версию браузера, операционную систему, время UTC и санитаризированные ошибки консоли. Эти подробности помогают другому лицу сравнить отчет с конкретными условиями и событиями. Очищенные ошибки должны сохранять соответствующую информацию об ошибках без разглашения не связанных с ними чувствительных материалов. Не проси клиента засунуть весь сеанс просмотра в сообщение только потому, что консоль открыта. Меньший по объему счет, который явно относится к отчетным действиям, легче понять, чем очень большой журнал, содержащий события, связанные с несколькими не связанными между собой задачами.\n\nКогда вы просите время, скажите UTC в запросе или укажите время в разговоре. ▪ Это произошло во второй половине дня, и это полезно для человека, но не может точно сравнить людей в разных офисах. Держите фактическое наблюдение отдельно от описания клиента. Аналогичным образом, скриншот, показывающий текущую версию браузера, не определяет, какая версия работала во время предыдущего события, если только клиент не сможет связать эти моменты. Нам следует написать то, что мы знаем, а не просто заполнить пробелы, с тем чтобы доклад выглядел полным.\n\nКак должна звучать передача?\n\nНапиши краткое описание окружающей среды, действия, видимую проблему и уже опробованное сравнение. Указать соответствующую версию браузера и операционную систему, был ли вопрос о дисплее воспроизведен с отключенными расширениями, и время UTC обсуждаемого примера. Используйте только те части, которые были проверены. Если речь идет о постоянных сеансах, то следует сохранить частный контекст просмотра и хранения. Если вопрос был в том, было ли трудно освежить, не стирая местных проектов. Это дает следующему коллеге ясное продолжение, а не просьбу повторить каждую общую идею устранения проблем."
+        }
+      ],
+      "id": "R9",
+      "score": 0.437339,
+      "copies": []
+    },
+    {
+      "source": "documents/Клиентский сервис/Customer handover.docx",
+      "language": "en",
+      "context": "Карточка передачи после первоначального подключения Progress and evidence",
+      "fragments": [
+        {
+          "location": {
+            "section": "Progress and evidence",
+            "paragraph": 20
+          },
+          "original": "Progress and evidence",
+          "id": 20,
+          "text": "Прогресс и факты"
+        },
+        {
+          "location": {
+            "section": "Progress and evidence",
+            "paragraph": 21
+          },
+          "original": "List completed checks with their results. Do not write all good when only one pilot user was tested. Link safe evidence such as request identifiers, a sanitised log reference or the relevant change record. Remove tokens and other secrets before the evidence is attached. Screenshots should show the state under discussion without exposing unrelated personal information or a full list of private documents. A long attachment is not automatically more convincing than a precise reference to a checked result.",
+          "id": 21,
+          "text": "Перечислите завершенные проверки с их результатами. Не записывайте все хорошо, когда был испытан только один пилотный пользователь. Связи между надежными доказательствами, такими, как идентификаторы запросов, ссылки на лог или соответствующая запись изменений. Удалите жетоны и другие секреты, прежде чем прикрепить улики. Скриншоты должны отражать обсуждаемое государство без разглашения не связанных с ним личных данных или полного перечня личных документов. Длинное крепление не является автоматически более убедительным, чем точная ссылка на проверенный результат."
+        },
+        {
+          "location": {
+            "section": "Progress and evidence",
+            "paragraph": 22
+          },
+          "original": "End the operational part with the next agreed action and who owns it. If the customer is expected to supply a mapping file, say so. If the receiving team must book a verification call, say who will arrange it. The outgoing owner should not disappear before the receiving team confirms ownership in the request. During holidays or a shift change, an explicit acknowledgement prevents a task from sitting between two teams while each assumes the other is handling it.",
+          "id": 22,
+          "text": "Завершить оперативную часть следующим согласованным действием и кто его владеет. Если от клиента ожидается, что он представит файл для картирования, скажите это. Если приемная команда должна заказать проверочный звонок, скажи, кто его организует. Покидающий свой пост владелец не должен исчезать до того, как группа по приему подтвердит свое право собственности на запрос. Во время каникул или смены, явное признание не позволяет одной команде сесть между двумя командами, в то время как каждая из них предполагает, что другая занимается этим."
+        }
+      ],
+      "id": "R10",
+      "score": 0.430756,
+      "copies": []
+    },
+    {
+      "source": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+      "language": "en",
+      "context": "Установка, разрешения и удаление приложений Marketplace Try the workflow where its effects are understandable",
+      "fragments": [
+        {
+          "location": {
+            "section": "Try the workflow where its effects are understandable",
+            "lines": [
+              9,
+              16
+            ]
+          },
+          "original": "## Try the workflow where its effects are understandable\n\nTest an integration in a restricted space before broad use. Choose a place where the customer can recognise what the app is doing and discuss the result with the people involved. The test should be related to the intended workflow, rather than just demonstrating that the app appears in a menu. A successful installation and a useful, understood workflow are separate observations. Make sure the notes preserve which one has actually been confirmed when the conversation moves to another colleague.\n\nRecord the integration ID, approving administrator, and approval date. These details allow the workspace to connect later questions to the installation that was approved. An app name alone may not identify the relevant installation in a customer's history. It is also easy for a forwarded message to make the date of a conversation look like the date of approval. State the relationship clearly in the record so another person does not have to infer it from a chain of messages with several different timestamps.\n\nDuring the test, listen for differences between the workflow the customer describes and the one the team is actually preparing to use. For example, the person who requested an app may talk about reading a summary while a colleague plans to write updates back into a shared space. The rule about separate approval of new write scopes is useful precisely because casual descriptions can hide this difference. Ask for clarity before broad use, and keep the result tied to the approving administrator and the actual requested access.",
+          "id": 2,
+          "text": "## Попробуйте рабочий поток, где его эффект понятен\n\nПроверить интеграцию в ограниченном пространстве до широкого использования. Выберите место, где клиент может узнать, что делает приложение, и обсудить результат с заинтересованными людьми. Тест должен быть связан с предполагаемым рабочим потоком, а не просто продемонстрировать, что приложение появляется в меню. Успешная установка и полезный, понятный рабочий процесс являются отдельными наблюдениями. Убедитесь, что записи оставляют то, что было подтверждено, когда разговор переносится к другому коллеге.\n\nЗарегистрируйте идентификационный номер, утверждающий администратор и дату утверждения. Эти детали позволяют рабочему пространству подключать последующие вопросы к официально утвержденному установке. Одно только имя приложения может не указывать соответствующую установку в истории клиента. Кроме того, в направленном сообщении легко сделать так, чтобы дата разговора была похожа на дату одобрения. Установите отношения в протоколе, чтобы другому лицу не пришлось делать вывод о них из цепочки сообщений с несколькими разными временными метками.\n\nВо время теста выслушайте разницу между рабочими потоками, которые описывают клиенты, и теми, которые команда действительно готовится использовать. Например, человек, который запросил приложение, может говорить о том, чтобы прочитать резюме, а коллега планирует записать обновленные данные в общее пространство. Правило о раздельном утверждении новых рамок письма является полезным именно потому, что это различие может быть скрыто случайными описаниями. Прежде чем широко использовать, попроси внести ясность и увязай результат с утверждающим администратором и фактически запрашиваемым доступом."
+        }
+      ],
+      "id": "R11",
+      "score": 0.424469,
+      "copies": []
+    },
+    {
+      "source": "documents/Клиентский сервис/Privacy/Обращения о данных.pdf",
+      "language": "ru",
+      "context": "Обработка обращений по персональным данным",
+      "fragments": [
+        {
+          "location": {
+            "page": 2
+          },
+          "original": "Разбор двух обращений на планёрке\n\nВ одном случае руководитель отдела попросил выгрузку уволенного сотрудника и приложил\nскриншот его профиля. Первая линия зарегистрировала предмет запроса, но скриншот не\nиспользовала как доказательство полномочий. Обращение вернули на договорный канал. Пока\nпроверка не завершилась, никаких архивов отделу не передавали. В заметке исполнителя\nостались диапазон дат, рабочее пространство и ссылка на исходное письмо, а не содержимое\nличных обсуждений.\n\nВ другом случае владелец организации попросил удалить всё пространство после завершения\nпроекта. Он одновременно сообщил, что по договору может действовать удержание. Здесь нельзя\nобещать немедленное удаление на основании одного нажатия в интерфейсе. Privacy Operations\nсначала проверяет договорное основание и объём удержания, затем согласует действие.\nОтдельное подтверждение владельца на удаление пространства всё равно требуется; прежнее\nсогласие на экспорт таким подтверждением не становится.\n\nКак передать и закрыть\n\nПеред передачей перечитайте краткое описание глазами человека, который не видел звонок:\nпонятны ли желаемое действие, заявитель, проверенный канал и границы данных? В поле\nследующего шага укажите, какое решение ожидается от Privacy Operations. Неполное обращение\nне следует молча закрывать как выполненное: клиенту объясняют, каких сведений не хватает и\nгде безопасно их предоставить. Подтверждение получения полного запроса не означает согласия\nсо всеми требованиями заявителя.\n\nПосле решения исполнителя поддержка сообщает согласованный результат по проверенному\nканалу. В рабочей карточке остаются решение, ответственный и время, а выгрузка хранится там,\nгде определено профильной командой. Не добавляйте её повторно к письму «на всякий случай».\nПри повторном обращении используйте связь с прежней карточкой, проверив, не изменились ли\nполномочия и предмет запроса. Эта памятка применяется с 1 сентября 2026 года; вопросы по\nнеоднозначным случаям собирает Марина из Privacy Operations.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                                                                                 2",
+          "id": 2,
+          "text": "Разбор двух обращений на планёрке\n\nВ одном случае руководитель отдела попросил выгрузку уволенного сотрудника и приложил\nскриншот его профиля. Первая линия зарегистрировала предмет запроса, но скриншот не\nиспользовала как доказательство полномочий. Обращение вернули на договорный канал. Пока\nпроверка не завершилась, никаких архивов отделу не передавали. В заметке исполнителя\nостались диапазон дат, рабочее пространство и ссылка на исходное письмо, а не содержимое\nличных обсуждений.\n\nВ другом случае владелец организации попросил удалить всё пространство после завершения\nпроекта. Он одновременно сообщил, что по договору может действовать удержание. Здесь нельзя\nобещать немедленное удаление на основании одного нажатия в интерфейсе. Privacy Operations\nсначала проверяет договорное основание и объём удержания, затем согласует действие.\nОтдельное подтверждение владельца на удаление пространства всё равно требуется; прежнее\nсогласие на экспорт таким подтверждением не становится.\n\nКак передать и закрыть\n\nПеред передачей перечитайте краткое описание глазами человека, который не видел звонок:\nпонятны ли желаемое действие, заявитель, проверенный канал и границы данных? В поле\nследующего шага укажите, какое решение ожидается от Privacy Operations. Неполное обращение\nне следует молча закрывать как выполненное: клиенту объясняют, каких сведений не хватает и\nгде безопасно их предоставить. Подтверждение получения полного запроса не означает согласия\nсо всеми требованиями заявителя.\n\nПосле решения исполнителя поддержка сообщает согласованный результат по проверенному\nканалу. В рабочей карточке остаются решение, ответственный и время, а выгрузка хранится там,\nгде определено профильной командой. Не добавляйте её повторно к письму «на всякий случай».\nПри повторном обращении используйте связь с прежней карточкой, проверив, не изменились ли\nполномочия и предмет запроса. Эта памятка применяется с 1 сентября 2026 года; вопросы по\nнеоднозначным случаям собирает Марина из Privacy Operations.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                                                                                 2"
+        }
+      ],
+      "id": "R12",
+      "score": 0.419025,
+      "copies": []
+    },
+    {
+      "source": "documents/Рабочие копии/Downloads/notification-events sept.csv",
+      "language": "en",
+      "context": "Правила доставки уведомлений и сбора диагностических данных",
+      "fragments": [
+        {
+          "location": {
+            "lines": [
+              6,
+              6
+            ],
+            "columns": [
+              "Trigger",
+              "Channel or rule",
+              "Delay or explanation",
+              "Observed at",
+              "Member timezone",
+              "Outcome"
+            ]
+          },
+          "original": "Trigger: Critical notices\nChannel or rule: rule\nDelay or explanation: Security sign-in alerts ignore quiet hours.\nObserved at: \nMember timezone: \nOutcome:",
+          "id": 5,
+          "text": "Панель: Критические извещения\nКанал или правило: правило\nЗадержка или объяснение: Оповещение о вызове в службу безопасности игнорирует тихие часы.\nНаблюдается на: \nВремя, в течение которого член: \nИтоговый документ:"
+        }
+      ],
+      "id": "R13",
+      "score": 0.415336,
+      "copies": []
+    },
+    {
+      "source": "documents/Выгрузки/September incident register.xlsx",
+      "language": "en",
+      "context": "Правила публикации сведений о подтверждённых сбоях Reporting notes Subject / Value / Unit / Interpretation",
+      "fragments": [
+        {
+          "location": {
+            "sheet": "Reporting notes",
+            "range": "A9:D9",
+            "headers": {
+              "A9": {
+                "cell": "A5",
+                "text": "Subject"
+              },
+              "B9": {
+                "cell": "B5",
+                "text": "Value"
+              },
+              "C9": {
+                "cell": "C5",
+                "text": "Unit"
+              },
+              "D9": {
+                "cell": "D5",
+                "text": "Interpretation"
+              }
+            }
+          },
+          "original": "A9: Evidence\nB9: Incident ID and UTC range\nC9: fields\nD9: Attach request IDs when available",
+          "id": 57,
+          "text": "A9: Доказательства\nB9: Идентификационный номер инцидента и диапазон UTC\nC9: поля\nD9: Прикрепить идентификаторы запроса, когда таковые имеются"
+        }
+      ],
+      "id": "R14",
+      "score": 0.415121,
+      "copies": []
+    }
+  ]
+}

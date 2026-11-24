@@ -1,0 +1,709 @@
+{
+  "source": "documents/Рабочие копии/Downloads/notification-events sept.csv",
+  "sha256": "6d9d0d2848a183d7e27f75daf172ea1e238d1a83e1bb1cbd452cacf60c9dbe6c",
+  "extractor_version": 2,
+  "fragments": [
+    {
+      "location": {
+        "lines": [
+          2,
+          2
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: Mention\nChannel or rule: rule\nDelay or explanation: A direct mention creates an in-app notification immediately.\nObserved at: \nMember timezone: \nOutcome:",
+      "id": 1
+    },
+    {
+      "location": {
+        "lines": [
+          3,
+          3
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: Email\nChannel or rule: rule\nDelay or explanation: Mention email is sent after a 5 minute delay if the item remains unread.\nObserved at: \nMember timezone: \nOutcome:",
+      "id": 2
+    },
+    {
+      "location": {
+        "lines": [
+          4,
+          4
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: Digest\nChannel or rule: rule\nDelay or explanation: The daily digest is delivered at 08:00 in the member timezone.\nObserved at: \nMember timezone: \nOutcome:",
+      "id": 3
+    },
+    {
+      "location": {
+        "lines": [
+          5,
+          5
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: Quiet hours\nChannel or rule: rule\nDelay or explanation: Quiet hours suppress email and push between 22:00 and 08:00 local time.\nObserved at: \nMember timezone: \nOutcome:",
+      "id": 4
+    },
+    {
+      "location": {
+        "lines": [
+          6,
+          6
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: Critical notices\nChannel or rule: rule\nDelay or explanation: Security sign-in alerts ignore quiet hours.\nObserved at: \nMember timezone: \nOutcome:",
+      "id": 5
+    },
+    {
+      "location": {
+        "lines": [
+          7,
+          7
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: Muted thread\nChannel or rule: rule\nDelay or explanation: A muted thread suppresses ordinary replies but still allows direct mentions.\nObserved at: \nMember timezone: \nOutcome:",
+      "id": 6
+    },
+    {
+      "location": {
+        "lines": [
+          8,
+          8
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: Membership\nChannel or rule: rule\nDelay or explanation: Removed members receive no new workspace notifications.\nObserved at: \nMember timezone: \nOutcome:",
+      "id": 7
+    },
+    {
+      "location": {
+        "lines": [
+          9,
+          9
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: Troubleshooting\nChannel or rule: rule\nDelay or explanation: Check user preferences, timezone and spam folder before escalating.\nObserved at: \nMember timezone: \nOutcome:",
+      "id": 8
+    },
+    {
+      "location": {
+        "lines": [
+          10,
+          10
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: Evidence\nChannel or rule: rule\nDelay or explanation: Collect notification ID and delivery timestamp, never a mailbox password.\nObserved at: \nMember timezone: \nOutcome:",
+      "id": 9
+    },
+    {
+      "location": {
+        "lines": [
+          11,
+          11
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: direct mention\nChannel or rule: in-app\nDelay or explanation: immediate\nObserved at: 2026-09-07 07:00 UTC\nMember timezone: Europe/Berlin\nOutcome: unread",
+      "id": 10
+    },
+    {
+      "location": {
+        "lines": [
+          12,
+          12
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: direct mention\nChannel or rule: email\nDelay or explanation: 5 minutes\nObserved at: 2026-09-07 07:07 UTC\nMember timezone: Europe/Paris\nOutcome: read before delay; email cancelled",
+      "id": 11
+    },
+    {
+      "location": {
+        "lines": [
+          13,
+          13
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: thread reply\nChannel or rule: email\nDelay or explanation: suppressed\nObserved at: 2026-09-07 07:14 UTC\nMember timezone: America/Toronto\nOutcome: muted thread",
+      "id": 12
+    },
+    {
+      "location": {
+        "lines": [
+          14,
+          14
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: security sign-in\nChannel or rule: email\nDelay or explanation: immediate\nObserved at: 2026-09-07 07:21 UTC\nMember timezone: Europe/Berlin\nOutcome: quiet hours do not suppress security",
+      "id": 13
+    },
+    {
+      "location": {
+        "lines": [
+          15,
+          15
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: daily digest\nChannel or rule: email\nDelay or explanation: 08:00 local\nObserved at: 2026-09-07 07:28 UTC\nMember timezone: Europe/Paris\nOutcome: member timezone",
+      "id": 14
+    },
+    {
+      "location": {
+        "lines": [
+          16,
+          16
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: removed member\nChannel or rule: all\nDelay or explanation: none\nObserved at: 2026-09-07 07:35 UTC\nMember timezone: America/Toronto\nOutcome: membership ended",
+      "id": 15
+    },
+    {
+      "location": {
+        "lines": [
+          17,
+          17
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: direct mention\nChannel or rule: in-app\nDelay or explanation: immediate\nObserved at: 2026-09-08 07:00 UTC\nMember timezone: Europe/Berlin\nOutcome: unread",
+      "id": 16
+    },
+    {
+      "location": {
+        "lines": [
+          18,
+          18
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: direct mention\nChannel or rule: email\nDelay or explanation: 5 minutes\nObserved at: 2026-09-08 07:07 UTC\nMember timezone: Europe/Paris\nOutcome: read before delay; email cancelled",
+      "id": 17
+    },
+    {
+      "location": {
+        "lines": [
+          19,
+          19
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: thread reply\nChannel or rule: email\nDelay or explanation: suppressed\nObserved at: 2026-09-08 07:14 UTC\nMember timezone: America/Toronto\nOutcome: muted thread",
+      "id": 18
+    },
+    {
+      "location": {
+        "lines": [
+          20,
+          20
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: security sign-in\nChannel or rule: email\nDelay or explanation: immediate\nObserved at: 2026-09-08 07:21 UTC\nMember timezone: Europe/Berlin\nOutcome: quiet hours do not suppress security",
+      "id": 19
+    },
+    {
+      "location": {
+        "lines": [
+          21,
+          21
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: daily digest\nChannel or rule: email\nDelay or explanation: 08:00 local\nObserved at: 2026-09-08 07:28 UTC\nMember timezone: Europe/Paris\nOutcome: member timezone",
+      "id": 20
+    },
+    {
+      "location": {
+        "lines": [
+          22,
+          22
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: removed member\nChannel or rule: all\nDelay or explanation: none\nObserved at: 2026-09-08 07:35 UTC\nMember timezone: America/Toronto\nOutcome: membership ended",
+      "id": 21
+    },
+    {
+      "location": {
+        "lines": [
+          23,
+          23
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: direct mention\nChannel or rule: in-app\nDelay or explanation: immediate\nObserved at: 2026-09-09 07:00 UTC\nMember timezone: Europe/Berlin\nOutcome: unread",
+      "id": 22
+    },
+    {
+      "location": {
+        "lines": [
+          24,
+          24
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: direct mention\nChannel or rule: email\nDelay or explanation: 5 minutes\nObserved at: 2026-09-09 07:07 UTC\nMember timezone: Europe/Paris\nOutcome: read before delay; email cancelled",
+      "id": 23
+    },
+    {
+      "location": {
+        "lines": [
+          25,
+          25
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: thread reply\nChannel or rule: email\nDelay or explanation: suppressed\nObserved at: 2026-09-09 07:14 UTC\nMember timezone: America/Toronto\nOutcome: muted thread",
+      "id": 24
+    },
+    {
+      "location": {
+        "lines": [
+          26,
+          26
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: security sign-in\nChannel or rule: email\nDelay or explanation: immediate\nObserved at: 2026-09-09 07:21 UTC\nMember timezone: Europe/Berlin\nOutcome: quiet hours do not suppress security",
+      "id": 25
+    },
+    {
+      "location": {
+        "lines": [
+          27,
+          27
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: daily digest\nChannel or rule: email\nDelay or explanation: 08:00 local\nObserved at: 2026-09-09 07:28 UTC\nMember timezone: Europe/Paris\nOutcome: member timezone",
+      "id": 26
+    },
+    {
+      "location": {
+        "lines": [
+          28,
+          28
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: removed member\nChannel or rule: all\nDelay or explanation: none\nObserved at: 2026-09-09 07:35 UTC\nMember timezone: America/Toronto\nOutcome: membership ended",
+      "id": 27
+    },
+    {
+      "location": {
+        "lines": [
+          29,
+          29
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: direct mention\nChannel or rule: in-app\nDelay or explanation: immediate\nObserved at: 2026-09-10 07:00 UTC\nMember timezone: Europe/Berlin\nOutcome: unread",
+      "id": 28
+    },
+    {
+      "location": {
+        "lines": [
+          30,
+          30
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: direct mention\nChannel or rule: email\nDelay or explanation: 5 minutes\nObserved at: 2026-09-10 07:07 UTC\nMember timezone: Europe/Paris\nOutcome: read before delay; email cancelled",
+      "id": 29
+    },
+    {
+      "location": {
+        "lines": [
+          31,
+          31
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: thread reply\nChannel or rule: email\nDelay or explanation: suppressed\nObserved at: 2026-09-10 07:14 UTC\nMember timezone: America/Toronto\nOutcome: muted thread",
+      "id": 30
+    },
+    {
+      "location": {
+        "lines": [
+          32,
+          32
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: security sign-in\nChannel or rule: email\nDelay or explanation: immediate\nObserved at: 2026-09-10 07:21 UTC\nMember timezone: Europe/Berlin\nOutcome: quiet hours do not suppress security",
+      "id": 31
+    },
+    {
+      "location": {
+        "lines": [
+          33,
+          33
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: daily digest\nChannel or rule: email\nDelay or explanation: 08:00 local\nObserved at: 2026-09-10 07:28 UTC\nMember timezone: Europe/Paris\nOutcome: member timezone",
+      "id": 32
+    },
+    {
+      "location": {
+        "lines": [
+          34,
+          34
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: removed member\nChannel or rule: all\nDelay or explanation: none\nObserved at: 2026-09-10 07:35 UTC\nMember timezone: America/Toronto\nOutcome: membership ended",
+      "id": 33
+    },
+    {
+      "location": {
+        "lines": [
+          35,
+          35
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: direct mention\nChannel or rule: in-app\nDelay or explanation: immediate\nObserved at: 2026-09-11 07:00 UTC\nMember timezone: Europe/Berlin\nOutcome: unread",
+      "id": 34
+    },
+    {
+      "location": {
+        "lines": [
+          36,
+          36
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: direct mention\nChannel or rule: email\nDelay or explanation: 5 minutes\nObserved at: 2026-09-11 07:07 UTC\nMember timezone: Europe/Paris\nOutcome: read before delay; email cancelled",
+      "id": 35
+    },
+    {
+      "location": {
+        "lines": [
+          37,
+          37
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: thread reply\nChannel or rule: email\nDelay or explanation: suppressed\nObserved at: 2026-09-11 07:14 UTC\nMember timezone: America/Toronto\nOutcome: muted thread",
+      "id": 36
+    },
+    {
+      "location": {
+        "lines": [
+          38,
+          38
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: security sign-in\nChannel or rule: email\nDelay or explanation: immediate\nObserved at: 2026-09-11 07:21 UTC\nMember timezone: Europe/Berlin\nOutcome: quiet hours do not suppress security",
+      "id": 37
+    },
+    {
+      "location": {
+        "lines": [
+          39,
+          39
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: daily digest\nChannel or rule: email\nDelay or explanation: 08:00 local\nObserved at: 2026-09-11 07:28 UTC\nMember timezone: Europe/Paris\nOutcome: member timezone",
+      "id": 38
+    },
+    {
+      "location": {
+        "lines": [
+          40,
+          40
+        ],
+        "columns": [
+          "Trigger",
+          "Channel or rule",
+          "Delay or explanation",
+          "Observed at",
+          "Member timezone",
+          "Outcome"
+        ]
+      },
+      "original": "Trigger: removed member\nChannel or rule: all\nDelay or explanation: none\nObserved at: 2026-09-11 07:35 UTC\nMember timezone: America/Toronto\nOutcome: membership ended",
+      "id": 39
+    }
+  ]
+}

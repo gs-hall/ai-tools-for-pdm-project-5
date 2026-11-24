@@ -1,0 +1,1323 @@
+{
+  "source": "documents/Франция/Assistant abonnement.xlsx",
+  "sha256": "a77d2d9dbdd1a09accbd0d6003ae19454ae15edc338b8730f732522f76945747",
+  "extractor_version": 2,
+  "fragments": [
+    {
+      "location": {
+        "sheet": "Abonnement",
+        "range": "A1:A1"
+      },
+      "original": "A1: Messages de l’assistant",
+      "id": 1
+    },
+    {
+      "location": {
+        "sheet": "Abonnement",
+        "range": "A3:A3"
+      },
+      "original": "A3: Barème publié par Assistant Product pour les abonnements LumenDesk, applicable depuis le 1er septembre 2026. Ces quotas sont par workspace et par mois, et non par utilisateur.",
+      "id": 2
+    },
+    {
+      "location": {
+        "sheet": "Abonnement",
+        "range": "A7:D7"
+      },
+      "original": "A7: Offre ou sujet\nB7: Valeur\nC7: Unité\nD7: Condition",
+      "id": 3
+    },
+    {
+      "location": {
+        "sheet": "Abonnement",
+        "range": "A8:D8",
+        "headers": {
+          "A8": {
+            "cell": "A7",
+            "text": "Offre ou sujet"
+          },
+          "B8": {
+            "cell": "B7",
+            "text": "Valeur"
+          },
+          "C8": {
+            "cell": "C7",
+            "text": "Unité"
+          },
+          "D8": {
+            "cell": "D7",
+            "text": "Condition"
+          }
+        }
+      },
+      "original": "A8: Starter\nB8: 100\nC8: messages\nD8: Par workspace et par mois",
+      "id": 4
+    },
+    {
+      "location": {
+        "sheet": "Abonnement",
+        "range": "A9:D9",
+        "headers": {
+          "A9": {
+            "cell": "A7",
+            "text": "Offre ou sujet"
+          },
+          "B9": {
+            "cell": "B7",
+            "text": "Valeur"
+          },
+          "C9": {
+            "cell": "C7",
+            "text": "Unité"
+          },
+          "D9": {
+            "cell": "D7",
+            "text": "Condition"
+          }
+        }
+      },
+      "original": "A9: Team\nB9: 1200\nC9: messages\nD9: Par workspace et par mois",
+      "id": 5
+    },
+    {
+      "location": {
+        "sheet": "Abonnement",
+        "range": "A10:D10",
+        "headers": {
+          "A10": {
+            "cell": "A7",
+            "text": "Offre ou sujet"
+          },
+          "B10": {
+            "cell": "B7",
+            "text": "Valeur"
+          },
+          "C10": {
+            "cell": "C7",
+            "text": "Unité"
+          },
+          "D10": {
+            "cell": "D7",
+            "text": "Condition"
+          }
+        }
+      },
+      "original": "A10: Enterprise\nB10: 10000\nC10: messages\nD10: Par workspace et par mois",
+      "id": 6
+    },
+    {
+      "location": {
+        "sheet": "Abonnement",
+        "range": "A11:D11",
+        "headers": {
+          "A11": {
+            "cell": "A7",
+            "text": "Offre ou sujet"
+          },
+          "B11": {
+            "cell": "B7",
+            "text": "Valeur"
+          },
+          "C11": {
+            "cell": "C7",
+            "text": "Unité"
+          },
+          "D11": {
+            "cell": "D7",
+            "text": "Condition"
+          }
+        }
+      },
+      "original": "A11: Remise à zéro\nB11: 1\nC11: jour du mois\nD11: À 00:00 UTC le premier jour du mois",
+      "id": 7
+    },
+    {
+      "location": {
+        "sheet": "Abonnement",
+        "range": "A12:D12",
+        "headers": {
+          "A12": {
+            "cell": "A7",
+            "text": "Offre ou sujet"
+          },
+          "B12": {
+            "cell": "B7",
+            "text": "Valeur"
+          },
+          "C12": {
+            "cell": "C7",
+            "text": "Unité"
+          },
+          "D12": {
+            "cell": "D7",
+            "text": "Condition"
+          }
+        }
+      },
+      "original": "A12: Message utilisateur\nB12: 1\nC12: message\nD12: Une demande envoyée compte pour une unité",
+      "id": 8
+    },
+    {
+      "location": {
+        "sheet": "Abonnement",
+        "range": "A13:D13",
+        "headers": {
+          "A13": {
+            "cell": "A7",
+            "text": "Offre ou sujet"
+          },
+          "B13": {
+            "cell": "B7",
+            "text": "Valeur"
+          },
+          "C13": {
+            "cell": "C7",
+            "text": "Unité"
+          },
+          "D13": {
+            "cell": "D7",
+            "text": "Condition"
+          }
+        }
+      },
+      "original": "A13: Erreur technique\nB13: 0\nC13: message\nD13: Une demande rejetée par une erreur serveur ne compte pas",
+      "id": 9
+    },
+    {
+      "location": {
+        "sheet": "Abonnement",
+        "range": "A14:D14",
+        "headers": {
+          "A14": {
+            "cell": "A7",
+            "text": "Offre ou sujet"
+          },
+          "B14": {
+            "cell": "B7",
+            "text": "Valeur"
+          },
+          "C14": {
+            "cell": "C7",
+            "text": "Unité"
+          },
+          "D14": {
+            "cell": "D7",
+            "text": "Condition"
+          }
+        }
+      },
+      "original": "A14: Solde\nB14: Non reportable\nC14: règle\nD14: Le solde inutilisé expire à la fin du mois",
+      "id": 10
+    },
+    {
+      "location": {
+        "sheet": "Abonnement",
+        "range": "A15:D15",
+        "headers": {
+          "A15": {
+            "cell": "A7",
+            "text": "Offre ou sujet"
+          },
+          "B15": {
+            "cell": "B7",
+            "text": "Valeur"
+          },
+          "C15": {
+            "cell": "C7",
+            "text": "Unité"
+          },
+          "D15": {
+            "cell": "D7",
+            "text": "Condition"
+          }
+        }
+      },
+      "original": "A15: Dépassement\nB15: Assistant en lecture seule\nC15: règle\nD15: Les anciens échanges restent consultables",
+      "id": 11
+    },
+    {
+      "location": {
+        "sheet": "Abonnement",
+        "range": "A16:D16",
+        "headers": {
+          "A16": {
+            "cell": "A7",
+            "text": "Offre ou sujet"
+          },
+          "B16": {
+            "cell": "B7",
+            "text": "Valeur"
+          },
+          "C16": {
+            "cell": "C7",
+            "text": "Unité"
+          },
+          "D16": {
+            "cell": "D7",
+            "text": "Condition"
+          }
+        }
+      },
+      "original": "A16: Option supplémentaire\nB16: Accord commercial requis\nC16: règle\nD16: Le support ne peut pas inventer un quota additionnel",
+      "id": 12
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A1:A1"
+      },
+      "original": "A1: Contrôle des demandes de septembre",
+      "id": 13
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A5:E5"
+      },
+      "original": "A5: Date UTC\nB5: Workspace\nC5: Demande\nD5: Réponse du service\nE5: Messages comptés",
+      "id": 14
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A6:E6",
+        "headers": {
+          "A6": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B6": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C6": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D6": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E6": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A6: 2026-09-01 10:30\nB6: atelier-1\nC6: Résumé de réunion\nD6: Erreur serveur; demande rejetée\nE6: 0",
+      "id": 15
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A7:E7",
+        "headers": {
+          "A7": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B7": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C7": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D7": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E7": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A7: 2026-09-02 10:30\nB7: atelier-2\nC7: Recherche de carte\nD7: Demande envoyée\nE7: 1",
+      "id": 16
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A8:E8",
+        "headers": {
+          "A8": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B8": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C8": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D8": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E8": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A8: 2026-09-03 10:30\nB8: atelier-3\nC8: Explication du projet\nD8: Demande envoyée\nE8: 1",
+      "id": 17
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A9:E9",
+        "headers": {
+          "A9": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B9": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C9": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D9": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E9": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A9: 2026-09-04 10:30\nB9: atelier-4\nC9: Synthèse de commentaires\nD9: Demande envoyée\nE9: 1",
+      "id": 18
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A10:E10",
+        "headers": {
+          "A10": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B10": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C10": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D10": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E10": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A10: 2026-09-05 10:30\nB10: atelier-5\nC10: Liste des actions\nD10: Demande envoyée\nE10: 1",
+      "id": 19
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A11:E11",
+        "headers": {
+          "A11": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B11": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C11": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D11": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E11": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A11: 2026-09-06 10:30\nB11: atelier-1\nC11: Résumé de réunion\nD11: Demande envoyée\nE11: 1",
+      "id": 20
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A12:E12",
+        "headers": {
+          "A12": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B12": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C12": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D12": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E12": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A12: 2026-09-07 10:30\nB12: atelier-2\nC12: Recherche de carte\nD12: Demande envoyée\nE12: 1",
+      "id": 21
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A13:E13",
+        "headers": {
+          "A13": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B13": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C13": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D13": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E13": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A13: 2026-09-08 10:30\nB13: atelier-3\nC13: Explication du projet\nD13: Demande envoyée\nE13: 1",
+      "id": 22
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A14:E14",
+        "headers": {
+          "A14": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B14": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C14": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D14": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E14": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A14: 2026-09-09 10:30\nB14: atelier-4\nC14: Synthèse de commentaires\nD14: Erreur serveur; demande rejetée\nE14: 0",
+      "id": 23
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A15:E15",
+        "headers": {
+          "A15": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B15": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C15": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D15": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E15": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A15: 2026-09-10 10:30\nB15: atelier-5\nC15: Liste des actions\nD15: Demande envoyée\nE15: 1",
+      "id": 24
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A16:E16",
+        "headers": {
+          "A16": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B16": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C16": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D16": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E16": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A16: 2026-09-11 10:30\nB16: atelier-1\nC16: Résumé de réunion\nD16: Demande envoyée\nE16: 1",
+      "id": 25
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A17:E17",
+        "headers": {
+          "A17": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B17": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C17": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D17": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E17": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A17: 2026-09-12 10:30\nB17: atelier-2\nC17: Recherche de carte\nD17: Demande envoyée\nE17: 1",
+      "id": 26
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A18:E18",
+        "headers": {
+          "A18": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B18": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C18": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D18": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E18": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A18: 2026-09-13 10:30\nB18: atelier-3\nC18: Explication du projet\nD18: Demande envoyée\nE18: 1",
+      "id": 27
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A19:E19",
+        "headers": {
+          "A19": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B19": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C19": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D19": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E19": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A19: 2026-09-14 10:30\nB19: atelier-4\nC19: Synthèse de commentaires\nD19: Demande envoyée\nE19: 1",
+      "id": 28
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A20:E20",
+        "headers": {
+          "A20": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B20": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C20": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D20": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E20": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A20: 2026-09-15 10:30\nB20: atelier-5\nC20: Liste des actions\nD20: Demande envoyée\nE20: 1",
+      "id": 29
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A21:E21",
+        "headers": {
+          "A21": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B21": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C21": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D21": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E21": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A21: 2026-09-16 10:30\nB21: atelier-1\nC21: Résumé de réunion\nD21: Demande envoyée\nE21: 1",
+      "id": 30
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A22:E22",
+        "headers": {
+          "A22": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B22": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C22": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D22": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E22": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A22: 2026-09-17 10:30\nB22: atelier-2\nC22: Recherche de carte\nD22: Erreur serveur; demande rejetée\nE22: 0",
+      "id": 31
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A23:E23",
+        "headers": {
+          "A23": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B23": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C23": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D23": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E23": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A23: 2026-09-18 10:30\nB23: atelier-3\nC23: Explication du projet\nD23: Demande envoyée\nE23: 1",
+      "id": 32
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A24:E24",
+        "headers": {
+          "A24": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B24": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C24": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D24": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E24": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A24: 2026-09-19 10:30\nB24: atelier-4\nC24: Synthèse de commentaires\nD24: Demande envoyée\nE24: 1",
+      "id": 33
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A25:E25",
+        "headers": {
+          "A25": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B25": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C25": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D25": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E25": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A25: 2026-09-20 10:30\nB25: atelier-5\nC25: Liste des actions\nD25: Demande envoyée\nE25: 1",
+      "id": 34
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A26:E26",
+        "headers": {
+          "A26": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B26": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C26": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D26": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E26": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A26: 2026-09-01 10:30\nB26: atelier-1\nC26: Résumé de réunion\nD26: Demande envoyée\nE26: 1",
+      "id": 35
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A27:E27",
+        "headers": {
+          "A27": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B27": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C27": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D27": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E27": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A27: 2026-09-02 10:30\nB27: atelier-2\nC27: Recherche de carte\nD27: Demande envoyée\nE27: 1",
+      "id": 36
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A28:E28",
+        "headers": {
+          "A28": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B28": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C28": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D28": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E28": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A28: 2026-09-03 10:30\nB28: atelier-3\nC28: Explication du projet\nD28: Demande envoyée\nE28: 1",
+      "id": 37
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A29:E29",
+        "headers": {
+          "A29": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B29": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C29": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D29": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E29": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A29: 2026-09-04 10:30\nB29: atelier-4\nC29: Synthèse de commentaires\nD29: Demande envoyée\nE29: 1",
+      "id": 38
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A30:E30",
+        "headers": {
+          "A30": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B30": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C30": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D30": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E30": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A30: 2026-09-05 10:30\nB30: atelier-5\nC30: Liste des actions\nD30: Erreur serveur; demande rejetée\nE30: 0",
+      "id": 39
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A31:E31",
+        "headers": {
+          "A31": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B31": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C31": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D31": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E31": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A31: 2026-09-06 10:30\nB31: atelier-1\nC31: Résumé de réunion\nD31: Demande envoyée\nE31: 1",
+      "id": 40
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A32:E32",
+        "headers": {
+          "A32": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B32": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C32": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D32": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E32": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A32: 2026-09-07 10:30\nB32: atelier-2\nC32: Recherche de carte\nD32: Demande envoyée\nE32: 1",
+      "id": 41
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A33:E33",
+        "headers": {
+          "A33": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B33": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C33": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D33": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E33": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A33: 2026-09-08 10:30\nB33: atelier-3\nC33: Explication du projet\nD33: Demande envoyée\nE33: 1",
+      "id": 42
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A34:E34",
+        "headers": {
+          "A34": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B34": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C34": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D34": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E34": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A34: 2026-09-09 10:30\nB34: atelier-4\nC34: Synthèse de commentaires\nD34: Demande envoyée\nE34: 1",
+      "id": 43
+    },
+    {
+      "location": {
+        "sheet": "Exemples de comptage",
+        "range": "A35:E35",
+        "headers": {
+          "A35": {
+            "cell": "A5",
+            "text": "Date UTC"
+          },
+          "B35": {
+            "cell": "B5",
+            "text": "Workspace"
+          },
+          "C35": {
+            "cell": "C5",
+            "text": "Demande"
+          },
+          "D35": {
+            "cell": "D5",
+            "text": "Réponse du service"
+          },
+          "E35": {
+            "cell": "E5",
+            "text": "Messages comptés"
+          }
+        }
+      },
+      "original": "A35: 2026-09-10 10:30\nB35: atelier-5\nC35: Liste des actions\nD35: Demande envoyée\nE35: 1",
+      "id": 44
+    },
+    {
+      "location": {
+        "sheet": "Questions clients",
+        "range": "A1:A1"
+      },
+      "original": "A1: Réponses validées lors de la revue",
+      "id": 45
+    },
+    {
+      "location": {
+        "sheet": "Questions clients",
+        "range": "A5:B5"
+      },
+      "original": "A5: Question\nB5: Réponse",
+      "id": 46
+    },
+    {
+      "location": {
+        "sheet": "Questions clients",
+        "range": "A6:B6",
+        "headers": {
+          "A6": {
+            "cell": "A5",
+            "text": "Question"
+          },
+          "B6": {
+            "cell": "B5",
+            "text": "Réponse"
+          }
+        }
+      },
+      "original": "A6: Combien pour Team ?\nB6: 1200 messages par workspace et par mois",
+      "id": 47
+    },
+    {
+      "location": {
+        "sheet": "Questions clients",
+        "range": "A7:B7",
+        "headers": {
+          "A7": {
+            "cell": "A5",
+            "text": "Question"
+          },
+          "B7": {
+            "cell": "B5",
+            "text": "Réponse"
+          }
+        }
+      },
+      "original": "A7: Quand le solde change-t-il ?\nB7: Remise à zéro le premier jour du mois à 00:00 UTC",
+      "id": 48
+    },
+    {
+      "location": {
+        "sheet": "Questions clients",
+        "range": "A8:B8",
+        "headers": {
+          "A8": {
+            "cell": "A5",
+            "text": "Question"
+          },
+          "B8": {
+            "cell": "B5",
+            "text": "Réponse"
+          }
+        }
+      },
+      "original": "A8: Solde inutilisé\nB8: Il expire à la fin du mois et n’est pas reportable",
+      "id": 49
+    },
+    {
+      "location": {
+        "sheet": "Questions clients",
+        "range": "A9:B9",
+        "headers": {
+          "A9": {
+            "cell": "A5",
+            "text": "Question"
+          },
+          "B9": {
+            "cell": "B5",
+            "text": "Réponse"
+          }
+        }
+      },
+      "original": "A9: Un fil égale-t-il un message ?\nB9: Un même fil peut consommer plusieurs messages",
+      "id": 50
+    },
+    {
+      "location": {
+        "sheet": "Questions clients",
+        "range": "A10:B10",
+        "headers": {
+          "A10": {
+            "cell": "A5",
+            "text": "Question"
+          },
+          "B10": {
+            "cell": "B5",
+            "text": "Réponse"
+          }
+        }
+      },
+      "original": "A10: Erreur serveur\nB10: Une demande rejetée par une erreur serveur compte pour zéro",
+      "id": 51
+    },
+    {
+      "location": {
+        "sheet": "Questions clients",
+        "range": "A11:B11",
+        "headers": {
+          "A11": {
+            "cell": "A5",
+            "text": "Question"
+          },
+          "B11": {
+            "cell": "B5",
+            "text": "Réponse"
+          }
+        }
+      },
+      "original": "A11: Après dépassement\nB11: Les anciens échanges restent consultables, assistant en lecture seule",
+      "id": 52
+    },
+    {
+      "location": {
+        "sheet": "Questions clients",
+        "range": "A12:B12",
+        "headers": {
+          "A12": {
+            "cell": "A5",
+            "text": "Question"
+          },
+          "B12": {
+            "cell": "B5",
+            "text": "Réponse"
+          }
+        }
+      },
+      "original": "A12: Messages supplémentaires\nB12: Un accord commercial est nécessaire; le support ne peut pas inventer un quota",
+      "id": 53
+    }
+  ]
+}

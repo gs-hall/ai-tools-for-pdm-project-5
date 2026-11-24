@@ -1,0 +1,1061 @@
+{
+  "source": "documents/Платформа и интеграции/marketplace capabilities.xlsx",
+  "sha256": "bfe2848e167218e3cb65533c3313f17bf2dccbcab02a748e82fd04ad1f85a247",
+  "extractor_version": 2,
+  "fragments": [
+    {
+      "location": {
+        "sheet": "Capabilities",
+        "range": "A1:A1"
+      },
+      "original": "A1: Marketplace integration capabilities",
+      "id": 1
+    },
+    {
+      "location": {
+        "sheet": "Capabilities",
+        "range": "A3:A3"
+      },
+      "original": "A3: Integrations reviewed this catalogue for the September release. Customer-hosted middleware remains the customer responsibility. A link never grants access to a private resource.",
+      "id": 2
+    },
+    {
+      "location": {
+        "sheet": "Capabilities",
+        "range": "A7:D7"
+      },
+      "original": "A7: Integration or subject\nB7: Capability\nC7: Availability\nD7: Boundary",
+      "id": 3
+    },
+    {
+      "location": {
+        "sheet": "Capabilities",
+        "range": "A8:D8",
+        "headers": {
+          "A8": {
+            "cell": "A7",
+            "text": "Integration or subject"
+          },
+          "B8": {
+            "cell": "B7",
+            "text": "Capability"
+          },
+          "C8": {
+            "cell": "C7",
+            "text": "Availability"
+          },
+          "D8": {
+            "cell": "D7",
+            "text": "Boundary"
+          }
+        }
+      },
+      "original": "A8: Slack\nB8: Mentions and card links\nC8: supported\nD8: OAuth workspace approval required",
+      "id": 4
+    },
+    {
+      "location": {
+        "sheet": "Capabilities",
+        "range": "A9:D9",
+        "headers": {
+          "A9": {
+            "cell": "A7",
+            "text": "Integration or subject"
+          },
+          "B9": {
+            "cell": "B7",
+            "text": "Capability"
+          },
+          "C9": {
+            "cell": "C7",
+            "text": "Availability"
+          },
+          "D9": {
+            "cell": "D7",
+            "text": "Boundary"
+          }
+        }
+      },
+      "original": "A9: Microsoft Teams\nB9: Channel notifications\nC9: supported\nD9: Tenant administrator approval required",
+      "id": 5
+    },
+    {
+      "location": {
+        "sheet": "Capabilities",
+        "range": "A10:D10",
+        "headers": {
+          "A10": {
+            "cell": "A7",
+            "text": "Integration or subject"
+          },
+          "B10": {
+            "cell": "B7",
+            "text": "Capability"
+          },
+          "C10": {
+            "cell": "C7",
+            "text": "Availability"
+          },
+          "D10": {
+            "cell": "D7",
+            "text": "Boundary"
+          }
+        }
+      },
+      "original": "A10: GitHub\nB10: Pull request links\nC10: supported\nD10: Repository permissions are checked",
+      "id": 6
+    },
+    {
+      "location": {
+        "sheet": "Capabilities",
+        "range": "A11:D11",
+        "headers": {
+          "A11": {
+            "cell": "A7",
+            "text": "Integration or subject"
+          },
+          "B11": {
+            "cell": "B7",
+            "text": "Capability"
+          },
+          "C11": {
+            "cell": "C7",
+            "text": "Availability"
+          },
+          "D11": {
+            "cell": "D7",
+            "text": "Boundary"
+          }
+        }
+      },
+      "original": "A11: Google Drive\nB11: File links and previews\nC11: supported\nD11: LumenDesk does not copy Drive permissions",
+      "id": 7
+    },
+    {
+      "location": {
+        "sheet": "Capabilities",
+        "range": "A12:D12",
+        "headers": {
+          "A12": {
+            "cell": "A7",
+            "text": "Integration or subject"
+          },
+          "B12": {
+            "cell": "B7",
+            "text": "Capability"
+          },
+          "C12": {
+            "cell": "C7",
+            "text": "Availability"
+          },
+          "D12": {
+            "cell": "D7",
+            "text": "Boundary"
+          }
+        }
+      },
+      "original": "A12: Jira Cloud\nB12: One-way issue links\nC12: supported\nD12: No bidirectional field sync",
+      "id": 8
+    },
+    {
+      "location": {
+        "sheet": "Capabilities",
+        "range": "A13:D13",
+        "headers": {
+          "A13": {
+            "cell": "A7",
+            "text": "Integration or subject"
+          },
+          "B13": {
+            "cell": "B7",
+            "text": "Capability"
+          },
+          "C13": {
+            "cell": "C7",
+            "text": "Availability"
+          },
+          "D13": {
+            "cell": "D7",
+            "text": "Boundary"
+          }
+        }
+      },
+      "original": "A13: Rate limits\nB13: Vendor limits apply\nC13: rule\nD13: LumenDesk retries temporary vendor failures",
+      "id": 9
+    },
+    {
+      "location": {
+        "sheet": "Capabilities",
+        "range": "A14:D14",
+        "headers": {
+          "A14": {
+            "cell": "A7",
+            "text": "Integration or subject"
+          },
+          "B14": {
+            "cell": "B7",
+            "text": "Capability"
+          },
+          "C14": {
+            "cell": "C7",
+            "text": "Availability"
+          },
+          "D14": {
+            "cell": "D7",
+            "text": "Boundary"
+          }
+        }
+      },
+      "original": "A14: Private resources\nB14: Existing access required\nC14: rule\nD14: A link never grants access",
+      "id": 10
+    },
+    {
+      "location": {
+        "sheet": "Capabilities",
+        "range": "A15:D15",
+        "headers": {
+          "A15": {
+            "cell": "A7",
+            "text": "Integration or subject"
+          },
+          "B15": {
+            "cell": "B7",
+            "text": "Capability"
+          },
+          "C15": {
+            "cell": "C7",
+            "text": "Availability"
+          },
+          "D15": {
+            "cell": "D7",
+            "text": "Boundary"
+          }
+        }
+      },
+      "original": "A15: Scope change\nB15: Administrator approval\nC15: rule\nD15: New write scopes require fresh consent",
+      "id": 11
+    },
+    {
+      "location": {
+        "sheet": "Capabilities",
+        "range": "A16:D16",
+        "headers": {
+          "A16": {
+            "cell": "A7",
+            "text": "Integration or subject"
+          },
+          "B16": {
+            "cell": "B7",
+            "text": "Capability"
+          },
+          "C16": {
+            "cell": "C7",
+            "text": "Availability"
+          },
+          "D16": {
+            "cell": "D7",
+            "text": "Boundary"
+          }
+        }
+      },
+      "original": "A16: Retirement\nB16: Disable then revoke\nC16: order\nD16: Drain outbound queue for up to 15 minutes",
+      "id": 12
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A1:A1"
+      },
+      "original": "A1: Connector review observations",
+      "id": 13
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A5:D5"
+      },
+      "original": "A5: Connector\nB5: Check\nC5: Account condition\nD5: Result or follow-up",
+      "id": 14
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A6:D6",
+        "headers": {
+          "A6": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B6": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C6": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D6": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A6: Slack\nB6: Approval\nC6: Workspace approved\nD6: Check consent for the requested workspace",
+      "id": 15
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A7:D7",
+        "headers": {
+          "A7": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B7": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C7": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D7": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A7: Microsoft Teams\nB7: Approval\nC7: Tenant administrator available\nD7: Check consent for the requested workspace",
+      "id": 16
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A8:D8",
+        "headers": {
+          "A8": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B8": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C8": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D8": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A8: GitHub\nB8: Approval\nC8: Repository permission checked\nD8: Check consent for the requested workspace",
+      "id": 17
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A9:D9",
+        "headers": {
+          "A9": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B9": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C9": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D9": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A9: Google Drive\nB9: Approval\nC9: Existing Drive access\nD9: Check consent for the requested workspace",
+      "id": 18
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A10:D10",
+        "headers": {
+          "A10": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B10": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C10": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D10": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A10: Jira Cloud\nB10: Approval\nC10: One-way link only\nD10: Check consent for the requested workspace",
+      "id": 19
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A11:D11",
+        "headers": {
+          "A11": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B11": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C11": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D11": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A11: Slack\nB11: Private resource\nC11: Workspace approved\nD11: No access granted by the posted link",
+      "id": 20
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A12:D12",
+        "headers": {
+          "A12": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B12": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C12": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D12": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A12: Microsoft Teams\nB12: Private resource\nC12: Tenant administrator available\nD12: No access granted by the posted link",
+      "id": 21
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A13:D13",
+        "headers": {
+          "A13": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B13": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C13": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D13": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A13: GitHub\nB13: Private resource\nC13: Repository permission checked\nD13: No access granted by the posted link",
+      "id": 22
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A14:D14",
+        "headers": {
+          "A14": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B14": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C14": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D14": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A14: Google Drive\nB14: Private resource\nC14: Existing Drive access\nD14: No access granted by the posted link",
+      "id": 23
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A15:D15",
+        "headers": {
+          "A15": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B15": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C15": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D15": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A15: Jira Cloud\nB15: Private resource\nC15: One-way link only\nD15: No access granted by the posted link",
+      "id": 24
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A16:D16",
+        "headers": {
+          "A16": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B16": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C16": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D16": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A16: Slack\nB16: Scope change\nC16: Workspace approved\nD16: Fresh consent required for new write scopes",
+      "id": 25
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A17:D17",
+        "headers": {
+          "A17": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B17": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C17": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D17": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A17: Microsoft Teams\nB17: Scope change\nC17: Tenant administrator available\nD17: Fresh consent required for new write scopes",
+      "id": 26
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A18:D18",
+        "headers": {
+          "A18": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B18": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C18": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D18": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A18: GitHub\nB18: Scope change\nC18: Repository permission checked\nD18: Fresh consent required for new write scopes",
+      "id": 27
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A19:D19",
+        "headers": {
+          "A19": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B19": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C19": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D19": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A19: Google Drive\nB19: Scope change\nC19: Existing Drive access\nD19: Fresh consent required for new write scopes",
+      "id": 28
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A20:D20",
+        "headers": {
+          "A20": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B20": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C20": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D20": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A20: Jira Cloud\nB20: Scope change\nC20: One-way link only\nD20: Fresh consent required for new write scopes",
+      "id": 29
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A21:D21",
+        "headers": {
+          "A21": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B21": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C21": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D21": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A21: Slack\nB21: Link opening\nC21: Workspace approved\nD21: Open with the recipient’s own permissions",
+      "id": 30
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A22:D22",
+        "headers": {
+          "A22": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B22": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C22": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D22": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A22: Microsoft Teams\nB22: Link opening\nC22: Tenant administrator available\nD22: Open with the recipient’s own permissions",
+      "id": 31
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A23:D23",
+        "headers": {
+          "A23": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B23": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C23": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D23": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A23: GitHub\nB23: Link opening\nC23: Repository permission checked\nD23: Open with the recipient’s own permissions",
+      "id": 32
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A24:D24",
+        "headers": {
+          "A24": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B24": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C24": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D24": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A24: Google Drive\nB24: Link opening\nC24: Existing Drive access\nD24: Open with the recipient’s own permissions",
+      "id": 33
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A25:D25",
+        "headers": {
+          "A25": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B25": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C25": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D25": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A25: Jira Cloud\nB25: Link opening\nC25: One-way link only\nD25: Open with the recipient’s own permissions",
+      "id": 34
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A26:D26",
+        "headers": {
+          "A26": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B26": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C26": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D26": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A26: Slack\nB26: Retirement queue\nC26: Workspace approved\nD26: Disable then revoke; drain queue for up to 15 minutes",
+      "id": 35
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A27:D27",
+        "headers": {
+          "A27": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B27": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C27": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D27": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A27: Microsoft Teams\nB27: Retirement queue\nC27: Tenant administrator available\nD27: Disable then revoke; drain queue for up to 15 minutes",
+      "id": 36
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A28:D28",
+        "headers": {
+          "A28": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B28": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C28": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D28": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A28: GitHub\nB28: Retirement queue\nC28: Repository permission checked\nD28: Disable then revoke; drain queue for up to 15 minutes",
+      "id": 37
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A29:D29",
+        "headers": {
+          "A29": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B29": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C29": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D29": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A29: Google Drive\nB29: Retirement queue\nC29: Existing Drive access\nD29: Disable then revoke; drain queue for up to 15 minutes",
+      "id": 38
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A30:D30",
+        "headers": {
+          "A30": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B30": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C30": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D30": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A30: Jira Cloud\nB30: Retirement queue\nC30: One-way link only\nD30: Disable then revoke; drain queue for up to 15 minutes",
+      "id": 39
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A31:D31",
+        "headers": {
+          "A31": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B31": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C31": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D31": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A31: Slack\nB31: Vendor limit\nC31: Workspace approved\nD31: Temporary vendor failures use retry handling",
+      "id": 40
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A32:D32",
+        "headers": {
+          "A32": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B32": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C32": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D32": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A32: Microsoft Teams\nB32: Vendor limit\nC32: Tenant administrator available\nD32: Temporary vendor failures use retry handling",
+      "id": 41
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A33:D33",
+        "headers": {
+          "A33": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B33": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C33": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D33": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A33: GitHub\nB33: Vendor limit\nC33: Repository permission checked\nD33: Temporary vendor failures use retry handling",
+      "id": 42
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A34:D34",
+        "headers": {
+          "A34": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B34": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C34": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D34": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A34: Google Drive\nB34: Vendor limit\nC34: Existing Drive access\nD34: Temporary vendor failures use retry handling",
+      "id": 43
+    },
+    {
+      "location": {
+        "sheet": "Vendor checks",
+        "range": "A35:D35",
+        "headers": {
+          "A35": {
+            "cell": "A5",
+            "text": "Connector"
+          },
+          "B35": {
+            "cell": "B5",
+            "text": "Check"
+          },
+          "C35": {
+            "cell": "C5",
+            "text": "Account condition"
+          },
+          "D35": {
+            "cell": "D5",
+            "text": "Result or follow-up"
+          }
+        }
+      },
+      "original": "A35: Jira Cloud\nB35: Vendor limit\nC35: One-way link only\nD35: Temporary vendor failures use retry handling",
+      "id": 44
+    }
+  ]
+}

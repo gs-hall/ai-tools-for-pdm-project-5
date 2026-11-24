@@ -1,0 +1,215 @@
+{
+  "source": "documents/Клиентский сервис/Team service credits.docx",
+  "sha256": "091f85550fa9c189884d324dfcc1e1824229c090593ea8a29f3ceea5dd549a18",
+  "extractor_version": 2,
+  "fragments": [
+    {
+      "location": {
+        "section": "Team service credit schedule",
+        "paragraph": 1
+      },
+      "original": "Team service credit schedule",
+      "id": 1
+    },
+    {
+      "location": {
+        "section": "Team service credit schedule",
+        "paragraph": 2
+      },
+      "original": "Support Operations issue effective 15 September 2026. This is the operating schedule for a confirmed Team P1 service outage, approved for the support review process. Finance and Support Operations share responsibility for reviewing the claim evidence. The support reviewer prepares the impact record and the calculation before sending a complete claim to the joint review. Keep the existing request open until the agreed outcome has been communicated to the billing owner.",
+      "id": 2
+    },
+    {
+      "location": {
+        "section": "Team service credit schedule",
+        "paragraph": 3
+      },
+      "original": "Use this procedure for the affected Team workspace, including an outage lasting exactly 120 consecutive minutes. The review concerns a continuous outage, not the sum of unrelated short interruptions. Classification and impact need confirmation before the support team can recommend settlement. The customer should receive a clear explanation of the review, but an agent must not turn an unreviewed claim into a promised payment.",
+      "id": 3
+    },
+    {
+      "location": {
+        "section": "Eligibility",
+        "paragraph": 4
+      },
+      "original": "Eligibility",
+      "id": 4
+    },
+    {
+      "location": {
+        "section": "Eligibility",
+        "paragraph": 5
+      },
+      "original": "This schedule applies to a Team subscription with a confirmed P1 service outage lasting at least 120 consecutive minutes.",
+      "id": 5
+    },
+    {
+      "location": {
+        "section": "Eligibility",
+        "paragraph": 6
+      },
+      "original": "The percentage applies to the monthly subscription fee for the affected workspace, excluding taxes and usage add-ons.",
+      "id": 6
+    },
+    {
+      "location": {
+        "section": "Eligibility",
+        "paragraph": 7
+      },
+      "original": "The billing owner must submit a claim within 10 calendar days after the incident ends.",
+      "id": 7
+    },
+    {
+      "location": {
+        "section": "Eligibility",
+        "paragraph": 8
+      },
+      "original": "A claim needs incident ID, workspace ID, impact interval in UTC and invoice ID.",
+      "id": 8
+    },
+    {
+      "location": {
+        "section": "Settlement",
+        "paragraph": 9
+      },
+      "original": "Settlement",
+      "id": 9
+    },
+    {
+      "location": {
+        "section": "Settlement",
+        "paragraph": 10
+      },
+      "original": "For an eligible Team P1 outage lasting at least 120 consecutive minutes, the service credit is 20 percent of the monthly subscription fee.",
+      "id": 10
+    },
+    {
+      "location": {
+        "section": "Settlement",
+        "paragraph": 11
+      },
+      "original": "An approved credit offsets the next invoice and is not a cash payment.",
+      "id": 11
+    },
+    {
+      "location": {
+        "section": "Settlement",
+        "paragraph": 12
+      },
+      "original": "Total incident credits cannot exceed 50 percent of the same monthly subscription fee.",
+      "id": 12
+    },
+    {
+      "location": {
+        "section": "Settlement",
+        "paragraph": 13
+      },
+      "original": "Finance and Support Operations jointly review incomplete or disputed claims.",
+      "id": 13
+    },
+    {
+      "location": {
+        "section": "Settlement",
+        "paragraph": 14
+      },
+      "original": "Scheduled maintenance announced at least 48 hours in advance is outside this schedule.",
+      "id": 14
+    },
+    {
+      "location": {
+        "section": "Building a review that another shift can continue",
+        "paragraph": 15
+      },
+      "original": "Building a review that another shift can continue",
+      "id": 15
+    },
+    {
+      "location": {
+        "section": "Building a review that another shift can continue",
+        "paragraph": 16
+      },
+      "original": "The incident identifier connects the customer conversation to the response team's timeline. Add the workspace identifier, invoice identifier and impact interval in UTC to the same record. Keep the customer's original observation when it uses a different timezone and explain the conversion. If the start of impact is uncertain, state what is known and ask the incident owner to confirm the interval. Do not use the time at which Support noticed the problem as a silent replacement for the customer's actual impact.",
+      "id": 16
+    },
+    {
+      "location": {
+        "section": "Building a review that another shift can continue",
+        "paragraph": 17
+      },
+      "original": "Check that the request comes from the billing owner. A workspace participant may have helped diagnose the outage without having authority to request a billing adjustment. Keep the verification in the account process rather than asking for a password or payment card details. The billing owner has ten calendar days after the end of the incident to submit the claim. A submission within that window still needs the normal eligibility review; it does not automatically approve the amount.",
+      "id": 17
+    },
+    {
+      "location": {
+        "section": "Calculating an eligible claim",
+        "paragraph": 18
+      },
+      "original": "Calculating an eligible claim",
+      "id": 18
+    },
+    {
+      "location": {
+        "section": "Calculating an eligible claim",
+        "paragraph": 19
+      },
+      "original": "For a monthly Team subscription fee of 400 EUR before tax, this Support Operations schedule calculates an eligible service credit at 20 percent, giving 80 EUR. The base excludes tax and usage add-ons. The same base is used when testing the monthly cap. Record the base, percentage and result separately so that a reviewer can see whether a difference came from the chosen fee or from the applied rate. Rounding or invoice display should never conceal the underlying percentage.",
+      "id": 19
+    },
+    {
+      "location": {
+        "section": "Calculating an eligible claim",
+        "paragraph": 20
+      },
+      "original": "If another credit has already been approved for the same monthly fee, include it in the cap review. The total incident credits cannot exceed half of that monthly subscription fee. Keep the earlier approval linked to the review so it is clear whether this is another eligible incident or the same request submitted again. A second email from the customer is not a new incident. Corrections to a claim should retain the earlier calculation and explain what changed.",
+      "id": 20
+    },
+    {
+      "location": {
+        "section": "Cases discussed at the September handover",
+        "paragraph": 21
+      },
+      "original": "Cases discussed at the September handover",
+      "id": 21
+    },
+    {
+      "location": {
+        "section": "Cases discussed at the September handover",
+        "paragraph": 22
+      },
+      "original": "A customer reported two interruptions separated by restored service. The support reviewer asked the incident owner for the confirmed continuous intervals rather than adding the durations together. The evidence then allowed the customer to understand which interval was under review. In another case only one region was affected, while the customer's organisation operated several workspaces. The reviewer limited the claim to the affected workspace and did not imply that all subscriptions were automatically eligible.",
+      "id": 22
+    },
+    {
+      "location": {
+        "section": "Cases discussed at the September handover",
+        "paragraph": 23
+      },
+      "original": "A planned maintenance notice also requires examination. Scheduled maintenance announced at least forty-eight hours beforehand is outside this schedule, but the notice must actually cover the affected service and window. An internal calendar entry is not necessarily evidence of customer notice. If the customer disputes whether the announcement applied, attach the relevant communication and send the question to the joint review rather than deciding from the label maintenance alone.",
+      "id": 23
+    },
+    {
+      "location": {
+        "section": "Confirming the outcome",
+        "paragraph": 24
+      },
+      "original": "Confirming the outcome",
+      "id": 24
+    },
+    {
+      "location": {
+        "section": "Confirming the outcome",
+        "paragraph": 25
+      },
+      "original": "An approved service credit offsets the next invoice. It is not paid as cash and should not be presented as a refund. Tell the customer which incident and workspace the approved decision covers. Do not insert a credit amount in an incident status message before the claim is reviewed. The support message should distinguish service restoration, claim submission and settlement approval, because those events may happen at different times and involve different owners.",
+      "id": 25
+    },
+    {
+      "location": {
+        "section": "Confirming the outcome",
+        "paragraph": 26
+      },
+      "original": "If the customer disputes the outcome, record the specific question and any additional evidence in the same claim. Finance and Support Operations jointly review incomplete or disputed claims. The receiving reviewer should be able to find the incident, invoice base and customer's explanation without reconstructing them from several unlinked conversations. Keep the customer informed of the next review action and communicate the agreed outcome after approval. Do not create a second credit while the first request is being reconsidered.",
+      "id": 26
+    }
+  ]
+}

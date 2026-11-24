@@ -1,0 +1,51 @@
+{
+  "source": "documents/Платформа и интеграции/Marketplace/Approval and removal - копия.md",
+  "sha256": "2087ed1e7e6673c32cccc5d059302b10c988a4c25d1d049fb9762cdad1cf883e",
+  "extractor_version": 2,
+  "fragments": [
+    {
+      "location": {
+        "section": "Installing an app is only the beginning",
+        "lines": [
+          1,
+          8
+        ]
+      },
+      "original": "# Installing an app is only the beginning\n\nIntegrations reviewed this working runbook on September 1, 2026. It covers marketplace integrations installed in a LumenDesk workspace, including the point at which the workspace stops using them. A member may be the person who first asks for an app, but the installation is owned by the workspace. Keep that distinction visible throughout the conversation. It becomes especially useful when the member who originally championed the integration changes teams and someone else needs to understand what was approved or how to retire it.\n\nBefore installation, a workspace administrator approves the installation scopes. Explain scopes in relation to the work the customer expects the app to do. “It is a familiar vendor” does not describe the requested access, and a member's enthusiasm is not the administrator's approval. The person helping with the installation should be able to say which workspace the approval relates to, rather than treating an earlier conversation about another workspace as a reusable permission for every installation the company may have.\n\nNew write scopes require a separate approval. This matters after installation as well as during the initial conversation. An app may have been accepted for reading information and later offer a feature that writes changes. Do not describe that feature as merely a new button if it changes the scopes being requested. Bring the new write access back to the approval conversation. Familiarity with the app's previous behaviour does not mean that the customer has already reviewed the expanded access.",
+      "id": 1
+    },
+    {
+      "location": {
+        "section": "Try the workflow where its effects are understandable",
+        "lines": [
+          9,
+          16
+        ]
+      },
+      "original": "## Try the workflow where its effects are understandable\n\nTest an integration in a restricted space before broad use. Choose a place where the customer can recognise what the app is doing and discuss the result with the people involved. The test should be related to the intended workflow, rather than just demonstrating that the app appears in a menu. A successful installation and a useful, understood workflow are separate observations. Make sure the notes preserve which one has actually been confirmed when the conversation moves to another colleague.\n\nRecord the integration ID, approving administrator, and approval date. These details allow the workspace to connect later questions to the installation that was approved. An app name alone may not identify the relevant installation in a customer's history. It is also easy for a forwarded message to make the date of a conversation look like the date of approval. State the relationship clearly in the record so another person does not have to infer it from a chain of messages with several different timestamps.\n\nDuring the test, listen for differences between the workflow the customer describes and the one the team is actually preparing to use. For example, the person who requested an app may talk about reading a summary while a colleague plans to write updates back into a shared space. The rule about separate approval of new write scopes is useful precisely because casual descriptions can hide this difference. Ask for clarity before broad use, and keep the result tied to the approving administrator and the actual requested access.",
+      "id": 2
+    },
+    {
+      "location": {
+        "section": "Retirement is an ordered sequence",
+        "lines": [
+          17,
+          26
+        ]
+      },
+      "original": "## Retirement is an ordered sequence\n\nStart by disabling event subscriptions before revoking credentials. This ordering is part of the retirement procedure. If the discussion begins with “remove the app now,” take a moment to identify the subscriptions that belong to the installation rather than jumping straight to the last action. A clear retirement note should say what has happened, not merely that someone intends to switch the integration off. The next person should be able to distinguish a disabled source of new events from credentials that have already been revoked.\n\nAllow the outbound queue to drain for up to 15 minutes. Plan for that step when coordinating with the customer's team. A retirement call can become confusing if one person sees pending outbound work while another believes the entire sequence is finished. Do not turn “up to 15 minutes” into a promise that every queued item will produce a particular business result. It describes the allowance in the retirement sequence, and the team should record what it actually observes while following that sequence.\n\nThen revoke the service key and remove the app installation. In a handover, name both actions rather than compressing them into “cleaned up access.” The shorthand can conceal whether the app was removed from the workspace, whether its service key was revoked, or whether the speaker only closed a browser tab. The procedure has a concrete end state, so use concrete verbs. Clear descriptions are especially helpful when different administrators are responsible for the connected app and its service credential.\n\nConfirm that the app no longer appears in workspace connected apps. This is the verification step we use for removal of the installation. Do not use a customer's inability to find the app on one screen as the only description of the outcome if nobody has looked at the relevant connected-apps view. Likewise, an email saying “please remove this” is an instruction to act, not evidence that the app is gone. Keep the distinction between request, action, and confirmation visible in the notes.",
+      "id": 3
+    },
+    {
+      "location": {
+        "section": "What removal does not tell us about exported data",
+        "lines": [
+          27,
+          31
+        ]
+      },
+      "original": "## What removal does not tell us about exported data\n\nData already exported to the vendor follows the vendor retention agreement. Discuss this directly if the customer's reason for retirement is concern about information previously sent out. Removing the installation from LumenDesk is not a statement about what the vendor retains under its agreement. Do not infer deletion at the vendor from the fact that the app has disappeared from connected apps. The customer's question may need reference to that agreement even after the workspace-side retirement steps have been completed.\n\nWhen closing the conversation, leave a short account that another administrator could understand: which integration was approved, who approved it and when, whether any new write scopes were separately considered, and how the retirement sequence was completed if the app was removed. Use the parts relevant to this case; the point is continuity, not a ceremonial form. This copy lives beside other marketplace material because approval and retirement are two ends of the same workspace-owned relationship, even when different people perform them months apart.",
+      "id": 4
+    }
+  ]
+}

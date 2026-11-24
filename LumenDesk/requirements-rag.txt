@@ -1,0 +1,7 @@
+-r requirements-extract.txt
+numpy==2.4.4
+sentence-transformers==5.5.0
+transformers==5.8.1
+sentencepiece==0.2.1
+torch==2.15.0
+huggingface-hub==1.33.0
