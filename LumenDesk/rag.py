@@ -21,7 +21,8 @@ REVISION = "5617a9f61b028005a4858fdac845db406aefb181"
 ROLES = ("support_agent", "support_lead")
 DECISIONS = ("answer", "clarify", "refuse", "escalate")
 SETTINGS = {"model": MODEL, "revision": REVISION, "normalize": True, "prefix": "",
-            "max_tokens": 2048, "per_source": 4, "word_neighbors": 4, "algorithm_version": 3}
+            "max_tokens": 2048, "per_source": 4, "word_neighbors": 4,
+            "word_neighbor_depth": 2, "algorithm_version": 5}
 
 
 def read_json(path):
@@ -59,6 +60,14 @@ def spreadsheet_cells(fragments, translations):
     return cells
 
 
+def reviewed_translation_ids(document):
+    reviewed = document.get("reviewed_sha256", {})
+    return {
+        int(identifier) for identifier, text in document["fragments"].items()
+        if reviewed.get(identifier) == hashlib.sha256(text.encode("utf-8")).hexdigest()
+    }
+
+
 def prepared_corpus():
     extracted = doc_map(PREPARED / "original")
     translated = doc_map(PREPARED / "ru")
@@ -72,6 +81,7 @@ def prepared_corpus():
         language = record["language"]
         document = extracted[source]
         fragments = document["fragments"]
+        eligible_ids = {item["id"] for item in fragments}
         russian = {}
         if language != "ru":
             localized = translated[source]
@@ -83,6 +93,7 @@ def prepared_corpus():
             ):
                 raise ValueError(f"Missing or outdated translation: {source}")
             russian = localized["fragments"]
+            eligible_ids &= reviewed_translation_ids(localized)
         if record["status"] != "current":
             continue
         roles = record["roles"]
@@ -93,10 +104,11 @@ def prepared_corpus():
         excluded = set(record.get("exclude_fragments", []))
         if excluded - {item["id"] for item in fragments}:
             raise ValueError(f"Unknown fragment in registry: {source}")
+        eligible = [item for item in fragments if item["id"] in eligible_ids - excluded]
         selected = [{**item, "text": russian.get(str(item["id"]), item["original"])}
-                    for item in fragments if item["id"] not in excluded]
+                    for item in eligible]
         suffix = Path(source).suffix
-        cells = spreadsheet_cells(fragments, russian) if suffix == ".xlsx" else {}
+        cells = spreadsheet_cells(eligible, russian) if suffix == ".xlsx" else {}
         for group in grouped(selected, suffix):
             location = group[0]["location"]
             section = location.get("section", "") if language == "ru" else ""
@@ -213,19 +225,21 @@ def retrieve(role, question, limit, corpus, embeddings, model):
         source_hits[hit["source"]] += 1
     expanded = 0
     for hit in hits[:6]:
-        if expanded >= SETTINGS["word_neighbors"]:
-            break
         next_piece = hit["fragments"][-1]["id"] + 1
-        offset = by_fragment.get((hit["source"], next_piece))
-        if offset is None:
-            continue
-        chunk = corpus[permitted[offset]]
-        fingerprint = canonical_text(chunk)
-        if fingerprint not in seen:
-            extra = result_hit(chunk, len(hits) + 1, scores[offset], "next_word_section")
-            hits.append(extra)
-            seen[fingerprint] = extra
-            expanded += 1
+        for _ in range(SETTINGS["word_neighbor_depth"]):
+            if expanded >= SETTINGS["word_neighbors"]:
+                return hits
+            offset = by_fragment.get((hit["source"], next_piece))
+            if offset is None:
+                break
+            chunk = corpus[permitted[offset]]
+            fingerprint = canonical_text(chunk)
+            if fingerprint not in seen:
+                extra = result_hit(chunk, len(hits) + 1, scores[offset], "next_word_section")
+                hits.append(extra)
+                seen[fingerprint] = extra
+                expanded += 1
+            next_piece = chunk["fragments"][-1]["id"] + 1
     return hits
 
 

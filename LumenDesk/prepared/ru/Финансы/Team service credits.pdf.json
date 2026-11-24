@@ -12,5 +12,9 @@
   "reviewed_fragments": [
     1,
     2
-  ]
+  ],
+  "reviewed_sha256": {
+    "1": "40856f99696cd5006298d159d8952830dce94824deb36cb187beabb0694c6740",
+    "2": "d7e20022c42cc752f9feeead2ecc38d018f33495e7cb8383e223c6dc7bf32c4d"
+  }
 }
