@@ -59,4 +59,4 @@
 | [06](screenshots/06.jpg) | Вопрос 6. Две ставки и обоснование эскалации. | [JSON](history/20261124T215253-b4b8bf0a1058.search.json) |
 | [07](screenshots/07.jpg) | Вопрос 7. Отказ за ролью support_agent и проверка доступа. | [JSON](history/20261124T215329-d2d0efe6ec73.search.json) |
 | [08](screenshots/08.jpg) | Вопрос 9. Состав записи передачи клиента и абзацы Word. | [JSON](history/20261124T215525-fbfe02ce4e59.search.json) |
-| [09](screenshots/09.jpg) | Вопрос 12. Окно SAML и условия эскалации, строки CSV и абзацы Word. | [JSON](history/20261124T215446-a54ad6239822.search.json) |
+| [09](screenshots/09.jpg) | Вопрос 12. Окно SAML и условия эскалации, ссылки на оригиналы и найденные фрагменты R1/1 и R15/5–6. | [JSON](history/20261124T221109-e7e983ee82a5.search.json) |
