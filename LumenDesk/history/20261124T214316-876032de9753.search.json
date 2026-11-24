@@ -1,0 +1,538 @@
+{
+  "run": "20261124T214316-876032de9753",
+  "time_utc": "2026-11-24T21:43:16.952284+00:00",
+  "role": "support_agent",
+  "question": "Когда доступен обратный звонок во Франции и что меняется 14 июля?",
+  "settings": {
+    "model": "BAAI/bge-m3",
+    "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "normalize": true,
+    "prefix": "",
+    "max_tokens": 2048,
+    "per_source": 4,
+    "word_neighbors": 4,
+    "word_neighbor_depth": 2,
+    "algorithm_version": 5,
+    "limit": 14,
+    "index_input_sha256": "f3832daf38757a237c769c292d452c2390cd29c2e83f5f9e05e40414b06e7920"
+  },
+  "matches": [
+    {
+      "source": "documents/Франция/Rappels et jours fériés.pdf",
+      "language": "fr",
+      "context": "Часы обратных звонков во Франции и исключение 14 июля",
+      "fragments": [
+        {
+          "location": {
+            "page": 2
+          },
+          "original": "Le cas du 14 juillet\n\nPour une demande ordinaire reçue le 14 juillet, expliquer la fermeture des rappels ordinaires et proposer\nla prochaine disponibilité adaptée. Ne pas annoncer un appel dans la journée en se fondant seulement\nsur les horaires du lundi au vendredi. La fête nationale reste applicable même si elle tombe un jour\nhabituellement ouvré. Dans le dossier, distinguer la fermeture du canal ordinaire d’une éventuelle\ninvestigation technique qui se poursuit par ailleurs.\n\nL’exception à traiter séparément est un incident P1 sur un contrat Enterprise. Le rappel reste possible le\n14 juillet et intervient au plus tard 45 minutes après la confirmation du numéro de contact. L’heure de\ncette confirmation doit être conservée, car elle déclenche le délai exceptionnel. Le début du délai n’est ni\nl’heure d’un premier message dépourvu de numéro, ni l’heure choisie plus tard par l’agent pour compléter\nsa note. Ne pas étendre cette exception à une simple question de configuration ou à un autre tarif.\n\nPendant et après l’appel\n\nPrésenter le but de l’appel et vérifier que le contact peut parler du dossier. Donner les étapes de\ndiagnostic une par une, en laissant au client le temps de décrire ce qu’il observe. Les messages d’erreur\net noms de paramètres restent dans leur forme originale lorsque cela évite une confusion. L’appel ne sert\npas à recueillir un secret; si un client commence à dicter un mot de passe, l’interrompre et revenir aux\ndonnées de diagnostic utiles.\n\nAprès un appel sans réponse, noter la tentative dans la demande existante. Après deux appels sans\nréponse espacés de dix minutes, continuer le suivi par écrit comme indiqué dans la procédure. Le\nrésumé décrit les observations, les actions convenues et la personne qui attend la prochaine réponse. Il\nne doit pas donner l’impression qu’une conversation a eu lieu lorsque personne n’a décroché. Une\nconsigne de rappel laissée par le client reste visible pour l’équipe qui reprend le dossier.\n\nLes cas ambigus sont examinés avec le responsable de permanence France. Lors de la préparation des\ncongés, vérifier les contacts de relais sans recopier une ancienne liste personnelle de numéros dans\nchaque procédure. Cette note décrit le service proposé; elle ne remplace pas le contrat particulier d’un\nclient. Si une demande présente un aménagement de communication, conserver le canal convenu avec\nle client et prévenir le collègue chargé de l’appel avant le créneau.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                                                                                                   2",
+          "id": 2,
+          "text": "Обратные звонки 14 июля\n\nЕсли обычное обращение поступило 14 июля, объясните, что обычные обратные звонки в этот день недоступны, и предложите ближайшее подходящее время. Не обещайте звонок в тот же день, ориентируясь только на расписание с понедельника по пятницу. Национальный праздник учитывается, даже если он выпадает на обычный рабочий день. В обращении учитывайте отдельно недоступность обычных обратных звонков и техническое расследование, которое может продолжаться.\n\nОтдельно обрабатывается исключение для инцидентов P1 по договору Enterprise. Обратный звонок доступен и 14 июля. Он должен состояться не позднее чем через 45 минут после подтверждения контактного номера. Запишите время подтверждения, поскольку от него отсчитывается срок для обратного звонка по этому исключению. Срок не отсчитывается ни от первого сообщения без номера, ни от времени, когда специалист позже дополнил свою запись. Исключение не распространяется на обычные вопросы настройки или на другой тариф.\n\nВо время звонка и после него\n\nНазовите цель звонка и убедитесь, что контактное лицо может обсудить обращение. Предлагайте шаги диагностики по одному, оставляя клиенту время описать, что он видит. Сохраняйте исходные тексты ошибок и названия параметров, когда это помогает избежать путаницы. Секретные данные во время звонка не собирают. Если клиент начинает диктовать пароль, остановите его и вернитесь к сведениям, необходимым для диагностики.\n\nЕсли клиент не ответил, отметьте попытку звонка в существующем обращении. После двух звонков без ответа с интервалом в десять минут продолжайте работу в письменном виде по процедуре. В кратком отчёте укажите наблюдения, согласованные действия и кто ждёт следующего ответа. Запись не должна создавать впечатление, что разговор состоялся, если никто не ответил. Оставленные клиентом указания по обратному звонку должны быть видны команде, которая принимает обращение.\n\nНеоднозначные случаи разбирайте с ответственным за дежурство во Франции. При подготовке к отпускам проверьте контакты тех, кто принимает смену, без копирования устаревшего личного списка номеров в каждую процедуру. Эта памятка описывает предлагаемую услугу. Условия конкретного клиента определяются его договором. Если обращение требует адаптации способа общения, сохраните согласованный с клиентом канал и заранее предупредите коллегу, который будет звонить.\n\n2"
+        }
+      ],
+      "id": "R1",
+      "score": 0.793239,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Франция/Rappels et jours fériés.pdf",
+      "language": "fr",
+      "context": "Часы обратных звонков во Франции и исключение 14 июля",
+      "fragments": [
+        {
+          "location": {
+            "page": 1
+          },
+          "original": "Rappels téléphoniques en France\n\n\nSupport France a revu cette procédure le 1er septembre 2026 après la préparation des permanences\nd’été. Elle concerne les contacts dont le contrat relève de la France. Le calendrier du rappel ordinaire et\nle traitement d’une urgence Enterprise doivent être lus ensemble. Un client peut voyager ou appeler\ndepuis un autre pays; cela ne change pas automatiquement le calendrier contractuel ni le fuseau utilisé\npour la confirmation du rendez-vous.\n\nLe rappel sert à poursuivre une demande déjà ouverte dans LumenDesk. Avant de proposer un créneau,\nrelire le besoin, l’impact et le numéro de demande. L’agent ne crée pas une conversation sans lien avec\nl’écrit, car le collègue de permanence doit pouvoir retrouver les vérifications déjà faites. Demander un\nnuméro professionnel joignable et confirmer qu’il correspond bien au contact attendu, sans demander de\nmot de passe ni de code MFA.\n\nDisponibilité\n\nLes rappels ordinaires sont disponibles du lundi au vendredi de 09:00 à 17:00 Europe/Paris.\n\nLe 14 juillet, aucun rappel ordinaire n’est proposé.\n\nUn incident P1 sur un contrat Enterprise reste éligible au rappel le 14 juillet.\n\nPour cette exception P1 Enterprise, le rappel intervient au plus tard 45 minutes après confirmation du\nnuméro de contact.\n\nPréparation\n\nLe demandeur fournit un numéro professionnel et un créneau de disponibilité.\n\nLe rappel est effectué en français sauf accord explicite pour l’anglais.\n\nAprès deux appels sans réponse espacés de 10 minutes, le suivi continue par écrit.\n\nL’agent consigne le résumé de l’appel dans la demande existante.\n\nNe jamais demander de mot de passe ni de code MFA pendant l’appel.\n\nPréparer un rendez-vous ordinaire\n\nDans la confirmation, écrire explicitement Europe/Paris à côté de l’heure. Ne pas se contenter de\n«demain matin» lorsque le demandeur travaille à Montréal ou se déplace à Londres. La disponibilité du\nclient et la disponibilité du service sont deux informations distinctes. Si les deux plages ne se rencontrent\npas, proposer un autre créneau disponible ou poursuivre par écrit. Le formulaire reste un point d’entrée\nmême lorsque les rappels ordinaires sont fermés.\n\nUn report conserve le numéro de demande et le contexte technique. Le collègue qui reprend le dossier\ndoit voir la raison du report, les vérifications déjà réalisées et la dernière question encore ouverte. Le\ntransfert vers un agent francophone ne doit pas transformer un incident urgent en simple demande de\nrendez-vous. Vérifier le pays du contrat plutôt que déduire ce pays de la langue du message; une\norganisation belge peut aussi écrire en français.\n\n\n\n\n\n\n\n\n\n\n\n                                                                                                                                1",
+          "id": 1,
+          "text": "Обратные звонки во Франции\n\nКоманда поддержки во Франции (Support France) пересмотрела эту процедуру 1 сентября 2026 года после подготовки летних дежурств. Она касается контактных лиц, чьи договоры относятся к Франции. График обычных обратных звонков и порядок работы со срочными случаями по тарифу Enterprise следует читать вместе. Клиент может находиться в поездке или звонить из другой страны. Это само по себе не меняет график по договору и часовой пояс, в котором подтверждается встреча.\n\nОбратный звонок помогает продолжить работу по уже открытому обращению в LumenDesk. Прежде чем предложить время, ещё раз проверьте потребность клиента, масштаб влияния проблемы и номер обращения. Специалист не заводит отдельный разговор без связи с письменным обращением, чтобы дежурный коллега мог найти результаты проведённых проверок. Запросите рабочий номер, по которому можно дозвониться, и убедитесь, что он принадлежит нужному контактному лицу. Пароль и код MFA запрашивать нельзя.\n\nДоступность\n\nОбычные обратные звонки доступны с понедельника по пятницу с 09:00 до 17:00 Europe/Paris.\n\n14 июля обычные обратные звонки недоступны.\n\nПри инциденте P1 по договору Enterprise обратный звонок доступен и 14 июля.\n\nВ этом исключительном случае P1 по договору Enterprise специалист перезванивает не позднее чем через 45 минут после подтверждения контактного номера.\n\nПодготовка\n\nЗаявитель сообщает рабочий телефонный номер и удобное время для звонка.\n\nОбратный звонок проводится на французском языке. Английский язык допускается только по явному согласованию.\n\nПосле двух звонков без ответа с интервалом в 10 минут работа по обращению продолжается письменно.\n\nСпециалист записывает краткое содержание звонка в существующем обращении.\n\nВо время звонка никогда не запрашивайте пароль или код MFA.\n\nПодготовка обычного обратного звонка\n\nВ подтверждении указывайте Europe/Paris рядом со временем. Одной фразы «завтра утром» недостаточно, если заявитель работает в Монреале или едет в Лондон. Удобное время клиента и часы работы службы поддержки — это разные сведения. Если они не совпадают, предложите другое доступное время или продолжите общение письменно. Форму обращений можно использовать и в те дни, когда обычные обратные звонки недоступны.\n\nПри переносе сохраняются номер обращения и технический контекст. Коллега, который принимает обращение, должен видеть причину переноса, проведённые проверки и последний открытый вопрос. Передача франкоязычному специалисту не должна превращать срочный инцидент в обычный запрос на звонок. Проверяйте страну договора. Язык сообщения её не определяет, поскольку бельгийская организация тоже может писать по-французски.\n\n1"
+        }
+      ],
+      "id": "R2",
+      "score": 0.792408,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Франция/organisation/Calendrier support 2026.docx",
+      "language": "fr",
+      "context": "Календарь обычных обратных звонков по договорам Франции",
+      "fragments": [
+        {
+          "location": {
+            "section": "Jours et horaires",
+            "paragraph": 4
+          },
+          "original": "Jours et horaires",
+          "id": 4,
+          "text": "Дни и время работы"
+        },
+        {
+          "location": {
+            "section": "Jours et horaires",
+            "paragraph": 5
+          },
+          "original": "Les rappels ordinaires sont fermés le 14 juillet.",
+          "id": 5,
+          "text": "14 июля обычные обратные звонки недоступны."
+        },
+        {
+          "location": {
+            "section": "Jours et horaires",
+            "paragraph": 6
+          },
+          "original": "Les rappels ordinaires sont fermés le 25 décembre.",
+          "id": 6,
+          "text": "25 декабря обычные обратные звонки недоступны."
+        },
+        {
+          "location": {
+            "section": "Jours et horaires",
+            "paragraph": 7
+          },
+          "original": "Hors jours fériés, les rappels ordinaires ont lieu de 09:00 à 17:00 Europe/Paris du lundi au vendredi.",
+          "id": 7,
+          "text": "Кроме праздничных дней, обычные обратные звонки проводят с понедельника по пятницу с 09:00 до 17:00 Europe/Paris."
+        },
+        {
+          "location": {
+            "section": "Jours et horaires",
+            "paragraph": 8
+          },
+          "original": "Le formulaire reste accessible pendant les jours fériés.",
+          "id": 8,
+          "text": "В праздничные дни форма остаётся доступной."
+        }
+      ],
+      "id": "R3",
+      "score": 0.762251,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Франция/organisation/Calendrier support 2026.docx",
+      "language": "fr",
+      "context": "Календарь обычных обратных звонков по договорам Франции",
+      "fragments": [
+        {
+          "location": {
+            "section": "Organiser le report",
+            "paragraph": 15
+          },
+          "original": "Organiser le report",
+          "id": 15,
+          "text": "Как организовать перенос"
+        },
+        {
+          "location": {
+            "section": "Organiser le report",
+            "paragraph": 16
+          },
+          "original": "Lorsqu’un rappel ordinaire tombe un jour de fermeture, proposer le prochain jour ouvré disponible qui convient au client. Conserver le numéro de demande et expliquer la raison du report. Le changement de rendez-vous ne doit pas effacer la question initiale ni les vérifications déjà réalisées. Si le collègue qui reprend le dossier n’a pas participé à l’échange, il doit comprendre ce qui reste à faire et pourquoi l’ancien créneau n’a pas été conservé.",
+          "id": 16,
+          "text": "Если обычный обратный звонок выпадает на нерабочий день службы, предложите ближайший доступный рабочий день, подходящий клиенту. Сохраните номер обращения и объясните причину переноса. При переносе должны сохраниться исходный вопрос и проведённые проверки. Коллега, принимающий обращение без участия в предыдущем разговоре, должен понимать, что осталось сделать и почему прежнее время звонка изменили."
+        },
+        {
+          "location": {
+            "section": "Organiser le report",
+            "paragraph": 17
+          },
+          "original": "Les horaires ordinaires sont de 09:00 à 17:00 Europe/Paris du lundi au vendredi hors jours fériés. Le 14 juillet et le 25 décembre, les rappels ordinaires sont fermés. Ne pas considérer ces deux dates comme une liste universelle des calendriers de tous les pays. Cette note rappelle leur traitement pour la France. Pour une question concernant une autre date contractuelle ou une autre organisation, vérifier le dossier applicable avant de promettre un créneau.",
+          "id": 17,
+          "text": "Обычные обратные звонки проводят с понедельника по пятницу с 09:00 до 17:00 Europe/Paris, кроме праздничных дней. 14 июля и 25 декабря обычные обратные звонки недоступны. Эти две даты нельзя считать универсальным списком праздников для всех стран. В памятке описано, как их учитывать во Франции. Если вопрос касается другой даты по договору или другой организации, проверьте соответствующие материалы до того, как обещать время звонка."
+        }
+      ],
+      "id": "R4",
+      "score": 0.727911,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Франция/organisation/Calendrier support 2026.docx",
+      "language": "fr",
+      "context": "Календарь обычных обратных звонков по договорам Франции",
+      "fragments": [
+        {
+          "location": {
+            "section": "Exemples de la réunion de planning",
+            "paragraph": 21
+          },
+          "original": "Exemples de la réunion de planning",
+          "id": 21,
+          "text": "Примеры со встречи по расписанию"
+        },
+        {
+          "location": {
+            "section": "Exemples de la réunion de planning",
+            "paragraph": 22
+          },
+          "original": "Une demande ordinaire était prévue le 14 juillet dans le calendrier partagé. L’équipe l’a déplacée au prochain jour ouvré disponible avec l’accord du client et a conservé la même demande. Le compte rendu ne disait pas «incident clos», car aucun diagnostic technique n’avait été terminé par ce déplacement. Le client a reçu une nouvelle confirmation mentionnant Europe/Paris et le sujet de l’appel. Les vérifications déjà faites sont restées dans le dossier initial.",
+          "id": 22,
+          "text": "Обычное обращение было запланировано в общем календаре на 14 июля. Команда с согласия клиента перенесла звонок на ближайший доступный рабочий день и сохранила то же обращение. В отчёте не написали «инцидент закрыт», поскольку перенос не завершил никакой технической диагностики. Клиент получил новое подтверждение с указанием Europe/Paris и темы звонка. Сведения об уже проведённых проверках остались в исходном обращении."
+        },
+        {
+          "location": {
+            "section": "Exemples de la réunion de planning",
+            "paragraph": 23
+          },
+          "original": "Un autre message rédigé en français provenait d’un contrat belge. Le collègue a vérifié le pays au lieu de reprendre automatiquement le calendrier français. La bonne orientation évite de fermer un créneau sur la base d’une hypothèse de langue. Enfin, un P1 Enterprise signalé pendant un jour férié a été adressé à la permanence, sans être rangé parmi les simples reports. Le détail du délai exceptionnel se trouve dans la procédure de rappels France, à consulter lorsque ce cas se présente.",
+          "id": 23,
+          "text": "Другое сообщение на французском поступило по бельгийскому договору. Коллега проверил страну, вместо того чтобы автоматически применить французский календарь. Правильная маршрутизация помогает не закрывать доступное время из-за предположения по языку. Об инциденте P1 по договору Enterprise, о котором сообщили в праздничный день, передали дежурной службе. Его не отнесли к обычным переносам. Срок для этого исключения указан в процедуре обратных звонков во Франции, к которой следует обратиться в таком случае."
+        },
+        {
+          "location": {
+            "section": "Exemples de la réunion de planning",
+            "paragraph": 24
+          },
+          "original": "Avant les congés, chaque responsable de plage vérifie les demandes à reprendre et le collègue de relais. Les notes personnelles peuvent aider à préparer la relève, mais la prochaine action doit être inscrite dans la demande accessible à l’équipe. Si une ancienne invitation subsiste dans le calendrier du client, la corriger explicitement pour éviter deux horaires concurrents. Le suivi est terminé lorsque le client sait quel canal utiliser et à quel moment la suite est attendue.",
+          "id": 24,
+          "text": "Перед отпусками ответственный за каждый интервал работы проверяет, какие обращения предстоит передать и кто их подхватит. Личные записи могут помочь подготовить передачу смены, но следующее действие нужно указать в обращении, доступном команде. Если старое приглашение осталось в календаре клиента, явно исправьте его, чтобы не осталось двух разных вариантов времени. Работа по передаче завершена, когда клиент знает, каким каналом воспользоваться и когда ждать следующего действия."
+        }
+      ],
+      "id": "R5",
+      "score": 0.674546,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Франция/organisation/Calendrier support 2026.docx",
+      "language": "fr",
+      "context": "Календарь обычных обратных звонков по договорам Франции",
+      "fragments": [
+        {
+          "location": {
+            "section": "Calendrier du support en France",
+            "paragraph": 1
+          },
+          "original": "Calendrier du support en France",
+          "id": 1,
+          "text": "Календарь поддержки во Франции"
+        },
+        {
+          "location": {
+            "section": "Calendrier du support en France",
+            "paragraph": 2
+          },
+          "original": "Note de Support France pour l’organisation du calendrier 2026, relue le 1er septembre. Elle explique comment proposer ou reporter un rappel ordinaire lorsque le contrat relève de la France. Les engagements d’urgence Enterprise continuent selon le contrat et les consignes de permanence. La présence d’un jour férié dans ce calendrier ne signifie donc pas que toute demande ou tout incident est laissé sans orientation.",
+          "id": 2,
+          "text": "Памятка команды Support France по календарю на 2026 год, вычитана 1 сентября. Она объясняет, как предложить или перенести обычный обратный звонок, если договор относится к Франции. Обязательства по срочным случаям Enterprise сохраняются в соответствии с договором и инструкциями дежурной службы. Праздничный день в этом календаре не означает, что обращения и инциденты остаются без обработки или передачи."
+        },
+        {
+          "location": {
+            "section": "Calendrier du support en France",
+            "paragraph": 3
+          },
+          "original": "Le calendrier applicable vient du pays du contrat, pas seulement de la langue utilisée par le client. Une organisation belge peut écrire en français et doit conserver son calendrier belge. Avant de déplacer un rendez-vous, vérifier le pays du contrat et la disponibilité réelle du contact. La confirmation du rendez-vous affiche le fuseau horaire afin que le client et le collègue chargé de l’appel parlent du même créneau.",
+          "id": 3,
+          "text": "Применимый календарь определяет страна договора, а не просто язык обращения клиента. Бельгийская организация может писать по-французски, но к ней по-прежнему применяется бельгийский календарь. Прежде чем переносить звонок, проверьте страну договора и действительную доступность контактного лица. В подтверждении времени звонка указывают часовой пояс, чтобы клиент и ответственный за звонок коллега имели в виду одно и то же время."
+        }
+      ],
+      "id": "R6",
+      "score": 0.63173,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Рабочие копии/Relais français 2026-09.txt",
+      "language": "fr",
+      "context": "Маршрутизация письменных запросов на французском",
+      "fragments": [
+        {
+          "location": {
+            "lines": [
+              1,
+              23
+            ]
+          },
+          "original": "Pour le prochain relais vers l'équipe francophone\n\nSupport France a repris ces explications le 1er septembre 2026. Cette copie est destinée aux collègues qui orientent une demande écrite en français et veulent conserver le contexte du client. Elle concerne les organisations dont le contrat indique la France ou la Belgique. La langue du message et le pays du contrat apportent deux informations différentes: l'une aide à organiser l'échange, l'autre détermine le calendrier de jours fériés applicable. Ne les déduisez pas automatiquement l'une de l'autre.\n\nLes demandes écrites en français entrent dans la file FR-SUPPORT. Le passage dans cette file doit faire avancer une seule histoire, et non créer un nouvel échange dans lequel le client devrait tout raconter à nouveau. Avant le relais, relisez ce que la personne essaie de faire et les vérifications déjà réalisées. Une phrase générale comme «client français, problème de connexion» laisse de côté le besoin, le workspace concerné et les observations qui ont déjà pris du temps. Un bref récit précis permet à l'équipe suivante de poursuivre au bon endroit.\n\nUn incident P1 conserve sa priorité lors du transfert de langue. Le changement d'interlocuteur ne réduit pas l'impact sur le travail du client. Si le message initial et la discussion interne utilisent des formulations différentes, rendez le contexte visible au moment du relais. La langue choisie pour expliquer l'incident ne doit pas faire disparaître le fait qu'il s'agit d'un P1. Nous voulons éviter qu'un collègue comprenne «nouvelle demande à orienter» alors qu'il reçoit la continuation d'un incident déjà identifié.\n\nLe transfert de file ne redémarre pas le délai de première réponse. C'est une précision utile aussi bien dans la coordination interne que dans les attentes données au client. Ne présentez pas le relais comme un nouveau départ du dossier. L'heure à laquelle un collègue découvre la demande n'efface pas ce qui s'est passé avant. Dans la note de passage, conservez assez de contexte pour que la personne qui reprend comprenne où en est la relation avec le client, sans inventer une nouvelle échéance du seul fait du changement de file.\n\nPour les demandes belges, le client peut choisir le français ou l'anglais. Il faut obtenir son accord avant de changer la langue des échanges. Ce choix ne devrait pas être décidé en silence parce qu'un document joint est en anglais ou parce qu'un premier collègue a répondu dans cette langue. La personne peut préférer le français pour expliquer son besoin tout en utilisant des paramètres et des outils en anglais. Demandez et conservez son choix dans la conversation, afin de ne pas lui poser la même question à chaque relais.\n\nLe pays du contrat détermine le calendrier de jours fériés applicable. Un interlocuteur peut être installé ailleurs ou se déplacer sans que cela transforme le contrat. Lorsque le calendrier a une importance pour l'organisation d'un échange, vérifiez donc le pays indiqué au contrat. Cette note ne liste pas les jours fériés et ne doit pas servir à en déduire de nouveaux. Elle explique où chercher le bon contexte. Une ressemblance de langue entre deux demandes ne suffit pas à leur attribuer le même calendrier.\n\nLe rappel français ordinaire est proposé du lundi au vendredi entre 09:00 et 17:00 Europe/Paris. Écrivez le fuseau dans la proposition au client. «Demain matin» peut être compris différemment par deux personnes qui travaillent dans des lieux distincts, et le fil finit parfois par être relu par un troisième collègue. Ce créneau décrit le rappel ordinaire. Ne mélangez pas une proposition de rendez-vous et l'évolution d'un incident dans une phrase qui laisserait entendre que l'une remplace l'autre. Gardez le besoin concret du client lisible.\n\nLors d'un relais, résumez le besoin, le workspace ID, le fuseau horaire et les vérifications déjà réalisées. Le résumé n'a pas besoin de reprendre chaque formule de politesse ni chaque répétition du fil. Il doit permettre à la prochaine personne de comprendre ce qui est demandé et sur quel exemple les vérifications ont porté. Si une vérification a seulement été proposée, écrivez-le ainsi. Une suggestion ne devient pas un résultat parce qu'elle figure dans un message plus ancien. Les mots «à vérifier» et «vérifié» orientent des actions très différentes.\n\nConservez les noms de paramètres et les messages d'erreur dans leur langue originale. Le reste du résumé peut être rédigé dans la langue de l'échange, mais ces éléments précis doivent rester reconnaissables. Une traduction approximative d'un message d'erreur peut rendre la recherche du même événement beaucoup plus difficile. Le client peut expliquer en français ce qu'il faisait et citer un message en anglais; cette combinaison est normale. Il n'est pas nécessaire de réécrire l'erreur pour donner l'impression d'un dossier entièrement homogène.\n\nQuand une demande revient après plusieurs relais, commencez par relire les accords déjà donnés, notamment le choix de langue, puis regardez le dernier point effectivement atteint. Nous perdons parfois du temps en reposant une question dont la réponse se trouve trois messages plus haut. Une note de relais bien écrite évite cela sans grossir le dossier. Elle rassemble les quelques informations nécessaires dans une histoire cohérente: un besoin, un workspace, des vérifications et un interlocuteur qui sait comment la conversation va continuer.\n\nL'objectif pratique est simple: le client doit reconnaître la continuité de son dossier quand il change d'interlocuteur. Il ne devrait pas avoir à renommer ses paramètres, reformuler ses erreurs ou défendre à nouveau la priorité de son incident pour être compris. De notre côté, nous gardons le pays du contrat, la langue choisie et le fuseau comme des éléments distincts. Cette attention rend les relais plus fluides sans inventer de nouvelles conditions de service dans une note de coordination.",
+          "id": 1,
+          "text": "Передача обращения франкоязычной команде\n\nКоманда Support France обновила эти разъяснения 1 сентября 2026 года. Памятка предназначена для коллег, которые направляют письменное обращение на французском и хотят сохранить контекст клиента. Она относится к организациям, у которых в договоре указана Франция или Бельгия. Язык сообщения и страна договора дают разные сведения: язык помогает организовать общение, а страна определяет применимый календарь праздников. Не выводите одно из другого автоматически.\n\nПисьменные обращения на французском поступают в очередь FR-SUPPORT. В этой очереди продолжают работу над тем же обращением, чтобы клиенту не пришлось заново всё рассказывать в новом диалоге. Перед передачей перечитайте, что человек пытается сделать и какие проверки уже проведены. Общая фраза «французский клиент, проблема со входом» не передаёт потребность, рабочее пространство, к которому относится проблема, и наблюдения, на которые уже потратили время. Краткое и точное описание позволяет следующей команде продолжить с нужного места.\n\nИнцидент P1 сохраняет приоритет при передаче команде, работающей на другом языке. Смена собеседника не уменьшает влияние на работу клиента. Если в первоначальном сообщении и внутреннем обсуждении используются разные формулировки, отразите этот контекст при передаче. Язык, на котором объясняют инцидент, не должен скрывать, что это P1. Важно, чтобы коллега понимал, что ему передали уже выявленный инцидент, а не новое обращение, для которого ещё нужно выбрать очередь.\n\nПередача в другую очередь не запускает срок первого ответа заново. Это важно и для внутренней координации, и для ожиданий клиента. Не представляйте передачу как начало работы с нуля. Время, когда новый сотрудник увидел запрос, не отменяет уже произошедшего. Сохраните в записи о передаче достаточно контекста, чтобы принимающий сотрудник понимал, на каком этапе находится общение с клиентом. Сам факт смены очереди не даёт основания назначать новый срок.\n\nДля обращений по бельгийским договорам клиент может выбрать французский или английский. Менять язык общения можно с его согласия. Не выбирайте новый язык без обсуждения лишь потому, что вложенный документ составлен по-английски или первый коллега ответил на этом языке. Клиент может предпочитать объяснять свою задачу по-французски и при этом пользоваться параметрами и инструментами на английском. Спросите о предпочтении и сохраните его в диалоге, чтобы не повторять вопрос при каждой передаче.\n\nПрименимый календарь праздников определяется страной договора. Контактное лицо может находиться в другой стране или путешествовать, и договор от этого не меняется. Если календарь важен для организации общения, проверьте страну, указанную в договоре. Эта памятка не перечисляет праздники и не даёт основания выводить из неё новые даты. Она объясняет, где проверить нужный контекст. Одинаковый язык двух обращений сам по себе не означает, что для них действует один календарь.\n\nОбычные обратные звонки во Франции предлагают с понедельника по пятницу с 09:00 до 17:00 Europe/Paris. Указывайте часовой пояс, когда предлагаете клиенту время. Слова «завтра утром» могут по-разному понять люди в разных местах, а позже переписку может прочитать третий сотрудник. Указанный интервал относится к обычному обратному звонку. Описывайте предложенное время звонка и ход работы над инцидентом отдельно, чтобы у клиента не возникло впечатления, что одно заменяет другое. Ясно указывайте конкретную потребность клиента.\n\nПри передаче кратко укажите потребность, workspace ID, часовой пояс и уже выполненные проверки. Приветствия и повторы из переписки переносить в сводку не нужно. Следующий сотрудник должен понять, о чём просит клиент и на каком примере выполнялись проверки. Если проверку только предложили, так и напишите. Само наличие предложения в более раннем сообщении не означает, что результат уже получен. Формулировки «нужно проверить» и «проверено» ведут к разным действиям.\n\nСохраняйте названия параметров и сообщения об ошибках на языке оригинала. Остальную часть сводки можно составить на языке общения, но точные обозначения должны оставаться узнаваемыми. Приблизительный перевод ошибки может сильно затруднить поиск того же события. Если клиент описывает свои действия по-французски и цитирует сообщение по-английски, это нормально. Переписывать сообщение об ошибке, чтобы все записи казались однородными, не нужно.\n\nЕсли к обращению возвращаются после нескольких передач, сначала перечитайте уже достигнутые договорённости, в том числе выбор языка. Затем проверьте последний фактически выполненный шаг. Иногда время теряется на повторный вопрос, ответ на который был тремя сообщениями раньше. Хорошая запись о передаче позволяет этого избежать и оставляет дело компактным. Она связывает необходимые сведения: потребность, рабочее пространство, проверки и контактное лицо, которое знает, как продолжится общение.\n\nПри смене сотрудника клиент должен видеть, что работа идёт по тому же обращению. Ему не должно требоваться заново называть параметры, переформулировать ошибки или отстаивать приоритет инцидента, чтобы его поняли. В своих записях храните страну договора, выбранный язык и часовой пояс как отдельные сведения. Это помогает передавать обращения без выдуманных условий обслуживания в памятке по координации."
+        }
+      ],
+      "id": "R7",
+      "score": 0.591351,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Франция/Accessibilité septembre.pdf",
+      "language": "fr",
+      "context": "Адаптация каналов связи и инструкций для доступности",
+      "fragments": [
+        {
+          "location": {
+            "page": 1
+          },
+          "original": "Accompagnement des besoins d’accessibilité\n\nL’équipe Support France utilise cette fiche depuis la revue de septembre 2026 pour préparer les\néchanges avec les clients qui demandent un aménagement. Le client décrit le canal ou la forme\nd’explication qui lui convient; il n’a pas à fournir d’information médicale. L’objectif est de rendre la\ndémarche utilisable tout en conservant la priorité technique et les contrôles habituels sur les\nopérations sensibles.\n\nUn aménagement peut être très simple: un suivi écrit, une procédure structurée ou davantage de\ntemps pour vérifier une étape. Ne présumez pas du besoin à partir d’un nom, d’un accent ou de l’âge\nsupposé de la personne. Demandez quelle forme d’échange aidera le client, puis consignez son\nchoix avec son accord dans la demande existante.\n\nCanaux\n\nÉcrit. Le client peut demander un suivi exclusivement écrit.\n\nAppel. Les appels planifiés peuvent inclure des sous-titres en français.\n\nPréparation. Un besoin de sous-titres doit être signalé 2 jours ouvrés avant un appel planifié.\n\nDocuments. Les procédures peuvent être fournies en texte structuré sans capture d’écran seule.\n\nTraitement\n\nNavigation. Les instructions doivent nommer les commandes, pas seulement leur position ou leur\ncouleur.\n\nRythme. L’agent vérifie la compréhension avant de passer à une étape irréversible.\n\nConsentement. Le partage d’écran reste facultatif.\n\nUrgence. Le besoin d’un aménagement ne réduit jamais la priorité d’un incident.\n\nSuivi. Le choix du canal est consigné dans la demande avec l’accord du client.\n\nPréparer des instructions utilisables\n\nUne capture seule ne suffit pas pour expliquer une opération. Nommer la commande, la section et le\nrésultat attendu permet à une personne qui utilise un lecteur d’écran ou une navigation différente de\nsuivre le même chemin. Éviter «cliquez sur le bouton bleu à droite» lorsque plusieurs commandes\npourraient correspondre. Un texte structuré garde des titres qui décrivent la tâche et des étapes dans\nl’ordre réel. Les noms de paramètres restent identiques à ceux du produit.\n\nAvant de proposer un appel planifié avec sous-titres en français, vérifier que le besoin a été signalé\ndeux jours ouvrés avant l’appel afin d’organiser le service. Si la demande arrive plus tard, expliquer\nles possibilités réelles et convenir avec le client d’un canal utilisable. Ne promettez pas un dispositif\nqui n’est pas confirmé. La préparation d’un aménagement ne justifie jamais de réduire la priorité d’un\nincident ou d’interrompre une investigation urgente.\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                                                                                            1",
+          "id": 1,
+          "text": "Как учитывать потребности в доступности\n\nКоманда Support France использует эту памятку с сентябрьской проверки 2026 года для подготовки к общению с клиентами, которые просят адаптировать обслуживание. Клиент описывает подходящий ему канал или формат объяснений. Сообщать медицинские сведения ему не нужно. Цель — сделать процедуру доступной, сохранив технический приоритет и обычные проверки при чувствительных операциях.\n\nАдаптация может быть простой: общение в письменном виде, структурированная инструкция или дополнительное время для проверки шага. Не делайте выводов о потребностях по имени, акценту или предполагаемому возрасту человека. Спросите, какой формат поможет клиенту, и с его согласия запишите выбор в существующем обращении.\n\nКаналы\n\nПисьменная связь. Клиент может попросить вести общение исключительно письменно.\n\nЗвонок. Для запланированных звонков можно предусмотреть субтитры на французском языке.\n\nПодготовка. О необходимости субтитров нужно сообщить за 2 рабочих дня до запланированного звонка.\n\nДокументы. Инструкции могут быть предоставлены в виде структурированного текста. Одного скриншота недостаточно.\n\nРабота с обращением\n\nНавигация. Указывайте в инструкции названия команд, а не только их положение или цвет.\n\nТемп. Перед необратимым действием специалист убеждается, что клиент всё понял.\n\nСогласие. Демонстрация экрана остаётся добровольной.\n\nСрочность. Потребность в адаптации никогда не снижает приоритет инцидента.\n\nПродолжение работы. Выбранный канал указывается в обращении с согласия клиента.\n\nПодготовка доступных инструкций\n\nОдного скриншота недостаточно, чтобы объяснить операцию. Укажите название команды, раздел и ожидаемый результат, чтобы человек с программой экранного доступа или иным способом навигации мог выполнить те же действия. Избегайте формулировок вроде «нажмите синюю кнопку справа», если им могут соответствовать несколько команд. В структурированном тексте заголовки описывают задачу, а шаги идут в фактическом порядке. Названия параметров сохраняются такими же, как в продукте.\n\nПрежде чем предложить запланированный звонок с французскими субтитрами, проверьте, что о потребности сообщили за два рабочих дня до звонка, чтобы услугу успели организовать. Если запрос поступил позже, объясните, какие варианты действительно доступны, и согласуйте с клиентом подходящий канал. Не обещайте неподтверждённые условия. Подготовка адаптации никогда не оправдывает снижения приоритета инцидента или приостановки срочного расследования.\n\n1"
+        }
+      ],
+      "id": "R8",
+      "score": 0.498569,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Франция/Assistant abonnement.xlsx",
+      "language": "fr",
+      "context": "Опубликованные месячные квоты и правила учёта сообщений Ответы, подтверждённые при проверке Вопрос / Ответ",
+      "fragments": [
+        {
+          "location": {
+            "sheet": "Questions clients",
+            "range": "A7:B7",
+            "headers": {
+              "A7": {
+                "cell": "A5",
+                "text": "Question"
+              },
+              "B7": {
+                "cell": "B5",
+                "text": "Réponse"
+              }
+            }
+          },
+          "original": "A7: Quand le solde change-t-il ?\nB7: Remise à zéro le premier jour du mois à 00:00 UTC",
+          "id": 48,
+          "text": "A7: Когда меняется остаток?\nB7: Обнуление в первый день месяца в 00:00 UTC"
+        }
+      ],
+      "id": "R9",
+      "score": 0.485869,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Франция/Atelier équipe septembre.md",
+      "language": "fr",
+      "context": "Условия подготовки франкоязычного вводного семинара",
+      "fragments": [
+        {
+          "location": {
+            "section": "Trouver une séance qui convient",
+            "lines": [
+              9,
+              16
+            ]
+          },
+          "original": "## Trouver une séance qui convient\n\nLes séances ont lieu le mardi ou le jeudi à 10:00 Europe/Paris. Lorsque le client propose une heure, reprenez le fuseau dans votre réponse au lieu d'écrire seulement «10 heures». Une équipe répartie entre plusieurs bureaux peut tout à fait comprendre la même invitation de façons différentes. Le créneau indiqué ici est celui de Paris. Il vaut mieux clarifier cela dans le premier message que découvrir au début de la séance qu'une partie du groupe attendait une autre heure.\n\nLa demande doit nous parvenir au moins 5 jours ouvrés avant la séance souhaitée. Ce délai laisse au client la possibilité de préparer un espace convenable et à l'équipe d'organisation celle de réunir le bon contexte. Ne présentez pas une demande envoyée tardivement comme une confirmation déjà acquise. Dans le fil de discussion, distinguez la date souhaitée par le client de la séance effectivement organisée. Les personnes ajoutées plus tard à la conversation ne doivent pas déduire une réservation du seul fait qu'un mardi figure dans l'objet du courriel.\n\nUne séance accueille au maximum 12 participants et sa durée standard est de 60 minutes. Quand le contact écrit «toute l'équipe», demandez combien de personnes cela représente. Cette précision n'est pas une façon de décourager la participation; elle permet de préparer une séance dont le cadre est clair. Gardez aussi la durée visible dans la conversation. Une introduction aux espaces partagés et aux procédures courantes n'est pas automatiquement une journée de conseil consacrée à tous les sujets que l'organisation pourrait vouloir aborder.",
+          "id": 2,
+          "text": "## Выбор подходящего времени\n\nСеминары проходят по вторникам или четвергам в 10:00 Europe/Paris. Когда клиент предлагает время, повторите часовой пояс в ответе вместо одной фразы «10 часов». Члены команды в разных офисах могут по-разному понять одно приглашение. В этой памятке указано парижское время. Лучше уточнить это в первом сообщении, чем в начале семинара обнаружить, что часть команды ожидала другого времени.\n\nЗапрос должен поступить как минимум за 5 рабочих дней до желаемого семинара. Клиенту это даёт время подготовить подходящее рабочее пространство, а организаторам — собрать необходимый контекст. Не выдавайте поздно отправленный запрос за подтверждение. В переписке различайте дату, которую предложил клиент, и фактически согласованный семинар. Участники, которых добавили в обсуждение позже, не должны считать семинар забронированным только потому, что в теме письма упомянут вторник.\n\nВ семинаре могут участвовать до 12 человек. Стандартная продолжительность — 60 минут. Если контактное лицо пишет «вся команда», уточните число участников. Это помогает подготовить занятие с понятными рамками и не служит способом ограничить участие. Указывайте продолжительность и в переписке. Введение в общие рабочие пространства и повседневные процедуры обычно не предполагает целого дня консультаций по всем интересующим организацию темам."
+        }
+      ],
+      "id": "R10",
+      "score": 0.484077,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Клиентский сервис/response targets final.xlsx",
+      "language": "en",
+      "context": "Целевые сроки первого ответа и сведения для замера Первый ответ сотрудника поддержки Случай / Целевой срок / Единица / Когда применяется",
+      "fragments": [
+        {
+          "location": {
+            "sheet": "Targets",
+            "range": "A13:D13",
+            "headers": {
+              "A13": {
+                "cell": "A7",
+                "text": "Case"
+              },
+              "B13": {
+                "cell": "B7",
+                "text": "Target"
+              },
+              "C13": {
+                "cell": "C7",
+                "text": "Unit"
+              },
+              "D13": {
+                "cell": "D7",
+                "text": "When it applies"
+              }
+            }
+          },
+          "original": "A13: Business support hours\nB13: 09:00 to 18:00\nC13: Europe/Berlin\nD13: Monday through Friday excluding contract holidays",
+          "id": 9,
+          "text": "A13: Рабочие часы службы поддержки\nB13: С 09:00 до 18:00\nC13: Europe/Berlin\nD13: С понедельника по пятницу, кроме праздничных дней по договору"
+        }
+      ],
+      "id": "R11",
+      "score": 0.479228,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Клиентский сервис/Корзина и восстановление.md",
+      "language": "ru",
+      "context": "Сроки и порядок восстановления объектов из Корзины Если окно уже закончилось",
+      "fragments": [
+        {
+          "location": {
+            "section": "Если окно уже закончилось",
+            "lines": [
+              29,
+              33
+            ]
+          },
+          "original": "## Если окно уже закончилось\n\nПосле окончания окна восстановление необратимо недоступно. Поддержка не продлевает срок. Это следует сказать прямо, без обещания «попробовать вернуть через инженеров», которое создаёт ложное ожидание отдельного скрытого способа. Тяжесть ситуации для клиента понятна, но срочность обращения не меняет время удаления и длительность окна. Не предлагайте повторить запрос завтра и не трактуйте обращение руководителя клиента как основание остановить таймер.\n\nВ завершении разговора полезно ещё раз связать ответ с проверенными данными: о каком workspace и объекте говорили, на каком тарифе он находится и какое время удаления использовали. Такой итог помогает избежать следующего обращения с другим объектом, но прежним выводом. Если восстановление доступно, клиент понимает, кому действовать в Корзине. Если срок закончился, он получает определённый ответ без бессрочного ожидания. Смысл этой памятки — дать точную опору разговору, в котором людям обычно хочется услышать обещание раньше, чем установлены факты.",
+          "id": 5,
+          "text": "## Если окно уже закончилось\n\nПосле окончания окна восстановление необратимо недоступно. Поддержка не продлевает срок. Это следует сказать прямо, без обещания «попробовать вернуть через инженеров», которое создаёт ложное ожидание отдельного скрытого способа. Тяжесть ситуации для клиента понятна, но срочность обращения не меняет время удаления и длительность окна. Не предлагайте повторить запрос завтра и не трактуйте обращение руководителя клиента как основание остановить таймер.\n\nВ завершении разговора полезно ещё раз связать ответ с проверенными данными: о каком workspace и объекте говорили, на каком тарифе он находится и какое время удаления использовали. Такой итог помогает избежать следующего обращения с другим объектом, но прежним выводом. Если восстановление доступно, клиент понимает, кому действовать в Корзине. Если срок закончился, он получает определённый ответ без бессрочного ожидания. Смысл этой памятки — дать точную опору разговору, в котором людям обычно хочется услышать обещание раньше, чем установлены факты."
+        }
+      ],
+      "id": "R12",
+      "score": 0.478755,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Франция/Atelier équipe septembre.md",
+      "language": "fr",
+      "context": "Условия подготовки франкоязычного вводного семинара",
+      "fragments": [
+        {
+          "location": {
+            "section": "Si le calendrier change",
+            "lines": [
+              25,
+              31
+            ]
+          },
+          "original": "## Si le calendrier change\n\nUn report sans frais est possible jusqu'à 2 jours ouvrés avant la séance. Reprenez cette règle lorsque le client annonce un changement de disponibilité. Une phrase comme «nous verrons la veille si tout le monde peut venir» ne permet pas à l'équipe de comprendre le cadre du report. La demande de déplacer une séance et la confirmation d'un nouveau rendez-vous sont aussi deux événements différents. Dans le message qui termine l'échange, écrivez clairement ce qui a été convenu, afin que les invitations conservées par les participants ne racontent pas plusieurs histoires.\n\nLe résumé de l'atelier est envoyé au contact du contrat dans les 2 jours ouvrés. Dites-le lorsque vous expliquez le déroulement, car certains participants souhaitent se concentrer sur les échanges plutôt que prendre des notes à toute vitesse. Le destinataire prévu est le contact du contrat. Ne supposez pas que toutes les personnes ajoutées à un ancien fil sont devenues ce contact. Le résumé doit revenir vers la relation contractuelle que le client et nous avons identifiée, puis le client peut organiser sa propre circulation interne.\n\nPour préparer un prochain échange, je relis donc le fil comme le ferait une personne qui n'a participé à aucun appel: voit-elle le contrat concerné, la séance souhaitée, le nombre de participants, le fuseau et l'espace de démonstration à préparer? Cette relecture ne remplace pas les modalités ci-dessus, mais elle fait ressortir les implicites. Un atelier se passe mieux lorsque tout le monde arrive avec le même rendez-vous en tête et un espace utilisable. Merci de garder les informations pratiques dans la conversation, même lorsque le contact vous paraît déjà très familier du service.",
+          "id": 4,
+          "text": "## Если расписание меняется\n\nБесплатно перенести семинар можно не позднее чем за 2 рабочих дня до него. Напомните об этом правиле, если клиент сообщает, что прежнее время ему не подходит. Фраза «накануне посмотрим, смогут ли все прийти» не объясняет условия переноса. Запрос на перенос и подтверждение нового времени — разные события. В заключительном сообщении ясно напишите, о чём договорились, чтобы в приглашениях у участников не оставалось разных дат или времени.\n\nКраткий отчёт о семинаре отправляют контактному лицу по договору в течение 2 рабочих дней. Укажите это при объяснении порядка работы, поскольку некоторые участники предпочтут сосредоточиться на обсуждении без необходимости быстро записывать сказанное. Предусмотренный получатель — контактное лицо по договору. Не считайте, что все, кого добавили в старую переписку, получили эту роль. Отчёт направляют согласованному с клиентом контактному лицу, после чего клиент может сам распространить его внутри организации.\n\nПеред следующим обсуждением я перечитываю переписку глазами сотрудника, который не участвовал ни в одном звонке. Видит ли он, к какому договору относится запрос, когда клиент хочет провести семинар, сколько будет участников, какой часовой пояс указан и какое демонстрационное пространство нужно подготовить? Такая вычитка не заменяет описанные выше условия, но помогает заметить неявные предположения. Семинар проходит лучше, когда все имеют в виду одно время и подготовлено рабочее пространство, пригодное для демонстрации. Сохраняйте практические сведения в переписке, даже если контактное лицо хорошо знакомо с услугой."
+        }
+      ],
+      "id": "R13",
+      "score": 0.473918,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Клиентский сервис/Сбой сервиса - рассылка.pdf",
+      "language": "ru",
+      "context": "Рассылка и обновления статуса при сбое сервиса",
+      "fragments": [
+        {
+          "location": {
+            "page": 2
+          },
+          "original": "Сообщения во время расследования\n\nДля P1 обновления публикуют каждые тридцать минут. Если существенных технических\nизменений нет, сообщите, что расследование продолжается, какое влияние подтверждено и когда\nждать следующую связь. Обещание «скоро исправим» без основания создаёт новый вопрос\nвместо ответа. Дежурный, который принимает смену, проверяет время последней публикации и\nуже обещанное время следующей, чтобы передача команды не стала причиной тишины.\n\nОбходной путь описывают вместе с ограничениями. Если он помогает только администраторам\nили требует повторить изменения, это нужно сказать прямо. Не советуйте массово перезагружать\nстраницы с несохранённым текстом только потому, что это удобный универсальный ответ. Перед\nпубликацией координатор сверяет рекомендацию с технической командой. Клиент должен\nпонимать, для какого действия обход применим и какие данные стоит сохранить до его\nиспользования.\n\nПример передачи между сменами\n\nПервая смена подтвердила задержку очереди вебхуков в EU-1 и сообщила клиентам время\nследующего обновления. Вторая смена получила техническую отметку о восстановлении\nобработки, но ещё не имела подтверждения доставки накопленной очереди. В таком случае рано\nписать «всё восстановлено» только по одному внутреннему графику. В передаче указывают, что\nименно проверено, какие обращения ждут проверки и кто согласует следующее сообщение.\n\nПосле технического восстановления запросите проверку клиента. Если клиент по-прежнему видит\nпроблему, сохраните её наблюдение и сопоставьте с исходным инцидентом. Не закрывайте\nразговор автоматически на основании общего статуса. Публичный итог готовят в течение трёх\nрабочих дней; в нём должны сходиться влияние, хронология и подтверждённые действия. Ответ о\nкомпенсации готовится отдельно после проверки условий и не включается как обещанная сумма в\nстатусное обновление.\n\nПри закрытии смены проверьте ссылки в сообщениях и доступность итоговой записи для\nполучателя. В черновиках не оставляйте внутренние персональные контакты и незавершённые\nобсуждения причин. Если обнаружены разные действующие правила компенсации, сохраните оба\nисточника и передайте вопрос Finance и Support Operations. Коммуникация об инциденте должна\nпомогать клиенту работать с подтверждённой ситуацией, а не заменять решение по финансовой\nзаявке.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                                                                                2",
+          "id": 2,
+          "text": "Сообщения во время расследования\n\nДля P1 обновления публикуют каждые тридцать минут. Если существенных технических\nизменений нет, сообщите, что расследование продолжается, какое влияние подтверждено и когда\nждать следующую связь. Обещание «скоро исправим» без основания создаёт новый вопрос\nвместо ответа. Дежурный, который принимает смену, проверяет время последней публикации и\nуже обещанное время следующей, чтобы передача команды не стала причиной тишины.\n\nОбходной путь описывают вместе с ограничениями. Если он помогает только администраторам\nили требует повторить изменения, это нужно сказать прямо. Не советуйте массово перезагружать\nстраницы с несохранённым текстом только потому, что это удобный универсальный ответ. Перед\nпубликацией координатор сверяет рекомендацию с технической командой. Клиент должен\nпонимать, для какого действия обход применим и какие данные стоит сохранить до его\nиспользования.\n\nПример передачи между сменами\n\nПервая смена подтвердила задержку очереди вебхуков в EU-1 и сообщила клиентам время\nследующего обновления. Вторая смена получила техническую отметку о восстановлении\nобработки, но ещё не имела подтверждения доставки накопленной очереди. В таком случае рано\nписать «всё восстановлено» только по одному внутреннему графику. В передаче указывают, что\nименно проверено, какие обращения ждут проверки и кто согласует следующее сообщение.\n\nПосле технического восстановления запросите проверку клиента. Если клиент по-прежнему видит\nпроблему, сохраните её наблюдение и сопоставьте с исходным инцидентом. Не закрывайте\nразговор автоматически на основании общего статуса. Публичный итог готовят в течение трёх\nрабочих дней; в нём должны сходиться влияние, хронология и подтверждённые действия. Ответ о\nкомпенсации готовится отдельно после проверки условий и не включается как обещанная сумма в\nстатусное обновление.\n\nПри закрытии смены проверьте ссылки в сообщениях и доступность итоговой записи для\nполучателя. В черновиках не оставляйте внутренние персональные контакты и незавершённые\nобсуждения причин. Если обнаружены разные действующие правила компенсации, сохраните оба\nисточника и передайте вопрос Finance и Support Operations. Коммуникация об инциденте должна\nпомогать клиенту работать с подтверждённой ситуацией, а не заменять решение по финансовой\nзаявке.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                                                                                2"
+        }
+      ],
+      "id": "R14",
+      "score": 0.465118,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Франция/organisation/Calendrier support 2026.docx",
+      "language": "fr",
+      "context": "Календарь обычных обратных звонков по договорам Франции",
+      "fragments": [
+        {
+          "location": {
+            "section": "Coordination",
+            "paragraph": 9
+          },
+          "original": "Coordination",
+          "id": 9,
+          "text": "Координация"
+        },
+        {
+          "location": {
+            "section": "Coordination",
+            "paragraph": 10
+          },
+          "original": "Les incidents P1 Enterprise restent orientés vers l’astreinte.",
+          "id": 10,
+          "text": "Инциденты P1 по договору Enterprise по-прежнему передаются дежурной службе."
+        },
+        {
+          "location": {
+            "section": "Coordination",
+            "paragraph": 11
+          },
+          "original": "Le fuseau horaire est affiché dans la confirmation du rendez-vous.",
+          "id": 11,
+          "text": "В подтверждении времени звонка указывают часовой пояс."
+        },
+        {
+          "location": {
+            "section": "Coordination",
+            "paragraph": 12
+          },
+          "original": "Un rendez-vous ordinaire tombant un jour férié est proposé au prochain jour ouvré disponible.",
+          "id": 12,
+          "text": "Если обычный звонок выпадает на праздничный день, предложите ближайший доступный рабочий день."
+        },
+        {
+          "location": {
+            "section": "Coordination",
+            "paragraph": 13
+          },
+          "original": "Le calendrier belge doit être utilisé pour un contrat belge.",
+          "id": 13,
+          "text": "Для бельгийского договора применяется бельгийский календарь."
+        },
+        {
+          "location": {
+            "section": "Coordination",
+            "paragraph": 14
+          },
+          "original": "L’agent conserve le numéro de demande lors d’un report.",
+          "id": 14,
+          "text": "При переносе специалист сохраняет номер обращения."
+        }
+      ],
+      "id": "R15",
+      "score": 0.561242,
+      "retrieval": "next_word_section",
+      "copies": []
+    },
+    {
+      "source": "documents/Франция/organisation/Calendrier support 2026.docx",
+      "language": "fr",
+      "context": "Календарь обычных обратных звонков по договорам Франции",
+      "fragments": [
+        {
+          "location": {
+            "section": "Ce qui reste ouvert",
+            "paragraph": 18
+          },
+          "original": "Ce qui reste ouvert",
+          "id": 18,
+          "text": "Что остаётся доступным"
+        },
+        {
+          "location": {
+            "section": "Ce qui reste ouvert",
+            "paragraph": 19
+          },
+          "original": "Le formulaire écrit reste accessible pendant les jours fériés. Expliquer cette possibilité au client sans laisser entendre qu’un rappel ordinaire sera forcément effectué ce jour-là. Les incidents P1 Enterprise restent orientés vers l’astreinte. L’agent vérifie l’impact et le contrat, puis applique les consignes détaillées de rappel d’urgence. Un rendez-vous commercial reporté et un incident de production n’ont pas le même traitement, même s’ils arrivent dans la même conversation.",
+          "id": 19,
+          "text": "Форма письменных обращений остаётся доступной в праздничные дни. Объясните клиенту эту возможность без обещания, что в тот же день обязательно состоится обычный обратный звонок. Инциденты P1 по договору Enterprise по-прежнему передаются дежурной службе. Специалист проверяет влияние и договор, затем применяет подробную инструкцию по срочным обратным звонкам. Перенесённая коммерческая встреча и инцидент в рабочей среде обрабатываются по разным правилам, даже если о них сообщают в одном разговоре."
+        },
+        {
+          "location": {
+            "section": "Ce qui reste ouvert",
+            "paragraph": 20
+          },
+          "original": "Pendant une relève, transmettre le canal choisi par le client, le fuseau confirmé et la dernière action convenue. Une liste de créneaux sans contexte est insuffisante lorsque le dossier nécessite une adaptation de communication ou la présence d’un administrateur. Si le client change de pays pendant un déplacement, confirmer son heure de disponibilité tout en gardant le calendrier contractuel. Le lieu physique du demandeur ne modifie pas à lui seul les règles de rappel de son organisation.",
+          "id": 20,
+          "text": "При передаче смены сообщайте выбранный клиентом канал, подтверждённый часовой пояс и последнее согласованное действие. Перечня доступного времени без контекста недостаточно, если по обращению требуется адаптация общения или участие администратора. Если клиент во время поездки сменил страну, подтвердите время, когда он доступен, сохранив применимый календарь договора. Местонахождение заявителя само по себе не меняет правила обратных звонков для его организации."
+        }
+      ],
+      "id": "R16",
+      "score": 0.614323,
+      "retrieval": "next_word_section",
+      "copies": []
+    }
+  ]
+}

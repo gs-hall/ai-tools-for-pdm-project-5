@@ -1,0 +1,521 @@
+{
+  "run": "20261124T214014-3dcc1d9a4b25",
+  "time_utc": "2026-11-24T21:40:14.590087+00:00",
+  "role": "support_agent",
+  "question": "Как безопасно подключить SAML в Enterprise: что проверить перед обязательным входом, когда можно закрыть исходную сессию администратора и в каком случае сразу передать инцидент руководителю поддержки?",
+  "settings": {
+    "model": "BAAI/bge-m3",
+    "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "normalize": true,
+    "prefix": "",
+    "max_tokens": 2048,
+    "per_source": 4,
+    "word_neighbors": 4,
+    "algorithm_version": 4,
+    "limit": 14,
+    "index_input_sha256": "be52dba3ba1c3a0c9cb22b42ba270cca9bd12d381c7976cb1ba58ae695e3f3bb"
+  },
+  "matches": [
+    {
+      "source": "documents/Платформа и интеграции/SAML incident handling.docx",
+      "language": "en",
+      "context": "Критерии и порядок эскалации сбоев Enterprise SAML",
+      "fragments": [
+        {
+          "location": {
+            "section": "Establish the impact before changing settings",
+            "paragraph": 15
+          },
+          "original": "Establish the impact before changing settings",
+          "id": 15,
+          "text": "Определите область воздействия перед изменением настроек"
+        },
+        {
+          "location": {
+            "section": "Establish the impact before changing settings",
+            "paragraph": 16
+          },
+          "original": "Confirm the Enterprise workspace and the affected identity provider. Ask whether the failure affects all users or a particular account, whether a certificate change just occurred, and whether the emergency administrator session still works. Keep the customer's original error message and the UTC time of each failure. The user-facing error may be translated, while the underlying issuer and request identifiers remain the same. A screenshot alone may omit the timestamp needed to relate the failure to a configuration change.",
+          "id": 16,
+          "text": "Подтвердите рабочее пространство Enterprise и поставщика удостоверений, с которым возникла проблема. Уточните, затронула ли ошибка всех пользователей или конкретную учётную запись, менялся ли недавно сертификат и по-прежнему ли работает сеанс аварийного администратора. Сохраните исходное сообщение об ошибке, полученное клиентом, и время каждой ошибки в UTC. Текст ошибки для пользователя может быть переведён, а идентификаторы издателя и запроса при этом остаются прежними. На одном снимке экрана может не быть временной отметки, необходимой, чтобы связать ошибку с изменением конфигурации."
+        },
+        {
+          "location": {
+            "section": "Establish the impact before changing settings",
+            "paragraph": 17
+          },
+          "original": "Three sign-in failures within fifteen minutes require escalation to the support lead. A privileged-account lockout requires that escalation immediately; do not wait for three failures or for a full fifteen-minute interval in that case. Record the observed events accurately. The trigger is not permission for a first-line colleague to revoke a certificate or disable enforcement on their own. The support lead uses the evidence to coordinate the next action with the workspace owner and the identity-provider contact.",
+          "id": 17,
+          "text": "Три неудачных входа в течение пятнадцати минут требуют передачи инцидента руководителю поддержки. При блокировке привилегированной учётной записи передайте инцидент немедленно, не дожидаясь трёх ошибок или окончания пятнадцатиминутного интервала. Точно запишите наблюдавшиеся события. Срабатывание критерия не даёт сотруднику первой линии права самостоятельно отзывать сертификат или отключать обязательный вход через SAML. На основе собранных сведений руководитель поддержки согласует следующее действие с владельцем рабочего пространства и контактным лицом со стороны поставщика удостоверений."
+        }
+      ],
+      "id": "R1",
+      "score": 0.773799,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Платформа и интеграции/SAML incident handling.docx",
+      "language": "en",
+      "context": "Критерии и порядок эскалации сбоев Enterprise SAML",
+      "fragments": [
+        {
+          "location": {
+            "section": "Evidence and recovery",
+            "paragraph": 9
+          },
+          "original": "Evidence and recovery",
+          "id": 9,
+          "text": "Данные для проверки и восстановление"
+        },
+        {
+          "location": {
+            "section": "Evidence and recovery",
+            "paragraph": 10
+          },
+          "original": "Evidence. Collect workspace ID, issuer, request ID and failure times in UTC.",
+          "id": 10,
+          "text": "Данные для проверки. Соберите ID рабочего пространства, издателя (issuer), ID запроса и время неудачных входов в UTC."
+        },
+        {
+          "location": {
+            "section": "Evidence and recovery",
+            "paragraph": 11
+          },
+          "original": "Sensitive data. Do not paste a full SAML assertion into a support request.",
+          "id": 11,
+          "text": "Конфиденциальные данные. Не вставляйте полное утверждение SAML (SAML assertion) в заявку в поддержку."
+        },
+        {
+          "location": {
+            "section": "Evidence and recovery",
+            "paragraph": 12
+          },
+          "original": "Pilot check. Retest with two non-privileged pilot accounts before enforcement.",
+          "id": 12,
+          "text": "Пилотная проверка. Перед принудительным включением SAML снова выполните проверку с двумя непривилегированными пилотными учётными записями."
+        },
+        {
+          "location": {
+            "section": "Evidence and recovery",
+            "paragraph": 13
+          },
+          "original": "Recovery. The emergency administrator may disable enforcement after approval by the workspace owner.",
+          "id": 13,
+          "text": "Восстановление. Аварийный администратор может отключить обязательный вход через SAML после согласования с владельцем рабочего пространства."
+        },
+        {
+          "location": {
+            "section": "Evidence and recovery",
+            "paragraph": 14
+          },
+          "original": "Close. Record the certificate fingerprint used for the successful retest and the approving owner.",
+          "id": 14,
+          "text": "Закрытие. Запишите отпечаток сертификата, с которым прошла повторная проверка, и укажите владельца, согласовавшего действие."
+        }
+      ],
+      "id": "R2",
+      "score": 0.765557,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+      "language": "en",
+      "context": "Порядок подключения Enterprise SAML и подготовки смены сертификата",
+      "fragments": [
+        {
+          "location": {
+            "section": "Before the SAML cutover call",
+            "lines": [
+              1,
+              6
+            ]
+          },
+          "original": "# Before the SAML cutover call\n\nNotes from Identity Platform, written after the September 1, 2026 review. I keep this copy with the material we take into administrator calls because the same omissions are difficult to spot once everyone is watching the login screen. This procedure is for connecting an Enterprise workspace to an identity provider. SAML is available on Enterprise workspaces only. Confirm which workspace the customer means before discussing settings; a familiar company name is not a substitute for identifying the workspace in front of the administrator.\n\nThe most useful preparation is surprisingly mundane: keep an existing administrator session open until sign in succeeds. Do this before changing the path people use to enter the workspace. During a call, someone will naturally want to close extra tabs or start again in a clean browser. Make sure they understand which session is their working administrative session and why it is still needed while the new route is being tested. A neat desktop is less useful than a clear way to continue the setup conversation.",
+          "id": 1,
+          "text": "# Перед звонком о подключении SAML\n\nЗаметки команды Identity Platform после сверки 1 сентября 2026 года. Я держу эту копию вместе с материалами для звонков с администраторами: когда все смотрят на экран входа, одни и те же упущения трудно заметить. Этот порядок предназначен для подключения рабочего пространства Enterprise к поставщику удостоверений. SAML доступен только в рабочих пространствах Enterprise. Прежде чем обсуждать настройки, уточните, какое рабочее пространство имеет в виду клиент. Знакомое название компании не заменяет проверку пространства, открытого у администратора.\n\nПодготовка начинается с простого действия: оставьте текущую сессию администратора открытой до успешного входа через SAML. Сделайте это до изменения способа, которым пользователи входят в рабочее пространство. Во время звонка кому-то наверняка захочется закрыть лишние вкладки или начать с чистого браузера. Убедитесь, что участники знают, какая сессия является рабочей административной сессией и зачем она нужна, пока проверяется новый способ входа. Порядок на рабочем столе менее важен, чем возможность продолжить настройку."
+        }
+      ],
+      "id": "R3",
+      "score": 0.756991,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Платформа и интеграции/SAML incident handling.docx",
+      "language": "en",
+      "context": "Критерии и порядок эскалации сбоев Enterprise SAML",
+      "fragments": [
+        {
+          "location": {
+            "section": "Evidence that is safe to share",
+            "paragraph": 22
+          },
+          "original": "Evidence that is safe to share",
+          "id": 22,
+          "text": "Сведения, которыми можно безопасно делиться"
+        },
+        {
+          "location": {
+            "section": "Evidence that is safe to share",
+            "paragraph": 23
+          },
+          "original": "Collect the workspace identifier, issuer, request identifier and failure times in UTC. A full SAML assertion can contain sensitive account data and must not be pasted into a support request. Ask for a sanitised diagnostic result that preserves the needed identifiers and error context. When a colleague sends a screenshot, check it before forwarding it into a wider incident discussion. The incident record should connect the evidence without creating unnecessary copies of authentication material.",
+          "id": 23,
+          "text": "Соберите ID рабочего пространства, издателя (issuer), ID запроса и время ошибок в UTC. Полное утверждение SAML может содержать конфиденциальные данные учётной записи. Его нельзя вставлять в заявку в поддержку. Попросите результат диагностики с удалёнными конфиденциальными данными, в котором остались необходимые идентификаторы и контекст ошибки. Проверьте присланный коллегой снимок экрана, прежде чем переслать его в более широкий круг участников разбора. Связывайте подтверждающие материалы в записи об инциденте и избегайте лишних копий данных аутентификации."
+        },
+        {
+          "location": {
+            "section": "Evidence that is safe to share",
+            "paragraph": 24
+          },
+          "original": "Keep customer observations distinct from technical conclusions. The statement that a certificate was uploaded is an observation about an action; acceptance of a sign-in signed by that certificate is a separate check. Likewise, a report that someone cannot log in does not prove that enforcement should be disabled. Explain unresolved points in the handover so the receiving colleague does not repeat an unsafe change because a short summary implied that the diagnosis was complete.",
+          "id": 24,
+          "text": "Отделяйте наблюдения клиента от технических выводов. Слова о загрузке сертификата описывают действие. Для подтверждения принятия входа, подписанного этим сертификатом, нужна отдельная проверка. Точно так же сообщение о невозможности входа не доказывает, что нужно отключить обязательный вход через SAML. При передаче обращения укажите нерешённые вопросы, чтобы принимающий коллега не повторил небезопасное изменение из-за краткого рассказа, из которого могло показаться, что диагностика уже завершена."
+        }
+      ],
+      "id": "R4",
+      "score": 0.75667,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+      "language": "en",
+      "context": "Порядок подключения Enterprise SAML и подготовки смены сертификата",
+      "fragments": [
+        {
+          "location": {
+            "section": "Pilot before enforcement",
+            "lines": [
+              15,
+              22
+            ]
+          },
+          "original": "## Pilot before enforcement\n\nTest with two non-privileged pilot accounts before enforcement. Two separate accounts help the team discuss actual sign-in attempts rather than treating the administrator's existing session as a successful pilot. The test accounts should be non-privileged; the point of a pilot is not to expose all privileged access to an unproven configuration. Arrange the pilot with people who can describe what they see. A vague report that “the browser opened” is less useful than knowing which account attempted sign in and whether that attempt succeeded.\n\nKeep one registered emergency administrator outside SAML enforcement. Name the person or account in the customer's own administrative plan, without putting credentials into the support conversation. “We have another administrator somewhere” is not the same as keeping a registered emergency administrator available outside the enforced route. The people on the call should be able to distinguish this recovery arrangement from the two pilot accounts and from the session currently being kept open. They serve different purposes in the same transition.\n\nIf a privileged account is locked out, route the case to the support lead immediately. Do not let it disappear inside a general back-and-forth about claims or browser behaviour. The identity team may still need configuration context, but the fact of privileged-account lockout changes who must be brought into the conversation. In the handover, say what is known and what is still only a hypothesis. That keeps the receiving lead from assuming the incident has been limited to an ordinary pilot account.",
+          "id": 3,
+          "text": "## Пилотная проверка до обязательного входа через SAML\n\nДо включения обязательного входа через SAML проверьте вход с двумя непривилегированными пилотными учётными записями. Раздельные учётные записи помогут команде обсуждать реальные попытки входа и не принять уже открытую сессию администратора за успешный пилот. Пилотные учётные записи должны быть непривилегированными. Пилотная проверка не должна подвергать риску весь привилегированный доступ из-за непроверенной конфигурации. Договоритесь об участии с теми, кто сможет описать свои наблюдения. Сообщение «браузер открылся» менее полезно, чем сведения о том, с какой учётной записи пытались войти и удалось ли это.\n\nОставьте одного зарегистрированного аварийного администратора вне обязательного входа через SAML. Укажите сотрудника или учётную запись в административном плане самого клиента. Учётные данные в переписку с поддержкой не включайте. Фраза «где-то есть ещё один администратор» не подтверждает, что у зарегистрированного аварийного администратора сохранён способ входа вне обязательного SAML. Участники звонка должны отличать этот способ восстановления доступа от двух пилотных учётных записей и открытой административной сессии. У них разные задачи при переходе.\n\nЕсли заблокирована привилегированная учётная запись, немедленно передайте обращение руководителю поддержки. Не оставляйте этот случай в общей переписке об утверждениях или поведении браузера. Команде удостоверений всё ещё могут понадобиться сведения о конфигурации, но блокировка привилегированной учётной записи меняет круг участников обсуждения. При передаче сообщите, что известно и что пока остаётся предположением. Так руководитель не решит по ошибке, что инцидент затронул только обычную пилотную учётную запись."
+        }
+      ],
+      "id": "R5",
+      "score": 0.751835,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Платформа и интеграции/SAML incident handling.docx",
+      "language": "en",
+      "context": "Критерии и порядок эскалации сбоев Enterprise SAML",
+      "fragments": [
+        {
+          "location": {
+            "section": "Close and hand over",
+            "paragraph": 29
+          },
+          "original": "Close and hand over",
+          "id": 29,
+          "text": "Закрытие и передача"
+        },
+        {
+          "location": {
+            "section": "Close and hand over",
+            "paragraph": 30
+          },
+          "original": "Before closing, record the successful retest, the certificate fingerprint and the approving owner. Confirm which users have been checked and what remains outside the tested scope. If another team must follow up, give it the next action and the safe evidence references. Do not leave a full assertion in the final handover merely because it was useful during an internal diagnostic conversation. The normal evidence-minimisation rules still apply after service is restored.",
+          "id": 30,
+          "text": "Перед закрытием зафиксируйте успешную повторную проверку, отпечаток сертификата и владельца, согласовавшего действие. Укажите, каких пользователей проверили и что осталось за пределами проверки. Если нужен следующий шаг от другой команды, опишите его и укажите безопасные ссылки на подтверждающие материалы. Не оставляйте полное утверждение SAML в итоговой записи о передаче, даже если оно помогло при внутренней диагностике. Обычные правила минимизации данных действуют и после восстановления сервиса."
+        },
+        {
+          "location": {
+            "section": "Close and hand over",
+            "paragraph": 31
+          },
+          "original": "If the expected operating parameter cannot be found, preserve that uncertainty and ask Identity Platform to clarify it. A personal note, an API-key instruction or a remembered value from another workspace is not an adequate substitute. This is especially important when a certificate is approaching the end of its overlap period. A clear statement of the missing parameter helps the lead coordinate a safe action; an invented deadline can cause an avoidable loss of sign-in access.",
+          "id": 31,
+          "text": "Если не удаётся найти ожидаемый рабочий параметр, зафиксируйте неопределённость и попросите Identity Platform уточнить параметр. Личная заметка, инструкция по ключам API или запомненное значение из другого рабочего пространства не заменяют этот параметр. Особенно важно учесть это, когда окно перекрытия сертификатов подходит к концу. Ясное указание на недостающий параметр поможет руководителю согласовать безопасное действие. Выдуманный срок может привести к потере доступа, которой можно было избежать."
+        }
+      ],
+      "id": "R6",
+      "score": 0.750575,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+      "language": "en",
+      "context": "Порядок подключения Enterprise SAML и подготовки смены сертификата",
+      "fragments": [
+        {
+          "location": {
+            "section": "Certificates and time",
+            "lines": [
+              23,
+              31
+            ]
+          },
+          "original": "## Certificates and time\n\nUpload the pending certificate before revoking the old certificate. Check the acceptance window in the operating parameters register. This notebook deliberately does not supply a number for that window: do not copy a number from memory or invent one because the call needs a quick answer. Record which register entry the team used when planning the certificate transition. The important ordering here is that the pending certificate is uploaded before the old one is revoked, with the applicable acceptance window checked in its own source.\n\nThe identity provider and LumenDesk clocks may differ by at most 120 seconds. When people compare timestamps during troubleshooting, ask which clock produced each value. A screenshot of local desktop time and a provider event are not automatically the same observation. The 120-second allowance is a connection constraint, not an invitation to ignore a persistent difference. Keep the discussion precise about the compared systems, especially when participants are in different time zones and casually describe the event as happening “a minute ago.”\n\nDuring the call I usually leave a short narrative of what happened rather than a wall of settings: which workspace supplied the entity ID and ACS URL, whether both pilot accounts signed in, what happened with the pending certificate, and whether the emergency administrator remained outside enforcement. The narrative is useful because another engineer can see the order of events. It should not say “SAML works” when the only evidence is that a configuration form accepted a value. Form acceptance and successful sign in are different observations.\n\nThe existing administrator session stays open until sign in succeeds. At the end, have the administrator describe the outcome in their own words and resolve any ambiguity about which account they tested. If the setup is interrupted, leave the notes at the point actually reached, with unanswered questions visible. A later call should not mistake a planned pilot for a completed one or a certificate upload for revocation of the previous certificate. These are ordinary coordination mistakes, and careful language is often the simplest way to prevent them.",
+          "id": 4,
+          "text": "## Сертификаты и время\n\nЗагрузите ожидающий сертификат до отзыва старого. Окно совместного приёма уточните в реестре рабочих параметров. В этой записке срок намеренно не указан. Не называйте его по памяти и не придумывайте, даже если нужен быстрый ответ. Запишите, на какую строку реестра команда опиралась при планировании смены сертификатов. Порядок важен: ожидающий сертификат загружают до отзыва старого, а применимое окно совместного приёма проверяют в отдельном источнике.\n\nЧасы поставщика удостоверений и LumenDesk могут расходиться не более чем на 120 секунд. Когда при диагностике сравнивают отметки времени, уточняйте, какими часами получено каждое значение. Снимок локального времени на экране и событие у поставщика не обязательно относятся к одному наблюдению. Допуск в 120 секунд — ограничение подключения. Постоянное расхождение нужно разбирать. Уточняйте, какие системы сравниваются, особенно если участники находятся в разных часовых поясах и описывают событие словами «минуту назад».\n\nПосле звонка я обычно оставляю краткую запись о том, что произошло: из какого рабочего пространства взяли entity ID и ACS URL, удалось ли войти с обеих пилотных учётных записей, что произошло с ожидающим сертификатом и остался ли аварийный администратор вне обязательного SAML. Следующий инженер по такой записи увидит порядок событий. Не пишите «SAML работает», если всё доказательство сводится к тому, что форма настройки приняла значение. Приём значения формой и успешный вход проверяются отдельно.\n\nТекущая сессия администратора остаётся открытой до успешного входа через SAML. В конце попросите администратора своими словами описать результат и уточните, какую учётную запись он проверил, если это неясно. Если настройку прервали, запишите, до какого этапа действительно дошли и какие вопросы остались открыты. На следующем звонке важно отличать запланированный пилот от завершённого, а загрузку сертификата — от отзыва предыдущего. Точные формулировки помогают избежать таких ошибок при передаче работы."
+        }
+      ],
+      "id": "R7",
+      "score": 0.700885,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Выгрузки/параметры-входа.csv",
+      "language": "ru",
+      "context": "Действующие настройки приёма сертификатов и диагностики Enterprise SAML",
+      "fragments": [
+        {
+          "location": {
+            "lines": [
+              7,
+              7
+            ],
+            "columns": [
+              "Параметр или операция",
+              "Значение или результат",
+              "Применение",
+              "Запись"
+            ]
+          },
+          "original": "Параметр или операция: Тест\nЗначение или результат: Перед принудительным включением нужны 2 успешных тестовых входа.\nПрименение: Enterprise\nЗапись: Параметры Identity Platform от 1 сентября 2026",
+          "id": 6,
+          "text": "Параметр или операция: Тест\nЗначение или результат: Перед принудительным включением нужны 2 успешных тестовых входа.\nПрименение: Enterprise\nЗапись: Параметры Identity Platform от 1 сентября 2026"
+        }
+      ],
+      "id": "R8",
+      "score": 0.692922,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Выгрузки/параметры-входа.csv",
+      "language": "ru",
+      "context": "Действующие настройки приёма сертификатов и диагностики Enterprise SAML",
+      "fragments": [
+        {
+          "location": {
+            "lines": [
+              9,
+              9
+            ],
+            "columns": [
+              "Параметр или операция",
+              "Значение или результат",
+              "Применение",
+              "Запись"
+            ]
+          },
+          "original": "Параметр или операция: Маршрут инцидента\nЗначение или результат: Критерии передачи инцидента руководителю приведены в регламенте SAML incident escalation.\nПрименение: Enterprise\nЗапись: Параметры Identity Platform от 1 сентября 2026",
+          "id": 8,
+          "text": "Параметр или операция: Маршрут инцидента\nЗначение или результат: Критерии передачи инцидента руководителю приведены в регламенте SAML incident escalation.\nПрименение: Enterprise\nЗапись: Параметры Identity Platform от 1 сентября 2026"
+        }
+      ],
+      "id": "R9",
+      "score": 0.673268,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+      "language": "en",
+      "context": "Порядок подключения Enterprise SAML и подготовки смены сертификата",
+      "fragments": [
+        {
+          "location": {
+            "section": "What to copy from this workspace",
+            "lines": [
+              7,
+              14
+            ]
+          },
+          "original": "## What to copy from this workspace\n\nUse the workspace-specific entity ID shown in Security settings. Copy the ACS URL from the same workspace. An ACS URL from another workspace is invalid, even if the two workspaces belong to the same customer and their names differ by only one word. When an administrator has several settings tabs open, ask them to read the workspace context aloud before copying. This is a practical way to keep the conversation attached to the actual configuration rather than to somebody's recollection of a previous setup.\n\nDo not reconstruct these values from an old email or an example in a presentation. The relevant values are displayed in the workspace being connected. A customer may have a perfectly reasonable reason for keeping a test workspace beside a production workspace, but that does not make their callback details interchangeable. If the customer says, “We used the same provider for the other one,” acknowledge the context and still check the entity ID and ACS URL for the current workspace. Similar deployment history is not confirmation of matching identifiers.\n\nThe email claim must contain a verified corporate email address. During preparation, describe the expected claim clearly enough that the identity administrator and the workspace administrator are talking about the same field. A display name is not an email address, and a familiar looking address is not evidence of verification. Keep any quoted error text in the discussion so the next person can understand what was observed, but avoid turning a guess about the claim into a claim that the whole connection has already been validated.",
+          "id": 2,
+          "text": "## Что скопировать из подключаемого рабочего пространства\n\nИспользуйте идентификатор entity ID этого рабочего пространства, который показан в настройках безопасности. Скопируйте ACS URL из того же рабочего пространства. ACS URL другого рабочего пространства недействителен, даже если оба пространства принадлежат одному клиенту и в названиях различаются всего на одно слово. Если у администратора открыто несколько вкладок с настройками, попросите его вслух назвать рабочее пространство перед копированием. Так разговор будет опираться на фактическую конфигурацию, а не на воспоминания о прежней настройке.\n\nНе восстанавливайте эти значения по старому письму или примеру в презентации. Нужные значения отображаются в подключаемом рабочем пространстве. У клиента могут быть веские причины держать тестовое пространство рядом с рабочим, но их адреса обратного вызова не взаимозаменяемы. Если клиент говорит: «Для другого пространства мы использовали того же поставщика», учтите это и всё равно проверьте entity ID и ACS URL текущего рабочего пространства. Сходство прошлых настроек не подтверждает, что их идентификаторы совпадают.\n\nУтверждение email должно содержать подтверждённый корпоративный адрес электронной почты. При подготовке опишите, какое именно утверждение ожидается, чтобы администратор поставщика удостоверений и администратор рабочего пространства говорили об одном поле. Отображаемое имя не является адресом электронной почты, а знакомый вид адреса не доказывает, что он подтверждён. Сохраните точный текст ошибки, если его процитировали, чтобы следующий сотрудник понял наблюдение. Предположение о содержимом утверждения не доказывает, что всё подключение уже проверено."
+        }
+      ],
+      "id": "R10",
+      "score": 0.643699,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Выгрузки/параметры-входа.csv",
+      "language": "ru",
+      "context": "Действующие настройки приёма сертификатов и диагностики Enterprise SAML",
+      "fragments": [
+        {
+          "location": {
+            "lines": [
+              5,
+              5
+            ],
+            "columns": [
+              "Параметр или операция",
+              "Значение или результат",
+              "Применение",
+              "Запись"
+            ]
+          },
+          "original": "Параметр или операция: Замена\nЗначение или результат: После окончания перекрытия старый сертификат больше не принимается.\nПрименение: Enterprise\nЗапись: Параметры Identity Platform от 1 сентября 2026",
+          "id": 4,
+          "text": "Параметр или операция: Замена\nЗначение или результат: После окончания перекрытия старый сертификат больше не принимается.\nПрименение: Enterprise\nЗапись: Параметры Identity Platform от 1 сентября 2026"
+        }
+      ],
+      "id": "R11",
+      "score": 0.639833,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Выгрузки/параметры-входа.csv",
+      "language": "ru",
+      "context": "Действующие настройки приёма сертификатов и диагностики Enterprise SAML",
+      "fragments": [
+        {
+          "location": {
+            "lines": [
+              10,
+              10
+            ],
+            "columns": [
+              "Параметр или операция",
+              "Значение или результат",
+              "Применение",
+              "Запись"
+            ]
+          },
+          "original": "Параметр или операция: Данные\nЗначение или результат: В диагностике допустимы issuer, request ID и время, но не полный SAML assertion.\nПрименение: Enterprise\nЗапись: Параметры Identity Platform от 1 сентября 2026",
+          "id": 9,
+          "text": "Параметр или операция: Данные\nЗначение или результат: В диагностике допустимы issuer, request ID и время, но не полный SAML assertion.\nПрименение: Enterprise\nЗапись: Параметры Identity Platform от 1 сентября 2026"
+        }
+      ],
+      "id": "R12",
+      "score": 0.633556,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Клиентский сервис/Customer handover.docx",
+      "language": "en",
+      "context": "Карточка передачи после первоначального подключения",
+      "fragments": [
+        {
+          "location": {
+            "section": "Example reviewed in the onboarding meeting",
+            "paragraph": 23
+          },
+          "original": "Example reviewed in the onboarding meeting",
+          "id": 23,
+          "text": "Пример, разобранный на встрече по первоначальному подключению"
+        },
+        {
+          "location": {
+            "section": "Example reviewed in the onboarding meeting",
+            "paragraph": 24
+          },
+          "original": "Harbor Studio is moving its project notes into one LumenDesk workspace. Maya is the onboarding owner. The customer chose Team and EU-1; a future Enterprise discussion remains a separate commercial task. The migration window is recorded as 18 September, 18:00 to 20:00 Europe/Berlin. The customer's operations manager is the rollback contact and has confirmed availability for that window. The handover links the workspace record rather than copying a large export of the customer's project notes.",
+          "id": 24,
+          "text": "Harbor Studio переносит проектные заметки в одно рабочее пространство LumenDesk. За первоначальное подключение отвечает Майя. Клиент выбрал Team и EU-1. Возможный переход на Enterprise обсуждается отдельно как коммерческий вопрос. Окно миграции записано на 18 сентября, с 18:00 до 20:00 Europe/Berlin. Руководитель операционной команды клиента может согласовать откат и подтвердил, что будет на связи в это окно. В записи о передаче оставили ссылку на карточку пространства, поскольку копировать туда большую выгрузку проектных заметок не требуется."
+        },
+        {
+          "location": {
+            "section": "Example reviewed in the onboarding meeting",
+            "paragraph": 25
+          },
+          "original": "The identity section says that SSO is not enabled for this Team workspace. The identity-provider contact is recorded because the customer asked for an Enterprise assessment later, not because SAML is already available on the current plan. The completed checks cover the imported card count, a set of attachment checks and the expected permissions for the agreed pilot participants. The next action is a customer review of the remaining author mapping, owned by the onboarding team until the receiving support team acknowledges the handover.",
+          "id": 25,
+          "text": "В разделе о входе указано, что SSO в этом рабочем пространстве Team не включён. Контакт со стороны провайдера идентификации записан по просьбе клиента позднее оценить переход на Enterprise. На текущем тарифе это не означает доступность SAML. В числе завершённых проверок — количество импортированных карточек, выборочная проверка вложений и ожидаемые разрешения для согласованных участников пилота. Следующее действие — клиент проверит оставшиеся сопоставления авторов. За это пока отвечает команда первоначального подключения, до подтверждения передачи принимающей поддержкой."
+        }
+      ],
+      "id": "R13",
+      "score": 0.609295,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Клиентский сервис/Письма/Пароль, письмо не пришло.txt",
+      "language": "ru",
+      "context": "Восстановление входа по email и диагностика отсутствия письма",
+      "fragments": [
+        {
+          "location": {
+            "lines": [
+              1,
+              29
+            ]
+          },
+          "original": "Тема: Как продолжить разговор о входе по паролю\n\n1 сентября 2026, Identity Platform — команде клиентского сервиса\n\nКоллеги, оставляю объяснения к типичному обмену письмами. Здесь речь о локальном входе в LumenDesk по email. Если в организации обязателен SAML, восстановление выполняется у корпоративного провайдера идентификации. Поэтому фразу клиента «забыл пароль» сначала нужно связать со способом входа. Предлагать локальную ссылку человеку, который должен входить через корпоративного провайдера, — значит продлевать переписку без продвижения к его задаче.\n\nКлиент: «Не могу войти. Можете назначить новый пароль и прислать мне?»\n\nОтвет команды: поддержка не меняет пароль за пользователя. Для локального входа ссылку запрашивают на странице входа через «Забыли пароль». Объясните, где начинается этот процесс, но не предлагайте человеку отправить старый пароль для проверки. Сам факт обращения с привычного адреса не превращает переписку с поддержкой в место, где нужно обсуждать значения паролей. Клиенту нужен понятный следующий шаг в собственном процессе восстановления.\n\nКлиент: «Нажал несколько раз, письма пришли не сразу. Какое открывать?»\n\nНовый запрос делает предыдущую ссылку недействительной. Ссылка действует 30 минут. При разборе важно понять порядок запросов и сообщений, потому что позднее открытое письмо не обязательно содержит ссылку от последнего запроса. Не советуйте многократно нажимать кнопку в надежде, что одно из писем окажется удобнее. Это создаёт ещё больше ссылок, среди которых человеку трудно разобраться. Сохраните в истории, что именно удалось выяснить о запросах, вместо общего вывода «письмо не подходит».\n\nС одного адреса допускается 5 запросов в час. Этот предел относится к запросам, а не к количеству открытых вкладок. Если клиент одновременно пробует с телефона и компьютера, обсуждайте общую последовательность его действий. Два устройства не означают, что прежние запросы исчезли из истории разговора. При этом не нужно делать из незавершённого воспоминания о нажатиях точный счёт: уточните известные события и честно оставьте неопределённость там, где она ещё есть.\n\nКлиент: «Письма не вижу, могу дать доступ к ящику?»\n\nПроверьте папку «Спам» и корректность домена отправителя lumendesk.example. Самостоятельная проверка этих двух вещей полезнее передачи доступа к почте. В ответе назовите домен аккуратно, чтобы клиент мог сравнить его с увиденным сообщением. Не принимайте похожее отображаемое имя за подтверждение адреса отправителя. Если собеседник присылает снимок письма, обсуждайте наблюдаемое, не запрашивая содержимое остальных папок или секреты от его ящика.\n\nКлиент: «Пароль поменял. Почему на другом компьютере снова просят войти?»\n\nПосле смены пароля все другие локальные сессии завершаются. Такой результат нужно объяснить до того, как пользователь решит, что изменение не сработало. Локальная сессия и сессия корпоративного провайдера — не одни и те же слова, поэтому не переносите это правило на любой способ входа без уточнения контекста. В истории обращения сохраните, что пароль был изменён, а вопрос теперь относится к другим локальным сессиям. Это помогает коллеге не начать весь разговор заново с запроса новой ссылки.\n\nКлиент: «Новый пароль принят, но всё ещё нужен второй фактор. Разве сброс его не убирает?»\n\nСмена пароля не отключает многофакторную проверку. Не обещайте, что повторное изменение пароля обойдёт MFA. Если потеряны все способы MFA, передайте ситуацию руководителю поддержки для проверки владения. В этом случае важен именно контекст потери всех способов, а не только неудобство одного из них. Поддержка должна передать ясное описание, не предлагая человеку прислать чужие коды или использовать учётную запись коллеги.\n\nМы оставили этот обмен в папке с письмами, потому что он показывает, как одна исходная фраза может вести к разным продолжениям. Задержка сообщения, недействительность прежней ссылки, завершение других сессий и сохранение MFA — разные наблюдения. Не надо сводить их к одному объяснению «вход сломан». Когда специалист точно называет текущий шаг и способ входа, клиент видит, что разговор продвигается. Для передачи смене достаточно связной истории проверенных действий и оставшегося вопроса, без паролей и лишней личной информации.",
+          "id": 1,
+          "text": "Тема: Как продолжить разговор о входе по паролю\n\n1 сентября 2026, Identity Platform — команде клиентского сервиса\n\nКоллеги, оставляю объяснения к типичному обмену письмами. Здесь речь о локальном входе в LumenDesk по email. Если в организации обязателен SAML, восстановление выполняется у корпоративного провайдера идентификации. Поэтому фразу клиента «забыл пароль» сначала нужно связать со способом входа. Предлагать локальную ссылку человеку, который должен входить через корпоративного провайдера, — значит продлевать переписку без продвижения к его задаче.\n\nКлиент: «Не могу войти. Можете назначить новый пароль и прислать мне?»\n\nОтвет команды: поддержка не меняет пароль за пользователя. Для локального входа ссылку запрашивают на странице входа через «Забыли пароль». Объясните, где начинается этот процесс, но не предлагайте человеку отправить старый пароль для проверки. Сам факт обращения с привычного адреса не превращает переписку с поддержкой в место, где нужно обсуждать значения паролей. Клиенту нужен понятный следующий шаг в собственном процессе восстановления.\n\nКлиент: «Нажал несколько раз, письма пришли не сразу. Какое открывать?»\n\nНовый запрос делает предыдущую ссылку недействительной. Ссылка действует 30 минут. При разборе важно понять порядок запросов и сообщений, потому что позднее открытое письмо не обязательно содержит ссылку от последнего запроса. Не советуйте многократно нажимать кнопку в надежде, что одно из писем окажется удобнее. Это создаёт ещё больше ссылок, среди которых человеку трудно разобраться. Сохраните в истории, что именно удалось выяснить о запросах, вместо общего вывода «письмо не подходит».\n\nС одного адреса допускается 5 запросов в час. Этот предел относится к запросам, а не к количеству открытых вкладок. Если клиент одновременно пробует с телефона и компьютера, обсуждайте общую последовательность его действий. Два устройства не означают, что прежние запросы исчезли из истории разговора. При этом не нужно делать из незавершённого воспоминания о нажатиях точный счёт: уточните известные события и честно оставьте неопределённость там, где она ещё есть.\n\nКлиент: «Письма не вижу, могу дать доступ к ящику?»\n\nПроверьте папку «Спам» и корректность домена отправителя lumendesk.example. Самостоятельная проверка этих двух вещей полезнее передачи доступа к почте. В ответе назовите домен аккуратно, чтобы клиент мог сравнить его с увиденным сообщением. Не принимайте похожее отображаемое имя за подтверждение адреса отправителя. Если собеседник присылает снимок письма, обсуждайте наблюдаемое, не запрашивая содержимое остальных папок или секреты от его ящика.\n\nКлиент: «Пароль поменял. Почему на другом компьютере снова просят войти?»\n\nПосле смены пароля все другие локальные сессии завершаются. Такой результат нужно объяснить до того, как пользователь решит, что изменение не сработало. Локальная сессия и сессия корпоративного провайдера — не одни и те же слова, поэтому не переносите это правило на любой способ входа без уточнения контекста. В истории обращения сохраните, что пароль был изменён, а вопрос теперь относится к другим локальным сессиям. Это помогает коллеге не начать весь разговор заново с запроса новой ссылки.\n\nКлиент: «Новый пароль принят, но всё ещё нужен второй фактор. Разве сброс его не убирает?»\n\nСмена пароля не отключает многофакторную проверку. Не обещайте, что повторное изменение пароля обойдёт MFA. Если потеряны все способы MFA, передайте ситуацию руководителю поддержки для проверки владения. В этом случае важен именно контекст потери всех способов, а не только неудобство одного из них. Поддержка должна передать ясное описание, не предлагая человеку прислать чужие коды или использовать учётную запись коллеги.\n\nМы оставили этот обмен в папке с письмами, потому что он показывает, как одна исходная фраза может вести к разным продолжениям. Задержка сообщения, недействительность прежней ссылки, завершение других сессий и сохранение MFA — разные наблюдения. Не надо сводить их к одному объяснению «вход сломан». Когда специалист точно называет текущий шаг и способ входа, клиент видит, что разговор продвигается. Для передачи смене достаточно связной истории проверенных действий и оставшегося вопроса, без паролей и лишней личной информации."
+        }
+      ],
+      "id": "R14",
+      "score": 0.589605,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Платформа и интеграции/SAML incident handling.docx",
+      "language": "en",
+      "context": "Критерии и порядок эскалации сбоев Enterprise SAML",
+      "fragments": [
+        {
+          "location": {
+            "section": "Establish the impact before changing settings",
+            "paragraph": 18
+          },
+          "original": "A repeated test can create more failed sign-ins without improving the evidence. Before asking the customer to try again, say what the test will establish and which result the team needs. Keep the account category clear so that a privileged lockout is not mistaken for an ordinary pilot problem. If a customer reports both an administrator lockout and several ordinary user failures, the privileged event already requires immediate involvement of the lead.",
+          "id": 18,
+          "text": "Повторная проверка может привести к дополнительным неудачным входам, не добавив полезных сведений. Прежде чем просить клиента повторить попытку, объясните, что покажет проверка и какой результат нужен команде. Ясно укажите категорию учётной записи, чтобы блокировку привилегированной записи не приняли за обычную проблему при пилотной проверке. Если клиент сообщает и о блокировке администратора, и о нескольких неудачных входах обычных пользователей, блокировка привилегированной записи уже требует немедленного участия руководителя поддержки."
+        }
+      ],
+      "id": "R15",
+      "score": 0.669664,
+      "retrieval": "next_word_section",
+      "copies": []
+    },
+    {
+      "source": "documents/Платформа и интеграции/SAML incident handling.docx",
+      "language": "en",
+      "context": "Критерии и порядок эскалации сбоев Enterprise SAML",
+      "fragments": [
+        {
+          "location": {
+            "section": "Walkthrough from a certificate-change incident",
+            "paragraph": 25
+          },
+          "original": "Walkthrough from a certificate-change incident",
+          "id": 25,
+          "text": "Пример разбора инцидента после смены сертификата"
+        },
+        {
+          "location": {
+            "section": "Walkthrough from a certificate-change incident",
+            "paragraph": 26
+          },
+          "original": "The customer reported failures shortly after an identity-provider update. The first colleague kept the emergency administrator session open and collected the workspace, issuer and request identifiers. Two ordinary pilot accounts were available for later retesting. Before asking for another sign-in, the colleague checked the earlier failures and found three within fifteen minutes. The case was escalated to the support lead with the times, rather than left in the ordinary queue for another series of retries.",
+          "id": 26,
+          "text": "Клиент сообщил об ошибках вскоре после обновления у поставщика удостоверений. Первый сотрудник оставил сеанс аварийного администратора открытым и собрал идентификаторы рабочего пространства, издателя и запросов. Для последующей проверки были доступны две обычные пилотные учётные записи. До запроса ещё одной попытки входа сотрудник изучил прежние ошибки и нашёл три за пятнадцать минут. Он передал случай руководителю поддержки с отметками времени, не оставляя его в общей очереди для очередной серии попыток."
+        },
+        {
+          "location": {
+            "section": "Walkthrough from a certificate-change incident",
+            "paragraph": 27
+          },
+          "original": "A separate report then described a privileged account that could no longer enter the workspace. That report was passed to the support lead immediately. The team did not treat the earlier three-failure trigger as a reason to wait for more privileged failures. The lead coordinated with the owner and the identity-provider contact to check certificate activation and clock evidence. The acceptance window itself was read from the operating-parameters register, without inventing a new duration in the incident note.",
+          "id": 27,
+          "text": "Затем отдельно сообщили, что привилегированная учётная запись больше не может войти в рабочее пространство. Это сообщение сразу передали руководителю поддержки. Команда не стала ждать новых ошибок привилегированной записи из-за прежнего критерия трёх неудачных входов. Руководитель согласовал с владельцем и контактным лицом поставщика удостоверений проверку активации сертификата и показаний часов. Длительность окна приёма взяли из реестра рабочих параметров, не добавляя в запись об инциденте выдуманный срок."
+        }
+      ],
+      "id": "R16",
+      "score": 0.669144,
+      "retrieval": "next_word_section",
+      "copies": []
+    }
+  ]
+}
