@@ -1,0 +1,343 @@
+{
+  "source": "documents/Планирование/assistant-hypotheses.csv",
+  "sha256": "cc0375159e0913cb30025889f0991c3a53fdc79373909e03cb41dde23180721a",
+  "extractor_version": 2,
+  "fragments": [
+    {
+      "location": {
+        "lines": [
+          2,
+          2
+        ],
+        "columns": [
+          "Partie du travail",
+          "Sujet",
+          "Hypothèse ou commentaire",
+          "À discuter"
+        ]
+      },
+      "original": "Partie du travail: Hypothèses\nSujet: Team\nHypothèse ou commentaire: Hypothèse de 9999 messages par workspace et par mois.\nÀ discuter: Camille / réunion produit du 9 septembre",
+      "id": 1
+    },
+    {
+      "location": {
+        "lines": [
+          3,
+          3
+        ],
+        "columns": [
+          "Partie du travail",
+          "Sujet",
+          "Hypothèse ou commentaire",
+          "À discuter"
+        ]
+      },
+      "original": "Partie du travail: Hypothèses\nSujet: Starter\nHypothèse ou commentaire: Hypothèse de 500 messages par workspace et par mois.\nÀ discuter: Camille / réunion produit du 9 septembre",
+      "id": 2
+    },
+    {
+      "location": {
+        "lines": [
+          4,
+          4
+        ],
+        "columns": [
+          "Partie du travail",
+          "Sujet",
+          "Hypothèse ou commentaire",
+          "À discuter"
+        ]
+      },
+      "original": "Partie du travail: Hypothèses\nSujet: Enterprise\nHypothèse ou commentaire: Hypothèse de 50000 messages par workspace et par mois.\nÀ discuter: Camille / réunion produit du 9 septembre",
+      "id": 3
+    },
+    {
+      "location": {
+        "lines": [
+          5,
+          5
+        ],
+        "columns": [
+          "Partie du travail",
+          "Sujet",
+          "Hypothèse ou commentaire",
+          "À discuter"
+        ]
+      },
+      "original": "Partie du travail: Hypothèses\nSujet: Réinitialisation\nHypothèse ou commentaire: Une remise à zéro quotidienne est envisagée.\nÀ discuter: Camille / réunion produit du 9 septembre",
+      "id": 4
+    },
+    {
+      "location": {
+        "lines": [
+          6,
+          6
+        ],
+        "columns": [
+          "Partie du travail",
+          "Sujet",
+          "Hypothèse ou commentaire",
+          "À discuter"
+        ]
+      },
+      "original": "Partie du travail: Évaluation\nSujet: Panel\nHypothèse ou commentaire: Le panel prévu contient 6 organisations volontaires.\nÀ discuter: Camille / réunion produit du 9 septembre",
+      "id": 5
+    },
+    {
+      "location": {
+        "lines": [
+          7,
+          7
+        ],
+        "columns": [
+          "Partie du travail",
+          "Sujet",
+          "Hypothèse ou commentaire",
+          "À discuter"
+        ]
+      },
+      "original": "Partie du travail: Évaluation\nSujet: Durée\nHypothèse ou commentaire: La durée proposée est de 14 jours.\nÀ discuter: Camille / réunion produit du 9 septembre",
+      "id": 6
+    },
+    {
+      "location": {
+        "lines": [
+          8,
+          8
+        ],
+        "columns": [
+          "Partie du travail",
+          "Sujet",
+          "Hypothèse ou commentaire",
+          "À discuter"
+        ]
+      },
+      "original": "Partie du travail: Évaluation\nSujet: Budget\nHypothèse ou commentaire: Le budget de l’expérience attend une validation.\nÀ discuter: Camille / réunion produit du 9 septembre",
+      "id": 7
+    },
+    {
+      "location": {
+        "lines": [
+          9,
+          9
+        ],
+        "columns": [
+          "Partie du travail",
+          "Sujet",
+          "Hypothèse ou commentaire",
+          "À discuter"
+        ]
+      },
+      "original": "Partie du travail: Évaluation\nSujet: Contrat\nHypothèse ou commentaire: Aucun avenant client ne reprend ces valeurs.\nÀ discuter: Camille / réunion produit du 9 septembre",
+      "id": 8
+    },
+    {
+      "location": {
+        "lines": [
+          10,
+          10
+        ],
+        "columns": [
+          "Partie du travail",
+          "Sujet",
+          "Hypothèse ou commentaire",
+          "À discuter"
+        ]
+      },
+      "original": "Partie du travail: Évaluation\nSujet: Décision\nHypothèse ou commentaire: Le comité produit doit encore décider si l’expérience sera lancée.\nÀ discuter: Camille / réunion produit du 9 septembre",
+      "id": 9
+    },
+    {
+      "location": {
+        "lines": [
+          11,
+          11
+        ],
+        "columns": [
+          "Partie du travail",
+          "Sujet",
+          "Hypothèse ou commentaire",
+          "À discuter"
+        ]
+      },
+      "original": "Partie du travail: Camille / discussion du 9 septembre\nSujet: distribution\nHypothèse ou commentaire: Comparer les demandes courtes et les longs fils; un total seul masque la longueur des conversations.\nÀ discuter: Préparer deux exemples anonymisés pour le comité",
+      "id": 10
+    },
+    {
+      "location": {
+        "lines": [
+          12,
+          12
+        ],
+        "columns": [
+          "Partie du travail",
+          "Sujet",
+          "Hypothèse ou commentaire",
+          "À discuter"
+        ]
+      },
+      "original": "Partie du travail: Noémie / discussion du 9 septembre\nSujet: coût\nHypothèse ou commentaire: Nous avons une estimation par message mais pas encore le coût de reprise des longs contextes.\nÀ discuter: Demander une fourchette à Assistant Product",
+      "id": 11
+    },
+    {
+      "location": {
+        "lines": [
+          13,
+          13
+        ],
+        "columns": [
+          "Partie du travail",
+          "Sujet",
+          "Hypothèse ou commentaire",
+          "À discuter"
+        ]
+      },
+      "original": "Partie du travail: Hugo / discussion du 9 septembre\nSujet: recrutement\nHypothèse ou commentaire: Deux organisations contactées souhaitent connaître le temps demandé à leurs administrateurs.\nÀ discuter: Ne pas envoyer d’invitation avant accord de participation",
+      "id": 12
+    },
+    {
+      "location": {
+        "lines": [
+          14,
+          14
+        ],
+        "columns": [
+          "Partie du travail",
+          "Sujet",
+          "Hypothèse ou commentaire",
+          "À discuter"
+        ]
+      },
+      "original": "Partie du travail: Léa / discussion du 9 septembre\nSujet: Team\nHypothèse ou commentaire: L’hypothèse de 9999 messages doit être testée avec le panel; le budget n’est pas validé.\nÀ discuter: Conserver le scénario dans le dossier de préparation",
+      "id": 13
+    },
+    {
+      "location": {
+        "lines": [
+          15,
+          15
+        ],
+        "columns": [
+          "Partie du travail",
+          "Sujet",
+          "Hypothèse ou commentaire",
+          "À discuter"
+        ]
+      },
+      "original": "Partie du travail: Camille / discussion du 9 septembre\nSujet: réinitialisation\nHypothèse ou commentaire: Une remise à zéro quotidienne compliquerait la comparaison avec une utilisation mensuelle.\nÀ discuter: Présenter les deux méthodes au comité, sans décider aujourd’hui",
+      "id": 14
+    },
+    {
+      "location": {
+        "lines": [
+          16,
+          16
+        ],
+        "columns": [
+          "Partie du travail",
+          "Sujet",
+          "Hypothèse ou commentaire",
+          "À discuter"
+        ]
+      },
+      "original": "Partie du travail: Adrien / discussion du 9 septembre\nSujet: contrat\nHypothèse ou commentaire: Le formulaire de participation ne contient pas encore la phrase sur l’absence d’avenant commercial.\nÀ discuter: Faire relire le formulaire avant les invitations",
+      "id": 15
+    },
+    {
+      "location": {
+        "lines": [
+          17,
+          17
+        ],
+        "columns": [
+          "Partie du travail",
+          "Sujet",
+          "Hypothèse ou commentaire",
+          "À discuter"
+        ]
+      },
+      "original": "Partie du travail: Noémie / discussion du 9 septembre\nSujet: support\nHypothèse ou commentaire: Les agents demandent qui répondra aux questions des participants pendant les quatorze jours envisagés.\nÀ discuter: Prévoir un contact et une relève dans le plan du test",
+      "id": 16
+    },
+    {
+      "location": {
+        "lines": [
+          18,
+          18
+        ],
+        "columns": [
+          "Partie du travail",
+          "Sujet",
+          "Hypothèse ou commentaire",
+          "À discuter"
+        ]
+      },
+      "original": "Partie du travail: Hugo / discussion du 9 septembre\nSujet: panel\nHypothèse ou commentaire: Le panel prévu reste limité à six organisations; les volontaires supplémentaires attendront la décision.\nÀ discuter: Vérifier la diversité des usages avant de choisir",
+      "id": 17
+    },
+    {
+      "location": {
+        "lines": [
+          19,
+          19
+        ],
+        "columns": [
+          "Partie du travail",
+          "Sujet",
+          "Hypothèse ou commentaire",
+          "À discuter"
+        ]
+      },
+      "original": "Partie du travail: Léa / discussion du 9 septembre\nSujet: mesure\nHypothèse ou commentaire: Séparer une erreur serveur d’une demande envoyée pour ne pas surestimer la consommation observée.\nÀ discuter: Ajouter le résultat technique aux observations",
+      "id": 18
+    },
+    {
+      "location": {
+        "lines": [
+          20,
+          20
+        ],
+        "columns": [
+          "Partie du travail",
+          "Sujet",
+          "Hypothèse ou commentaire",
+          "À discuter"
+        ]
+      },
+      "original": "Partie du travail: Adrien / discussion du 9 septembre\nSujet: confidentialité\nHypothèse ou commentaire: Les retours qualitatifs ne doivent pas contenir de texte privé issu des conversations clients.\nÀ discuter: Demander un résumé anonymisé plutôt qu’un export",
+      "id": 19
+    },
+    {
+      "location": {
+        "lines": [
+          21,
+          21
+        ],
+        "columns": [
+          "Partie du travail",
+          "Sujet",
+          "Hypothèse ou commentaire",
+          "À discuter"
+        ]
+      },
+      "original": "Partie du travail: Camille / discussion du 9 septembre\nSujet: planning\nHypothèse ou commentaire: Aucune date de lancement n’a été arrêtée; la revue budgétaire est encore à organiser.\nÀ discuter: Revenir avec les réponses Finance au prochain comité",
+      "id": 20
+    },
+    {
+      "location": {
+        "lines": [
+          22,
+          22
+        ],
+        "columns": [
+          "Partie du travail",
+          "Sujet",
+          "Hypothèse ou commentaire",
+          "À discuter"
+        ]
+      },
+      "original": "Partie du travail: Noémie / discussion du 9 septembre\nSujet: sortie du test\nHypothèse ou commentaire: Il faut expliquer aux volontaires ce qui se passera à la fin de l’expérience proposée.\nÀ discuter: Préparer une note de clôture avant de lancer le panel",
+      "id": 21
+    }
+  ]
+}

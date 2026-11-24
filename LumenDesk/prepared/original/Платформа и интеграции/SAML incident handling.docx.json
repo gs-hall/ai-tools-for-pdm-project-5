@@ -1,0 +1,255 @@
+{
+  "source": "documents/Платформа и интеграции/SAML incident handling.docx",
+  "sha256": "f9db7727c20305a90dc68f28f2fc889f67075b8420ebb8aad31ff0510f0db054",
+  "extractor_version": 2,
+  "fragments": [
+    {
+      "location": {
+        "section": "SAML incident escalation",
+        "paragraph": 1
+      },
+      "original": "SAML incident escalation",
+      "id": 1
+    },
+    {
+      "location": {
+        "section": "SAML incident escalation",
+        "paragraph": 2
+      },
+      "original": "Identity Platform and Support Operations reviewed this Enterprise SAML runbook on 1 September 2026. It is for the support colleague handling failed sign-ins after setup or certificate changes. Keep a working emergency administrator session while collecting evidence. The immediate objective is to understand who cannot sign in and preserve a safe recovery route, rather than repeatedly change identity settings without a confirmed diagnosis.",
+      "id": 2
+    },
+    {
+      "location": {
+        "section": "SAML incident escalation",
+        "paragraph": 3
+      },
+      "original": "The operating-parameters export maintained by Identity Platform contains the certificate acceptance window. Use that register for the duration of old and pending certificate overlap. This runbook defines the events that need a support lead and the evidence to collect. Do not substitute the ordinary API-key rotation window for a SAML certificate window: they are separate mechanisms, with different participants and different operating instructions.",
+      "id": 3
+    },
+    {
+      "location": {
+        "section": "Trigger and route",
+        "paragraph": 4
+      },
+      "original": "Trigger and route",
+      "id": 4
+    },
+    {
+      "location": {
+        "section": "Trigger and route",
+        "paragraph": 5
+      },
+      "original": "Repeated failure. Escalate to support lead when 3 sign-in failures occur within 15 minutes.",
+      "id": 5
+    },
+    {
+      "location": {
+        "section": "Trigger and route",
+        "paragraph": 6
+      },
+      "original": "Privileged lockout. Escalate a privileged-account lockout to support lead immediately.",
+      "id": 6
+    },
+    {
+      "location": {
+        "section": "Trigger and route",
+        "paragraph": 7
+      },
+      "original": "Certificate check. Check pending-certificate activation and the acceptance window in the operating parameters register before revoking a certificate.",
+      "id": 7
+    },
+    {
+      "location": {
+        "section": "Trigger and route",
+        "paragraph": 8
+      },
+      "original": "Clock check. The permitted clock difference is 120 seconds.",
+      "id": 8
+    },
+    {
+      "location": {
+        "section": "Evidence and recovery",
+        "paragraph": 9
+      },
+      "original": "Evidence and recovery",
+      "id": 9
+    },
+    {
+      "location": {
+        "section": "Evidence and recovery",
+        "paragraph": 10
+      },
+      "original": "Evidence. Collect workspace ID, issuer, request ID and failure times in UTC.",
+      "id": 10
+    },
+    {
+      "location": {
+        "section": "Evidence and recovery",
+        "paragraph": 11
+      },
+      "original": "Sensitive data. Do not paste a full SAML assertion into a support request.",
+      "id": 11
+    },
+    {
+      "location": {
+        "section": "Evidence and recovery",
+        "paragraph": 12
+      },
+      "original": "Pilot check. Retest with two non-privileged pilot accounts before enforcement.",
+      "id": 12
+    },
+    {
+      "location": {
+        "section": "Evidence and recovery",
+        "paragraph": 13
+      },
+      "original": "Recovery. The emergency administrator may disable enforcement after approval by the workspace owner.",
+      "id": 13
+    },
+    {
+      "location": {
+        "section": "Evidence and recovery",
+        "paragraph": 14
+      },
+      "original": "Close. Record the certificate fingerprint used for the successful retest and the approving owner.",
+      "id": 14
+    },
+    {
+      "location": {
+        "section": "Establish the impact before changing settings",
+        "paragraph": 15
+      },
+      "original": "Establish the impact before changing settings",
+      "id": 15
+    },
+    {
+      "location": {
+        "section": "Establish the impact before changing settings",
+        "paragraph": 16
+      },
+      "original": "Confirm the Enterprise workspace and the affected identity provider. Ask whether the failure affects all users or a particular account, whether a certificate change just occurred, and whether the emergency administrator session still works. Keep the customer's original error message and the UTC time of each failure. The user-facing error may be translated, while the underlying issuer and request identifiers remain the same. A screenshot alone may omit the timestamp needed to relate the failure to a configuration change.",
+      "id": 16
+    },
+    {
+      "location": {
+        "section": "Establish the impact before changing settings",
+        "paragraph": 17
+      },
+      "original": "Three sign-in failures within fifteen minutes require escalation to the support lead. A privileged-account lockout requires that escalation immediately; do not wait for three failures or for a full fifteen-minute interval in that case. Record the observed events accurately. The trigger is not permission for a first-line colleague to revoke a certificate or disable enforcement on their own. The support lead uses the evidence to coordinate the next action with the workspace owner and the identity-provider contact.",
+      "id": 17
+    },
+    {
+      "location": {
+        "section": "Establish the impact before changing settings",
+        "paragraph": 18
+      },
+      "original": "A repeated test can create more failed sign-ins without improving the evidence. Before asking the customer to try again, say what the test will establish and which result the team needs. Keep the account category clear so that a privileged lockout is not mistaken for an ordinary pilot problem. If a customer reports both an administrator lockout and several ordinary user failures, the privileged event already requires immediate involvement of the lead.",
+      "id": 18
+    },
+    {
+      "location": {
+        "section": "Certificate and clock checks",
+        "paragraph": 19
+      },
+      "original": "Certificate and clock checks",
+      "id": 19
+    },
+    {
+      "location": {
+        "section": "Certificate and clock checks",
+        "paragraph": 20
+      },
+      "original": "Compare the pending certificate activation with the operating parameters before revoking anything. Preserve the fingerprint of the certificate being checked, not its private key. The old certificate may still be within the permitted overlap window, so a successful sign-in by one user is not proof that every consumer has switched. Ask the identity-provider administrator which certificate signed the failed attempt and compare it with the configuration for this particular workspace.",
+      "id": 20
+    },
+    {
+      "location": {
+        "section": "Certificate and clock checks",
+        "paragraph": 21
+      },
+      "original": "The permitted difference between the identity-provider clock and LumenDesk is 120 seconds. Check the relevant clock evidence rather than asking the customer to change a laptop timezone: a display timezone does not necessarily describe the signing service's clock. If the failure follows a time mismatch, preserve the original observation and the result after correction. Do not silently edit the failure times in the record to make them appear consistent with the successful retest.",
+      "id": 21
+    },
+    {
+      "location": {
+        "section": "Evidence that is safe to share",
+        "paragraph": 22
+      },
+      "original": "Evidence that is safe to share",
+      "id": 22
+    },
+    {
+      "location": {
+        "section": "Evidence that is safe to share",
+        "paragraph": 23
+      },
+      "original": "Collect the workspace identifier, issuer, request identifier and failure times in UTC. A full SAML assertion can contain sensitive account data and must not be pasted into a support request. Ask for a sanitised diagnostic result that preserves the needed identifiers and error context. When a colleague sends a screenshot, check it before forwarding it into a wider incident discussion. The incident record should connect the evidence without creating unnecessary copies of authentication material.",
+      "id": 23
+    },
+    {
+      "location": {
+        "section": "Evidence that is safe to share",
+        "paragraph": 24
+      },
+      "original": "Keep customer observations distinct from technical conclusions. The statement that a certificate was uploaded is an observation about an action; acceptance of a sign-in signed by that certificate is a separate check. Likewise, a report that someone cannot log in does not prove that enforcement should be disabled. Explain unresolved points in the handover so the receiving colleague does not repeat an unsafe change because a short summary implied that the diagnosis was complete.",
+      "id": 24
+    },
+    {
+      "location": {
+        "section": "Walkthrough from a certificate-change incident",
+        "paragraph": 25
+      },
+      "original": "Walkthrough from a certificate-change incident",
+      "id": 25
+    },
+    {
+      "location": {
+        "section": "Walkthrough from a certificate-change incident",
+        "paragraph": 26
+      },
+      "original": "The customer reported failures shortly after an identity-provider update. The first colleague kept the emergency administrator session open and collected the workspace, issuer and request identifiers. Two ordinary pilot accounts were available for later retesting. Before asking for another sign-in, the colleague checked the earlier failures and found three within fifteen minutes. The case was escalated to the support lead with the times, rather than left in the ordinary queue for another series of retries.",
+      "id": 26
+    },
+    {
+      "location": {
+        "section": "Walkthrough from a certificate-change incident",
+        "paragraph": 27
+      },
+      "original": "A separate report then described a privileged account that could no longer enter the workspace. That report was passed to the support lead immediately. The team did not treat the earlier three-failure trigger as a reason to wait for more privileged failures. The lead coordinated with the owner and the identity-provider contact to check certificate activation and clock evidence. The acceptance window itself was read from the operating-parameters register, without inventing a new duration in the incident note.",
+      "id": 27
+    },
+    {
+      "location": {
+        "section": "Walkthrough from a certificate-change incident",
+        "paragraph": 28
+      },
+      "original": "When recovery required disabling enforcement, the emergency administrator did so after the workspace owner's approval. The record states who approved the action and what was changed. After the configuration was corrected, the team tested two non-privileged pilot accounts before enforcement. A successful emergency administrator session was not used as a substitute for those pilot checks. The successful retest included the certificate fingerprint so the team could tell which configuration had actually worked.",
+      "id": 28
+    },
+    {
+      "location": {
+        "section": "Close and hand over",
+        "paragraph": 29
+      },
+      "original": "Close and hand over",
+      "id": 29
+    },
+    {
+      "location": {
+        "section": "Close and hand over",
+        "paragraph": 30
+      },
+      "original": "Before closing, record the successful retest, the certificate fingerprint and the approving owner. Confirm which users have been checked and what remains outside the tested scope. If another team must follow up, give it the next action and the safe evidence references. Do not leave a full assertion in the final handover merely because it was useful during an internal diagnostic conversation. The normal evidence-minimisation rules still apply after service is restored.",
+      "id": 30
+    },
+    {
+      "location": {
+        "section": "Close and hand over",
+        "paragraph": 31
+      },
+      "original": "If the expected operating parameter cannot be found, preserve that uncertainty and ask Identity Platform to clarify it. A personal note, an API-key instruction or a remembered value from another workspace is not an adequate substitute. This is especially important when a certificate is approaching the end of its overlap period. A clear statement of the missing parameter helps the lead coordinate a safe action; an invented deadline can cause an avoidable loss of sign-in access.",
+      "id": 31
+    }
+  ]
+}

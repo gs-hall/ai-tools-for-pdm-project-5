@@ -1,0 +1,51 @@
+{
+  "source": "documents/Франция/Atelier équipe septembre.md",
+  "sha256": "fb7c10b580f04e14718a2099ccb61b721550b9196aa6d034ebb99e281e2d4b03",
+  "extractor_version": 2,
+  "fragments": [
+    {
+      "location": {
+        "section": "Préparer un atelier en français avec une nouvelle équipe",
+        "lines": [
+          1,
+          8
+        ]
+      },
+      "original": "# Préparer un atelier en français avec une nouvelle équipe\n\nBonjour à toutes et à tous,\n\nNous avons repris les modalités avec Customer Enablement France le 1er septembre 2026. Je laisse ici une version développée des explications que nous donnons au contact du contrat, car les échanges de calendrier deviennent vite difficiles à suivre. Les ateliers présentent les espaces partagés et les procédures courantes aux équipes francophones. Le service est inclus pour les nouveaux contrats Enterprise en France. Il faut donc partir du contrat concerné et du besoin de l'équipe, plutôt que d'annoncer une séance sur la seule base de la langue utilisée dans un premier courriel.\n\nLa présentation et les questions se déroulent entièrement en français. C'est utile de le préciser dès le premier échange, notamment lorsque le contact organise la séance pour des collègues qu'il connaît encore peu. Nous pouvons ainsi parler de leur manière de travailler sans laisser planer un doute sur la langue de l'animation. Cette note porte sur l'organisation de l'atelier; elle ne transforme pas tous les documents que le client utilise en versions françaises et ne nécessite pas de lui faire traduire ses propres données pour préparer la démonstration.",
+      "id": 1
+    },
+    {
+      "location": {
+        "section": "Trouver une séance qui convient",
+        "lines": [
+          9,
+          16
+        ]
+      },
+      "original": "## Trouver une séance qui convient\n\nLes séances ont lieu le mardi ou le jeudi à 10:00 Europe/Paris. Lorsque le client propose une heure, reprenez le fuseau dans votre réponse au lieu d'écrire seulement «10 heures». Une équipe répartie entre plusieurs bureaux peut tout à fait comprendre la même invitation de façons différentes. Le créneau indiqué ici est celui de Paris. Il vaut mieux clarifier cela dans le premier message que découvrir au début de la séance qu'une partie du groupe attendait une autre heure.\n\nLa demande doit nous parvenir au moins 5 jours ouvrés avant la séance souhaitée. Ce délai laisse au client la possibilité de préparer un espace convenable et à l'équipe d'organisation celle de réunir le bon contexte. Ne présentez pas une demande envoyée tardivement comme une confirmation déjà acquise. Dans le fil de discussion, distinguez la date souhaitée par le client de la séance effectivement organisée. Les personnes ajoutées plus tard à la conversation ne doivent pas déduire une réservation du seul fait qu'un mardi figure dans l'objet du courriel.\n\nUne séance accueille au maximum 12 participants et sa durée standard est de 60 minutes. Quand le contact écrit «toute l'équipe», demandez combien de personnes cela représente. Cette précision n'est pas une façon de décourager la participation; elle permet de préparer une séance dont le cadre est clair. Gardez aussi la durée visible dans la conversation. Une introduction aux espaces partagés et aux procédures courantes n'est pas automatiquement une journée de conseil consacrée à tous les sujets que l'organisation pourrait vouloir aborder.",
+      "id": 2
+    },
+    {
+      "location": {
+        "section": "Préparer un terrain de démonstration",
+        "lines": [
+          17,
+          24
+        ]
+      },
+      "original": "## Préparer un terrain de démonstration\n\nLe client fournit un espace de démonstration sans données confidentielles. Il ne doit pas nous envoyer un extrait sensible pour prouver que son cas est intéressant. Expliquez plutôt le type de situation qu'il souhaite montrer et demandez un espace adapté à cette démonstration. La préparation est plus simple lorsque le contact comprend qu'un exemple reconnaissable suffit, sans recopier des informations réelles sur ses clients, ses salariés ou ses engagements commerciaux. L'atelier doit pouvoir se concentrer sur les gestes et les procédures.\n\nDans la conversation de préparation, résumez le besoin de l'équipe avec ses propres mots: par exemple, se repérer dans les espaces partagés ou comprendre une procédure courante. Ce résumé n'ajoute pas une prestation au contrat; il donne un fil conducteur à la séance. Si plusieurs collègues apportent des attentes différentes, rendez-les visibles avant le rendez-vous. Un contact peut parler d'accueil des nouveaux utilisateurs alors qu'un autre imagine déjà une revue complète de son organisation. Mieux vaut découvrir cette différence dans le courriel de préparation.\n\nDes sous-titres en français sont disponibles sur demande préalable. Mentionnez cette possibilité assez tôt pour que les participants puissent exprimer leur besoin. Le contact du contrat ne sait pas toujours qui en aura l'usage, et il peut vouloir consulter son équipe avant de répondre. Il n'est pas nécessaire de demander des justifications personnelles dans le fil. Ce qui nous aide à organiser la séance est la demande de sous-titres, formulée avant l'atelier, et non une explication détaillée de la situation individuelle de chaque participant.",
+      "id": 3
+    },
+    {
+      "location": {
+        "section": "Si le calendrier change",
+        "lines": [
+          25,
+          31
+        ]
+      },
+      "original": "## Si le calendrier change\n\nUn report sans frais est possible jusqu'à 2 jours ouvrés avant la séance. Reprenez cette règle lorsque le client annonce un changement de disponibilité. Une phrase comme «nous verrons la veille si tout le monde peut venir» ne permet pas à l'équipe de comprendre le cadre du report. La demande de déplacer une séance et la confirmation d'un nouveau rendez-vous sont aussi deux événements différents. Dans le message qui termine l'échange, écrivez clairement ce qui a été convenu, afin que les invitations conservées par les participants ne racontent pas plusieurs histoires.\n\nLe résumé de l'atelier est envoyé au contact du contrat dans les 2 jours ouvrés. Dites-le lorsque vous expliquez le déroulement, car certains participants souhaitent se concentrer sur les échanges plutôt que prendre des notes à toute vitesse. Le destinataire prévu est le contact du contrat. Ne supposez pas que toutes les personnes ajoutées à un ancien fil sont devenues ce contact. Le résumé doit revenir vers la relation contractuelle que le client et nous avons identifiée, puis le client peut organiser sa propre circulation interne.\n\nPour préparer un prochain échange, je relis donc le fil comme le ferait une personne qui n'a participé à aucun appel: voit-elle le contrat concerné, la séance souhaitée, le nombre de participants, le fuseau et l'espace de démonstration à préparer? Cette relecture ne remplace pas les modalités ci-dessus, mais elle fait ressortir les implicites. Un atelier se passe mieux lorsque tout le monde arrive avec le même rendez-vous en tête et un espace utilisable. Merci de garder les informations pratiques dans la conversation, même lorsque le contact vous paraît déjà très familier du service.",
+      "id": 4
+    }
+  ]
+}

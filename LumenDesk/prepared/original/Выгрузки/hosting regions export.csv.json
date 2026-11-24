@@ -1,0 +1,636 @@
+{
+  "source": "documents/Выгрузки/hosting regions export.csv",
+  "sha256": "7f9221350fe59e2637cf33f5bde41bfe24617a46dc09b28dbcafc33deb7aaa5c",
+  "extractor_version": 2,
+  "fragments": [
+    {
+      "location": {
+        "lines": [
+          2,
+          2
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: EU-1\nLocation or workspace: Primary storage in Frankfurt, Germany.\nPlan: \nCreated or rule: \nOperations note:",
+      "id": 1
+    },
+    {
+      "location": {
+        "lines": [
+          3,
+          3
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: EU-2\nLocation or workspace: Primary storage in Paris, France.\nPlan: \nCreated or rule: \nOperations note:",
+      "id": 2
+    },
+    {
+      "location": {
+        "lines": [
+          4,
+          4
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: US-1\nLocation or workspace: Primary storage in Northern Virginia, United States.\nPlan: \nCreated or rule: \nOperations note:",
+      "id": 3
+    },
+    {
+      "location": {
+        "lines": [
+          5,
+          5
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: CA-1\nLocation or workspace: Primary storage in Montreal, Canada.\nPlan: \nCreated or rule: \nOperations note:",
+      "id": 4
+    },
+    {
+      "location": {
+        "lines": [
+          6,
+          6
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: Selection\nLocation or workspace: Starter uses EU-1 by default for contracts signed in the European Union.\nPlan: \nCreated or rule: \nOperations note:",
+      "id": 5
+    },
+    {
+      "location": {
+        "lines": [
+          7,
+          7
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: Team\nLocation or workspace: Team may choose EU-1 or US-1 at workspace creation.\nPlan: \nCreated or rule: \nOperations note:",
+      "id": 6
+    },
+    {
+      "location": {
+        "lines": [
+          8,
+          8
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: Enterprise\nLocation or workspace: Enterprise may select any listed region at creation.\nPlan: \nCreated or rule: \nOperations note:",
+      "id": 7
+    },
+    {
+      "location": {
+        "lines": [
+          9,
+          9
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: Migration\nLocation or workspace: A region migration requires Enterprise and a scheduled maintenance window.\nPlan: \nCreated or rule: \nOperations note:",
+      "id": 8
+    },
+    {
+      "location": {
+        "lines": [
+          10,
+          10
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: Support access\nLocation or workspace: Support routing language does not change the storage region.\nPlan: \nCreated or rule: \nOperations note:",
+      "id": 9
+    },
+    {
+      "location": {
+        "lines": [
+          11,
+          11
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: EU-1\nLocation or workspace: Cedar Studio / 1\nPlan: Starter\nCreated or rule: 2026-09-01\nOperations note: selection captured before workspace creation; interface language does not set region",
+      "id": 10
+    },
+    {
+      "location": {
+        "lines": [
+          12,
+          12
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: US-1\nLocation or workspace: North Paper / 1\nPlan: Team\nCreated or rule: 2026-09-02\nOperations note: selection captured before workspace creation; interface language does not set region",
+      "id": 11
+    },
+    {
+      "location": {
+        "lines": [
+          13,
+          13
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: EU-1\nLocation or workspace: Atelier Nacre / 1\nPlan: Enterprise\nCreated or rule: 2026-09-03\nOperations note: selection captured before workspace creation; interface language does not set region",
+      "id": 12
+    },
+    {
+      "location": {
+        "lines": [
+          14,
+          14
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: US-1\nLocation or workspace: Open Lane / 1\nPlan: Team\nCreated or rule: 2026-09-04\nOperations note: selection captured before workspace creation; interface language does not set region",
+      "id": 13
+    },
+    {
+      "location": {
+        "lines": [
+          15,
+          15
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: EU-1\nLocation or workspace: Harbor Works / 1\nPlan: Starter\nCreated or rule: 2026-09-05\nOperations note: selection captured before workspace creation; interface language does not set region",
+      "id": 14
+    },
+    {
+      "location": {
+        "lines": [
+          16,
+          16
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: US-1\nLocation or workspace: Maple Research / 1\nPlan: Team\nCreated or rule: 2026-09-06\nOperations note: selection captured before workspace creation; interface language does not set region",
+      "id": 15
+    },
+    {
+      "location": {
+        "lines": [
+          17,
+          17
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: EU-2\nLocation or workspace: Quartz Lab / 1\nPlan: Enterprise\nCreated or rule: 2026-09-07\nOperations note: selection captured before workspace creation; interface language does not set region",
+      "id": 16
+    },
+    {
+      "location": {
+        "lines": [
+          18,
+          18
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: US-1\nLocation or workspace: Plain Supply / 1\nPlan: Team\nCreated or rule: 2026-09-08\nOperations note: selection captured before workspace creation; interface language does not set region",
+      "id": 17
+    },
+    {
+      "location": {
+        "lines": [
+          19,
+          19
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: EU-1\nLocation or workspace: Cedar Studio / 2\nPlan: Starter\nCreated or rule: 2026-09-09\nOperations note: selection captured before workspace creation; interface language does not set region",
+      "id": 18
+    },
+    {
+      "location": {
+        "lines": [
+          20,
+          20
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: US-1\nLocation or workspace: North Paper / 2\nPlan: Team\nCreated or rule: 2026-09-10\nOperations note: selection captured before workspace creation; interface language does not set region",
+      "id": 19
+    },
+    {
+      "location": {
+        "lines": [
+          21,
+          21
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: CA-1\nLocation or workspace: Atelier Nacre / 2\nPlan: Enterprise\nCreated or rule: 2026-09-11\nOperations note: selection captured before workspace creation; interface language does not set region",
+      "id": 20
+    },
+    {
+      "location": {
+        "lines": [
+          22,
+          22
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: US-1\nLocation or workspace: Open Lane / 2\nPlan: Team\nCreated or rule: 2026-09-12\nOperations note: selection captured before workspace creation; interface language does not set region",
+      "id": 21
+    },
+    {
+      "location": {
+        "lines": [
+          23,
+          23
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: EU-1\nLocation or workspace: Harbor Works / 2\nPlan: Starter\nCreated or rule: 2026-09-13\nOperations note: selection captured before workspace creation; interface language does not set region",
+      "id": 22
+    },
+    {
+      "location": {
+        "lines": [
+          24,
+          24
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: US-1\nLocation or workspace: Maple Research / 2\nPlan: Team\nCreated or rule: 2026-09-14\nOperations note: selection captured before workspace creation; interface language does not set region",
+      "id": 23
+    },
+    {
+      "location": {
+        "lines": [
+          25,
+          25
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: EU-1\nLocation or workspace: Quartz Lab / 2\nPlan: Enterprise\nCreated or rule: 2026-09-15\nOperations note: selection captured before workspace creation; interface language does not set region",
+      "id": 24
+    },
+    {
+      "location": {
+        "lines": [
+          26,
+          26
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: US-1\nLocation or workspace: Plain Supply / 2\nPlan: Team\nCreated or rule: 2026-09-16\nOperations note: selection captured before workspace creation; interface language does not set region",
+      "id": 25
+    },
+    {
+      "location": {
+        "lines": [
+          27,
+          27
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: EU-1\nLocation or workspace: Cedar Studio / 3\nPlan: Starter\nCreated or rule: 2026-09-17\nOperations note: selection captured before workspace creation; interface language does not set region",
+      "id": 26
+    },
+    {
+      "location": {
+        "lines": [
+          28,
+          28
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: US-1\nLocation or workspace: North Paper / 3\nPlan: Team\nCreated or rule: 2026-09-18\nOperations note: selection captured before workspace creation; interface language does not set region",
+      "id": 27
+    },
+    {
+      "location": {
+        "lines": [
+          29,
+          29
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: EU-2\nLocation or workspace: Atelier Nacre / 3\nPlan: Enterprise\nCreated or rule: 2026-09-19\nOperations note: selection captured before workspace creation; interface language does not set region",
+      "id": 28
+    },
+    {
+      "location": {
+        "lines": [
+          30,
+          30
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: US-1\nLocation or workspace: Open Lane / 3\nPlan: Team\nCreated or rule: 2026-09-20\nOperations note: selection captured before workspace creation; interface language does not set region",
+      "id": 29
+    },
+    {
+      "location": {
+        "lines": [
+          31,
+          31
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: EU-1\nLocation or workspace: Harbor Works / 3\nPlan: Starter\nCreated or rule: 2026-09-21\nOperations note: selection captured before workspace creation; interface language does not set region",
+      "id": 30
+    },
+    {
+      "location": {
+        "lines": [
+          32,
+          32
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: US-1\nLocation or workspace: Maple Research / 3\nPlan: Team\nCreated or rule: 2026-09-22\nOperations note: selection captured before workspace creation; interface language does not set region",
+      "id": 31
+    },
+    {
+      "location": {
+        "lines": [
+          33,
+          33
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: CA-1\nLocation or workspace: Quartz Lab / 3\nPlan: Enterprise\nCreated or rule: 2026-09-23\nOperations note: selection captured before workspace creation; interface language does not set region",
+      "id": 32
+    },
+    {
+      "location": {
+        "lines": [
+          34,
+          34
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: US-1\nLocation or workspace: Plain Supply / 3\nPlan: Team\nCreated or rule: 2026-09-24\nOperations note: selection captured before workspace creation; interface language does not set region",
+      "id": 33
+    },
+    {
+      "location": {
+        "lines": [
+          35,
+          35
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: EU-1\nLocation or workspace: Cedar Studio / 4\nPlan: Starter\nCreated or rule: 2026-09-01\nOperations note: selection captured before workspace creation; interface language does not set region",
+      "id": 34
+    },
+    {
+      "location": {
+        "lines": [
+          36,
+          36
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: US-1\nLocation or workspace: North Paper / 4\nPlan: Team\nCreated or rule: 2026-09-02\nOperations note: selection captured before workspace creation; interface language does not set region",
+      "id": 35
+    },
+    {
+      "location": {
+        "lines": [
+          37,
+          37
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: EU-1\nLocation or workspace: Atelier Nacre / 4\nPlan: Enterprise\nCreated or rule: 2026-09-03\nOperations note: selection captured before workspace creation; interface language does not set region",
+      "id": 36
+    },
+    {
+      "location": {
+        "lines": [
+          38,
+          38
+        ],
+        "columns": [
+          "Region or subject",
+          "Location or workspace",
+          "Plan",
+          "Created or rule",
+          "Operations note"
+        ]
+      },
+      "original": "Region or subject: US-1\nLocation or workspace: Open Lane / 4\nPlan: Team\nCreated or rule: 2026-09-04\nOperations note: selection captured before workspace creation; interface language does not set region",
+      "id": 37
+    }
+  ]
+}

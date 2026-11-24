@@ -1,0 +1,762 @@
+{
+  "run": "20261124T161032-01044d66fe80",
+  "time_utc": "2026-11-24T16:10:32.043826+00:00",
+  "role": "support_agent",
+  "question": "Что нужно включить в запись о передаче клиента после первоначального подключения?",
+  "settings": {
+    "model": "BAAI/bge-m3",
+    "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "normalize": true,
+    "prefix": "",
+    "max_tokens": 2048,
+    "per_source": 4,
+    "word_neighbors": 4,
+    "algorithm_version": 2,
+    "limit": 14
+  },
+  "matches": [
+    {
+      "source": "documents/Клиентский сервис/Customer handover.docx",
+      "language": "en",
+      "context": "Карточка передачи после первоначального подключения Onboarding handover record",
+      "fragments": [
+        {
+          "location": {
+            "section": "Onboarding handover record",
+            "paragraph": 1
+          },
+          "original": "Onboarding handover record",
+          "id": 1,
+          "text": "Запись о передаче клиента после первоначального подключения"
+        },
+        {
+          "location": {
+            "section": "Onboarding handover record",
+            "paragraph": 2
+          },
+          "original": "Customer Success and Support use this handover record from September 2026 when an onboarding request moves into ordinary support. The receiving colleague should be able to continue the customer's next agreed action without asking the customer to repeat the basic setup. Keep the record in the existing request and link the relevant evidence there. A handover is complete when the receiving team acknowledges ownership, rather than when the outgoing person simply sends a message.",
+          "id": 2,
+          "text": "Customer Success и служба поддержки используют эту запись с сентября 2026 года при передаче заявки на первоначальное подключение в обычную поддержку. Принимающий сотрудник должен иметь возможность выполнить следующее согласованное с клиентом действие, не прося клиента заново выполнить базовую настройку. Храните запись в существующей заявке и добавьте туда ссылки на подтверждающие материалы. Передача считается завершённой, когда принимающая команда подтверждает, что взяла заявку в работу, а не когда передающий сотрудник просто отправил сообщение."
+        },
+        {
+          "location": {
+            "section": "Onboarding handover record",
+            "paragraph": 3
+          },
+          "original": "Write for a colleague who was absent from the calls. A list of product names is not enough: explain which workspace was connected, what was checked, what still needs action and who can approve a reversal if the change fails. Use the customer's chosen plan and hosting region. A French-speaking contact does not establish that the workspace is stored in Paris, and a sales conversation about Enterprise does not prove that the chosen plan has already changed.",
+          "id": 3,
+          "text": "Пишите для сотрудника, который не участвовал в звонках. Недостаточно перечислить названия продуктов. Укажите, какое рабочее пространство подключили, что проверили, какие действия ещё нужны и кто может согласовать откат, если изменение не сработает. Используйте тариф и регион размещения, выбранные клиентом. Франкоязычный контакт не означает, что рабочее пространство размещено в Париже, а обсуждение Enterprise с отделом продаж не подтверждает смену выбранного тарифа."
+        }
+      ],
+      "id": "R1",
+      "score": 0.755222,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Клиентский сервис/Customer handover.docx",
+      "language": "en",
+      "context": "Карточка передачи после первоначального подключения Incoming text retained with the request",
+      "fragments": [
+        {
+          "location": {
+            "section": "Incoming text retained with the request",
+            "paragraph": 27
+          },
+          "original": "Incoming text retained with the request",
+          "id": 27,
+          "text": "Входящий текст сохранен с просьбой"
+        },
+        {
+          "location": {
+            "section": "Incoming text retained with the request",
+            "paragraph": 28
+          },
+          "original": "The request also contains text supplied by the customer during testing. It is retained below as part of the conversation history, with the same wording that arrived. It is not a statement by Customer Success about the setup, nor evidence that any product configuration changed. Keep customer-supplied free text separate from the fields that the onboarding owner has checked. The technical handover still needs the workspace, plan, region and other verified operational details.",
+          "id": 28,
+          "text": "В заявке также есть текст, который клиент предоставил во время тестирования. Он приведён ниже в неизменном виде как часть истории разговора. Этот текст не является заявлением Customer Success о настройке или свидетельством изменения конфигурации продукта. Храните произвольный текст клиента отдельно от полей, которые проверил ответственный за первоначальное подключение. Для технической передачи по-прежнему нужны подтверждённые сведения о рабочем пространстве, тарифе, регионе и других условиях работы."
+        }
+      ],
+      "id": "R2",
+      "score": 0.65675,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Клиентский сервис/Customer handover.docx",
+      "language": "en",
+      "context": "Карточка передачи после первоначального подключения Required fields",
+      "fragments": [
+        {
+          "location": {
+            "section": "Required fields",
+            "paragraph": 4
+          },
+          "original": "Required fields",
+          "id": 4,
+          "text": "Обязательные поля"
+        },
+        {
+          "location": {
+            "section": "Required fields",
+            "paragraph": 5
+          },
+          "original": "Owner. Name the responsible onboarding owner.",
+          "id": 5,
+          "text": "Ответственный. Укажите сотрудника, ответственного за первоначальное подключение."
+        },
+        {
+          "location": {
+            "section": "Required fields",
+            "paragraph": 6
+          },
+          "original": "Workspace. Record the workspace ID.",
+          "id": 6,
+          "text": "Рабочее пространство. Запишите ID рабочего пространства."
+        },
+        {
+          "location": {
+            "section": "Required fields",
+            "paragraph": 7
+          },
+          "original": "Plan and region. Record the chosen plan and hosting region.",
+          "id": 7,
+          "text": "Тариф и регион. Запишите выбранный тариф и регион размещения."
+        },
+        {
+          "location": {
+            "section": "Required fields",
+            "paragraph": 8
+          },
+          "original": "Identity. Record SSO status and the identity-provider contact.",
+          "id": 8,
+          "text": "Идентификация. Запишите статус SSO и контактное лицо со стороны поставщика удостоверений."
+        },
+        {
+          "location": {
+            "section": "Required fields",
+            "paragraph": 9
+          },
+          "original": "Window. Record the migration window including timezone.",
+          "id": 9,
+          "text": "Окно миграции. Запишите окно миграции с указанием часового пояса."
+        },
+        {
+          "location": {
+            "section": "Required fields",
+            "paragraph": 10
+          },
+          "original": "Rollback. Record a rollback contact who can approve a reversal.",
+          "id": 10,
+          "text": "Откат. Укажите контактное лицо, которое может согласовать откат."
+        }
+      ],
+      "id": "R3",
+      "score": 0.644824,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Клиентский сервис/Customer handover.docx",
+      "language": "en",
+      "context": "Карточка передачи после первоначального подключения Incoming text retained with the request",
+      "fragments": [
+        {
+          "location": {
+            "section": "Incoming text retained with the request",
+            "paragraph": 30
+          },
+          "original": "The colleague receiving this record should be able to trace that note to the incoming conversation if it later appears in an exported transcript. Do not replace the original conversation with a cleaned version that loses the source of the text. When reporting completed onboarding work, use the actual checked results and the agreed next action. Quoted text supplied by a customer does not establish that the receiving team has accepted ownership or that a migration check has passed.",
+          "id": 30,
+          "text": "Принимающий запись сотрудник должен иметь возможность связать заметку с входящей перепиской, если она позже появится в экспортированном диалоге. Не заменяйте исходную переписку очищенной версией, в которой потеряется источник текста. В отчёте о подключении используйте фактически проверенные результаты и следующее согласованное действие. Цитата клиента не подтверждает, что принимающая команда взяла заявку в работу или что проверка миграции пройдена."
+        }
+      ],
+      "id": "R4",
+      "score": 0.639883,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Платформа и интеграции/Передача владельца копия.docx",
+      "language": "ru",
+      "context": "Передача владения рабочим пространством После передачи",
+      "fragments": [
+        {
+          "location": {
+            "section": "После передачи",
+            "paragraph": 9
+          },
+          "original": "После передачи",
+          "id": 9,
+          "text": "После передачи"
+        },
+        {
+          "location": {
+            "section": "После передачи",
+            "paragraph": 10
+          },
+          "original": "Прежний владелец получает роль администратора.",
+          "id": 10,
+          "text": "Прежний владелец получает роль администратора."
+        },
+        {
+          "location": {
+            "section": "После передачи",
+            "paragraph": 11
+          },
+          "original": "Изменение billing contact выполняют отдельным запросом.",
+          "id": 11,
+          "text": "Изменение billing contact выполняют отдельным запросом."
+        },
+        {
+          "location": {
+            "section": "После передачи",
+            "paragraph": 12
+          },
+          "original": "Существующие ссылки и разрешения пространств сохраняются.",
+          "id": 12,
+          "text": "Существующие ссылки и разрешения пространств сохраняются."
+        },
+        {
+          "location": {
+            "section": "После передачи",
+            "paragraph": 13
+          },
+          "original": "Время передачи и оба actor ID записываются в аудит.",
+          "id": 13,
+          "text": "Время передачи и оба actor ID записываются в аудит."
+        },
+        {
+          "location": {
+            "section": "После передачи",
+            "paragraph": 14
+          },
+          "original": "Если действующий владелец недоступен, обращение передают руководитель поддержки для проверки полномочий.",
+          "id": 14,
+          "text": "Если действующий владелец недоступен, обращение передают руководитель поддержки для проверки полномочий."
+        }
+      ],
+      "id": "R5",
+      "score": 0.601855,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Платформа и интеграции/Передача владельца копия.docx",
+      "language": "ru",
+      "context": "Передача владения рабочим пространством Что меняется после принятия",
+      "fragments": [
+        {
+          "location": {
+            "section": "Что меняется после принятия",
+            "paragraph": 18
+          },
+          "original": "Что меняется после принятия",
+          "id": 18,
+          "text": "Что меняется после принятия"
+        },
+        {
+          "location": {
+            "section": "Что меняется после принятия",
+            "paragraph": 19
+          },
+          "original": "Прежний владелец получает роль администратора. Это важно проговорить до подтверждения, чтобы клиент не ожидал автоматического исключения бывшего владельца из организации. Если его доступ затем нужно прекратить, это отдельное осознанное решение с проверкой прав и зависимостей. Существующие ссылки и разрешения пространств сохраняются. Передача владельца не является способом заново раздать доступ всем участникам и не исправляет автоматически неверные разрешения в отдельном пространстве.",
+          "id": 19,
+          "text": "Прежний владелец получает роль администратора. Это важно проговорить до подтверждения, чтобы клиент не ожидал автоматического исключения бывшего владельца из организации. Если его доступ затем нужно прекратить, это отдельное осознанное решение с проверкой прав и зависимостей. Существующие ссылки и разрешения пространств сохраняются. Передача владельца не является способом заново раздать доступ всем участникам и не исправляет автоматически неверные разрешения в отдельном пространстве."
+        },
+        {
+          "location": {
+            "section": "Что меняется после принятия",
+            "paragraph": 20
+          },
+          "original": "Платёжный контакт меняют отдельным запросом. Владелец рабочего пространства и billing contact могут быть разными людьми, поэтому в ответе не обещайте, что счета сразу начнут приходить новому владельцу. Не нужно повторно создавать пространство или копировать данные ради такой передачи. Если клиент одновременно просит изменить юридическое лицо договора, подключите соответствующую команду и сохраните разделение действий в одной понятной истории обращения.",
+          "id": 20,
+          "text": "Платёжный контакт меняют отдельным запросом. Владелец рабочего пространства и billing contact могут быть разными людьми, поэтому в ответе не обещайте, что счета сразу начнут приходить новому владельцу. Не нужно повторно создавать пространство или копировать данные ради такой передачи. Если клиент одновременно просит изменить юридическое лицо договора, подключите соответствующую команду и сохраните разделение действий в одной понятной истории обращения."
+        }
+      ],
+      "id": "R6",
+      "score": 0.594023,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Финансы/Invoice correction - mail copy.txt",
+      "language": "en",
+      "context": "Исправления реквизитов счетов и безопасная передача в Finance",
+      "fragments": [
+        {
+          "location": {
+            "lines": [
+              1,
+              33
+            ]
+          },
+          "original": "Subject: Please keep correction requests attached to the right invoice\n\nFrom Billing Operations to the customer-facing teams, September 1, 2026\n\nWe reviewed several requests in which the customer wanted a company detail corrected and the conversation quickly turned into a request to overwrite an invoice that had already been paid. Please start by establishing which invoice is involved and whether it is paid. Billing Support can correct company details on an unpaid invoice. A paid invoice requires an adjustment document rather than an overwritten original. That distinction is easier to explain at the beginning than after somebody has promised a replacement PDF with no mention of the accounting context.\n\nThe request must include the invoice ID and billing account ID. A company may have more than one item of billing correspondence in circulation, and a forwarded attachment does not always make the relevant account obvious. Ask for both identifiers so the correction can be related to the right record. The customer should not need to send bank card numbers or personal identity documents. Those are not appropriate attachments for an invoice correction request, even when the customer offers them in an attempt to establish that they are acting in good faith.\n\nCustomer: “Our company name and address need changing. Can you use the details in my signature?”\n\nThe company name and registered address must match the contract holder. A signature can help explain what the customer is asking, but it does not by itself establish that the requested details match the contract. Keep the conversation focused on the company details relevant to the invoice. Do not turn an ordinary correction into an open-ended request for personal documents. When passing the case to Billing Support, distinguish the details currently shown from the details being requested so the receiving colleague can see the change clearly.\n\nCustomer: “We also have a new tax identifier; just replace the old one.”\n\nA tax identifier change requires the applicable effective date. Make that date visible in the request rather than assuming that the day the email arrived is the date the change took effect. The contact may be writing on behalf of a finance team that has a different date in mind. Ask the question plainly and keep the answer attached to the tax identifier change. That is more useful than letting several dates appear in the thread without saying which one is relevant to the requested correction.\n\nCorrection requests must be submitted within 10 calendar days of invoice issue. Calendar days are the relevant unit here. If the customer mentions when they opened the invoice email or when an internal approver returned from leave, acknowledge the context without silently changing the issue date used for the rule. An old attachment forwarded in a new message is still an old invoice. In the handover, preserve the distinction between the invoice issue date and the date of the customer's request so another person does not have to reconstruct it from a long email chain.\n\nCustomer: “It is not paid yet. What will the corrected document look like?”\n\nFor an unpaid invoice, Billing Support reissues the invoice with a new revision number. Explain that the revision is part of the correction process rather than an arbitrary change to the customer's copy. If several people in the customer organisation are working from separate attachments, ask them to keep the conversation attached to the invoice and the reissued revision. Otherwise a colleague may continue comparing the old attachment with the new details and report that nothing changed. We need to be clear about which document is being discussed.\n\nCustomer: “We paid yesterday, but we only noticed the address today.”\n\nFor a paid invoice, Finance issues a credit note and a replacement invoice where required. Do not promise that the original paid invoice will simply be overwritten. The customer may have asked for a small text change, but the paid state affects how the correction is handled. Describe the route without guessing which adjustment documents Finance will determine are required in a particular case. A useful handover says that the invoice is paid and states the requested change, rather than presenting it as the same work as editing an unpaid draft.\n\nCustomer: “While you are fixing the address, please change the currency too.”\n\nCurrency changes require a new order and cannot be applied as a text correction. This is a separate point worth making in the response, because the customer may group all requested changes into one sentence. Separate the company-detail correction from the request concerning currency. An agreement to review the former does not mean the latter can be made on the same document as a wording edit. Clear language prevents an ordinary review acknowledgement from being read as a promise to change every part of the invoice.\n\nA complete correction request receives a review within 2 business days. Say “review” when describing that timing. It is not the same as promising that every requested accounting change and every required replacement document will be finished within that period. Also distinguish a complete request from an opening message that still lacks identifiers or the applicable effective date. The next person should be able to see what was received and what question remains, without using the absence of a field as an excuse to leave the customer uncertain about the next step.\n\nFor our own correspondence, a concise explanation is enough: identify the invoice and billing account, describe the requested company or tax change, establish paid or unpaid status, and preserve the relevant dates. These are connected parts of one request. Avoid copying a long chain of unrelated payment material into the finance conversation. The practical aim is that Billing Support or Finance can understand the requested correction, follow the appropriate document route, and reply to the customer without asking them to repeat information they have already provided.",
+          "id": 1,
+          "text": "Тема: Пожалуйста, держите просьбы о внесении исправлений в приложении к правильному счету-фактуре.\n\nОт бухгалтерии до групп по работе с клиентами, 1 сентября 2026 года\n\nМы рассмотрели несколько запросов, в которых клиент хотел исправить детали компании, и разговор быстро превратился в просьбу переписать счет-фактуру, который уже был оплачен. Просьба начать с установления того, какой счет-фактура связан с этим и оплачивается ли он. Компания &quot; Буйкеринг санкшн &quot; может исправить детали компании по неоплаченному счету-фактуре. Платный счет-фактура требует не переписаный оригинал, а документа с корректировкой. Это различие проще объяснить в начале, чем после того, как кто-то пообещал заменить PDF без упоминания контекста бухгалтерского учета.\n\nЗапрос должен включать в себя идентификационный номер счета-фактуры и идентификационный номер счета-фактуры. Компания может иметь в своем распоряжении более одного пункта, касающегося выставления счетов за корреспонденцию, и препровожденное приложение не всегда делает соответствующий счет очевидным. Спросите оба идентификатора, чтобы исправление могло быть связано с правильной записью. Клиент не должен направлять номера банковских карточек или личные удостоверения личности. Это не является подходящим дополнением к просьбе о внесении исправлений в счет-фактуру, даже если клиент предлагает их в попытке доказать, что он действует добросовестно.\n\nКлиент: Название и адрес нашей компании нуждаются в изменении. Можешь использовать детали в моей подписи?\n\nНазвание компании и зарегистрированный адрес должны соответствовать названному в контракте держателю. Подпись может помочь объяснить, о чем просит клиент, но сама по себе не доказывает, что запрошенные детали соответствуют условиям договора. Продолжайте разговор сосредотачиваться на деталях компании, имеющих отношение к счету-фактуре. Не превращайте обычное исправление в неограниченную просьбу о предоставлении личных документов. При передаче дела в счет поддержки Биллинга отличите в настоящее время от запрошенных деталей детали, с тем чтобы принимающий коллега мог четко видеть изменения.\n\nКлиент: У нас также есть новый налоговый идентификатор; просто заменить старый.\n\nДля изменения налогового идентификатора требуется применимая дата вступления в силу. Приведите эту дату в запросе, а не предположим, что день прибытия электронной почты является датой вступления изменения в силу. Этот контакт может быть составлен от имени финансовой группы, которая имеет в виду другую дату. Задай вопрос четко и сохраняй ответ в приложении к изменению налогового идентификатора. Это более полезно, чем давать несколько дат в ниточке, не говоря уже о том, какая из дат имеет отношение к требуемому исправлению.\n\nЗапросы о внесении исправлений должны представляться в течение 10 календарных дней с момента выставления счета-фактуры. Здесь нужны календарные дни. Если клиент упоминает о том, когда он открыл электронную почту счета-фактуры или когда внутренний утверждающий сотрудник вернулся из отпуска, то он признает контекст без молчаливого изменения даты выпуска, используемой для данного правила. Старое приложение, переведенное в новое сообщение, все еще является старым счетом-фактурой. В процессе передачи сохранить различие между датой выставления счета-фактуры и датой запроса клиента, с тем чтобы другому лицу не пришлось восстанавливать его из длинной электронной сети.\n\nКлиент: Её еще не оплатили. Как будет выглядеть исправленный документ?\n\nВ отношении неоплаченных счетов-фактуры &quot; Буйтинг вспомогатель &quot; перепечатывает счет-фактуру с новым пересмотренным номером. Объясните, что пересмотр является частью процесса исправления, а не произвольным изменением копии клиента. Если несколько человек в организации-клиенте работают из отдельных приложений, попросите их оставить разговор в приложении к счету-фактуре и переизданному пересмотренному варианту. В противном случае коллега может продолжить сопоставление старого приложения с новыми деталями и сообщить, что ничего не изменилось. Мы должны четко определить, какой документ обсуждается.\n\nКлиент: мы заплатили вчера, но мы заметили только адрес сегодня.\n\nВ случае оплаты счета-фактуры \"Файненси\" выдает аккредитив и, при необходимости, счет-фактуру-заменитель. Не обещайте, что первоначальный оплаченный счет-фактура будет просто переписаны. Клиент, возможно, просил внести небольшое изменение в текст, но платное состояние влияет на то, как корректируется. Опишите маршрут, не угадывая, какие корректировочные документы будут определены в конкретном случае. Полезная передача говорит о том, что счет-фактура оплачивается и указывает требуемое изменение, а не представляет его в качестве той же работы, что и редактирование неоплаченного проекта.\n\nКлиент: Пока вы чините адрес, пожалуйста, поменяйте валюту.\n\nИзменения валютных курсов требуют нового порядка и не могут применяться в качестве исправления текста. Это отдельный момент, заслуживающий внимания в ответе, поскольку клиент может сгруппировать все запрошенные изменения в одно предложение. Отделять от запроса, касающегося валюты, подробное исправление, внесенное компанией и компанией. Соглашение о пересмотре первого не означает, что последний может быть заключен на том же документе, что и редактирование формулировок. Четкая формулировка не позволяет рассматривать обычное подтверждение результатов проверки в качестве обещания изменить каждую часть счета-фактуры.\n\nПолная просьба о внесении исправления рассматривается в рамках 2 рабочие дни. Скажи \"просмотр\" при описании этого времени. Это не то же самое, что обещать, что каждое требуемое изменение в бухгалтерском учете и каждый требуемый замещающий документ будут завершены в течение этого периода. Отличить также полный запрос от вводного сообщения, в котором по-прежнему отсутствуют идентификаторы или применимая дата вступления в силу. Следующий человек должен иметь возможность увидеть, что было получено и какой вопрос остается, не используя отсутствие поля в качестве предлога для того, чтобы оставить клиента не уверенным относительно следующего шага.\n\nДля нашей переписки достаточно дать краткое объяснение: указать счет-фактуру и счет-фактуру, описать запрашиваемую компанию или изменение налогообложения, установить оплаченный или неоплаченный статус и сохранить соответствующие даты. Это связанные части одной просьбы. Избегайте копирования длинной цепочки не связанных с платежами материалов в финансовом разговоре. Практическая цель заключается в том, чтобы обеспечить понимание требуемого исправления, следовать соответствующему маршруту документооборота и отвечать клиенту, не обращаясь к нему с просьбой повторить уже представленную информацию."
+        }
+      ],
+      "id": "R7",
+      "score": 0.575396,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Клиентский сервис/Смена/Как назначаем срочность — 01.09.md",
+      "language": "ru",
+      "context": "Назначение приоритета при инциденте Что должно остаться в истории",
+      "fragments": [
+        {
+          "location": {
+            "section": "Что должно остаться в истории",
+            "lines": [
+              11,
+              18
+            ]
+          },
+          "original": "## Что должно остаться в истории\n\nЗафиксируйте workspace ID, время UTC, регион, число затронутых участников и request ID. Число workspace и число участников — разные сведения, не подменяйте одно другим. Когда клиент говорит «это у всех», уточните, относится ли это к одному рабочему пространству, нескольким командам или людям, с которыми он успел поговорить. Нужна честная граница известного, а не наиболее широкая трактовка. Следующий специалист должен видеть, какие сведения подтверждены и какой вопрос ещё остался открытым.\n\nПервой проверкой служат страница статуса и наличие активного incident ID. Если событие уже связано с известным инцидентом, это важно отразить в обращении. Не надо начинать каждую передачу с догадки о новой отдельной поломке. В то же время похожие слова в описании не доказывают, что речь об одном событии: сохраните контекст workspace, региона и времени. Смена должна иметь возможность понять, почему обращение было связано с конкретным инцидентом, а не только увидеть скопированный номер.\n\nВстреча показала, что мы часто хорошо сохраняем техническое наблюдение и плохо — его влияние. Запись «ошибка повторилась» не говорит, продолжают ли люди работать. Запись «обход подтверждён клиентом» без описания тоже быстро теряет смысл. Не нужно писать литературный отчёт: несколько связанных предложений о процессе, затронутой группе и проверках дадут коллеге больше, чем длинная лента несвязанных реплик. Оригинальный текст ошибки можно оставить рядом, чтобы не потерять точность наблюдения.",
+          "id": 2,
+          "text": "## Что должно остаться в истории\n\nЗафиксируйте workspace ID, время UTC, регион, число затронутых участников и request ID. Число workspace и число участников — разные сведения, не подменяйте одно другим. Когда клиент говорит «это у всех», уточните, относится ли это к одному рабочему пространству, нескольким командам или людям, с которыми он успел поговорить. Нужна честная граница известного, а не наиболее широкая трактовка. Следующий специалист должен видеть, какие сведения подтверждены и какой вопрос ещё остался открытым.\n\nПервой проверкой служат страница статуса и наличие активного incident ID. Если событие уже связано с известным инцидентом, это важно отразить в обращении. Не надо начинать каждую передачу с догадки о новой отдельной поломке. В то же время похожие слова в описании не доказывают, что речь об одном событии: сохраните контекст workspace, региона и времени. Смена должна иметь возможность понять, почему обращение было связано с конкретным инцидентом, а не только увидеть скопированный номер.\n\nВстреча показала, что мы часто хорошо сохраняем техническое наблюдение и плохо — его влияние. Запись «ошибка повторилась» не говорит, продолжают ли люди работать. Запись «обход подтверждён клиентом» без описания тоже быстро теряет смысл. Не нужно писать литературный отчёт: несколько связанных предложений о процессе, затронутой группе и проверках дадут коллеге больше, чем длинная лента несвязанных реплик. Оригинальный текст ошибки можно оставить рядом, чтобы не потерять точность наблюдения."
+        }
+      ],
+      "id": "R8",
+      "score": 0.573033,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Платформа и интеграции/Передача владельца копия.docx",
+      "language": "ru",
+      "context": "Передача владения рабочим пространством Если передача не состоялась",
+      "fragments": [
+        {
+          "location": {
+            "section": "Если передача не состоялась",
+            "paragraph": 24
+          },
+          "original": "Если передача не состоялась",
+          "id": 24,
+          "text": "Если передача не состоялась"
+        },
+        {
+          "location": {
+            "section": "Если передача не состоялась",
+            "paragraph": 25
+          },
+          "original": "Не подтверждайте новое владение по одному скриншоту отправленного приглашения. Проверьте, было ли оно принято и какая роль отражается в пространстве. При истёкшем приглашении действующий владелец повторяет предусмотренное интерфейсом действие; поддержка не делает получателя владельцем вручную на основании старой переписки. Если за время ожидания изменился получатель, это нужно согласовать заново. В карточке сохраняют причину незавершённого действия, чтобы следующая смена не отправила прежнее приглашение не тому человеку.",
+          "id": 25,
+          "text": "Не подтверждайте новое владение по одному скриншоту отправленного приглашения. Проверьте, было ли оно принято и какая роль отражается в пространстве. При истёкшем приглашении действующий владелец повторяет предусмотренное интерфейсом действие; поддержка не делает получателя владельцем вручную на основании старой переписки. Если за время ожидания изменился получатель, это нужно согласовать заново. В карточке сохраняют причину незавершённого действия, чтобы следующая смена не отправила прежнее приглашение не тому человеку."
+        },
+        {
+          "location": {
+            "section": "Если передача не состоялась",
+            "paragraph": 26
+          },
+          "original": "Закрывая обращение, оставьте только необходимую административную историю: пространство, участники, время и результат. Не прикладывайте полный список участников и содержимое рабочих документов в доказательство передачи. Для аудита достаточно относящихся к операции событий. Если клиент сообщает о неожиданном изменении владельца, рассматривайте это как отдельный вопрос безопасности и сохраняйте исходные наблюдения, а не запускайте новую передачу поверх спорного события.",
+          "id": 26,
+          "text": "Закрывая обращение, оставьте только необходимую административную историю: пространство, участники, время и результат. Не прикладывайте полный список участников и содержимое рабочих документов в доказательство передачи. Для аудита достаточно относящихся к операции событий. Если клиент сообщает о неожиданном изменении владельца, рассматривайте это как отдельный вопрос безопасности и сохраняйте исходные наблюдения, а не запускайте новую передачу поверх спорного события."
+        }
+      ],
+      "id": "R9",
+      "score": 0.570662,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Платформа и интеграции/SAML incident handling.docx",
+      "language": "en",
+      "context": "Критерии и порядок эскалации сбоев Enterprise SAML Close and hand over",
+      "fragments": [
+        {
+          "location": {
+            "section": "Close and hand over",
+            "paragraph": 29
+          },
+          "original": "Close and hand over",
+          "id": 29,
+          "text": "Закрыть и передать"
+        },
+        {
+          "location": {
+            "section": "Close and hand over",
+            "paragraph": 30
+          },
+          "original": "Before closing, record the successful retest, the certificate fingerprint and the approving owner. Confirm which users have been checked and what remains outside the tested scope. If another team must follow up, give it the next action and the safe evidence references. Do not leave a full assertion in the final handover merely because it was useful during an internal diagnostic conversation. The normal evidence-minimisation rules still apply after service is restored.",
+          "id": 30,
+          "text": "Перед закрытием запиши успешный повторный тест, отпечатки пальцев и разрешившего владельца. Подтвердить, какие пользователи были проверены и какие из них остаются за пределами испытанной области. Если еще одна группа должна будет принять последующие меры, предложи ей следующее действие и ссылки на надежные доказательства. Не оставляйте полного утверждения в последней передаче только потому, что оно было полезным во время внутреннего диагностического разговора. Нормальные правила сведения к минимуму доказательств по-прежнему применяются после восстановления службы."
+        },
+        {
+          "location": {
+            "section": "Close and hand over",
+            "paragraph": 31
+          },
+          "original": "If the expected operating parameter cannot be found, preserve that uncertainty and ask Identity Platform to clarify it. A personal note, an API-key instruction or a remembered value from another workspace is not an adequate substitute. This is especially important when a certificate is approaching the end of its overlap period. A clear statement of the missing parameter helps the lead coordinate a safe action; an invented deadline can cause an avoidable loss of sign-in access.",
+          "id": 31,
+          "text": "Если ожидаемый эксплуатационный параметр не может быть найден, сохраняйте эту неопределенность и просит Платформу идентификации уточнить его. Личная записка, инструкция API-ключ или запоминающаяся ценность из другого рабочего пространства не являются адекватной заменой. Это особенно важно, когда сертификат приближается к концу периода дублирования. Четкое указание недостающего параметра помогает лидеру координировать безопасное действие; изобретенный предельный срок может привести к избежанию потери доступа к входу."
+        }
+      ],
+      "id": "R10",
+      "score": 0.570468,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+      "language": "en",
+      "context": "Порядок подключения Enterprise SAML и подготовки смены сертификата Certificates and time",
+      "fragments": [
+        {
+          "location": {
+            "section": "Certificates and time",
+            "lines": [
+              23,
+              31
+            ]
+          },
+          "original": "## Certificates and time\n\nUpload the pending certificate before revoking the old certificate. Check the acceptance window in the operating parameters register. This notebook deliberately does not supply a number for that window: do not copy a number from memory or invent one because the call needs a quick answer. Record which register entry the team used when planning the certificate transition. The important ordering here is that the pending certificate is uploaded before the old one is revoked, with the applicable acceptance window checked in its own source.\n\nThe identity provider and LumenDesk clocks may differ by at most 120 seconds. When people compare timestamps during troubleshooting, ask which clock produced each value. A screenshot of local desktop time and a provider event are not automatically the same observation. The 120-second allowance is a connection constraint, not an invitation to ignore a persistent difference. Keep the discussion precise about the compared systems, especially when participants are in different time zones and casually describe the event as happening “a minute ago.”\n\nDuring the call I usually leave a short narrative of what happened rather than a wall of settings: which workspace supplied the entity ID and ACS URL, whether both pilot accounts signed in, what happened with the pending certificate, and whether the emergency administrator remained outside enforcement. The narrative is useful because another engineer can see the order of events. It should not say “SAML works” when the only evidence is that a configuration form accepted a value. Form acceptance and successful sign in are different observations.\n\nThe existing administrator session stays open until sign in succeeds. At the end, have the administrator describe the outcome in their own words and resolve any ambiguity about which account they tested. If the setup is interrupted, leave the notes at the point actually reached, with unanswered questions visible. A later call should not mistake a planned pilot for a completed one or a certificate upload for revocation of the previous certificate. These are ordinary coordination mistakes, and careful language is often the simplest way to prevent them.",
+          "id": 4,
+          "text": "## Сертификаты и время\n\nДо отзыва старого сертификата загружать неучтенный сертификат. Проверьте окно приемки в регистре эксплуатационных параметров. Этот блокнот намеренно не предоставляет номер этого окна: не копировать номер из памяти или изобретать его, потому что звонок нуждается в быстром ответе. Записи, которые регистрируют записи, используемые группой при планировании передачи сертификата. В данном случае важно, чтобы незавершенный сертификат был загружен до отзыва старого сертификата, а применимое окно приемки проверялось в его собственном источнике.\n\nПоставщик идентификационных данных и часы LumenDesk могут отличаться не более чем на 120 секунд. Когда люди сравнивают время в момент возникновения проблем, спросите, какие часы давали каждое значение. Скриншот местного рабочего стола и события, связанные с поставщиком, не являются автоматически одним и тем же наблюдением. 120-секундное пособие является ограничением связи, а не приглашением игнорировать постоянную разницу. Сохранять точность дискуссии о сопоставимых системах, особенно в тех случаях, когда участники находятся в различных часовых поясах, и вскользь описать событие как произошедшее минуту назад.\n\nВо время звонка я обычно оставляю краткое описание того, что произошло, а не стену настройок: какое рабочее пространство поставляло идентификатор предприятия и URL ACS, подписывались ли оба пилотных счета, что произошло с ожидавшимся сертификатом и оставался ли администратор чрезвычайной ситуации вне системы обеспечения соблюдения. Повествование полезно, потому что другой инженер видит порядок событий. В ней не должно быть слов ЕЦSAML работает, когда единственным доказательством является то, что форма конфигурации приняла значение. Приемлемость формы и успешный знак в ней являются различными наблюдениями.\n\nНынешняя сессия администратора остается открытой до тех пор, пока не будет подписана подпись. В конечном счете, пусть администратор опишет результаты своими словами и решит любые вопросы, связанные с тем, какой счет они проверили. Если установка прервана, оставьте заметки в момент, когда они были достигнуты, с заметными вопросами, которые остались без ответа. Последующий звонок не должен ошибаться в том, что пилот планирует загрузить завершенный или загрузить сертификат для аннулирования предыдущего сертификата. Это обычные ошибки в координации, и очень простой способ их предотвратить."
+        }
+      ],
+      "id": "R11",
+      "score": 0.561091,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Франция/Accessibilité septembre.pdf",
+      "language": "fr",
+      "context": "Адаптация каналов связи и инструкций для доступности",
+      "fragments": [
+        {
+          "location": {
+            "page": 2
+          },
+          "original": "Conduire l’échange\n\nPrésenter une action puis vérifier ce que le client observe avant d’enchaîner. Cette attention est\nparticulièrement importante avant une suppression, une révocation ou un changement d’accès. Le\npartage d’écran reste facultatif: une personne peut préférer lire une valeur ou transmettre un\nmessage d’erreur par écrit. Dans ce cas, adaptez la vérification sans demander des secrets\nsupplémentaires. Un mot de passe ou un code MFA ne devient pas une donnée de diagnostic parce\nque l’échange est plus lent.\n\nLaisser une place aux questions et éviter de terminer les phrases du client. Si une étape n’est pas\nclaire, reformuler son objectif et ses conséquences plutôt que répéter seulement le même\nemplacement visuel. Un changement de canal doit rester convenu; ne transférez pas spontanément\nune conversation écrite vers un appel parce que le dossier semble complexe. La personne qui\nreprend la demande doit retrouver le canal choisi sans avoir à redemander au client d’expliquer sa\nsituation.\n\nRetour de la revue des dossiers\n\nDans un dossier de septembre, les instructions initiales utilisaient uniquement des flèches dans une\nimage. Le client ne pouvait pas distinguer la commande de validation de la commande de retour.\nL’agent a réécrit la procédure en nommant les commandes et en indiquant le résultat visible de\nchacune. La résolution n’a pas demandé de nouveau droit sur le compte ni de document médical; le\nproblème venait de la forme des explications et de la dépendance à une capture.\n\nDans un autre dossier, une cliente avait demandé un suivi exclusivement écrit, mais le transfert de\nl’équipe avait déclenché une proposition d’appel répétée. La correction a consisté à rendre le choix\ndu canal visible dans la transmission et à reprendre les réponses écrites. Pour les prochaines\ntransmissions, vérifier les actions déjà réalisées, la question ouverte et le canal convenu. Garder\ncette note concise afin qu’elle soit lue, tout en évitant de recopier un historique sensible sans\nnécessité.\n\nAu terme de la demande, demander si le résultat et la prochaine action sont compréhensibles. Un\nacquiescement rapide pendant un appel ne prouve pas que toutes les étapes ont été comprises. Le\ncompte rendu doit permettre au client de retrouver l’action convenue et à l’équipe de poursuivre sans\ninventer ses préférences. Les propositions d’amélioration de la documentation sont transmises au\nresponsable de domaine avec un exemple anonymisé du passage difficile.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                                                                                            2",
+          "id": 2,
+          "text": "Сделать обмен\n\nПросьба представить ответ, а затем проверить, что наблюдает клиент перед тем, как повесить. Это особенно важно до исключения, отзыва или изменения (d): доступ к нему имеет особое значение. Раздел d\" на экране остается факультативным: лицо может предпочесть читать значение или передавать сообщение d/: в письменной форме. В таком случае, приспособься к проверке, не запрашивая дополнительных секретов. Пароль или код MFA не превращаются в диагностику, потому что обмен более медленным.\n\nОставить место для вопросов и избежать завершения предложений клиента. Если какой-либо шаг не является ясным, то он переформулирует его цель и последствия, а не просто повторяет одно и то же место. Переключение канала должно оставаться согласованным; не спонтанно переводите письменный разговор на звонок, потому что дело кажется сложным. Лицо, возвращающее заявление, должно найти выбранный канал без повторного обращения к клиенту с просьбой разъяснить его положение.\n\nВозвращается в журнал документации\n\nВ сентябрьской папке в первоначальных инструкциях использовались только стрелы в образе. Клиент не смог провести различие между заказом на подтверждение обратного заказа. ЛИНФ переписывал процедуру, назначив заказы и указав видимый результат каждого из них. Резолюция не требует нового права на счет или медицинскую документацию; эта проблема возникла в форме объяснений и зависимости от улова.\n\nВ другом деле одна клиентка обратилась с просьбой о проведении только письменного контроля, однако передача группы привела к тому, что было выдвинуто предложение в отношении неоднократного призыва. Поправка заключалась в том, чтобы сделать выбор канала видимым в передаче и возобновить письменные ответы. В случае следующих сообщений проверять уже принятые меры, открытый вопрос и согласованный канал. Задержи эту сжатую записку, с тем чтобы она была читаемой, и не удалась копировать чувствительную историю без необходимости.\n\nПо завершении запроса просьба задать вопрос о том, понятны ли результаты и последующие действия. Быстрое согласие во время апелляции не свидетельствует о том, что все этапы были понятны. Отчет должен позволить клиентам найти согласованные действия, а группе - продолжать, не изобретаяв своих предпочтений. Предложения d... совершенствование документации передаются сотруднику по вопросам с неимимым примером трудного перехода.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                                                                                            2"
+        }
+      ],
+      "id": "R12",
+      "score": 0.558321,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+      "language": "en",
+      "context": "Порядок подключения Enterprise SAML и подготовки смены сертификата Before the SAML cutover call",
+      "fragments": [
+        {
+          "location": {
+            "section": "Before the SAML cutover call",
+            "lines": [
+              1,
+              6
+            ]
+          },
+          "original": "# Before the SAML cutover call\n\nNotes from Identity Platform, written after the September 1, 2026 review. I keep this copy with the material we take into administrator calls because the same omissions are difficult to spot once everyone is watching the login screen. This procedure is for connecting an Enterprise workspace to an identity provider. SAML is available on Enterprise workspaces only. Confirm which workspace the customer means before discussing settings; a familiar company name is not a substitute for identifying the workspace in front of the administrator.\n\nThe most useful preparation is surprisingly mundane: keep an existing administrator session open until sign in succeeds. Do this before changing the path people use to enter the workspace. During a call, someone will naturally want to close extra tabs or start again in a clean browser. Make sure they understand which session is their working administrative session and why it is still needed while the new route is being tested. A neat desktop is less useful than a clear way to continue the setup conversation.",
+          "id": 1,
+          "text": "# Перед вызовом SAML\n\nЗаписки с платформы идентификации, написанные после обзора 1 сентября 2026 года. Я храню эту копию вместе с материалами, которые мы принимаем на звонки администратора, потому что те же пропуски трудно обнаружить, когда каждый смотрит экран входа. Эта процедура предусматривает подключение рабочего пространства предприятия к поставщику идентификационных данных. SAML доступна только на рабочих местах предприятия. Подтвердить, какое рабочее пространство имеет значение для клиента до обсуждения параметров; знакомое название компании не является заменой идентификации рабочего пространства перед администратором.\n\nНаиболее полезная подготовка на удивление проста: сохранять существующую сессию администратора открытой до тех пор, пока она не будет подписана. Сделайте это, прежде чем изменить путь, который люди используют для входа в рабочее пространство. Во время звонка кто-то, естественно, захочет закрыть дополнительные вкладки или начать снова в чистом браузере. Убедитесь, что они понимают, какая сессия является их рабочей административной сессией, и почему она по-прежнему необходима, пока проводится проверка нового маршрута. Опрятный рабочий стол менее полезен, чем четкий способ продолжения разговора о подставе."
+        }
+      ],
+      "id": "R13",
+      "score": 0.553863,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Платформа и интеграции/SAML incident handling.docx",
+      "language": "en",
+      "context": "Критерии и порядок эскалации сбоев Enterprise SAML Establish the impact before changing settings",
+      "fragments": [
+        {
+          "location": {
+            "section": "Establish the impact before changing settings",
+            "paragraph": 15
+          },
+          "original": "Establish the impact before changing settings",
+          "id": 15,
+          "text": "Установить воздействие до изменения параметров"
+        },
+        {
+          "location": {
+            "section": "Establish the impact before changing settings",
+            "paragraph": 16
+          },
+          "original": "Confirm the Enterprise workspace and the affected identity provider. Ask whether the failure affects all users or a particular account, whether a certificate change just occurred, and whether the emergency administrator session still works. Keep the customer's original error message and the UTC time of each failure. The user-facing error may be translated, while the underlying issuer and request identifiers remain the same. A screenshot alone may omit the timestamp needed to relate the failure to a configuration change.",
+          "id": 16,
+          "text": "Подтвердить рабочее пространство предприятия и соответствующего поставщика идентификационных данных. Вопрос о том, затрагивает ли данный отказ всех пользователей или конкретный счет, произошло ли изменение сертификата и работает ли сеанс администратора чрезвычайной помощи. Сохранить оригинальное сообщение клиента об ошибке и время UTC каждого отказа. Погрешность, наносимая пользователю, может быть переведена, в то время как идентификаторы, лежащие в основе эмитента и запроса, остаются неизменными. Только в скриншоте может не указываться время, необходимое для увязки неисправности с изменением конфигурации."
+        },
+        {
+          "location": {
+            "section": "Establish the impact before changing settings",
+            "paragraph": 17
+          },
+          "original": "Three sign-in failures within fifteen minutes require escalation to the support lead. A privileged-account lockout requires that escalation immediately; do not wait for three failures or for a full fifteen-minute interval in that case. Record the observed events accurately. The trigger is not permission for a first-line colleague to revoke a certificate or disable enforcement on their own. The support lead uses the evidence to coordinate the next action with the workspace owner and the identity-provider contact.",
+          "id": 17,
+          "text": "Three sign-in failures within fifteen minutes require escalation to the support lead. Для локаута с привилегированным счетом требуется немедленное увеличение; в этом случае не дожидайтесь трех неудач или полного пятнадцатиминутного интервала. Точно зафиксировать наблюдаемые события. Инициатором не является разрешение коллеге из первой линии отозвать сертификат или отменить его самостоятельно. Ведущая сторона, занимающаяся оказанием поддержки, использует доказательства для координации следующего действия с владельцем рабочего пространства и лицом, предоставляющим идентификационные данные."
+        }
+      ],
+      "id": "R14",
+      "score": 0.550419,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Клиентский сервис/Customer handover.docx",
+      "language": "en",
+      "context": "Карточка передачи после первоначального подключения Supporting notes",
+      "fragments": [
+        {
+          "location": {
+            "section": "Supporting notes",
+            "paragraph": 11
+          },
+          "original": "Supporting notes",
+          "id": 11,
+          "text": "Сопроводительные сведения"
+        },
+        {
+          "location": {
+            "section": "Supporting notes",
+            "paragraph": 12
+          },
+          "original": "Progress. List completed checks and the next agreed action.",
+          "id": 12,
+          "text": "Ход работ. Перечислите выполненные проверки и следующее согласованное действие."
+        },
+        {
+          "location": {
+            "section": "Supporting notes",
+            "paragraph": 13
+          },
+          "original": "Evidence. Attach request IDs or sanitized log references, not credentials.",
+          "id": 13,
+          "text": "Подтверждающие материалы. Приложите идентификаторы запросов или ссылки на журналы с удалёнными конфиденциальными данными. Учётные данные прикладывать нельзя."
+        }
+      ],
+      "id": "R15",
+      "score": 0.579868,
+      "retrieval": "next_word_section",
+      "copies": []
+    },
+    {
+      "source": "documents/Клиентский сервис/Customer handover.docx",
+      "language": "en",
+      "context": "Карточка передачи после первоначального подключения Keeping the record useful after transfer",
+      "fragments": [
+        {
+          "location": {
+            "section": "Keeping the record useful after transfer",
+            "paragraph": 31
+          },
+          "original": "Keeping the record useful after transfer",
+          "id": 31,
+          "text": "Обеспечение полезности записи после передачи"
+        },
+        {
+          "location": {
+            "section": "Keeping the record useful after transfer",
+            "paragraph": 32
+          },
+          "original": "If a plan, window or contact changes after the handover, update the relevant operational statement in the existing request and explain what changed. Do not create a competing personal summary and leave the receiving team with two apparently finished versions. Keep the earlier decision visible in the conversation history so a reviewer can understand the sequence. A change to the window can affect availability of the rollback contact, so check that relationship instead of editing only the date.",
+          "id": 32,
+          "text": "Если план, окно или контакт изменяются после передачи, обновить соответствующее оперативное заявление в существующей просьбе и объяснить, что изменилось. Не создавай конкурирующие личные резюме и оставляй получающую команду с двумя, очевидно, законченными версиями. Держите ранее принятое решение видимым в истории разговора, чтобы рецензент мог понять последовательность. Изменение окна может повлиять на доступность реактивного контакта, поэтому проверяйте это соотношение, а не редактировать только дату."
+        },
+        {
+          "location": {
+            "section": "Keeping the record useful after transfer",
+            "paragraph": 33
+          },
+          "original": "Before closing onboarding, read the record from the receiving team's point of view. Can the colleague identify the customer owner, find the workspace, understand SSO status, contact the identity provider where needed and explain the next action? Can the colleague locate sanitised evidence without opening credentials? If any of those answers is missing, finish the record before leaving the request. The purpose is continuity for the customer, not a long document that nobody can use during the next incident.",
+          "id": 33,
+          "text": "Перед тем как закрыться на борт, прочитай запись с точки зрения принимающей команды. Может ли коллега установить личность владельца клиента, найти рабочее место, понять статус ГСУ, связаться с поставщиком идентификационных данных, если это необходимо, и объяснить следующее действие? Может ли коллега найти улики без вскрытия? Если какие-либо из этих ответов отсутствуют, заполните запись, прежде чем покинуть запрос. Цель заключается в том, чтобы обеспечить непрерывность для клиента, а не в том, чтобы иметь длинный документ, который никто не сможет использовать в ходе следующего инцидента."
+        }
+      ],
+      "id": "R16",
+      "score": 0.611952,
+      "retrieval": "next_word_section",
+      "copies": []
+    },
+    {
+      "source": "documents/Платформа и интеграции/Передача владельца копия.docx",
+      "language": "ru",
+      "context": "Передача владения рабочим пространством Подготовить участников",
+      "fragments": [
+        {
+          "location": {
+            "section": "Подготовить участников",
+            "paragraph": 15
+          },
+          "original": "Подготовить участников",
+          "id": 15,
+          "text": "Подготовить участников"
+        },
+        {
+          "location": {
+            "section": "Подготовить участников",
+            "paragraph": 16
+          },
+          "original": "Уточните, кто сейчас указан владельцем и кто примет пространство. Получатель должен уже быть действующим участником с подтверждённым email, а у обеих сторон должна быть включена MFA. Если будущий владелец ещё не приглашён, сначала завершают обычное приглашение и проверяют его учётную запись. В переписке достаточно подтверждения выполнения условий: секретные коды MFA, пароль и резервные коды собирать не нужно. При совпадении имён ориентируйтесь на учётные записи, а не только на отображаемое имя.",
+          "id": 16,
+          "text": "Уточните, кто сейчас указан владельцем и кто примет пространство. Получатель должен уже быть действующим участником с подтверждённым email, а у обеих сторон должна быть включена MFA. Если будущий владелец ещё не приглашён, сначала завершают обычное приглашение и проверяют его учётную запись. В переписке достаточно подтверждения выполнения условий: секретные коды MFA, пароль и резервные коды собирать не нужно. При совпадении имён ориентируйтесь на учётные записи, а не только на отображаемое имя."
+        },
+        {
+          "location": {
+            "section": "Подготовить участников",
+            "paragraph": 17
+          },
+          "original": "Перед началом стороны договариваются о времени и о том, кто проверит завершение. Это особенно полезно, когда участники работают в разных часовых поясах. Укажите ожидаемое действие получателя и напомните, что приглашение нужно принять в течение сорока восьми часов. Отправка приглашения сама по себе передачу не завершает. Если получатель не может открыть письмо, сначала проверьте адрес и состояние приглашения, не предлагая пересылать защищённую ссылку постороннему сотруднику.",
+          "id": 17,
+          "text": "Перед началом стороны договариваются о времени и о том, кто проверит завершение. Это особенно полезно, когда участники работают в разных часовых поясах. Укажите ожидаемое действие получателя и напомните, что приглашение нужно принять в течение сорока восьми часов. Отправка приглашения сама по себе передачу не завершает. Если получатель не может открыть письмо, сначала проверьте адрес и состояние приглашения, не предлагая пересылать защищённую ссылку постороннему сотруднику."
+        }
+      ],
+      "id": "R17",
+      "score": 0.530873,
+      "retrieval": "next_word_section",
+      "copies": []
+    },
+    {
+      "source": "documents/Платформа и интеграции/Передача владельца копия.docx",
+      "language": "ru",
+      "context": "Передача владения рабочим пространством Проверка на примере проекта",
+      "fragments": [
+        {
+          "location": {
+            "section": "Проверка на примере проекта",
+            "paragraph": 21
+          },
+          "original": "Проверка на примере проекта",
+          "id": 21,
+          "text": "Проверка на примере проекта"
+        },
+        {
+          "location": {
+            "section": "Проверка на примере проекта",
+            "paragraph": 22
+          },
+          "original": "Команда завершила внедрение и передаёт пространство от руководителя проекта операционному менеджеру. Оба остаются в организации, но только один должен быть основным владельцем. Сначала проверили подтверждённый email получателя и MFA обеих сторон, затем действующий владелец отправил приглашение. До принятия менеджером роль владельца не считали изменённой. После принятия сверили новое состояние ролей и записанное в аудите время вместе с двумя actor ID.",
+          "id": 22,
+          "text": "Команда завершила внедрение и передаёт пространство от руководителя проекта операционному менеджеру. Оба остаются в организации, но только один должен быть основным владельцем. Сначала проверили подтверждённый email получателя и MFA обеих сторон, затем действующий владелец отправил приглашение. До принятия менеджером роль владельца не считали изменённой. После принятия сверили новое состояние ролей и записанное в аудите время вместе с двумя actor ID."
+        },
+        {
+          "location": {
+            "section": "Проверка на примере проекта",
+            "paragraph": 23
+          },
+          "original": "При обсуждении обнаружилось, что счета по-прежнему должен получать бухгалтер внедрения. Это не ошибка передачи: платёжный контакт не меняли. Команда отдельно проверила, что обычные участники открывают привычные пространства, а общие ссылки работают с прежними разрешениями. В итоговом сообщении указали, кто принял владение, когда действие завершилось и какой дополнительный запрос ещё открыт. Такой итог полезнее фразы «всё перенесли», потому что данные фактически никуда не переносились.",
+          "id": 23,
+          "text": "При обсуждении обнаружилось, что счета по-прежнему должен получать бухгалтер внедрения. Это не ошибка передачи: платёжный контакт не меняли. Команда отдельно проверила, что обычные участники открывают привычные пространства, а общие ссылки работают с прежними разрешениями. В итоговом сообщении указали, кто принял владение, когда действие завершилось и какой дополнительный запрос ещё открыт. Такой итог полезнее фразы «всё перенесли», потому что данные фактически никуда не переносились."
+        }
+      ],
+      "id": "R18",
+      "score": 0.548431,
+      "retrieval": "next_word_section",
+      "copies": []
+    }
+  ],
+  "answer": "В существующей заявке укажите ответственного за первоначальное подключение, ID рабочего пространства, выбранный тариф и регион размещения, статус SSO и контакт со стороны поставщика удостоверений, окно миграции с часовым поясом и контакт того, кто может согласовать откат. Добавьте выполненные проверки, следующее согласованное действие, идентификаторы запросов или ссылки на журналы с удалёнными конфиденциальными данными. Учётные данные не прикладывайте. Принимающая команда подтверждает, что взяла заявку в работу.",
+  "citations": [
+    {
+      "hit": "R1",
+      "fragment": 2,
+      "quote": "Передача считается завершённой, когда принимающая команда подтверждает, что взяла заявку в работу",
+      "source": "documents/Клиентский сервис/Customer handover.docx",
+      "location": {
+        "section": "Onboarding handover record",
+        "paragraph": 2
+      },
+      "original": "Customer Success and Support use this handover record from September 2026 when an onboarding request moves into ordinary support. The receiving colleague should be able to continue the customer's next agreed action without asking the customer to repeat the basic setup. Keep the record in the existing request and link the relevant evidence there. A handover is complete when the receiving team acknowledges ownership, rather than when the outgoing person simply sends a message."
+    },
+    {
+      "hit": "R3",
+      "fragment": 5,
+      "quote": "Ответственный. Укажите сотрудника, ответственного за первоначальное подключение.",
+      "source": "documents/Клиентский сервис/Customer handover.docx",
+      "location": {
+        "section": "Required fields",
+        "paragraph": 5
+      },
+      "original": "Owner. Name the responsible onboarding owner."
+    },
+    {
+      "hit": "R3",
+      "fragment": 6,
+      "quote": "Рабочее пространство. Запишите ID рабочего пространства.",
+      "source": "documents/Клиентский сервис/Customer handover.docx",
+      "location": {
+        "section": "Required fields",
+        "paragraph": 6
+      },
+      "original": "Workspace. Record the workspace ID."
+    },
+    {
+      "hit": "R3",
+      "fragment": 7,
+      "quote": "Тариф и регион. Запишите выбранный тариф и регион размещения.",
+      "source": "documents/Клиентский сервис/Customer handover.docx",
+      "location": {
+        "section": "Required fields",
+        "paragraph": 7
+      },
+      "original": "Plan and region. Record the chosen plan and hosting region."
+    },
+    {
+      "hit": "R3",
+      "fragment": 8,
+      "quote": "Идентификация. Запишите статус SSO и контактное лицо со стороны поставщика удостоверений.",
+      "source": "documents/Клиентский сервис/Customer handover.docx",
+      "location": {
+        "section": "Required fields",
+        "paragraph": 8
+      },
+      "original": "Identity. Record SSO status and the identity-provider contact."
+    },
+    {
+      "hit": "R3",
+      "fragment": 9,
+      "quote": "Окно миграции. Запишите окно миграции с указанием часового пояса.",
+      "source": "documents/Клиентский сервис/Customer handover.docx",
+      "location": {
+        "section": "Required fields",
+        "paragraph": 9
+      },
+      "original": "Window. Record the migration window including timezone."
+    },
+    {
+      "hit": "R3",
+      "fragment": 10,
+      "quote": "Откат. Укажите контактное лицо, которое может согласовать откат.",
+      "source": "documents/Клиентский сервис/Customer handover.docx",
+      "location": {
+        "section": "Required fields",
+        "paragraph": 10
+      },
+      "original": "Rollback. Record a rollback contact who can approve a reversal."
+    },
+    {
+      "hit": "R15",
+      "fragment": 12,
+      "quote": "Ход работ. Перечислите выполненные проверки и следующее согласованное действие.",
+      "source": "documents/Клиентский сервис/Customer handover.docx",
+      "location": {
+        "section": "Supporting notes",
+        "paragraph": 12
+      },
+      "original": "Progress. List completed checks and the next agreed action."
+    },
+    {
+      "hit": "R15",
+      "fragment": 13,
+      "quote": "Подтверждающие материалы. Приложите идентификаторы запросов или ссылки на журналы с удалёнными конфиденциальными данными. Учётные данные прикладывать нельзя.",
+      "source": "documents/Клиентский сервис/Customer handover.docx",
+      "location": {
+        "section": "Supporting notes",
+        "paragraph": 13
+      },
+      "original": "Evidence. Attach request IDs or sanitized log references, not credentials."
+    }
+  ],
+  "decision": "answer"
+}

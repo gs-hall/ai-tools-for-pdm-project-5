@@ -1,0 +1,975 @@
+{
+  "source": "documents/Клиентский сервис/response targets final.xlsx",
+  "sha256": "1e944f5e57f0ff463bd9ad37560fb4f7da6f2db7f39314b1047d467e0110ac77",
+  "extractor_version": 2,
+  "fragments": [
+    {
+      "location": {
+        "sheet": "Targets",
+        "range": "A1:A1"
+      },
+      "original": "A1: First human response",
+      "id": 1
+    },
+    {
+      "location": {
+        "sheet": "Targets",
+        "range": "A3:A3"
+      },
+      "original": "A3: Support Operations, September 2026. The target starts after a complete incident report arrives. A first response target does not promise repair time.",
+      "id": 2
+    },
+    {
+      "location": {
+        "sheet": "Targets",
+        "range": "A7:D7"
+      },
+      "original": "A7: Case\nB7: Target\nC7: Unit\nD7: When it applies",
+      "id": 3
+    },
+    {
+      "location": {
+        "sheet": "Targets",
+        "range": "A8:D8",
+        "headers": {
+          "A8": {
+            "cell": "A7",
+            "text": "Case"
+          },
+          "B8": {
+            "cell": "B7",
+            "text": "Target"
+          },
+          "C8": {
+            "cell": "C7",
+            "text": "Unit"
+          },
+          "D8": {
+            "cell": "D7",
+            "text": "When it applies"
+          }
+        }
+      },
+      "original": "A8: Enterprise P1\nB8: 15\nC8: minutes\nD8: 24 hours every day",
+      "id": 4
+    },
+    {
+      "location": {
+        "sheet": "Targets",
+        "range": "A9:D9",
+        "headers": {
+          "A9": {
+            "cell": "A7",
+            "text": "Case"
+          },
+          "B9": {
+            "cell": "B7",
+            "text": "Target"
+          },
+          "C9": {
+            "cell": "C7",
+            "text": "Unit"
+          },
+          "D9": {
+            "cell": "D7",
+            "text": "When it applies"
+          }
+        }
+      },
+      "original": "A9: Enterprise P2\nB9: 60\nC9: minutes\nD9: 24 hours every day",
+      "id": 5
+    },
+    {
+      "location": {
+        "sheet": "Targets",
+        "range": "A10:D10",
+        "headers": {
+          "A10": {
+            "cell": "A7",
+            "text": "Case"
+          },
+          "B10": {
+            "cell": "B7",
+            "text": "Target"
+          },
+          "C10": {
+            "cell": "C7",
+            "text": "Unit"
+          },
+          "D10": {
+            "cell": "D7",
+            "text": "When it applies"
+          }
+        }
+      },
+      "original": "A10: Team P1\nB10: 60\nC10: minutes\nD10: Business support hours",
+      "id": 6
+    },
+    {
+      "location": {
+        "sheet": "Targets",
+        "range": "A11:D11",
+        "headers": {
+          "A11": {
+            "cell": "A7",
+            "text": "Case"
+          },
+          "B11": {
+            "cell": "B7",
+            "text": "Target"
+          },
+          "C11": {
+            "cell": "C7",
+            "text": "Unit"
+          },
+          "D11": {
+            "cell": "D7",
+            "text": "When it applies"
+          }
+        }
+      },
+      "original": "A11: Team P2\nB11: 240\nC11: minutes\nD11: Business support hours",
+      "id": 7
+    },
+    {
+      "location": {
+        "sheet": "Targets",
+        "range": "A12:D12",
+        "headers": {
+          "A12": {
+            "cell": "A7",
+            "text": "Case"
+          },
+          "B12": {
+            "cell": "B7",
+            "text": "Target"
+          },
+          "C12": {
+            "cell": "C7",
+            "text": "Unit"
+          },
+          "D12": {
+            "cell": "D7",
+            "text": "When it applies"
+          }
+        }
+      },
+      "original": "A12: Starter\nB12: 2\nC12: business days\nD12: All supported priorities",
+      "id": 8
+    },
+    {
+      "location": {
+        "sheet": "Targets",
+        "range": "A13:D13",
+        "headers": {
+          "A13": {
+            "cell": "A7",
+            "text": "Case"
+          },
+          "B13": {
+            "cell": "B7",
+            "text": "Target"
+          },
+          "C13": {
+            "cell": "C7",
+            "text": "Unit"
+          },
+          "D13": {
+            "cell": "D7",
+            "text": "When it applies"
+          }
+        }
+      },
+      "original": "A13: Business support hours\nB13: 09:00 to 18:00\nC13: Europe/Berlin\nD13: Monday through Friday excluding contract holidays",
+      "id": 9
+    },
+    {
+      "location": {
+        "sheet": "Targets",
+        "range": "A14:D14",
+        "headers": {
+          "A14": {
+            "cell": "A7",
+            "text": "Case"
+          },
+          "B14": {
+            "cell": "B7",
+            "text": "Target"
+          },
+          "C14": {
+            "cell": "C7",
+            "text": "Unit"
+          },
+          "D14": {
+            "cell": "D7",
+            "text": "When it applies"
+          }
+        }
+      },
+      "original": "A14: Required context\nB14: Workspace ID and impact\nC14: evidence\nD14: Also include UTC start time and contact",
+      "id": 10
+    },
+    {
+      "location": {
+        "sheet": "Targets",
+        "range": "A15:D15",
+        "headers": {
+          "A15": {
+            "cell": "A7",
+            "text": "Case"
+          },
+          "B15": {
+            "cell": "B7",
+            "text": "Target"
+          },
+          "C15": {
+            "cell": "C7",
+            "text": "Unit"
+          },
+          "D15": {
+            "cell": "D7",
+            "text": "When it applies"
+          }
+        }
+      },
+      "original": "A15: Clock start\nB15: Complete report received\nC15: event\nD15: Missing required context pauses target measurement",
+      "id": 11
+    },
+    {
+      "location": {
+        "sheet": "Targets",
+        "range": "A16:D16",
+        "headers": {
+          "A16": {
+            "cell": "A7",
+            "text": "Case"
+          },
+          "B16": {
+            "cell": "B7",
+            "text": "Target"
+          },
+          "C16": {
+            "cell": "C7",
+            "text": "Unit"
+          },
+          "D16": {
+            "cell": "D7",
+            "text": "When it applies"
+          }
+        }
+      },
+      "original": "A16: Update frequency P1\nB16: 30\nC16: minutes\nD16: During active investigation",
+      "id": 12
+    },
+    {
+      "location": {
+        "sheet": "Targets",
+        "range": "A17:D17",
+        "headers": {
+          "A17": {
+            "cell": "A7",
+            "text": "Case"
+          },
+          "B17": {
+            "cell": "B7",
+            "text": "Target"
+          },
+          "C17": {
+            "cell": "C7",
+            "text": "Unit"
+          },
+          "D17": {
+            "cell": "D7",
+            "text": "When it applies"
+          }
+        }
+      },
+      "original": "A17: Resolution\nB17: No fixed time\nC17: rule\nD17: Do not present first response as a repair guarantee",
+      "id": 13
+    },
+    {
+      "location": {
+        "sheet": "Queue review",
+        "range": "A1:A1"
+      },
+      "original": "A1: September queue samples",
+      "id": 14
+    },
+    {
+      "location": {
+        "sheet": "Queue review",
+        "range": "A5:F5"
+      },
+      "original": "A5: Received UTC\nB5: Plan\nC5: Priority\nD5: Complete context\nE5: Owner action\nF5: Observation",
+      "id": 15
+    },
+    {
+      "location": {
+        "sheet": "Queue review",
+        "range": "A6:F6",
+        "headers": {
+          "A6": {
+            "cell": "A5",
+            "text": "Received UTC"
+          },
+          "B6": {
+            "cell": "B5",
+            "text": "Plan"
+          },
+          "C6": {
+            "cell": "C5",
+            "text": "Priority"
+          },
+          "D6": {
+            "cell": "D5",
+            "text": "Complete context"
+          },
+          "E6": {
+            "cell": "E5",
+            "text": "Owner action"
+          },
+          "F6": {
+            "cell": "F5",
+            "text": "Observation"
+          }
+        }
+      },
+      "original": "A6: 2026-09-07 07:12\nB6: Enterprise\nC6: P1\nD6: Workspace and UTC start supplied\nE6: Response team paged\nF6: All participants unable to open cards; no workaround",
+      "id": 16
+    },
+    {
+      "location": {
+        "sheet": "Queue review",
+        "range": "A7:F7",
+        "headers": {
+          "A7": {
+            "cell": "A5",
+            "text": "Received UTC"
+          },
+          "B7": {
+            "cell": "B5",
+            "text": "Plan"
+          },
+          "C7": {
+            "cell": "C5",
+            "text": "Priority"
+          },
+          "D7": {
+            "cell": "D5",
+            "text": "Complete context"
+          },
+          "E7": {
+            "cell": "E5",
+            "text": "Owner action"
+          },
+          "F7": {
+            "cell": "F5",
+            "text": "Observation"
+          }
+        }
+      },
+      "original": "A7: 2026-09-07 09:38\nB7: Team\nC7: P2\nD7: Complete\nE7: Reproduce attachment delay\nF7: Uploads work after retry; customer can continue by link",
+      "id": 17
+    },
+    {
+      "location": {
+        "sheet": "Queue review",
+        "range": "A8:F8",
+        "headers": {
+          "A8": {
+            "cell": "A5",
+            "text": "Received UTC"
+          },
+          "B8": {
+            "cell": "B5",
+            "text": "Plan"
+          },
+          "C8": {
+            "cell": "C5",
+            "text": "Priority"
+          },
+          "D8": {
+            "cell": "D5",
+            "text": "Complete context"
+          },
+          "E8": {
+            "cell": "E5",
+            "text": "Owner action"
+          },
+          "F8": {
+            "cell": "F5",
+            "text": "Observation"
+          }
+        }
+      },
+      "original": "A8: 2026-09-07 13:04\nB8: Starter\nC8: P3\nD8: Browser version missing\nE8: Request client version\nF8: Only one participant sees a stale preview",
+      "id": 18
+    },
+    {
+      "location": {
+        "sheet": "Queue review",
+        "range": "A9:F9",
+        "headers": {
+          "A9": {
+            "cell": "A5",
+            "text": "Received UTC"
+          },
+          "B9": {
+            "cell": "B5",
+            "text": "Plan"
+          },
+          "C9": {
+            "cell": "C5",
+            "text": "Priority"
+          },
+          "D9": {
+            "cell": "D5",
+            "text": "Complete context"
+          },
+          "E9": {
+            "cell": "E5",
+            "text": "Owner action"
+          },
+          "F9": {
+            "cell": "F5",
+            "text": "Observation"
+          }
+        }
+      },
+      "original": "A9: 2026-09-08 00:47\nB9: Enterprise\nC9: P1\nD9: Complete\nE9: Acknowledge and coordinate\nF9: Emergency administrator remains available; impact confirmed",
+      "id": 19
+    },
+    {
+      "location": {
+        "sheet": "Queue review",
+        "range": "A10:F10",
+        "headers": {
+          "A10": {
+            "cell": "A5",
+            "text": "Received UTC"
+          },
+          "B10": {
+            "cell": "B5",
+            "text": "Plan"
+          },
+          "C10": {
+            "cell": "C5",
+            "text": "Priority"
+          },
+          "D10": {
+            "cell": "D5",
+            "text": "Complete context"
+          },
+          "E10": {
+            "cell": "E5",
+            "text": "Owner action"
+          },
+          "F10": {
+            "cell": "F5",
+            "text": "Observation"
+          }
+        }
+      },
+      "original": "A10: 2026-09-08 10:16\nB10: Team\nC10: P2\nD10: Impact not yet stated\nE10: Ask what work is blocked\nF10: Report names an error but omits affected workflow",
+      "id": 20
+    },
+    {
+      "location": {
+        "sheet": "Queue review",
+        "range": "A11:F11",
+        "headers": {
+          "A11": {
+            "cell": "A5",
+            "text": "Received UTC"
+          },
+          "B11": {
+            "cell": "B5",
+            "text": "Plan"
+          },
+          "C11": {
+            "cell": "C5",
+            "text": "Priority"
+          },
+          "D11": {
+            "cell": "D5",
+            "text": "Complete context"
+          },
+          "E11": {
+            "cell": "E5",
+            "text": "Owner action"
+          },
+          "F11": {
+            "cell": "F5",
+            "text": "Observation"
+          }
+        }
+      },
+      "original": "A11: 2026-09-08 15:51\nB11: Enterprise\nC11: P2\nD11: Complete\nE11: Check integration consent\nF11: Connector disabled after vendor scope change",
+      "id": 21
+    },
+    {
+      "location": {
+        "sheet": "Queue review",
+        "range": "A12:F12",
+        "headers": {
+          "A12": {
+            "cell": "A5",
+            "text": "Received UTC"
+          },
+          "B12": {
+            "cell": "B5",
+            "text": "Plan"
+          },
+          "C12": {
+            "cell": "C5",
+            "text": "Priority"
+          },
+          "D12": {
+            "cell": "D5",
+            "text": "Complete context"
+          },
+          "E12": {
+            "cell": "E5",
+            "text": "Owner action"
+          },
+          "F12": {
+            "cell": "F5",
+            "text": "Observation"
+          }
+        }
+      },
+      "original": "A12: 2026-09-09 08:13\nB12: Starter\nC12: P4\nD12: Complete\nE12: Answer configuration question\nF12: Customer asks how to change their own timezone",
+      "id": 22
+    },
+    {
+      "location": {
+        "sheet": "Queue review",
+        "range": "A13:F13",
+        "headers": {
+          "A13": {
+            "cell": "A5",
+            "text": "Received UTC"
+          },
+          "B13": {
+            "cell": "B5",
+            "text": "Plan"
+          },
+          "C13": {
+            "cell": "C5",
+            "text": "Priority"
+          },
+          "D13": {
+            "cell": "D5",
+            "text": "Complete context"
+          },
+          "E13": {
+            "cell": "E5",
+            "text": "Owner action"
+          },
+          "F13": {
+            "cell": "F5",
+            "text": "Observation"
+          }
+        }
+      },
+      "original": "A13: 2026-09-09 11:29\nB13: Team\nC13: P1\nD13: Complete\nE13: Link confirmed incident\nF13: Workspace unavailable; status update posted separately",
+      "id": 23
+    },
+    {
+      "location": {
+        "sheet": "Queue review",
+        "range": "A14:F14",
+        "headers": {
+          "A14": {
+            "cell": "A5",
+            "text": "Received UTC"
+          },
+          "B14": {
+            "cell": "B5",
+            "text": "Plan"
+          },
+          "C14": {
+            "cell": "C5",
+            "text": "Priority"
+          },
+          "D14": {
+            "cell": "D5",
+            "text": "Complete context"
+          },
+          "E14": {
+            "cell": "E5",
+            "text": "Owner action"
+          },
+          "F14": {
+            "cell": "F5",
+            "text": "Observation"
+          }
+        }
+      },
+      "original": "A14: 2026-09-10 16:42\nB14: Team\nC14: P2\nD14: UTC start missing\nE14: Clarify original local time\nF14: Customer supplied Paris time without date",
+      "id": 24
+    },
+    {
+      "location": {
+        "sheet": "Queue review",
+        "range": "A15:F15",
+        "headers": {
+          "A15": {
+            "cell": "A5",
+            "text": "Received UTC"
+          },
+          "B15": {
+            "cell": "B5",
+            "text": "Plan"
+          },
+          "C15": {
+            "cell": "C5",
+            "text": "Priority"
+          },
+          "D15": {
+            "cell": "D5",
+            "text": "Complete context"
+          },
+          "E15": {
+            "cell": "E5",
+            "text": "Owner action"
+          },
+          "F15": {
+            "cell": "F5",
+            "text": "Observation"
+          }
+        }
+      },
+      "original": "A15: 2026-09-11 06:03\nB15: Enterprise\nC15: P2\nD15: Complete\nE15: Inspect safe request evidence\nF15: Sign-in succeeds for pilots; one account still needs review",
+      "id": 25
+    },
+    {
+      "location": {
+        "sheet": "Queue review",
+        "range": "A16:F16",
+        "headers": {
+          "A16": {
+            "cell": "A5",
+            "text": "Received UTC"
+          },
+          "B16": {
+            "cell": "B5",
+            "text": "Plan"
+          },
+          "C16": {
+            "cell": "C5",
+            "text": "Priority"
+          },
+          "D16": {
+            "cell": "D5",
+            "text": "Complete context"
+          },
+          "E16": {
+            "cell": "E5",
+            "text": "Owner action"
+          },
+          "F16": {
+            "cell": "F5",
+            "text": "Observation"
+          }
+        }
+      },
+      "original": "A16: 2026-09-11 14:37\nB16: Team\nC16: P3\nD16: Complete\nE16: Verify search visibility\nF16: Missing result belongs to a space the user cannot access",
+      "id": 26
+    },
+    {
+      "location": {
+        "sheet": "Queue review",
+        "range": "A17:F17",
+        "headers": {
+          "A17": {
+            "cell": "A5",
+            "text": "Received UTC"
+          },
+          "B17": {
+            "cell": "B5",
+            "text": "Plan"
+          },
+          "C17": {
+            "cell": "C5",
+            "text": "Priority"
+          },
+          "D17": {
+            "cell": "D5",
+            "text": "Complete context"
+          },
+          "E17": {
+            "cell": "E5",
+            "text": "Owner action"
+          },
+          "F17": {
+            "cell": "F5",
+            "text": "Observation"
+          }
+        }
+      },
+      "original": "A17: 2026-09-12 09:22\nB17: Starter\nC17: P4\nD17: Invoice reference missing\nE17: Ask for invoice reference\nF17: Correction request must remain with Billing Support",
+      "id": 27
+    },
+    {
+      "location": {
+        "sheet": "Queue review",
+        "range": "A18:F18",
+        "headers": {
+          "A18": {
+            "cell": "A5",
+            "text": "Received UTC"
+          },
+          "B18": {
+            "cell": "B5",
+            "text": "Plan"
+          },
+          "C18": {
+            "cell": "C5",
+            "text": "Priority"
+          },
+          "D18": {
+            "cell": "D5",
+            "text": "Complete context"
+          },
+          "E18": {
+            "cell": "E5",
+            "text": "Owner action"
+          },
+          "F18": {
+            "cell": "F5",
+            "text": "Observation"
+          }
+        }
+      },
+      "original": "A18: 2026-09-14 09:06\nB18: Team\nC18: P2\nD18: Complete\nE18: Check export filter\nF18: Selection exceeds current per-job allowance",
+      "id": 28
+    },
+    {
+      "location": {
+        "sheet": "Queue review",
+        "range": "A19:F19",
+        "headers": {
+          "A19": {
+            "cell": "A5",
+            "text": "Received UTC"
+          },
+          "B19": {
+            "cell": "B5",
+            "text": "Plan"
+          },
+          "C19": {
+            "cell": "C5",
+            "text": "Priority"
+          },
+          "D19": {
+            "cell": "D5",
+            "text": "Complete context"
+          },
+          "E19": {
+            "cell": "E5",
+            "text": "Owner action"
+          },
+          "F19": {
+            "cell": "F5",
+            "text": "Observation"
+          }
+        }
+      },
+      "original": "A19: 2026-09-14 11:48\nB19: Enterprise\nC19: P1\nD19: Complete\nE19: Start response coordination\nF19: Report covers one affected region, not every workspace",
+      "id": 29
+    },
+    {
+      "location": {
+        "sheet": "Queue review",
+        "range": "A20:F20",
+        "headers": {
+          "A20": {
+            "cell": "A5",
+            "text": "Received UTC"
+          },
+          "B20": {
+            "cell": "B5",
+            "text": "Plan"
+          },
+          "C20": {
+            "cell": "C5",
+            "text": "Priority"
+          },
+          "D20": {
+            "cell": "D5",
+            "text": "Complete context"
+          },
+          "E20": {
+            "cell": "E5",
+            "text": "Owner action"
+          },
+          "F20": {
+            "cell": "F5",
+            "text": "Observation"
+          }
+        }
+      },
+      "original": "A20: 2026-09-15 10:31\nB20: Team\nC20: P3\nD20: Complete\nE20: Review notification preference\nF20: Read event arrived before the email delay ended",
+      "id": 30
+    },
+    {
+      "location": {
+        "sheet": "Queue review",
+        "range": "A21:F21",
+        "headers": {
+          "A21": {
+            "cell": "A5",
+            "text": "Received UTC"
+          },
+          "B21": {
+            "cell": "B5",
+            "text": "Plan"
+          },
+          "C21": {
+            "cell": "C5",
+            "text": "Priority"
+          },
+          "D21": {
+            "cell": "D5",
+            "text": "Complete context"
+          },
+          "E21": {
+            "cell": "E5",
+            "text": "Owner action"
+          },
+          "F21": {
+            "cell": "F5",
+            "text": "Observation"
+          }
+        }
+      },
+      "original": "A21: 2026-09-16 12:17\nB21: Enterprise\nC21: P2\nD21: Contact missing\nE21: Confirm available administrator\nF21: Technical context is complete, recovery contact still needed",
+      "id": 31
+    },
+    {
+      "location": {
+        "sheet": "Shift discussion",
+        "range": "A1:A1"
+      },
+      "original": "A1: Questions from the rota meeting",
+      "id": 32
+    },
+    {
+      "location": {
+        "sheet": "Shift discussion",
+        "range": "A5:B5"
+      },
+      "original": "A5: Topic\nB5: Agreed interpretation",
+      "id": 33
+    },
+    {
+      "location": {
+        "sheet": "Shift discussion",
+        "range": "A6:B6",
+        "headers": {
+          "A6": {
+            "cell": "A5",
+            "text": "Topic"
+          },
+          "B6": {
+            "cell": "B5",
+            "text": "Agreed interpretation"
+          }
+        }
+      },
+      "original": "A6: Working hours\nB6: 09:00 to 18:00 Europe/Berlin, Monday to Friday, excluding contract holidays",
+      "id": 34
+    },
+    {
+      "location": {
+        "sheet": "Shift discussion",
+        "range": "A7:B7",
+        "headers": {
+          "A7": {
+            "cell": "A5",
+            "text": "Topic"
+          },
+          "B7": {
+            "cell": "B5",
+            "text": "Agreed interpretation"
+          }
+        }
+      },
+      "original": "A7: Enterprise P1\nB7: 15 minutes, every day around the clock",
+      "id": 35
+    },
+    {
+      "location": {
+        "sheet": "Shift discussion",
+        "range": "A8:B8",
+        "headers": {
+          "A8": {
+            "cell": "A5",
+            "text": "Topic"
+          },
+          "B8": {
+            "cell": "B5",
+            "text": "Agreed interpretation"
+          }
+        }
+      },
+      "original": "A8: Team P1\nB8: 60 minutes during business support hours",
+      "id": 36
+    },
+    {
+      "location": {
+        "sheet": "Shift discussion",
+        "range": "A9:B9",
+        "headers": {
+          "A9": {
+            "cell": "A5",
+            "text": "Topic"
+          },
+          "B9": {
+            "cell": "B5",
+            "text": "Agreed interpretation"
+          }
+        }
+      },
+      "original": "A9: Missing evidence\nB9: Request workspace, impact, UTC start time and contact",
+      "id": 37
+    },
+    {
+      "location": {
+        "sheet": "Shift discussion",
+        "range": "A10:B10",
+        "headers": {
+          "A10": {
+            "cell": "A5",
+            "text": "Topic"
+          },
+          "B10": {
+            "cell": "B5",
+            "text": "Agreed interpretation"
+          }
+        }
+      },
+      "original": "A10: P1 communication\nB10: Updates every 30 minutes during investigation",
+      "id": 38
+    },
+    {
+      "location": {
+        "sheet": "Shift discussion",
+        "range": "A11:B11",
+        "headers": {
+          "A11": {
+            "cell": "A5",
+            "text": "Topic"
+          },
+          "B11": {
+            "cell": "B5",
+            "text": "Agreed interpretation"
+          }
+        }
+      },
+      "original": "A11: Resolution\nB11: No fixed repair time is implied by first response",
+      "id": 39
+    }
+  ]
+}

@@ -1,0 +1,566 @@
+{
+  "run": "20261124T161031-6e73f17133cd",
+  "time_utc": "2026-11-24T16:10:31.786459+00:00",
+  "role": "support_agent",
+  "question": "По какому расписанию повторяется доставка вебхука и когда приостанавливается подписка?",
+  "settings": {
+    "model": "BAAI/bge-m3",
+    "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "normalize": true,
+    "prefix": "",
+    "max_tokens": 2048,
+    "per_source": 4,
+    "word_neighbors": 4,
+    "algorithm_version": 2,
+    "limit": 14
+  },
+  "matches": [
+    {
+      "source": "documents/Выгрузки/webhooks-reprises.csv",
+      "language": "fr",
+      "context": "Расписание, завершение доставки и приостановка подписки",
+      "fragments": [
+        {
+          "location": {
+            "lines": [
+              2,
+              2
+            ],
+            "columns": [
+              "Nature",
+              "Étape ou livraison",
+              "Minutes depuis envoi initial",
+              "Événement",
+              "HTTP",
+              "Observation"
+            ]
+          },
+          "original": "Nature: calendrier\nÉtape ou livraison: Tentative 1\nMinutes depuis envoi initial: 0\nÉvénement: \nHTTP: \nObservation: Envoi initial à 0 minute.",
+          "id": 1,
+          "text": "Тип: расписание\nЭтап или доставка: Попытка 1\nМинут с момента первоначальной отправки: 0\nСобытие: \nHTTP: \nПримечание: Первоначальная отправка на отметке 0 минут."
+        },
+        {
+          "location": {
+            "lines": [
+              3,
+              3
+            ],
+            "columns": [
+              "Nature",
+              "Étape ou livraison",
+              "Minutes depuis envoi initial",
+              "Événement",
+              "HTTP",
+              "Observation"
+            ]
+          },
+          "original": "Nature: calendrier\nÉtape ou livraison: Tentative 2\nMinutes depuis envoi initial: 1\nÉvénement: \nHTTP: \nObservation: Nouvel envoi à 1 minute.",
+          "id": 2,
+          "text": "Тип: расписание\nЭтап или доставка: Попытка 2\nМинут с момента первоначальной отправки: 1\nСобытие: \nHTTP: \nПримечание: Повторная отправка через 1 минуту."
+        },
+        {
+          "location": {
+            "lines": [
+              4,
+              4
+            ],
+            "columns": [
+              "Nature",
+              "Étape ou livraison",
+              "Minutes depuis envoi initial",
+              "Événement",
+              "HTTP",
+              "Observation"
+            ]
+          },
+          "original": "Nature: calendrier\nÉtape ou livraison: Tentative 3\nMinutes depuis envoi initial: 5\nÉvénement: \nHTTP: \nObservation: Nouvel envoi à 5 minutes.",
+          "id": 3,
+          "text": "Тип: расписание\nЭтап или доставка: Попытка 3\nМинут с момента первоначальной отправки: 5\nСобытие: \nHTTP: \nПримечание: Повторная отправка через 5 минут."
+        },
+        {
+          "location": {
+            "lines": [
+              5,
+              5
+            ],
+            "columns": [
+              "Nature",
+              "Étape ou livraison",
+              "Minutes depuis envoi initial",
+              "Événement",
+              "HTTP",
+              "Observation"
+            ]
+          },
+          "original": "Nature: calendrier\nÉtape ou livraison: Tentative 4\nMinutes depuis envoi initial: 15\nÉvénement: \nHTTP: \nObservation: Nouvel envoi à 15 minutes.",
+          "id": 4,
+          "text": "Тип: расписание\nЭтап или доставка: Попытка 4\nМинут с момента первоначальной отправки: 15\nСобытие: \nHTTP: \nПримечание: Повторная отправка через 15 минут."
+        },
+        {
+          "location": {
+            "lines": [
+              6,
+              6
+            ],
+            "columns": [
+              "Nature",
+              "Étape ou livraison",
+              "Minutes depuis envoi initial",
+              "Événement",
+              "HTTP",
+              "Observation"
+            ]
+          },
+          "original": "Nature: calendrier\nÉtape ou livraison: Tentative 5\nMinutes depuis envoi initial: 60\nÉvénement: \nHTTP: \nObservation: Nouvel envoi à 60 minutes.",
+          "id": 5,
+          "text": "Тип: расписание\nЭтап или доставка: Попытка 5\nМинут с момента первоначальной отправки: 60\nСобытие: \nHTTP: \nПримечание: Повторная отправка через 60 минут."
+        },
+        {
+          "location": {
+            "lines": [
+              7,
+              7
+            ],
+            "columns": [
+              "Nature",
+              "Étape ou livraison",
+              "Minutes depuis envoi initial",
+              "Événement",
+              "HTTP",
+              "Observation"
+            ]
+          },
+          "original": "Nature: calendrier\nÉtape ou livraison: Tentative 6\nMinutes depuis envoi initial: 240\nÉvénement: \nHTTP: \nObservation: Dernier envoi à 240 minutes.",
+          "id": 6,
+          "text": "Тип: расписание\nЭтап или доставка: Попытка 6\nМинут с момента первоначальной отправки: 240\nСобытие: \nHTTP: \nПримечание: Последняя отправка через 240 минут."
+        }
+      ],
+      "id": "R1",
+      "score": 0.614345,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Выгрузки/webhooks-reprises.csv",
+      "language": "fr",
+      "context": "Расписание, завершение доставки и приостановка подписки",
+      "fragments": [
+        {
+          "location": {
+            "lines": [
+              8,
+              8
+            ],
+            "columns": [
+              "Nature",
+              "Étape ou livraison",
+              "Minutes depuis envoi initial",
+              "Événement",
+              "HTTP",
+              "Observation"
+            ]
+          },
+          "original": "Nature: consigne\nÉtape ou livraison: Échec final\nMinutes depuis envoi initial: \nÉvénement: \nHTTP: \nObservation: Après la sixième tentative en échec, l’événement prend l’état dead_letter.",
+          "id": 7,
+          "text": "Тип: инструкция\nЭтап или доставка: Окончательный сбой\nМинут с момента первоначальной отправки: \nСобытие: \nHTTP: \nПримечание: После шестой неудачной попытки событие переходит в состояние dead_letter."
+        },
+        {
+          "location": {
+            "lines": [
+              9,
+              9
+            ],
+            "columns": [
+              "Nature",
+              "Étape ou livraison",
+              "Minutes depuis envoi initial",
+              "Événement",
+              "HTTP",
+              "Observation"
+            ]
+          },
+          "original": "Nature: consigne\nÉtape ou livraison: Suspension\nMinutes depuis envoi initial: \nÉvénement: \nHTTP: \nObservation: Trois événements dead_letter en une heure suspendent l’abonnement.",
+          "id": 8,
+          "text": "Тип: инструкция\nЭтап или доставка: Приостановка\nМинут с момента первоначальной отправки: \nСобытие: \nHTTP: \nПримечание: Подписка приостанавливается, если за один час произошли три события в состоянии dead_letter."
+        },
+        {
+          "location": {
+            "lines": [
+              10,
+              10
+            ],
+            "columns": [
+              "Nature",
+              "Étape ou livraison",
+              "Minutes depuis envoi initial",
+              "Événement",
+              "HTTP",
+              "Observation"
+            ]
+          },
+          "original": "Nature: consigne\nÉtape ou livraison: Reprise\nMinutes depuis envoi initial: \nÉvénement: \nHTTP: \nObservation: Un administrateur réactive l’abonnement après un test HTTP 2xx.",
+          "id": 9,
+          "text": "Тип: инструкция\nЭтап или доставка: Возобновление\nМинут с момента первоначальной отправки: \nСобытие: \nHTTP: \nПримечание: Администратор повторно активирует подписку после теста с ответом HTTP 2xx."
+        },
+        {
+          "location": {
+            "lines": [
+              11,
+              11
+            ],
+            "columns": [
+              "Nature",
+              "Étape ou livraison",
+              "Minutes depuis envoi initial",
+              "Événement",
+              "HTTP",
+              "Observation"
+            ]
+          },
+          "original": "Nature: consigne\nÉtape ou livraison: Identifiant\nMinutes depuis envoi initial: \nÉvénement: \nHTTP: \nObservation: L’event ID reste identique pendant toutes les tentatives.",
+          "id": 10,
+          "text": "Тип: инструкция\nЭтап или доставка: Идентификатор\nМинут с момента первоначальной отправки: \nСобытие: \nHTTP: \nПримечание: Идентификатор события (event ID) остаётся неизменным во всех попытках."
+        },
+        {
+          "location": {
+            "lines": [
+              12,
+              12
+            ],
+            "columns": [
+              "Nature",
+              "Étape ou livraison",
+              "Minutes depuis envoi initial",
+              "Événement",
+              "HTTP",
+              "Observation"
+            ]
+          },
+          "original": "Nature: consigne\nÉtape ou livraison: Délai réseau\nMinutes depuis envoi initial: \nÉvénement: \nHTTP: \nObservation: Chaque tentative a un délai de réponse maximal de 10 secondes.",
+          "id": 11,
+          "text": "Тип: инструкция\nЭтап или доставка: Сетевой тайм-аут\nМинут с момента первоначальной отправки: \nСобытие: \nHTTP: \nПримечание: Максимальное время ожидания ответа для каждой попытки — 10 секунд."
+        }
+      ],
+      "id": "R2",
+      "score": 0.610996,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Клиентский сервис/Сбой сервиса - рассылка.pdf",
+      "language": "ru",
+      "context": "Рассылка и обновления статуса при сбое сервиса",
+      "fragments": [
+        {
+          "location": {
+            "page": 2
+          },
+          "original": "Сообщения во время расследования\n\nДля P1 обновления публикуют каждые тридцать минут. Если существенных технических\nизменений нет, сообщите, что расследование продолжается, какое влияние подтверждено и когда\nждать следующую связь. Обещание «скоро исправим» без основания создаёт новый вопрос\nвместо ответа. Дежурный, который принимает смену, проверяет время последней публикации и\nуже обещанное время следующей, чтобы передача команды не стала причиной тишины.\n\nОбходной путь описывают вместе с ограничениями. Если он помогает только администраторам\nили требует повторить изменения, это нужно сказать прямо. Не советуйте массово перезагружать\nстраницы с несохранённым текстом только потому, что это удобный универсальный ответ. Перед\nпубликацией координатор сверяет рекомендацию с технической командой. Клиент должен\nпонимать, для какого действия обход применим и какие данные стоит сохранить до его\nиспользования.\n\nПример передачи между сменами\n\nПервая смена подтвердила задержку очереди вебхуков в EU-1 и сообщила клиентам время\nследующего обновления. Вторая смена получила техническую отметку о восстановлении\nобработки, но ещё не имела подтверждения доставки накопленной очереди. В таком случае рано\nписать «всё восстановлено» только по одному внутреннему графику. В передаче указывают, что\nименно проверено, какие обращения ждут проверки и кто согласует следующее сообщение.\n\nПосле технического восстановления запросите проверку клиента. Если клиент по-прежнему видит\nпроблему, сохраните её наблюдение и сопоставьте с исходным инцидентом. Не закрывайте\nразговор автоматически на основании общего статуса. Публичный итог готовят в течение трёх\nрабочих дней; в нём должны сходиться влияние, хронология и подтверждённые действия. Ответ о\nкомпенсации готовится отдельно после проверки условий и не включается как обещанная сумма в\nстатусное обновление.\n\nПри закрытии смены проверьте ссылки в сообщениях и доступность итоговой записи для\nполучателя. В черновиках не оставляйте внутренние персональные контакты и незавершённые\nобсуждения причин. Если обнаружены разные действующие правила компенсации, сохраните оба\nисточника и передайте вопрос Finance и Support Operations. Коммуникация об инциденте должна\nпомогать клиенту работать с подтверждённой ситуацией, а не заменять решение по финансовой\nзаявке.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                                                                                2",
+          "id": 2,
+          "text": "Сообщения во время расследования\n\nДля P1 обновления публикуют каждые тридцать минут. Если существенных технических\nизменений нет, сообщите, что расследование продолжается, какое влияние подтверждено и когда\nждать следующую связь. Обещание «скоро исправим» без основания создаёт новый вопрос\nвместо ответа. Дежурный, который принимает смену, проверяет время последней публикации и\nуже обещанное время следующей, чтобы передача команды не стала причиной тишины.\n\nОбходной путь описывают вместе с ограничениями. Если он помогает только администраторам\nили требует повторить изменения, это нужно сказать прямо. Не советуйте массово перезагружать\nстраницы с несохранённым текстом только потому, что это удобный универсальный ответ. Перед\nпубликацией координатор сверяет рекомендацию с технической командой. Клиент должен\nпонимать, для какого действия обход применим и какие данные стоит сохранить до его\nиспользования.\n\nПример передачи между сменами\n\nПервая смена подтвердила задержку очереди вебхуков в EU-1 и сообщила клиентам время\nследующего обновления. Вторая смена получила техническую отметку о восстановлении\nобработки, но ещё не имела подтверждения доставки накопленной очереди. В таком случае рано\nписать «всё восстановлено» только по одному внутреннему графику. В передаче указывают, что\nименно проверено, какие обращения ждут проверки и кто согласует следующее сообщение.\n\nПосле технического восстановления запросите проверку клиента. Если клиент по-прежнему видит\nпроблему, сохраните её наблюдение и сопоставьте с исходным инцидентом. Не закрывайте\nразговор автоматически на основании общего статуса. Публичный итог готовят в течение трёх\nрабочих дней; в нём должны сходиться влияние, хронология и подтверждённые действия. Ответ о\nкомпенсации готовится отдельно после проверки условий и не включается как обещанная сумма в\nстатусное обновление.\n\nПри закрытии смены проверьте ссылки в сообщениях и доступность итоговой записи для\nполучателя. В черновиках не оставляйте внутренние персональные контакты и незавершённые\nобсуждения причин. Если обнаружены разные действующие правила компенсации, сохраните оба\nисточника и передайте вопрос Finance и Support Operations. Коммуникация об инциденте должна\nпомогать клиенту работать с подтверждённой ситуацией, а не заменять решение по финансовой\nзаявке.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                                                                                2"
+        }
+      ],
+      "id": "R3",
+      "score": 0.561255,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Клиентский сервис/Сбой сервиса - рассылка.pdf",
+      "language": "ru",
+      "context": "Рассылка и обновления статуса при сбое сервиса",
+      "fragments": [
+        {
+          "location": {
+            "page": 1
+          },
+          "original": "Коммуникация при недоступности сервиса\n\n\nПорядок Support Operations для рассылки во время недоступности LumenDesk применяется с 1\nсентября 2026 года. Утренний разбор показал, что самая частая ошибка — попытка заполнить\nотсутствие технических сведений уверенным объяснением причины. Клиенту полезнее точное\nописание подтверждённого влияния и времени следующего обновления. Даже короткое\nсообщение должно оставлять понятный следующий шаг для клиента и команды поддержки.\n\nКоординатор коммуникации связывает клиентские обращения с общим incident ID. У каждой смены\nможет быть свой список контактов и свой черновик сообщения, но техническая история инцидента\nдолжна оставаться общей. Перед созданием нового инцидента проверьте, нет ли уже подходящей\nзаписи. Совпадение времени само по себе недостаточно: сопоставьте функцию, регион и\nнаблюдаемое влияние, чтобы не объединить разные проблемы.\n\nПервое сообщение\n\nУказать затронутую функцию и регион, если они подтверждены.\n\nУказать время начала в UTC и источник наблюдения.\n\nНеподтверждённую причину не представлять как установленную.\n\nСвязать обращение с существующим incident ID до создания нового.\n\nОбновления\n\nПубликовать обновления каждые 30 минут.\n\nОбходной путь описывать вместе с ограничениями и риском потери изменений.\n\nПосле технического восстановления запросить проверку клиента.\n\nПубличный итог инцидента готовят в течение 3 рабочих дней.\n\nКомпенсация требует отдельной проверки условий и не обещается в статусном сообщении.\n\nЧто считать подтверждённым\n\nСообщение клиента о невозможности открыть карточку — наблюдение в его рабочем\nпространстве. Для утверждения о полной недоступности региона нужны дополнительные\nподтверждения от расследующей команды. В первом ответе можно честно указать, что влияние\nуточняется. Не превращайте один скриншот ошибки в вывод о глобальном сбое. Сохраняйте\nисходное время наблюдения и поясняйте перевод в UTC, если клиент сообщил его в местном\nчасовом поясе.\n\nРазделяйте начало влияния, начало расследования и время публикации сообщения. Эти отметки\nпомогают при разборе и не обязаны совпадать. Если команда уточнила время начала, новое\nсообщение должно объяснять это уточнение, а не молча переписывать историю. Внутренние\nгипотезы о базе данных, провайдере или релизе остаются гипотезами, пока ответственный\nинженер не подтвердил причину и границы её применимости.\n\n\n\n\n\n\n\n\n\n\n\n                                                                                                              1",
+          "id": 1,
+          "text": "Коммуникация при недоступности сервиса\n\n\nПорядок Support Operations для рассылки во время недоступности LumenDesk применяется с 1\nсентября 2026 года. Утренний разбор показал, что самая частая ошибка — попытка заполнить\nотсутствие технических сведений уверенным объяснением причины. Клиенту полезнее точное\nописание подтверждённого влияния и времени следующего обновления. Даже короткое\nсообщение должно оставлять понятный следующий шаг для клиента и команды поддержки.\n\nКоординатор коммуникации связывает клиентские обращения с общим incident ID. У каждой смены\nможет быть свой список контактов и свой черновик сообщения, но техническая история инцидента\nдолжна оставаться общей. Перед созданием нового инцидента проверьте, нет ли уже подходящей\nзаписи. Совпадение времени само по себе недостаточно: сопоставьте функцию, регион и\nнаблюдаемое влияние, чтобы не объединить разные проблемы.\n\nПервое сообщение\n\nУказать затронутую функцию и регион, если они подтверждены.\n\nУказать время начала в UTC и источник наблюдения.\n\nНеподтверждённую причину не представлять как установленную.\n\nСвязать обращение с существующим incident ID до создания нового.\n\nОбновления\n\nПубликовать обновления каждые 30 минут.\n\nОбходной путь описывать вместе с ограничениями и риском потери изменений.\n\nПосле технического восстановления запросить проверку клиента.\n\nПубличный итог инцидента готовят в течение 3 рабочих дней.\n\nКомпенсация требует отдельной проверки условий и не обещается в статусном сообщении.\n\nЧто считать подтверждённым\n\nСообщение клиента о невозможности открыть карточку — наблюдение в его рабочем\nпространстве. Для утверждения о полной недоступности региона нужны дополнительные\nподтверждения от расследующей команды. В первом ответе можно честно указать, что влияние\nуточняется. Не превращайте один скриншот ошибки в вывод о глобальном сбое. Сохраняйте\nисходное время наблюдения и поясняйте перевод в UTC, если клиент сообщил его в местном\nчасовом поясе.\n\nРазделяйте начало влияния, начало расследования и время публикации сообщения. Эти отметки\nпомогают при разборе и не обязаны совпадать. Если команда уточнила время начала, новое\nсообщение должно объяснять это уточнение, а не молча переписывать историю. Внутренние\nгипотезы о базе данных, провайдере или релизе остаются гипотезами, пока ответственный\nинженер не подтвердил причину и границы её применимости.\n\n\n\n\n\n\n\n\n\n\n\n                                                                                                              1"
+        }
+      ],
+      "id": "R4",
+      "score": 0.54639,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Рабочие копии/Downloads/notification-events sept.csv",
+      "language": "en",
+      "context": "Правила доставки уведомлений и сбора диагностических данных",
+      "fragments": [
+        {
+          "location": {
+            "lines": [
+              4,
+              4
+            ],
+            "columns": [
+              "Trigger",
+              "Channel or rule",
+              "Delay or explanation",
+              "Observed at",
+              "Member timezone",
+              "Outcome"
+            ]
+          },
+          "original": "Trigger: Digest\nChannel or rule: rule\nDelay or explanation: The daily digest is delivered at 08:00 in the member timezone.\nObserved at: \nMember timezone: \nOutcome:",
+          "id": 3,
+          "text": "Панель: Сборник\nКанал или правило: правило\nЗадержка или объяснение: Ежедневный сборник доставляется в 08:00 в часовой пояс.\nНаблюдается на: \nВремя, в течение которого член: \nИтоговый документ:"
+        }
+      ],
+      "id": "R5",
+      "score": 0.518459,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Рабочие копии/Notifications final.md",
+      "language": "en",
+      "context": "Каналы уведомлений, настройки и диагностика Local time matters",
+      "fragments": [
+        {
+          "location": {
+            "section": "Local time matters",
+            "lines": [
+              9,
+              16
+            ]
+          },
+          "original": "## Local time matters\n\nThe daily digest is delivered at 08:00 in the member's timezone. Quiet hours suppress email and push between 22:00 and 08:00 local time. These are personal time references, so a report from colleagues in different offices may describe different local circumstances. Ask which timezone the member has selected, rather than assuming that the workspace's business address determines the member's experience. Two colleagues can compare their inboxes and sincerely disagree about what happened “this morning” while referring to different local mornings.\n\nThe quiet-hours rule applies to email and push. Be precise about the channel when you repeat it to a customer. An in-app notification is not an email waiting in a spam folder, and checking a phone's push history does not establish whether the item appeared inside LumenDesk. Clear channel names make the conversation shorter because the customer can answer a concrete question. A broad request for “all notification screenshots” often produces a large collection with no clear relationship to the missing item.\n\nSecurity sign-in alerts ignore quiet hours. Do not use an alert received overnight as proof that the member's ordinary mention preferences are being ignored. The security alert and the ordinary message have different treatment under this rule. Explain the exception using the type of message, then return to the customer's actual example. Otherwise one real overnight security email can distract the entire discussion from the ordinary notification they originally wanted to investigate.",
+          "id": 2,
+          "text": "## Вопросы местного времени\n\nЕжедневный сборник доставляется в 08:00 в часовой пояс. Тихие часы подавляют электронную почту и толкают между 22:00 и 08:00 по местному времени. Это личные ссылки на время, поэтому в докладе коллег из различных подразделений могут быть описаны различные местные обстоятельства. Спросите, какой временной пояс выбрал член, а не подумайте, что деловой адрес рабочего пространства определяет опыт члена. Два коллеги могут сравнить свои вставки и искренне не согласны с тем, что произошло сегодня утром, говоря о разных местных утренних встречах.\n\nПравило \"тихо-часов\" применяется к электронной почте и толканию. Будь точным о канале, когда ты повторяешь его клиенту. Входящее уведомление не является электронной почтой, ожидающей в папке спама, и проверка истории проталкивания телефона не позволяет установить, был ли этот предмет обнаружен внутри LumenDesk. Ясное название канала делает разговор короче, потому что клиент может ответить на конкретный вопрос. Широкая просьба о представлении всех уведомлений часто приводит к тому, что большая коллекция не имеет четкой связи с отсутствующим продуктом.\n\nОповещение о вызове в службу безопасности игнорирует тихие часы. Не используйте уведомление, полученное за одну ночь, в качестве доказательства того, что обычное упоминание членами Комитета предпочтений игнорируется. В соответствии с этим правилом режим оповещения и обычного сообщения отличается. Объясните исключение, используя тип сообщения, а затем вернитесь к фактическому примеру клиента. В противном случае одно подлинное сообщение о безопасности в течение ночи может отвлечь дискуссию от обычного уведомления, которое они изначально хотели изучить."
+        }
+      ],
+      "id": "R6",
+      "score": 0.513836,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Платформа и интеграции/Ротация ключей.md",
+      "language": "ru",
+      "context": "Действующий порядок ротации сервисных ключей REST API Ротация сервисного ключа без потери контекста",
+      "fragments": [
+        {
+          "location": {
+            "section": "Ротация сервисного ключа без потери контекста",
+            "lines": [
+              1,
+              6
+            ]
+          },
+          "original": "# Ротация сервисного ключа без потери контекста\n\nЗаписка Security Operations для коллег, которые сопровождают интеграции LumenDesk. После сверки 1 сентября 2026 года используем этот порядок для сервисных ключей REST API. Его основная трудность обычно не в создании новой строки в настройках, а в согласовании перехода: часть людей думает, что новый ключ уже используется, другая часть ещё смотрит на старую конфигурацию. Поэтому до начала работы договоритесь, кто создаёт ключ, кто меняет настройку интеграции и кто подтверждает проверку. Это описание не расширяет возможности ключа и не заменяет его scopes.\n\nКлюч API ротируют не реже одного раза в 90 календарных дней. Отсчёт по календарю важен: обсуждение очередного обновления нельзя бесконечно переносить на удобную встречу команды. При этом сам факт появления нового ключа ещё не завершает ротацию. Переход закончен тогда, когда новый проверен, а старый отозван. Оставленный «на всякий случай» прежний ключ продолжает быть активным средством доступа, поэтому в разговоре с клиентом нужно различать создание, проверку и отзыв, даже если все действия входят в одну рабочую задачу.",
+          "id": 1,
+          "text": "# Ротация сервисного ключа без потери контекста\n\nЗаписка Security Operations для коллег, которые сопровождают интеграции LumenDesk. После сверки 1 сентября 2026 года используем этот порядок для сервисных ключей REST API. Его основная трудность обычно не в создании новой строки в настройках, а в согласовании перехода: часть людей думает, что новый ключ уже используется, другая часть ещё смотрит на старую конфигурацию. Поэтому до начала работы договоритесь, кто создаёт ключ, кто меняет настройку интеграции и кто подтверждает проверку. Это описание не расширяет возможности ключа и не заменяет его scopes.\n\nКлюч API ротируют не реже одного раза в 90 календарных дней. Отсчёт по календарю важен: обсуждение очередного обновления нельзя бесконечно переносить на удобную встречу команды. При этом сам факт появления нового ключа ещё не завершает ротацию. Переход закончен тогда, когда новый проверен, а старый отозван. Оставленный «на всякий случай» прежний ключ продолжает быть активным средством доступа, поэтому в разговоре с клиентом нужно различать создание, проверку и отзыв, даже если все действия входят в одну рабочую задачу."
+        }
+      ],
+      "id": "R7",
+      "score": 0.494512,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Франция/organisation/Calendrier support 2026.docx",
+      "language": "fr",
+      "context": "Календарь обычных обратных звонков по договорам Франции Ce qui reste ouvert",
+      "fragments": [
+        {
+          "location": {
+            "section": "Ce qui reste ouvert",
+            "paragraph": 18
+          },
+          "original": "Ce qui reste ouvert",
+          "id": 18,
+          "text": "Все, что остается открытым"
+        },
+        {
+          "location": {
+            "section": "Ce qui reste ouvert",
+            "paragraph": 19
+          },
+          "original": "Le formulaire écrit reste accessible pendant les jours fériés. Expliquer cette possibilité au client sans laisser entendre qu’un rappel ordinaire sera forcément effectué ce jour-là. Les incidents P1 Enterprise restent orientés vers l’astreinte. L’agent vérifie l’impact et le contrat, puis applique les consignes détaillées de rappel d’urgence. Un rendez-vous commercial reporté et un incident de production n’ont pas le même traitement, même s’ils arrivent dans la même conversation.",
+          "id": 19,
+          "text": "Письменный бланк остается доступным в праздничные дни. Объяснить эту возможность клиенту, не оставляя себе в тот день обычного напоминания. Нападения P1 Enterprise остаются в центре внимания. ЛПХО проверяет воздействие и договор, а затем применяет подробные инструкции для напоминания d/. Отсроченное торговое свидание и производственный инцидент не будут относиться к одному и тому же обращению, даже если они придут в тот же разговор."
+        },
+        {
+          "location": {
+            "section": "Ce qui reste ouvert",
+            "paragraph": 20
+          },
+          "original": "Pendant une relève, transmettre le canal choisi par le client, le fuseau confirmé et la dernière action convenue. Une liste de créneaux sans contexte est insuffisante lorsque le dossier nécessite une adaptation de communication ou la présence d’un administrateur. Si le client change de pays pendant un déplacement, confirmer son heure de disponibilité tout en gardant le calendrier contractuel. Le lieu physique du demandeur ne modifie pas à lui seul les règles de rappel de son organisation.",
+          "id": 20,
+          "text": "Во время замки переводится канал, выбранный клиентом, подтвержденный флюонный, и последний согласованный шаг. В тех случаях, когда в досье требуется адаптация к коммуникации или присутствие администратора, нет необходимости в перечне необыкновенных постановок. Если клиент изменяет страну во время перемещения, то он подтверждает свое время готовности, сохранив при этом контрактный график. Физическое место заявителя само по себе не изменяет правила напоминания его организации."
+        }
+      ],
+      "id": "R8",
+      "score": 0.490932,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Платформа и интеграции/Browser notes final.txt",
+      "language": "en",
+      "context": "Поддерживаемые браузеры и диагностика клиентской стороны",
+      "fragments": [
+        {
+          "location": {
+            "lines": [
+              1,
+              35
+            ]
+          },
+          "original": "Browser conversations: questions worth asking\n\nClient Platform discussed this copy with support on September 1, 2026. It is meant for the ordinary situation in which a customer can describe a browser problem but does not yet know whether the issue belongs to the client, their network, or a particular working session. LumenDesk supports stable browser releases with security updates. Begin by identifying the actual browser and operating system in use. A product name by itself is not enough to establish whether the customer is using a supported release.\n\nWhich Chrome and Edge releases are supported?\n\nThe latest two stable Chrome releases and the latest two stable Edge releases are supported. In a conversation, ask for the actual version rather than accepting “the latest one” as a recorded value. A person may reasonably believe that updates are automatic while their managed computer remains on another release. The useful note is what they are running, not an argument about why they think it should already be current. Keep the browser name beside the version so the next agent does not have to infer it from a screenshot.\n\nWhat should we say about Firefox and Safari?\n\nFor Firefox, the latest stable release and the current ESR are supported. Safari is supported on the latest two major macOS releases. These are different ways of describing supported clients, so do not flatten them into a single rule about two versions of every browser. Ask which operating system the Safari user is running. For Firefox, distinguish the ESR context from the ordinary stable release when recording what the customer reports. This prevents a later handover from treating a supported channel name as a confusing browser error.\n\nCould a private window explain why a session does not persist?\n\nPrivate browsing may prevent persistent sessions when third-party storage is blocked. Treat that as context to investigate, rather than claiming that every private-window report has the same cause. Ask whether the problem is that the person cannot complete a task now or that their session is not retained as expected. Those are different descriptions. If the customer has already compared ordinary and private browsing, preserve which observation belongs to which mode instead of writing the vague conclusion “tried another browser.”\n\nWhat does the environment need to allow?\n\nFirst-party cookies must be enabled. The network must allow secure WebSocket connections on port 443. The conversation can become tangled if everyone uses the word “connection” for a different thing. A page appearing on screen does not by itself describe whether the required secure WebSocket connection is allowed. Likewise, the fact that some cookies exist does not answer whether first-party cookies are enabled in the relevant browser context. Keep the question tied to the actual requirement instead of collecting broad statements that sound reassuring but do not establish it.\n\nHow do we approach a display problem?\n\nReproduce display issues with extensions disabled. This gives the team a clearer observation to discuss. Ask what changed in the comparison, and whether the same visible issue is still present. “We disabled something” is not as useful as knowing that the customer repeated the relevant action with extensions disabled. Do not let a long list of installed extensions become a replacement for the comparison. The goal is to understand the reported behaviour in a defined context, not to make the customer inventory unrelated parts of their computer.\n\nFor a stale asset, a hard refresh is sufficient; do not erase local drafts first. This warning is practical because people often jump from a page looking old to clearing every kind of browser data. If the customer is describing stale content or interface assets, keep the first action proportional to that observation. Be explicit that local drafts should not be erased as the opening move. A support conversation should not lose the customer's unfinished work while trying to make an old asset appear current.\n\nWhat evidence makes an escalation useful?\n\nCollect browser version, operating system, UTC time, and sanitized console errors. These details help another person compare the report with a specific environment and event. Sanitized errors should preserve the relevant error information without exposing unrelated sensitive material. Do not ask the customer to dump an entire browsing session into a message simply because the console is open. A smaller account that clearly relates to the reported action is easier to understand than a very large log containing events from several unrelated tasks.\n\nWhen asking for time, say UTC in the request or make the timezone explicit in the conversation. “This happened in the afternoon” is useful human context but cannot anchor a precise comparison between people in different offices. Keep the actual observation and the customer's description separate. Similarly, a screenshot showing the current browser version does not establish what version was running during an earlier event unless the customer can connect those moments. We should write what we know rather than quietly filling gaps to make the report look complete.\n\nWhat should the handover sound like?\n\nWrite a short narrative of the environment, the action, the visible issue, and the comparison already tried. Mention the relevant browser version and operating system, whether the display issue was reproduced with extensions disabled, and the UTC time of the example under discussion. Use only the parts actually checked. If persistent sessions are the question, preserve the private-browsing and storage context. If a stale asset was the question, say whether the hard refresh was tried without erasing local drafts. This gives the next colleague a clear continuation instead of a request to repeat every generic troubleshooting idea.",
+          "id": 1,
+          "text": "Беседы с просмотром: вопросы, которые стоит задать\n\nКлиентская платформа обсудила эту копию с поддержкой 1 сентября 2026 года. Она предназначена для обычной ситуации, в которой клиент может описать проблему браузера, но пока не знает, принадлежит ли этот вопрос клиенту, его сети или конкретной рабочей сессии. LumenDesk поддерживает стабильные браузеры с обновлениями безопасности. Начать с идентификации фактического браузера и используемой операционной системы. Одного названия продукта недостаточно для установления того, использует ли клиент защищенный выпуск.\n\nКакие релизы Chrome и Edge поддерживаются?\n\nПоддерживаются последние два устойчивых выпуска Chrome и последние два стабильных эдж-релиза. In a conversation, ask for the actual version rather than accepting “the latest one” as a recorded value. Человек может разумно полагать, что обновления являются автоматическими, а его компьютер остается в другом выпуске. Полезная записка заключается в том, что они ведут, а не в том, почему они считают, что она должна быть уже текущей. Сохранить имя браузера рядом с версией, так что следующий агент не должен делать вывод из скриншота.\n\nЧто мы должны сказать о Файерфоксе и Сафари?\n\nВ случае Firefox поддерживается последний стабильный выпуск и нынешний ЭСО. Сафари поддерживается в связи с двумя последними крупными выпусками пакоса. Это разные способы описания поддерживаемых клиентов, так что не сбавляйте их в одно правило о двух версиях каждого браузера. Спросите, какая операционная система работает сафари. Для Firefox: отличить контекст ESR от обычного стабильного релиза при регистрации того, что сообщает клиент. Это не позволяет более поздней передаче рассматривать поддерживаемое название канала как запутанную ошибку браузера.\n\nМожет ли личное окно объяснить, почему сеанс не продолжается?\n\nЧастный осмотр может предотвратить постоянные сеансы при блокировании хранения третьей стороной. Рассматривать это как контекст для расследования, а не как утверждение о том, что каждый частный доклад имеет одну и ту же причину. Задайся вопросом, заключается ли проблема в том, что данное лицо не может выполнить свою задачу сейчас или что его сеанс не будет сохранен так, как ожидалось. Это разные описания. Если клиент уже сравнил обычный и частный просмотр, оставьте, какое наблюдение принадлежит какому режиму вместо того, чтобы написать неопределенный вывод, выяснил другой браузер.\n\nЧто должна позволить окружающая среда?\n\nНеобходимо обеспечить возможность для печенья первой вечеринки. Сеть должна обеспечивать защищенное подключение WebSocket к порту 443. Разговор может запутаться, если все используют слово formula_BAR_ internation use use that this this that this that this this this that this this this that this that that that this this. Страница, появляющаяся на экране, сама по себе не описывает, допускается ли требуемое безопасное подключение к WebSocket. Аналогичным образом, тот факт, что некоторые печенья существуют, не дает ответа на вопрос о том, включены ли печенье первой партии в соответствующем контексте браузера. Держите этот вопрос в увязке с фактическим требованием, вместо того чтобы собирать широкие заявления, которые звучат успокаивающе, но не подтверждают его.\n\nКак мы подходим к проблеме дисплея?\n\nВоспроизвести вопросы дисплея с отключенными расширениями. Это дает группе более четкое наблюдение для обсуждения. Спроси, что изменилось в сравнении и существует ли та же самая заметная проблема. ▪ Мы отключили что-то, что не так полезно, как знание того, что клиент повторял соответствующие действия с отключенными расширениями. Не позволяйте длинному перечню установленных продлений стать заменой для сравнения. Цель заключается в том, чтобы понять поведение, о котором сообщается в конкретном контексте, а не сделать инвентарные запасы клиентов не связанными с их компьютером частями.\n\nДля запутанного актива достаточно жесткого обновления; не стирайте сначала местные проекты. Это предупреждение практично, потому что люди часто прыгают с страницы, которая выглядит старой, чтобы очистить все типы данных браузера. Если заказчик описывает спящее содержимое или интерфейсы, то первое действие должно быть пропорционально этому наблюдению. Будь прямо уверен, что местные проекты не следует стирать в качестве первого шага. В разговоре о поддержке не следует терять незаконченную работу клиента, пытаясь при этом сделать так, чтобы старый актив казался актуальным.\n\nКакие доказательства делают эскалацию полезной?\n\nСоберите версию браузера, операционную систему, время UTC и санитаризированные ошибки консоли. Эти подробности помогают другому лицу сравнить отчет с конкретными условиями и событиями. Очищенные ошибки должны сохранять соответствующую информацию об ошибках без разглашения не связанных с ними чувствительных материалов. Не проси клиента засунуть весь сеанс просмотра в сообщение только потому, что консоль открыта. Меньший по объему счет, который явно относится к отчетным действиям, легче понять, чем очень большой журнал, содержащий события, связанные с несколькими не связанными между собой задачами.\n\nКогда вы просите время, скажите UTC в запросе или укажите время в разговоре. ▪ Это произошло во второй половине дня, и это полезно для человека, но не может точно сравнить людей в разных офисах. Держите фактическое наблюдение отдельно от описания клиента. Аналогичным образом, скриншот, показывающий текущую версию браузера, не определяет, какая версия работала во время предыдущего события, если только клиент не сможет связать эти моменты. Нам следует написать то, что мы знаем, а не просто заполнить пробелы, с тем чтобы доклад выглядел полным.\n\nКак должна звучать передача?\n\nНапиши краткое описание окружающей среды, действия, видимую проблему и уже опробованное сравнение. Указать соответствующую версию браузера и операционную систему, был ли вопрос о дисплее воспроизведен с отключенными расширениями, и время UTC обсуждаемого примера. Используйте только те части, которые были проверены. Если речь идет о постоянных сеансах, то следует сохранить частный контекст просмотра и хранения. Если вопрос был в том, было ли трудно освежить, не стирая местных проектов. Это дает следующему коллеге ясное продолжение, а не просьбу повторить каждую общую идею устранения проблем."
+        }
+      ],
+      "id": "R9",
+      "score": 0.490911,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Выгрузки/Downloads/SAML cutover - September.md",
+      "language": "en",
+      "context": "Порядок подключения Enterprise SAML и подготовки смены сертификата Certificates and time",
+      "fragments": [
+        {
+          "location": {
+            "section": "Certificates and time",
+            "lines": [
+              23,
+              31
+            ]
+          },
+          "original": "## Certificates and time\n\nUpload the pending certificate before revoking the old certificate. Check the acceptance window in the operating parameters register. This notebook deliberately does not supply a number for that window: do not copy a number from memory or invent one because the call needs a quick answer. Record which register entry the team used when planning the certificate transition. The important ordering here is that the pending certificate is uploaded before the old one is revoked, with the applicable acceptance window checked in its own source.\n\nThe identity provider and LumenDesk clocks may differ by at most 120 seconds. When people compare timestamps during troubleshooting, ask which clock produced each value. A screenshot of local desktop time and a provider event are not automatically the same observation. The 120-second allowance is a connection constraint, not an invitation to ignore a persistent difference. Keep the discussion precise about the compared systems, especially when participants are in different time zones and casually describe the event as happening “a minute ago.”\n\nDuring the call I usually leave a short narrative of what happened rather than a wall of settings: which workspace supplied the entity ID and ACS URL, whether both pilot accounts signed in, what happened with the pending certificate, and whether the emergency administrator remained outside enforcement. The narrative is useful because another engineer can see the order of events. It should not say “SAML works” when the only evidence is that a configuration form accepted a value. Form acceptance and successful sign in are different observations.\n\nThe existing administrator session stays open until sign in succeeds. At the end, have the administrator describe the outcome in their own words and resolve any ambiguity about which account they tested. If the setup is interrupted, leave the notes at the point actually reached, with unanswered questions visible. A later call should not mistake a planned pilot for a completed one or a certificate upload for revocation of the previous certificate. These are ordinary coordination mistakes, and careful language is often the simplest way to prevent them.",
+          "id": 4,
+          "text": "## Сертификаты и время\n\nДо отзыва старого сертификата загружать неучтенный сертификат. Проверьте окно приемки в регистре эксплуатационных параметров. Этот блокнот намеренно не предоставляет номер этого окна: не копировать номер из памяти или изобретать его, потому что звонок нуждается в быстром ответе. Записи, которые регистрируют записи, используемые группой при планировании передачи сертификата. В данном случае важно, чтобы незавершенный сертификат был загружен до отзыва старого сертификата, а применимое окно приемки проверялось в его собственном источнике.\n\nПоставщик идентификационных данных и часы LumenDesk могут отличаться не более чем на 120 секунд. Когда люди сравнивают время в момент возникновения проблем, спросите, какие часы давали каждое значение. Скриншот местного рабочего стола и события, связанные с поставщиком, не являются автоматически одним и тем же наблюдением. 120-секундное пособие является ограничением связи, а не приглашением игнорировать постоянную разницу. Сохранять точность дискуссии о сопоставимых системах, особенно в тех случаях, когда участники находятся в различных часовых поясах, и вскользь описать событие как произошедшее минуту назад.\n\nВо время звонка я обычно оставляю краткое описание того, что произошло, а не стену настройок: какое рабочее пространство поставляло идентификатор предприятия и URL ACS, подписывались ли оба пилотных счета, что произошло с ожидавшимся сертификатом и оставался ли администратор чрезвычайной ситуации вне системы обеспечения соблюдения. Повествование полезно, потому что другой инженер видит порядок событий. В ней не должно быть слов ЕЦSAML работает, когда единственным доказательством является то, что форма конфигурации приняла значение. Приемлемость формы и успешный знак в ней являются различными наблюдениями.\n\nНынешняя сессия администратора остается открытой до тех пор, пока не будет подписана подпись. В конечном счете, пусть администратор опишет результаты своими словами и решит любые вопросы, связанные с тем, какой счет они проверили. Если установка прервана, оставьте заметки в момент, когда они были достигнуты, с заметными вопросами, которые остались без ответа. Последующий звонок не должен ошибаться в том, что пилот планирует загрузить завершенный или загрузить сертификат для аннулирования предыдущего сертификата. Это обычные ошибки в координации, и очень простой способ их предотвратить."
+        }
+      ],
+      "id": "R10",
+      "score": 0.486051,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Платформа и интеграции/Выгрузка карточек.md",
+      "language": "ru",
+      "context": "Действующие лимиты и порядок административного экспорта карточек Планировать запуск, а не только скачивание",
+      "fragments": [
+        {
+          "location": {
+            "section": "Планировать запуск, а не только скачивание",
+            "lines": [
+              17,
+              24
+            ]
+          },
+          "original": "## Планировать запуск, а не только скачивание\n\nДля одного workspace разрешены 2 параллельных задания экспорта. При совместной работе это стоит обсудить с администратором: два человека могут одновременно планировать выгрузки, не зная друг о друге. Наличие нескольких рабочих компьютеров не увеличивает параллельность рабочего пространства. Если клиент говорит, что один сотрудник уже запустил две выборки, не рекомендуйте третьему просто повторять нажатие с другого устройства. Сначала согласуйте последовательность работы внутри команды.\n\nОграничение параллельности и ограничение числа строк решают разные вопросы. Два допустимых по объёму задания могут выполняться параллельно, а слишком широкое задание не становится допустимым от того, что других заданий сейчас нет. В ответе клиенту назовите, какое именно ограничение относится к его ситуации. Формулировка «есть лимит экспорта» недостаточна: собеседник не поймёт, нужно ли ему изменить фильтр, дождаться завершения других запусков или обратиться к владельцу workspace для самого действия.\n\nСсылка на скачивание готового результата действует 24 часа. Планируйте передачу результата так, чтобы человек, который будет его скачивать, понимал срок. Не путайте этот срок с временем формирования выгрузки и не описывайте ссылку как постоянное хранилище. Если клиент пишет, что ссылка перестала открываться, первым делом полезно выяснить, какой именно результат и какую ссылку он использует. Копия письма, пересланная между коллегами спустя время, может выглядеть свежей в почтовом ящике, хотя сама ссылка уже не новая.",
+          "id": 3,
+          "text": "## Планировать запуск, а не только скачивание\n\nДля одного workspace разрешены 2 параллельных задания экспорта. При совместной работе это стоит обсудить с администратором: два человека могут одновременно планировать выгрузки, не зная друг о друге. Наличие нескольких рабочих компьютеров не увеличивает параллельность рабочего пространства. Если клиент говорит, что один сотрудник уже запустил две выборки, не рекомендуйте третьему просто повторять нажатие с другого устройства. Сначала согласуйте последовательность работы внутри команды.\n\nОграничение параллельности и ограничение числа строк решают разные вопросы. Два допустимых по объёму задания могут выполняться параллельно, а слишком широкое задание не становится допустимым от того, что других заданий сейчас нет. В ответе клиенту назовите, какое именно ограничение относится к его ситуации. Формулировка «есть лимит экспорта» недостаточна: собеседник не поймёт, нужно ли ему изменить фильтр, дождаться завершения других запусков или обратиться к владельцу workspace для самого действия.\n\nСсылка на скачивание готового результата действует 24 часа. Планируйте передачу результата так, чтобы человек, который будет его скачивать, понимал срок. Не путайте этот срок с временем формирования выгрузки и не описывайте ссылку как постоянное хранилище. Если клиент пишет, что ссылка перестала открываться, первым делом полезно выяснить, какой именно результат и какую ссылку он использует. Копия письма, пересланная между коллегами спустя время, может выглядеть свежей в почтовом ящике, хотя сама ссылка уже не новая."
+        }
+      ],
+      "id": "R11",
+      "score": 0.485951,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Рабочие копии/Downloads/notification-events sept.csv",
+      "language": "en",
+      "context": "Правила доставки уведомлений и сбора диагностических данных",
+      "fragments": [
+        {
+          "location": {
+            "lines": [
+              5,
+              5
+            ],
+            "columns": [
+              "Trigger",
+              "Channel or rule",
+              "Delay or explanation",
+              "Observed at",
+              "Member timezone",
+              "Outcome"
+            ]
+          },
+          "original": "Trigger: Quiet hours\nChannel or rule: rule\nDelay or explanation: Quiet hours suppress email and push between 22:00 and 08:00 local time.\nObserved at: \nMember timezone: \nOutcome:",
+          "id": 4,
+          "text": "Панель: Тихие часы\nКанал или правило: правило\nЗадержка или объяснение: Тихие часы подавляют электронную почту и толкают между 22:00 и 08:00 по местному времени.\nНаблюдается на: \nВремя, в течение которого член: \nИтоговый документ:"
+        }
+      ],
+      "id": "R12",
+      "score": 0.485933,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Клиентский сервис/хранение - сверка сентября.csv",
+      "language": "ru",
+      "context": "Общие сроки восстановления, доступности журналов и экспорта",
+      "fragments": [
+        {
+          "location": {
+            "lines": [
+              26,
+              26
+            ],
+            "columns": [
+              "Область",
+              "Тариф или объект",
+              "Срок или действие",
+              "Удалено",
+              "Примечание проверки"
+            ]
+          },
+          "original": "Область: Разбор договора\nТариф или объект: Личный архив\nСрок или действие: Копия для проверки правил от 1 сентября 2026\nУдалено: \nПримечание проверки: Отдельное удержание применяется только к подписанному дополнению",
+          "id": 25,
+          "text": "Область: Разбор договора\nТариф или объект: Личный архив\nСрок или действие: Копия для проверки правил от 1 сентября 2026\nУдалено: \nПримечание проверки: Отдельное удержание применяется только к подписанному дополнению"
+        },
+        {
+          "location": {
+            "lines": [
+              27,
+              27
+            ],
+            "columns": [
+              "Область",
+              "Тариф или объект",
+              "Срок или действие",
+              "Удалено",
+              "Примечание проверки"
+            ]
+          },
+          "original": "Область: Разбор договора\nТариф или объект: Удаление архива\nСрок или действие: Ссылка выгрузки истекает через 24 часа\nУдалено: \nПримечание проверки: Наличие скачанного файла у администратора не продлевает ссылку",
+          "id": 26,
+          "text": "Область: Разбор договора\nТариф или объект: Удаление архива\nСрок или действие: Ссылка выгрузки истекает через 24 часа\nУдалено: \nПримечание проверки: Наличие скачанного файла у администратора не продлевает ссылку"
+        }
+      ],
+      "id": "R13",
+      "score": 0.483209,
+      "retrieval": "dense",
+      "copies": []
+    },
+    {
+      "source": "documents/Рабочие копии/Downloads/Export security final.pdf",
+      "language": "en",
+      "context": "Проверка полномочий и безопасная выдача административного экспорта",
+      "fragments": [
+        {
+          "location": {
+            "page": 2
+          },
+          "original": "Handling the delivered archive\n\nDeliver the download link through the same authenticated request channel. Explain that it expires 24\nhours after archive creation. The expiry concerns the link issued by LumenDesk, and is not a\nstatement about any copy already downloaded by the customer's administrator. Do not attach the\nexport archive to an ordinary support ticket merely to make it easier for a colleague to inspect it. Use\njob identifiers and selected filters when diagnosing generation issues.\n\nAn administrator who forwards a link to another person remains responsible for choosing an\nappropriate recipient. Support should not broaden a link's intended distribution by copying it into\nunrelated conversations or meeting notes. If the original contact changes during a handover, verify\nthe new contact through the account process before resending anything. A message that quotes a\nworkspace name is context, not proof of administrator authority.\n\nNotes from the operations review\n\nIn the first review example, an agent tried a full-year selection, saw a limit error, and retried the same\nselection several times. The useful next step was to compare the intended scope with the row\nallowance and split by dates. The retries did not change the number of selected rows. The request\nhistory should show why the filter changed so the customer can check that the separate jobs together\ncover the intended period without overlap or gaps.\n\nIn the second example, the archive had finished but the customer returned after the link lifetime had\npassed. The team verified the requester and the need before generating a replacement. They did not\nrestore a stale link by copying an old archive into the ticket. The audit note recorded the new job,\napproving administrator and UTC creation time. These details make it possible to distinguish a\ndelivery problem from a generation problem when the customer follows up.\n\nBefore closing, confirm that the administrator can use the delivered result and understands the\nselected scope. Keep evidence small: job identifier, request identifier, timestamps and the exact\nnon-sensitive error text are usually more useful than screenshots of exported rows. A credit or privacy\nrequest discovered during this conversation should follow its own review process; exporting data\ndoes not settle either question. Send unclear permissions or disclosure concerns to the appropriate\naccount owner before delivery.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                                                                                              2",
+          "id": 2,
+          "text": "Обработка доставленного архива\n\nДоставить ссылку на загрузку по тому же подтвержденному каналу запроса. Объясните, что он истекает через 24 часа после создания архива. Срок действия документа касается ссылки, выпущенной компанией LumenDesk, и не является заявлением о любой копии, уже загруженной администратором клиента. Не прикрепляйте экспортный архив к обычному вспомогательному билету, с тем чтобы коллеги могли его проверить. При диагностике вопросов генерации использовать идентификаторы рабочих мест и выбранные фильтры.\n\nАдминистратор, который направляет ссылку другому лицу, по-прежнему отвечает за выбор соответствующего получателя. Поддержка не должна расширять предполагаемое распространение ссылки путем ее копирования в не связанные с ней разговоры или записки о заседаниях. Если первоначальный контакт меняется во время передачи, проверяйте новый контакт через процесс учета до того, как что-либо будет возвращено. Сообщение, в котором цитируется название рабочего пространства, это контекст, а не доказательство полномочий администратора.\n\nПримечания по итогам обзора операций\n\nВ первом примере агент попробовал выбор на полный год, увидел ошибку в пределе и несколько раз перепроверил один и тот же выбор. Следующим полезным шагом было сопоставление предполагаемой суммы с суммой надбавки за строку и разбивка ее по датам. Количество выбранных строк не изменилось. История запроса должна показать, почему фильтр изменился, с тем чтобы клиент мог проверить, чтобы отдельные должности вместе охватывали предполагаемый период без дублирования или пробелов.\n\nВо втором примере архив закончился, но клиент вернулся после того, как прошёл срок службы. Группа проверила запросчика и необходимость, прежде чем произвести замену. Они не восстановили грязную ссылку, копировав старый архив в билет. В ревизионной записке была зафиксирована новая должность администратора и время создания UTC. Эти детали позволяют проводить различие между проблемой доставки и проблемой поколения, когда клиент принимает последующие меры.\n\nПеред закрытием подтвердите, что администратор может использовать полученный результат и понимает выбранную сферу охвата. Сохранять малую улику: идентификатор задания, идентификатор запроса, временные отметки и точный нечувствительный текст ошибки обычно более полезны, чем скриншоты экспортированных строк. Просьба о получении кредита или конфиденциальности, обнаруженная в ходе этого разговора, должна следовать ее собственному процессу рассмотрения; экспорт данных не решает ни один из этих вопросов. Направлять неясные разрешения или замечания в отношении раскрытия информации соответствующему владельцу счета до поставки.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                                                                                              2"
+        }
+      ],
+      "id": "R14",
+      "score": 0.478373,
+      "retrieval": "dense",
+      "copies": []
+    }
+  ]
+}

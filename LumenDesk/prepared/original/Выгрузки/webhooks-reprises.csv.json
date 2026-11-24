@@ -1,0 +1,637 @@
+{
+  "source": "documents/Выгрузки/webhooks-reprises.csv",
+  "sha256": "9178755e975c14fe72e87cb50a25f64b9dd0eb64fb599995c7ab471cfd9dc5f5",
+  "extractor_version": 2,
+  "fragments": [
+    {
+      "location": {
+        "lines": [
+          2,
+          2
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: calendrier\nÉtape ou livraison: Tentative 1\nMinutes depuis envoi initial: 0\nÉvénement: \nHTTP: \nObservation: Envoi initial à 0 minute.",
+      "id": 1
+    },
+    {
+      "location": {
+        "lines": [
+          3,
+          3
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: calendrier\nÉtape ou livraison: Tentative 2\nMinutes depuis envoi initial: 1\nÉvénement: \nHTTP: \nObservation: Nouvel envoi à 1 minute.",
+      "id": 2
+    },
+    {
+      "location": {
+        "lines": [
+          4,
+          4
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: calendrier\nÉtape ou livraison: Tentative 3\nMinutes depuis envoi initial: 5\nÉvénement: \nHTTP: \nObservation: Nouvel envoi à 5 minutes.",
+      "id": 3
+    },
+    {
+      "location": {
+        "lines": [
+          5,
+          5
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: calendrier\nÉtape ou livraison: Tentative 4\nMinutes depuis envoi initial: 15\nÉvénement: \nHTTP: \nObservation: Nouvel envoi à 15 minutes.",
+      "id": 4
+    },
+    {
+      "location": {
+        "lines": [
+          6,
+          6
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: calendrier\nÉtape ou livraison: Tentative 5\nMinutes depuis envoi initial: 60\nÉvénement: \nHTTP: \nObservation: Nouvel envoi à 60 minutes.",
+      "id": 5
+    },
+    {
+      "location": {
+        "lines": [
+          7,
+          7
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: calendrier\nÉtape ou livraison: Tentative 6\nMinutes depuis envoi initial: 240\nÉvénement: \nHTTP: \nObservation: Dernier envoi à 240 minutes.",
+      "id": 6
+    },
+    {
+      "location": {
+        "lines": [
+          8,
+          8
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: consigne\nÉtape ou livraison: Échec final\nMinutes depuis envoi initial: \nÉvénement: \nHTTP: \nObservation: Après la sixième tentative en échec, l’événement prend l’état dead_letter.",
+      "id": 7
+    },
+    {
+      "location": {
+        "lines": [
+          9,
+          9
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: consigne\nÉtape ou livraison: Suspension\nMinutes depuis envoi initial: \nÉvénement: \nHTTP: \nObservation: Trois événements dead_letter en une heure suspendent l’abonnement.",
+      "id": 8
+    },
+    {
+      "location": {
+        "lines": [
+          10,
+          10
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: consigne\nÉtape ou livraison: Reprise\nMinutes depuis envoi initial: \nÉvénement: \nHTTP: \nObservation: Un administrateur réactive l’abonnement après un test HTTP 2xx.",
+      "id": 9
+    },
+    {
+      "location": {
+        "lines": [
+          11,
+          11
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: consigne\nÉtape ou livraison: Identifiant\nMinutes depuis envoi initial: \nÉvénement: \nHTTP: \nObservation: L’event ID reste identique pendant toutes les tentatives.",
+      "id": 10
+    },
+    {
+      "location": {
+        "lines": [
+          12,
+          12
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: consigne\nÉtape ou livraison: Délai réseau\nMinutes depuis envoi initial: \nÉvénement: \nHTTP: \nObservation: Chaque tentative a un délai de réponse maximal de 10 secondes.",
+      "id": 11
+    },
+    {
+      "location": {
+        "lines": [
+          13,
+          13
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: journal du test du 8 septembre\nÉtape ou livraison: livraison-31\nMinutes depuis envoi initial: 0\nÉvénement: cartes.cree\nHTTP: 503\nObservation: service aval indisponible; horloge mesurée depuis le premier envoi du même événement",
+      "id": 12
+    },
+    {
+      "location": {
+        "lines": [
+          14,
+          14
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: journal du test du 8 septembre\nÉtape ou livraison: livraison-32\nMinutes depuis envoi initial: 1\nÉvénement: commentaire.ajoute\nHTTP: 429\nObservation: Retry-After reçu; horloge mesurée depuis le premier envoi du même événement",
+      "id": 13
+    },
+    {
+      "location": {
+        "lines": [
+          15,
+          15
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: journal du test du 8 septembre\nÉtape ou livraison: livraison-33\nMinutes depuis envoi initial: 5\nÉvénement: carte.modifie\nHTTP: 200\nObservation: accusé de réception; horloge mesurée depuis le premier envoi du même événement",
+      "id": 14
+    },
+    {
+      "location": {
+        "lines": [
+          16,
+          16
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: journal du test du 8 septembre\nÉtape ou livraison: livraison-34\nMinutes depuis envoi initial: 15\nÉvénement: fichier.disponible\nHTTP: 504\nObservation: délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement",
+      "id": 15
+    },
+    {
+      "location": {
+        "lines": [
+          17,
+          17
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: journal du test du 8 septembre\nÉtape ou livraison: livraison-35\nMinutes depuis envoi initial: 60\nÉvénement: membre.invite\nHTTP: 202\nObservation: traitement accepté; horloge mesurée depuis le premier envoi du même événement",
+      "id": 16
+    },
+    {
+      "location": {
+        "lines": [
+          18,
+          18
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: journal du test du 8 septembre\nÉtape ou livraison: livraison-36\nMinutes depuis envoi initial: 240\nÉvénement: carte.archive\nHTTP: 500\nObservation: erreur du destinataire; horloge mesurée depuis le premier envoi du même événement",
+      "id": 17
+    },
+    {
+      "location": {
+        "lines": [
+          19,
+          19
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: journal du test du 8 septembre\nÉtape ou livraison: livraison-37\nMinutes depuis envoi initial: 0\nÉvénement: cartes.cree\nHTTP: 503\nObservation: service aval indisponible; horloge mesurée depuis le premier envoi du même événement",
+      "id": 18
+    },
+    {
+      "location": {
+        "lines": [
+          20,
+          20
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: journal du test du 8 septembre\nÉtape ou livraison: livraison-38\nMinutes depuis envoi initial: 1\nÉvénement: commentaire.ajoute\nHTTP: 429\nObservation: Retry-After reçu; horloge mesurée depuis le premier envoi du même événement",
+      "id": 19
+    },
+    {
+      "location": {
+        "lines": [
+          21,
+          21
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: journal du test du 8 septembre\nÉtape ou livraison: livraison-39\nMinutes depuis envoi initial: 5\nÉvénement: carte.modifie\nHTTP: 200\nObservation: accusé de réception; horloge mesurée depuis le premier envoi du même événement",
+      "id": 20
+    },
+    {
+      "location": {
+        "lines": [
+          22,
+          22
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: journal du test du 8 septembre\nÉtape ou livraison: livraison-40\nMinutes depuis envoi initial: 15\nÉvénement: fichier.disponible\nHTTP: 504\nObservation: délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement",
+      "id": 21
+    },
+    {
+      "location": {
+        "lines": [
+          23,
+          23
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: journal du test du 8 septembre\nÉtape ou livraison: livraison-41\nMinutes depuis envoi initial: 60\nÉvénement: membre.invite\nHTTP: 202\nObservation: traitement accepté; horloge mesurée depuis le premier envoi du même événement",
+      "id": 22
+    },
+    {
+      "location": {
+        "lines": [
+          24,
+          24
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: journal du test du 8 septembre\nÉtape ou livraison: livraison-42\nMinutes depuis envoi initial: 240\nÉvénement: carte.archive\nHTTP: 500\nObservation: erreur du destinataire; horloge mesurée depuis le premier envoi du même événement",
+      "id": 23
+    },
+    {
+      "location": {
+        "lines": [
+          25,
+          25
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: journal du test du 8 septembre\nÉtape ou livraison: livraison-43\nMinutes depuis envoi initial: 0\nÉvénement: cartes.cree\nHTTP: 503\nObservation: service aval indisponible; horloge mesurée depuis le premier envoi du même événement",
+      "id": 24
+    },
+    {
+      "location": {
+        "lines": [
+          26,
+          26
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: journal du test du 8 septembre\nÉtape ou livraison: livraison-44\nMinutes depuis envoi initial: 1\nÉvénement: commentaire.ajoute\nHTTP: 429\nObservation: Retry-After reçu; horloge mesurée depuis le premier envoi du même événement",
+      "id": 25
+    },
+    {
+      "location": {
+        "lines": [
+          27,
+          27
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: journal du test du 8 septembre\nÉtape ou livraison: livraison-45\nMinutes depuis envoi initial: 5\nÉvénement: carte.modifie\nHTTP: 200\nObservation: accusé de réception; horloge mesurée depuis le premier envoi du même événement",
+      "id": 26
+    },
+    {
+      "location": {
+        "lines": [
+          28,
+          28
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: journal du test du 8 septembre\nÉtape ou livraison: livraison-46\nMinutes depuis envoi initial: 15\nÉvénement: fichier.disponible\nHTTP: 504\nObservation: délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement",
+      "id": 27
+    },
+    {
+      "location": {
+        "lines": [
+          29,
+          29
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: journal du test du 8 septembre\nÉtape ou livraison: livraison-47\nMinutes depuis envoi initial: 60\nÉvénement: membre.invite\nHTTP: 202\nObservation: traitement accepté; horloge mesurée depuis le premier envoi du même événement",
+      "id": 28
+    },
+    {
+      "location": {
+        "lines": [
+          30,
+          30
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: journal du test du 8 septembre\nÉtape ou livraison: livraison-48\nMinutes depuis envoi initial: 240\nÉvénement: carte.archive\nHTTP: 500\nObservation: erreur du destinataire; horloge mesurée depuis le premier envoi du même événement",
+      "id": 29
+    },
+    {
+      "location": {
+        "lines": [
+          31,
+          31
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: journal du test du 8 septembre\nÉtape ou livraison: livraison-49\nMinutes depuis envoi initial: 0\nÉvénement: cartes.cree\nHTTP: 503\nObservation: service aval indisponible; horloge mesurée depuis le premier envoi du même événement",
+      "id": 30
+    },
+    {
+      "location": {
+        "lines": [
+          32,
+          32
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: journal du test du 8 septembre\nÉtape ou livraison: livraison-50\nMinutes depuis envoi initial: 1\nÉvénement: commentaire.ajoute\nHTTP: 429\nObservation: Retry-After reçu; horloge mesurée depuis le premier envoi du même événement",
+      "id": 31
+    },
+    {
+      "location": {
+        "lines": [
+          33,
+          33
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: journal du test du 8 septembre\nÉtape ou livraison: livraison-51\nMinutes depuis envoi initial: 5\nÉvénement: carte.modifie\nHTTP: 200\nObservation: accusé de réception; horloge mesurée depuis le premier envoi du même événement",
+      "id": 32
+    },
+    {
+      "location": {
+        "lines": [
+          34,
+          34
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: journal du test du 8 septembre\nÉtape ou livraison: livraison-52\nMinutes depuis envoi initial: 15\nÉvénement: fichier.disponible\nHTTP: 504\nObservation: délai réseau dépassé; horloge mesurée depuis le premier envoi du même événement",
+      "id": 33
+    },
+    {
+      "location": {
+        "lines": [
+          35,
+          35
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: journal du test du 8 septembre\nÉtape ou livraison: livraison-53\nMinutes depuis envoi initial: 60\nÉvénement: membre.invite\nHTTP: 202\nObservation: traitement accepté; horloge mesurée depuis le premier envoi du même événement",
+      "id": 34
+    },
+    {
+      "location": {
+        "lines": [
+          36,
+          36
+        ],
+        "columns": [
+          "Nature",
+          "Étape ou livraison",
+          "Minutes depuis envoi initial",
+          "Événement",
+          "HTTP",
+          "Observation"
+        ]
+      },
+      "original": "Nature: journal du test du 8 septembre\nÉtape ou livraison: livraison-54\nMinutes depuis envoi initial: 240\nÉvénement: carte.archive\nHTTP: 500\nObservation: erreur du destinataire; horloge mesurée depuis le premier envoi du même événement",
+      "id": 35
+    }
+  ]
+}

@@ -1,0 +1,1511 @@
+{
+  "source": "documents/Финансы/Для руководителей/Аудит сентябрь.xlsx",
+  "sha256": "81a264b7e023948e12692cb4460d00f5d9844b9fd7584b0bd2fe8c72108b9d9c",
+  "extractor_version": 2,
+  "fragments": [
+    {
+      "location": {
+        "sheet": "Обращение",
+        "range": "A1:A1"
+      },
+      "original": "A1: Проверка административных событий",
+      "id": 1
+    },
+    {
+      "location": {
+        "sheet": "Обращение",
+        "range": "A3:A3"
+      },
+      "original": "A3: Только руководителям поддержки. Security Operations передала эту копию для разбора сентябрьских запросов. Журнал Enterprise не выдают специалистам первой линии. Основание доступа фиксируют до просмотра.",
+      "id": 2
+    },
+    {
+      "location": {
+        "sheet": "Обращение",
+        "range": "A7:D7"
+      },
+      "original": "A7: Предмет\nB7: Описание\nC7: Вид\nD7: Условие",
+      "id": 3
+    },
+    {
+      "location": {
+        "sheet": "Обращение",
+        "range": "A8:D8",
+        "headers": {
+          "A8": {
+            "cell": "A7",
+            "text": "Предмет"
+          },
+          "B8": {
+            "cell": "B7",
+            "text": "Описание"
+          },
+          "C8": {
+            "cell": "C7",
+            "text": "Вид"
+          },
+          "D8": {
+            "cell": "D7",
+            "text": "Условие"
+          }
+        }
+      },
+      "original": "A8: auth.login\nB8: Вход участника\nC8: событие\nD8: Время UTC и actor ID",
+      "id": 4
+    },
+    {
+      "location": {
+        "sheet": "Обращение",
+        "range": "A9:D9",
+        "headers": {
+          "A9": {
+            "cell": "A7",
+            "text": "Предмет"
+          },
+          "B9": {
+            "cell": "B7",
+            "text": "Описание"
+          },
+          "C9": {
+            "cell": "C7",
+            "text": "Вид"
+          },
+          "D9": {
+            "cell": "D7",
+            "text": "Условие"
+          }
+        }
+      },
+      "original": "A9: role.changed\nB9: Изменение роли\nC9: событие\nD9: Старая и новая роли",
+      "id": 5
+    },
+    {
+      "location": {
+        "sheet": "Обращение",
+        "range": "A10:D10",
+        "headers": {
+          "A10": {
+            "cell": "A7",
+            "text": "Предмет"
+          },
+          "B10": {
+            "cell": "B7",
+            "text": "Описание"
+          },
+          "C10": {
+            "cell": "C7",
+            "text": "Вид"
+          },
+          "D10": {
+            "cell": "D7",
+            "text": "Условие"
+          }
+        }
+      },
+      "original": "A10: guest.invited\nB10: Приглашение гостя\nC10: событие\nD10: Идентификатор приглашения",
+      "id": 6
+    },
+    {
+      "location": {
+        "sheet": "Обращение",
+        "range": "A11:D11",
+        "headers": {
+          "A11": {
+            "cell": "A7",
+            "text": "Предмет"
+          },
+          "B11": {
+            "cell": "B7",
+            "text": "Описание"
+          },
+          "C11": {
+            "cell": "C7",
+            "text": "Вид"
+          },
+          "D11": {
+            "cell": "D7",
+            "text": "Условие"
+          }
+        }
+      },
+      "original": "A11: link.created\nB11: Создание публичной ссылки\nC11: событие\nD11: Resource ID без содержимого объекта",
+      "id": 7
+    },
+    {
+      "location": {
+        "sheet": "Обращение",
+        "range": "A12:D12",
+        "headers": {
+          "A12": {
+            "cell": "A7",
+            "text": "Предмет"
+          },
+          "B12": {
+            "cell": "B7",
+            "text": "Описание"
+          },
+          "C12": {
+            "cell": "C7",
+            "text": "Вид"
+          },
+          "D12": {
+            "cell": "D7",
+            "text": "Условие"
+          }
+        }
+      },
+      "original": "A12: export.started\nB12: Запуск административного экспорта\nC12: событие\nD12: Job ID и actor ID",
+      "id": 8
+    },
+    {
+      "location": {
+        "sheet": "Обращение",
+        "range": "A13:D13",
+        "headers": {
+          "A13": {
+            "cell": "A7",
+            "text": "Предмет"
+          },
+          "B13": {
+            "cell": "B7",
+            "text": "Описание"
+          },
+          "C13": {
+            "cell": "C7",
+            "text": "Вид"
+          },
+          "D13": {
+            "cell": "D7",
+            "text": "Условие"
+          }
+        }
+      },
+      "original": "A13: Тариф\nB13: Enterprise\nC13: ограничение\nD13: Журнал аудита доступен только на Enterprise",
+      "id": 9
+    },
+    {
+      "location": {
+        "sheet": "Обращение",
+        "range": "A14:D14",
+        "headers": {
+          "A14": {
+            "cell": "A7",
+            "text": "Предмет"
+          },
+          "B14": {
+            "cell": "B7",
+            "text": "Описание"
+          },
+          "C14": {
+            "cell": "C7",
+            "text": "Вид"
+          },
+          "D14": {
+            "cell": "D7",
+            "text": "Условие"
+          }
+        }
+      },
+      "original": "A14: Хранение\nB14: 365\nC14: дней\nD14: Календарные дни",
+      "id": 10
+    },
+    {
+      "location": {
+        "sheet": "Обращение",
+        "range": "A15:D15",
+        "headers": {
+          "A15": {
+            "cell": "A7",
+            "text": "Предмет"
+          },
+          "B15": {
+            "cell": "B7",
+            "text": "Описание"
+          },
+          "C15": {
+            "cell": "C7",
+            "text": "Вид"
+          },
+          "D15": {
+            "cell": "D7",
+            "text": "Условие"
+          }
+        }
+      },
+      "original": "A15: Запрос\nB15: Incident ID\nC15: обязательное поле\nD15: Основание доступа фиксируют до просмотра",
+      "id": 11
+    },
+    {
+      "location": {
+        "sheet": "Обращение",
+        "range": "A16:D16",
+        "headers": {
+          "A16": {
+            "cell": "A7",
+            "text": "Предмет"
+          },
+          "B16": {
+            "cell": "B7",
+            "text": "Описание"
+          },
+          "C16": {
+            "cell": "C7",
+            "text": "Вид"
+          },
+          "D16": {
+            "cell": "D7",
+            "text": "Условие"
+          }
+        }
+      },
+      "original": "A16: Выгрузка\nB16: Разрешение Security Operations\nC16: согласование\nD16: Перед передачей внешней стороне",
+      "id": 12
+    },
+    {
+      "location": {
+        "sheet": "Обращение",
+        "range": "A17:D17",
+        "headers": {
+          "A17": {
+            "cell": "A7",
+            "text": "Предмет"
+          },
+          "B17": {
+            "cell": "B7",
+            "text": "Описание"
+          },
+          "C17": {
+            "cell": "C7",
+            "text": "Вид"
+          },
+          "D17": {
+            "cell": "D7",
+            "text": "Условие"
+          }
+        }
+      },
+      "original": "A17: Минимизация\nB17: Только нужный диапазон\nC17: правило\nD17: Не выгружать весь год для одного события",
+      "id": 13
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A1:A1"
+      },
+      "original": "A1: Выборка для внутренней сверки",
+      "id": 14
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A3:A3"
+      },
+      "original": "A3: Операционные записи LumenDesk для разбора обращений. Содержимого карточек в выборке нет; запрос на внешнюю передачу требует согласования Security Operations.",
+      "id": 15
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A7:E7"
+      },
+      "original": "A7: Время UTC\nB7: Workspace\nC7: Событие\nD7: Actor\nE7: Контекст",
+      "id": 16
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A8:E8",
+        "headers": {
+          "A8": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B8": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C8": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D8": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E8": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A8: 2026-09-02 08:00\nB8: ws-230\nC8: auth.login\nD8: actor-870\nE8: Успешный вход",
+      "id": 17
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A9:E9",
+        "headers": {
+          "A9": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B9": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C9": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D9": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E9": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A9: 2026-09-02 08:11\nB9: ws-231\nC9: role.changed\nD9: actor-871\nE9: member → admin",
+      "id": 18
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A10:E10",
+        "headers": {
+          "A10": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B10": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C10": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D10": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E10": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A10: 2026-09-02 08:22\nB10: ws-232\nC10: guest.invited\nD10: actor-872\nE10: Приглашение без содержимого письма",
+      "id": 19
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A11:E11",
+        "headers": {
+          "A11": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B11": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C11": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D11": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E11": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A11: 2026-09-02 08:33\nB11: ws-233\nC11: link.created\nD11: actor-873\nE11: Resource card-813",
+      "id": 20
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A12:E12",
+        "headers": {
+          "A12": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B12": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C12": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D12": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E12": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A12: 2026-09-02 08:44\nB12: ws-234\nC12: export.started\nD12: actor-874\nE12: Job export-494",
+      "id": 21
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A13:E13",
+        "headers": {
+          "A13": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B13": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C13": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D13": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E13": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A13: 2026-09-03 08:00\nB13: ws-235\nC13: auth.login\nD13: actor-875\nE13: Успешный вход",
+      "id": 22
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A14:E14",
+        "headers": {
+          "A14": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B14": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C14": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D14": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E14": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A14: 2026-09-03 08:11\nB14: ws-236\nC14: role.changed\nD14: actor-876\nE14: member → admin",
+      "id": 23
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A15:E15",
+        "headers": {
+          "A15": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B15": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C15": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D15": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E15": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A15: 2026-09-03 08:22\nB15: ws-230\nC15: guest.invited\nD15: actor-877\nE15: Приглашение без содержимого письма",
+      "id": 24
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A16:E16",
+        "headers": {
+          "A16": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B16": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C16": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D16": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E16": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A16: 2026-09-03 08:33\nB16: ws-231\nC16: link.created\nD16: actor-878\nE16: Resource card-818",
+      "id": 25
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A17:E17",
+        "headers": {
+          "A17": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B17": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C17": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D17": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E17": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A17: 2026-09-03 08:44\nB17: ws-232\nC17: export.started\nD17: actor-870\nE17: Job export-499",
+      "id": 26
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A18:E18",
+        "headers": {
+          "A18": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B18": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C18": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D18": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E18": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A18: 2026-09-04 08:00\nB18: ws-233\nC18: auth.login\nD18: actor-871\nE18: Успешный вход",
+      "id": 27
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A19:E19",
+        "headers": {
+          "A19": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B19": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C19": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D19": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E19": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A19: 2026-09-04 08:11\nB19: ws-234\nC19: role.changed\nD19: actor-872\nE19: member → admin",
+      "id": 28
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A20:E20",
+        "headers": {
+          "A20": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B20": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C20": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D20": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E20": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A20: 2026-09-04 08:22\nB20: ws-235\nC20: guest.invited\nD20: actor-873\nE20: Приглашение без содержимого письма",
+      "id": 29
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A21:E21",
+        "headers": {
+          "A21": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B21": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C21": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D21": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E21": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A21: 2026-09-04 08:33\nB21: ws-236\nC21: link.created\nD21: actor-874\nE21: Resource card-823",
+      "id": 30
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A22:E22",
+        "headers": {
+          "A22": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B22": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C22": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D22": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E22": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A22: 2026-09-04 08:44\nB22: ws-230\nC22: export.started\nD22: actor-875\nE22: Job export-504",
+      "id": 31
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A23:E23",
+        "headers": {
+          "A23": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B23": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C23": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D23": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E23": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A23: 2026-09-05 08:00\nB23: ws-231\nC23: auth.login\nD23: actor-876\nE23: Успешный вход",
+      "id": 32
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A24:E24",
+        "headers": {
+          "A24": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B24": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C24": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D24": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E24": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A24: 2026-09-05 08:11\nB24: ws-232\nC24: role.changed\nD24: actor-877\nE24: member → admin",
+      "id": 33
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A25:E25",
+        "headers": {
+          "A25": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B25": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C25": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D25": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E25": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A25: 2026-09-05 08:22\nB25: ws-233\nC25: guest.invited\nD25: actor-878\nE25: Приглашение без содержимого письма",
+      "id": 34
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A26:E26",
+        "headers": {
+          "A26": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B26": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C26": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D26": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E26": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A26: 2026-09-05 08:33\nB26: ws-234\nC26: link.created\nD26: actor-870\nE26: Resource card-828",
+      "id": 35
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A27:E27",
+        "headers": {
+          "A27": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B27": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C27": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D27": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E27": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A27: 2026-09-05 08:44\nB27: ws-235\nC27: export.started\nD27: actor-871\nE27: Job export-509",
+      "id": 36
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A28:E28",
+        "headers": {
+          "A28": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B28": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C28": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D28": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E28": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A28: 2026-09-06 08:00\nB28: ws-236\nC28: auth.login\nD28: actor-872\nE28: Успешный вход",
+      "id": 37
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A29:E29",
+        "headers": {
+          "A29": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B29": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C29": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D29": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E29": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A29: 2026-09-06 08:11\nB29: ws-230\nC29: role.changed\nD29: actor-873\nE29: member → admin",
+      "id": 38
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A30:E30",
+        "headers": {
+          "A30": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B30": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C30": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D30": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E30": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A30: 2026-09-06 08:22\nB30: ws-231\nC30: guest.invited\nD30: actor-874\nE30: Приглашение без содержимого письма",
+      "id": 39
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A31:E31",
+        "headers": {
+          "A31": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B31": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C31": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D31": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E31": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A31: 2026-09-06 08:33\nB31: ws-232\nC31: link.created\nD31: actor-875\nE31: Resource card-833",
+      "id": 40
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A32:E32",
+        "headers": {
+          "A32": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B32": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C32": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D32": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E32": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A32: 2026-09-06 08:44\nB32: ws-233\nC32: export.started\nD32: actor-876\nE32: Job export-514",
+      "id": 41
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A33:E33",
+        "headers": {
+          "A33": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B33": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C33": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D33": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E33": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A33: 2026-09-07 08:00\nB33: ws-234\nC33: auth.login\nD33: actor-877\nE33: Успешный вход",
+      "id": 42
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A34:E34",
+        "headers": {
+          "A34": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B34": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C34": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D34": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E34": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A34: 2026-09-07 08:11\nB34: ws-235\nC34: role.changed\nD34: actor-878\nE34: member → admin",
+      "id": 43
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A35:E35",
+        "headers": {
+          "A35": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B35": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C35": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D35": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E35": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A35: 2026-09-07 08:22\nB35: ws-236\nC35: guest.invited\nD35: actor-870\nE35: Приглашение без содержимого письма",
+      "id": 44
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A36:E36",
+        "headers": {
+          "A36": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B36": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C36": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D36": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E36": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A36: 2026-09-07 08:33\nB36: ws-230\nC36: link.created\nD36: actor-871\nE36: Resource card-838",
+      "id": 45
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A37:E37",
+        "headers": {
+          "A37": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B37": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C37": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D37": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E37": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A37: 2026-09-07 08:44\nB37: ws-231\nC37: export.started\nD37: actor-872\nE37: Job export-519",
+      "id": 46
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A38:E38",
+        "headers": {
+          "A38": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B38": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C38": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D38": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E38": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A38: 2026-09-08 08:00\nB38: ws-232\nC38: auth.login\nD38: actor-873\nE38: Успешный вход",
+      "id": 47
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A39:E39",
+        "headers": {
+          "A39": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B39": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C39": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D39": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E39": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A39: 2026-09-08 08:11\nB39: ws-233\nC39: role.changed\nD39: actor-874\nE39: member → admin",
+      "id": 48
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A40:E40",
+        "headers": {
+          "A40": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B40": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C40": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D40": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E40": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A40: 2026-09-08 08:22\nB40: ws-234\nC40: guest.invited\nD40: actor-875\nE40: Приглашение без содержимого письма",
+      "id": 49
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A41:E41",
+        "headers": {
+          "A41": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B41": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C41": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D41": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E41": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A41: 2026-09-08 08:33\nB41: ws-235\nC41: link.created\nD41: actor-876\nE41: Resource card-843",
+      "id": 50
+    },
+    {
+      "location": {
+        "sheet": "События сентября",
+        "range": "A42:E42",
+        "headers": {
+          "A42": {
+            "cell": "A7",
+            "text": "Время UTC"
+          },
+          "B42": {
+            "cell": "B7",
+            "text": "Workspace"
+          },
+          "C42": {
+            "cell": "C7",
+            "text": "Событие"
+          },
+          "D42": {
+            "cell": "D7",
+            "text": "Actor"
+          },
+          "E42": {
+            "cell": "E7",
+            "text": "Контекст"
+          }
+        }
+      },
+      "original": "A42: 2026-09-08 08:44\nB42: ws-236\nC42: export.started\nD42: actor-877\nE42: Job export-524",
+      "id": 51
+    },
+    {
+      "location": {
+        "sheet": "Основания",
+        "range": "A1:A1"
+      },
+      "original": "A1: Вопросы для согласования доступа",
+      "id": 52
+    },
+    {
+      "location": {
+        "sheet": "Основания",
+        "range": "A5:D5"
+      },
+      "original": "A5: Запрос\nB5: Диапазон\nC5: Почему нужен\nD5: Решение смены",
+      "id": 53
+    },
+    {
+      "location": {
+        "sheet": "Основания",
+        "range": "A6:D6",
+        "headers": {
+          "A6": {
+            "cell": "A5",
+            "text": "Запрос"
+          },
+          "B6": {
+            "cell": "B5",
+            "text": "Диапазон"
+          },
+          "C6": {
+            "cell": "C5",
+            "text": "Почему нужен"
+          },
+          "D6": {
+            "cell": "D5",
+            "text": "Решение смены"
+          }
+        }
+      },
+      "original": "A6: INC-260903\nB6: 08:00–09:00 UTC\nC6: Сопоставить время входа\nD6: Только нужные события",
+      "id": 54
+    },
+    {
+      "location": {
+        "sheet": "Основания",
+        "range": "A7:D7",
+        "headers": {
+          "A7": {
+            "cell": "A5",
+            "text": "Запрос"
+          },
+          "B7": {
+            "cell": "B5",
+            "text": "Диапазон"
+          },
+          "C7": {
+            "cell": "C5",
+            "text": "Почему нужен"
+          },
+          "D7": {
+            "cell": "D5",
+            "text": "Решение смены"
+          }
+        }
+      },
+      "original": "A7: Пересмотр приглашений\nB7: 7 сентября\nC7: Уточнить actor приглашения\nD7: Без содержимого объекта",
+      "id": 55
+    },
+    {
+      "location": {
+        "sheet": "Основания",
+        "range": "A8:D8",
+        "headers": {
+          "A8": {
+            "cell": "A5",
+            "text": "Запрос"
+          },
+          "B8": {
+            "cell": "B5",
+            "text": "Диапазон"
+          },
+          "C8": {
+            "cell": "C5",
+            "text": "Почему нужен"
+          },
+          "D8": {
+            "cell": "D5",
+            "text": "Решение смены"
+          }
+        }
+      },
+      "original": "A8: Запрос внешней стороны\nB8: Уточнить\nC8: Передача ещё не согласована\nD8: Ожидать Security Operations",
+      "id": 56
+    },
+    {
+      "location": {
+        "sheet": "Основания",
+        "range": "A9:D9",
+        "headers": {
+          "A9": {
+            "cell": "A5",
+            "text": "Запрос"
+          },
+          "B9": {
+            "cell": "B5",
+            "text": "Диапазон"
+          },
+          "C9": {
+            "cell": "C5",
+            "text": "Почему нужен"
+          },
+          "D9": {
+            "cell": "D5",
+            "text": "Решение смены"
+          }
+        }
+      },
+      "original": "A9: Сбой выгрузки\nB9: Время конкретного Job\nC9: Найти запуск экспорта\nD9: Не выгружать весь год",
+      "id": 57
+    },
+    {
+      "location": {
+        "sheet": "Основания",
+        "range": "A10:D10",
+        "headers": {
+          "A10": {
+            "cell": "A5",
+            "text": "Запрос"
+          },
+          "B10": {
+            "cell": "B5",
+            "text": "Диапазон"
+          },
+          "C10": {
+            "cell": "C5",
+            "text": "Почему нужен"
+          },
+          "D10": {
+            "cell": "D5",
+            "text": "Решение смены"
+          }
+        }
+      },
+      "original": "A10: Изменение роли\nB10: Время изменения\nC10: Сверить старую и новую роли\nD10: Сохранить основание просмотра",
+      "id": 58
+    }
+  ]
+}

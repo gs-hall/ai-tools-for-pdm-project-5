@@ -1,0 +1,1389 @@
+{
+  "source": "documents/Выгрузки/September incident register.xlsx",
+  "sha256": "5f9c0edfdb1e6e84f19dbae37655ccf2858d06315233545ee345d839ccd3c163",
+  "extractor_version": 2,
+  "fragments": [
+    {
+      "location": {
+        "sheet": "September",
+        "range": "A1:A1"
+      },
+      "original": "A1: Customer-visible incident milestones",
+      "id": 1
+    },
+    {
+      "location": {
+        "sheet": "September",
+        "range": "A3:A3"
+      },
+      "original": "A3: Infrastructure working register, September 2026. Observed durations describe impact; they are not a credit decision. Region scope must be checked before communicating with a customer.",
+      "id": 2
+    },
+    {
+      "location": {
+        "sheet": "September",
+        "range": "A7:D7"
+      },
+      "original": "A7: Incident\nB7: Impact\nC7: Started UTC\nD7: Resolved UTC",
+      "id": 3
+    },
+    {
+      "location": {
+        "sheet": "September",
+        "range": "A8:D8",
+        "headers": {
+          "A8": {
+            "cell": "A7",
+            "text": "Incident"
+          },
+          "B8": {
+            "cell": "B7",
+            "text": "Impact"
+          },
+          "C8": {
+            "cell": "C7",
+            "text": "Started UTC"
+          },
+          "D8": {
+            "cell": "D7",
+            "text": "Resolved UTC"
+          }
+        }
+      },
+      "original": "A8: INC-260903\nB8: EU-1 search delay\nC8: 2026-09-03 08:10 UTC\nD8: 2026-09-03 08:42 UTC",
+      "id": 4
+    },
+    {
+      "location": {
+        "sheet": "September",
+        "range": "A9:D9",
+        "headers": {
+          "A9": {
+            "cell": "A7",
+            "text": "Incident"
+          },
+          "B9": {
+            "cell": "B7",
+            "text": "Impact"
+          },
+          "C9": {
+            "cell": "C7",
+            "text": "Started UTC"
+          },
+          "D9": {
+            "cell": "D7",
+            "text": "Resolved UTC"
+          }
+        }
+      },
+      "original": "A9: INC-260907\nB9: US-1 attachment processing\nC9: 2026-09-07 13:00 UTC\nD9: 2026-09-07 13:21 UTC",
+      "id": 5
+    },
+    {
+      "location": {
+        "sheet": "September",
+        "range": "A10:D10",
+        "headers": {
+          "A10": {
+            "cell": "A7",
+            "text": "Incident"
+          },
+          "B10": {
+            "cell": "B7",
+            "text": "Impact"
+          },
+          "C10": {
+            "cell": "C7",
+            "text": "Started UTC"
+          },
+          "D10": {
+            "cell": "D7",
+            "text": "Resolved UTC"
+          }
+        }
+      },
+      "original": "A10: INC-260912\nB10: EU-2 sign-in delay\nC10: 2026-09-12 09:05 UTC\nD10: 2026-09-12 09:17 UTC",
+      "id": 6
+    },
+    {
+      "location": {
+        "sheet": "September",
+        "range": "A11:D11",
+        "headers": {
+          "A11": {
+            "cell": "A7",
+            "text": "Incident"
+          },
+          "B11": {
+            "cell": "B7",
+            "text": "Impact"
+          },
+          "C11": {
+            "cell": "C7",
+            "text": "Started UTC"
+          },
+          "D11": {
+            "cell": "D7",
+            "text": "Resolved UTC"
+          }
+        }
+      },
+      "original": "A11: INC-260919\nB11: EU-1 webhook queue\nC11: 2026-09-19 17:30 UTC\nD11: 2026-09-19 18:12 UTC",
+      "id": 7
+    },
+    {
+      "location": {
+        "sheet": "September",
+        "range": "A12:D12",
+        "headers": {
+          "A12": {
+            "cell": "A7",
+            "text": "Incident"
+          },
+          "B12": {
+            "cell": "B7",
+            "text": "Impact"
+          },
+          "C12": {
+            "cell": "C7",
+            "text": "Started UTC"
+          },
+          "D12": {
+            "cell": "D7",
+            "text": "Resolved UTC"
+          }
+        }
+      },
+      "original": "A12: INC-260921\nB12: EU-1 preview delay\nC12: 2026-09-21 06:10 UTC\nD12: 2026-09-21 06:25 UTC",
+      "id": 8
+    },
+    {
+      "location": {
+        "sheet": "September",
+        "range": "A13:D13",
+        "headers": {
+          "A13": {
+            "cell": "A7",
+            "text": "Incident"
+          },
+          "B13": {
+            "cell": "B7",
+            "text": "Impact"
+          },
+          "C13": {
+            "cell": "C7",
+            "text": "Started UTC"
+          },
+          "D13": {
+            "cell": "D7",
+            "text": "Resolved UTC"
+          }
+        }
+      },
+      "original": "A13: INC-260922\nB13: US-1 notification queue\nC13: 2026-09-22 06:10 UTC\nD13: 2026-09-22 06:29 UTC",
+      "id": 9
+    },
+    {
+      "location": {
+        "sheet": "September",
+        "range": "A14:D14",
+        "headers": {
+          "A14": {
+            "cell": "A7",
+            "text": "Incident"
+          },
+          "B14": {
+            "cell": "B7",
+            "text": "Impact"
+          },
+          "C14": {
+            "cell": "C7",
+            "text": "Started UTC"
+          },
+          "D14": {
+            "cell": "D7",
+            "text": "Resolved UTC"
+          }
+        }
+      },
+      "original": "A14: INC-260923\nB14: EU-2 search index lag\nC14: 2026-09-23 06:10 UTC\nD14: 2026-09-23 06:33 UTC",
+      "id": 10
+    },
+    {
+      "location": {
+        "sheet": "September",
+        "range": "A15:D15",
+        "headers": {
+          "A15": {
+            "cell": "A7",
+            "text": "Incident"
+          },
+          "B15": {
+            "cell": "B7",
+            "text": "Impact"
+          },
+          "C15": {
+            "cell": "C7",
+            "text": "Started UTC"
+          },
+          "D15": {
+            "cell": "D7",
+            "text": "Resolved UTC"
+          }
+        }
+      },
+      "original": "A15: INC-260924\nB15: CA-1 attachment preview\nC15: 2026-09-24 06:10 UTC\nD15: 2026-09-24 06:37 UTC",
+      "id": 11
+    },
+    {
+      "location": {
+        "sheet": "September",
+        "range": "A16:D16",
+        "headers": {
+          "A16": {
+            "cell": "A7",
+            "text": "Incident"
+          },
+          "B16": {
+            "cell": "B7",
+            "text": "Impact"
+          },
+          "C16": {
+            "cell": "C7",
+            "text": "Started UTC"
+          },
+          "D16": {
+            "cell": "D7",
+            "text": "Resolved UTC"
+          }
+        }
+      },
+      "original": "A16: INC-260925\nB16: EU-1 preview delay\nC16: 2026-09-25 06:10 UTC\nD16: 2026-09-25 06:41 UTC",
+      "id": 12
+    },
+    {
+      "location": {
+        "sheet": "September",
+        "range": "A17:D17",
+        "headers": {
+          "A17": {
+            "cell": "A7",
+            "text": "Incident"
+          },
+          "B17": {
+            "cell": "B7",
+            "text": "Impact"
+          },
+          "C17": {
+            "cell": "C7",
+            "text": "Started UTC"
+          },
+          "D17": {
+            "cell": "D7",
+            "text": "Resolved UTC"
+          }
+        }
+      },
+      "original": "A17: INC-260926\nB17: US-1 notification queue\nC17: 2026-09-26 06:10 UTC\nD17: 2026-09-26 06:25 UTC",
+      "id": 13
+    },
+    {
+      "location": {
+        "sheet": "September",
+        "range": "A18:D18",
+        "headers": {
+          "A18": {
+            "cell": "A7",
+            "text": "Incident"
+          },
+          "B18": {
+            "cell": "B7",
+            "text": "Impact"
+          },
+          "C18": {
+            "cell": "C7",
+            "text": "Started UTC"
+          },
+          "D18": {
+            "cell": "D7",
+            "text": "Resolved UTC"
+          }
+        }
+      },
+      "original": "A18: INC-260927\nB18: EU-2 search index lag\nC18: 2026-09-27 06:10 UTC\nD18: 2026-09-27 06:29 UTC",
+      "id": 14
+    },
+    {
+      "location": {
+        "sheet": "September",
+        "range": "A19:D19",
+        "headers": {
+          "A19": {
+            "cell": "A7",
+            "text": "Incident"
+          },
+          "B19": {
+            "cell": "B7",
+            "text": "Impact"
+          },
+          "C19": {
+            "cell": "C7",
+            "text": "Started UTC"
+          },
+          "D19": {
+            "cell": "D7",
+            "text": "Resolved UTC"
+          }
+        }
+      },
+      "original": "A19: INC-260928\nB19: CA-1 attachment preview\nC19: 2026-09-28 06:10 UTC\nD19: 2026-09-28 06:33 UTC",
+      "id": 15
+    },
+    {
+      "location": {
+        "sheet": "September",
+        "range": "A20:D20",
+        "headers": {
+          "A20": {
+            "cell": "A7",
+            "text": "Incident"
+          },
+          "B20": {
+            "cell": "B7",
+            "text": "Impact"
+          },
+          "C20": {
+            "cell": "C7",
+            "text": "Started UTC"
+          },
+          "D20": {
+            "cell": "D7",
+            "text": "Resolved UTC"
+          }
+        }
+      },
+      "original": "A20: INC-260929\nB20: EU-1 preview delay\nC20: 2026-09-29 06:10 UTC\nD20: 2026-09-29 06:37 UTC",
+      "id": 16
+    },
+    {
+      "location": {
+        "sheet": "September",
+        "range": "A21:D21",
+        "headers": {
+          "A21": {
+            "cell": "A7",
+            "text": "Incident"
+          },
+          "B21": {
+            "cell": "B7",
+            "text": "Impact"
+          },
+          "C21": {
+            "cell": "C7",
+            "text": "Started UTC"
+          },
+          "D21": {
+            "cell": "D7",
+            "text": "Resolved UTC"
+          }
+        }
+      },
+      "original": "A21: INC-260930\nB21: US-1 notification queue\nC21: 2026-09-21 06:10 UTC\nD21: 2026-09-21 06:41 UTC",
+      "id": 17
+    },
+    {
+      "location": {
+        "sheet": "September",
+        "range": "A22:D22",
+        "headers": {
+          "A22": {
+            "cell": "A7",
+            "text": "Incident"
+          },
+          "B22": {
+            "cell": "B7",
+            "text": "Impact"
+          },
+          "C22": {
+            "cell": "C7",
+            "text": "Started UTC"
+          },
+          "D22": {
+            "cell": "D7",
+            "text": "Resolved UTC"
+          }
+        }
+      },
+      "original": "A22: INC-260931\nB22: EU-2 search index lag\nC22: 2026-09-22 06:10 UTC\nD22: 2026-09-22 06:25 UTC",
+      "id": 18
+    },
+    {
+      "location": {
+        "sheet": "September",
+        "range": "A23:D23",
+        "headers": {
+          "A23": {
+            "cell": "A7",
+            "text": "Incident"
+          },
+          "B23": {
+            "cell": "B7",
+            "text": "Impact"
+          },
+          "C23": {
+            "cell": "C7",
+            "text": "Started UTC"
+          },
+          "D23": {
+            "cell": "D7",
+            "text": "Resolved UTC"
+          }
+        }
+      },
+      "original": "A23: INC-260932\nB23: CA-1 attachment preview\nC23: 2026-09-23 06:10 UTC\nD23: 2026-09-23 06:29 UTC",
+      "id": 19
+    },
+    {
+      "location": {
+        "sheet": "September",
+        "range": "A24:D24",
+        "headers": {
+          "A24": {
+            "cell": "A7",
+            "text": "Incident"
+          },
+          "B24": {
+            "cell": "B7",
+            "text": "Impact"
+          },
+          "C24": {
+            "cell": "C7",
+            "text": "Started UTC"
+          },
+          "D24": {
+            "cell": "D7",
+            "text": "Resolved UTC"
+          }
+        }
+      },
+      "original": "A24: INC-260933\nB24: EU-1 preview delay\nC24: 2026-09-24 06:10 UTC\nD24: 2026-09-24 06:33 UTC",
+      "id": 20
+    },
+    {
+      "location": {
+        "sheet": "September",
+        "range": "A25:D25",
+        "headers": {
+          "A25": {
+            "cell": "A7",
+            "text": "Incident"
+          },
+          "B25": {
+            "cell": "B7",
+            "text": "Impact"
+          },
+          "C25": {
+            "cell": "C7",
+            "text": "Started UTC"
+          },
+          "D25": {
+            "cell": "D7",
+            "text": "Resolved UTC"
+          }
+        }
+      },
+      "original": "A25: INC-260934\nB25: US-1 notification queue\nC25: 2026-09-25 06:10 UTC\nD25: 2026-09-25 06:37 UTC",
+      "id": 21
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A1:A1"
+      },
+      "original": "A1: Publication handover for confirmed incidents",
+      "id": 22
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A5:D5"
+      },
+      "original": "A5: Incident\nB5: Milestone\nC5: UTC time\nD5: Audience note",
+      "id": 23
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A6:D6",
+        "headers": {
+          "A6": {
+            "cell": "A5",
+            "text": "Incident"
+          },
+          "B6": {
+            "cell": "B5",
+            "text": "Milestone"
+          },
+          "C6": {
+            "cell": "C5",
+            "text": "UTC time"
+          },
+          "D6": {
+            "cell": "D5",
+            "text": "Audience note"
+          }
+        }
+      },
+      "original": "A6: INC-260903\nB6: Impact reported\nC6: 2026-09-03 08:10 UTC\nD6: Affected region only",
+      "id": 24
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A7:D7",
+        "headers": {
+          "A7": {
+            "cell": "A5",
+            "text": "Incident"
+          },
+          "B7": {
+            "cell": "B5",
+            "text": "Milestone"
+          },
+          "C7": {
+            "cell": "C5",
+            "text": "UTC time"
+          },
+          "D7": {
+            "cell": "D5",
+            "text": "Audience note"
+          }
+        }
+      },
+      "original": "A7: INC-260907\nB7: Impact reported\nC7: 2026-09-07 13:00 UTC\nD7: Affected region only",
+      "id": 25
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A8:D8",
+        "headers": {
+          "A8": {
+            "cell": "A5",
+            "text": "Incident"
+          },
+          "B8": {
+            "cell": "B5",
+            "text": "Milestone"
+          },
+          "C8": {
+            "cell": "C5",
+            "text": "UTC time"
+          },
+          "D8": {
+            "cell": "D5",
+            "text": "Audience note"
+          }
+        }
+      },
+      "original": "A8: INC-260912\nB8: Impact reported\nC8: 2026-09-12 09:05 UTC\nD8: Affected region only",
+      "id": 26
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A9:D9",
+        "headers": {
+          "A9": {
+            "cell": "A5",
+            "text": "Incident"
+          },
+          "B9": {
+            "cell": "B5",
+            "text": "Milestone"
+          },
+          "C9": {
+            "cell": "C5",
+            "text": "UTC time"
+          },
+          "D9": {
+            "cell": "D5",
+            "text": "Audience note"
+          }
+        }
+      },
+      "original": "A9: INC-260919\nB9: Impact reported\nC9: 2026-09-19 17:30 UTC\nD9: Affected region only",
+      "id": 27
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A10:D10",
+        "headers": {
+          "A10": {
+            "cell": "A5",
+            "text": "Incident"
+          },
+          "B10": {
+            "cell": "B5",
+            "text": "Milestone"
+          },
+          "C10": {
+            "cell": "C5",
+            "text": "UTC time"
+          },
+          "D10": {
+            "cell": "D5",
+            "text": "Audience note"
+          }
+        }
+      },
+      "original": "A10: INC-260903\nB10: Investigation started\nC10: 2026-09-03 08:12 UTC\nD10: Cause under investigation",
+      "id": 28
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A11:D11",
+        "headers": {
+          "A11": {
+            "cell": "A5",
+            "text": "Incident"
+          },
+          "B11": {
+            "cell": "B5",
+            "text": "Milestone"
+          },
+          "C11": {
+            "cell": "C5",
+            "text": "UTC time"
+          },
+          "D11": {
+            "cell": "D5",
+            "text": "Audience note"
+          }
+        }
+      },
+      "original": "A11: INC-260907\nB11: Investigation started\nC11: 2026-09-07 13:02 UTC\nD11: Cause under investigation",
+      "id": 29
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A12:D12",
+        "headers": {
+          "A12": {
+            "cell": "A5",
+            "text": "Incident"
+          },
+          "B12": {
+            "cell": "B5",
+            "text": "Milestone"
+          },
+          "C12": {
+            "cell": "C5",
+            "text": "UTC time"
+          },
+          "D12": {
+            "cell": "D5",
+            "text": "Audience note"
+          }
+        }
+      },
+      "original": "A12: INC-260912\nB12: Investigation started\nC12: 2026-09-12 09:07 UTC\nD12: Cause under investigation",
+      "id": 30
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A13:D13",
+        "headers": {
+          "A13": {
+            "cell": "A5",
+            "text": "Incident"
+          },
+          "B13": {
+            "cell": "B5",
+            "text": "Milestone"
+          },
+          "C13": {
+            "cell": "C5",
+            "text": "UTC time"
+          },
+          "D13": {
+            "cell": "D5",
+            "text": "Audience note"
+          }
+        }
+      },
+      "original": "A13: INC-260919\nB13: Investigation started\nC13: 2026-09-19 17:32 UTC\nD13: Cause under investigation",
+      "id": 31
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A14:D14",
+        "headers": {
+          "A14": {
+            "cell": "A5",
+            "text": "Incident"
+          },
+          "B14": {
+            "cell": "B5",
+            "text": "Milestone"
+          },
+          "C14": {
+            "cell": "C5",
+            "text": "UTC time"
+          },
+          "D14": {
+            "cell": "D5",
+            "text": "Audience note"
+          }
+        }
+      },
+      "original": "A14: INC-260903\nB14: Scope checked\nC14: 2026-09-03 08:17 UTC\nD14: Do not imply global impact",
+      "id": 32
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A15:D15",
+        "headers": {
+          "A15": {
+            "cell": "A5",
+            "text": "Incident"
+          },
+          "B15": {
+            "cell": "B5",
+            "text": "Milestone"
+          },
+          "C15": {
+            "cell": "C5",
+            "text": "UTC time"
+          },
+          "D15": {
+            "cell": "D5",
+            "text": "Audience note"
+          }
+        }
+      },
+      "original": "A15: INC-260907\nB15: Scope checked\nC15: 2026-09-07 13:07 UTC\nD15: Do not imply global impact",
+      "id": 33
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A16:D16",
+        "headers": {
+          "A16": {
+            "cell": "A5",
+            "text": "Incident"
+          },
+          "B16": {
+            "cell": "B5",
+            "text": "Milestone"
+          },
+          "C16": {
+            "cell": "C5",
+            "text": "UTC time"
+          },
+          "D16": {
+            "cell": "D5",
+            "text": "Audience note"
+          }
+        }
+      },
+      "original": "A16: INC-260912\nB16: Scope checked\nC16: 2026-09-12 09:12 UTC\nD16: Do not imply global impact",
+      "id": 34
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A17:D17",
+        "headers": {
+          "A17": {
+            "cell": "A5",
+            "text": "Incident"
+          },
+          "B17": {
+            "cell": "B5",
+            "text": "Milestone"
+          },
+          "C17": {
+            "cell": "C5",
+            "text": "UTC time"
+          },
+          "D17": {
+            "cell": "D5",
+            "text": "Audience note"
+          }
+        }
+      },
+      "original": "A17: INC-260919\nB17: Scope checked\nC17: 2026-09-19 17:37 UTC\nD17: Do not imply global impact",
+      "id": 35
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A18:D18",
+        "headers": {
+          "A18": {
+            "cell": "A5",
+            "text": "Incident"
+          },
+          "B18": {
+            "cell": "B5",
+            "text": "Milestone"
+          },
+          "C18": {
+            "cell": "C5",
+            "text": "UTC time"
+          },
+          "D18": {
+            "cell": "D5",
+            "text": "Audience note"
+          }
+        }
+      },
+      "original": "A18: INC-260903\nB18: Customer update\nC18: 2026-09-03 08:25 UTC\nD18: Next update time included",
+      "id": 36
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A19:D19",
+        "headers": {
+          "A19": {
+            "cell": "A5",
+            "text": "Incident"
+          },
+          "B19": {
+            "cell": "B5",
+            "text": "Milestone"
+          },
+          "C19": {
+            "cell": "C5",
+            "text": "UTC time"
+          },
+          "D19": {
+            "cell": "D5",
+            "text": "Audience note"
+          }
+        }
+      },
+      "original": "A19: INC-260907\nB19: Customer update\nC19: 2026-09-07 13:15 UTC\nD19: Next update time included",
+      "id": 37
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A20:D20",
+        "headers": {
+          "A20": {
+            "cell": "A5",
+            "text": "Incident"
+          },
+          "B20": {
+            "cell": "B5",
+            "text": "Milestone"
+          },
+          "C20": {
+            "cell": "C5",
+            "text": "UTC time"
+          },
+          "D20": {
+            "cell": "D5",
+            "text": "Audience note"
+          }
+        }
+      },
+      "original": "A20: INC-260912\nB20: Customer update\nC20: 2026-09-12 09:20 UTC\nD20: Next update time included",
+      "id": 38
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A21:D21",
+        "headers": {
+          "A21": {
+            "cell": "A5",
+            "text": "Incident"
+          },
+          "B21": {
+            "cell": "B5",
+            "text": "Milestone"
+          },
+          "C21": {
+            "cell": "C5",
+            "text": "UTC time"
+          },
+          "D21": {
+            "cell": "D5",
+            "text": "Audience note"
+          }
+        }
+      },
+      "original": "A21: INC-260919\nB21: Customer update\nC21: 2026-09-19 17:45 UTC\nD21: Next update time included",
+      "id": 39
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A22:D22",
+        "headers": {
+          "A22": {
+            "cell": "A5",
+            "text": "Incident"
+          },
+          "B22": {
+            "cell": "B5",
+            "text": "Milestone"
+          },
+          "C22": {
+            "cell": "C5",
+            "text": "UTC time"
+          },
+          "D22": {
+            "cell": "D5",
+            "text": "Audience note"
+          }
+        }
+      },
+      "original": "A22: INC-260903\nB22: Mitigation checked\nC22: 2026-09-03 08:42 UTC\nD22: Workaround limits stated",
+      "id": 40
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A23:D23",
+        "headers": {
+          "A23": {
+            "cell": "A5",
+            "text": "Incident"
+          },
+          "B23": {
+            "cell": "B5",
+            "text": "Milestone"
+          },
+          "C23": {
+            "cell": "C5",
+            "text": "UTC time"
+          },
+          "D23": {
+            "cell": "D5",
+            "text": "Audience note"
+          }
+        }
+      },
+      "original": "A23: INC-260907\nB23: Mitigation checked\nC23: 2026-09-07 13:21 UTC\nD23: Workaround limits stated",
+      "id": 41
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A24:D24",
+        "headers": {
+          "A24": {
+            "cell": "A5",
+            "text": "Incident"
+          },
+          "B24": {
+            "cell": "B5",
+            "text": "Milestone"
+          },
+          "C24": {
+            "cell": "C5",
+            "text": "UTC time"
+          },
+          "D24": {
+            "cell": "D5",
+            "text": "Audience note"
+          }
+        }
+      },
+      "original": "A24: INC-260912\nB24: Mitigation checked\nC24: 2026-09-12 09:17 UTC\nD24: Workaround limits stated",
+      "id": 42
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A25:D25",
+        "headers": {
+          "A25": {
+            "cell": "A5",
+            "text": "Incident"
+          },
+          "B25": {
+            "cell": "B5",
+            "text": "Milestone"
+          },
+          "C25": {
+            "cell": "C5",
+            "text": "UTC time"
+          },
+          "D25": {
+            "cell": "D5",
+            "text": "Audience note"
+          }
+        }
+      },
+      "original": "A25: INC-260919\nB25: Mitigation checked\nC25: 2026-09-19 18:12 UTC\nD25: Workaround limits stated",
+      "id": 43
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A26:D26",
+        "headers": {
+          "A26": {
+            "cell": "A5",
+            "text": "Incident"
+          },
+          "B26": {
+            "cell": "B5",
+            "text": "Milestone"
+          },
+          "C26": {
+            "cell": "C5",
+            "text": "UTC time"
+          },
+          "D26": {
+            "cell": "D5",
+            "text": "Audience note"
+          }
+        }
+      },
+      "original": "A26: INC-260903\nB26: Customer retest requested\nC26: 2026-09-03 08:50 UTC\nD26: Technical recovery differs from customer confirmation",
+      "id": 44
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A27:D27",
+        "headers": {
+          "A27": {
+            "cell": "A5",
+            "text": "Incident"
+          },
+          "B27": {
+            "cell": "B5",
+            "text": "Milestone"
+          },
+          "C27": {
+            "cell": "C5",
+            "text": "UTC time"
+          },
+          "D27": {
+            "cell": "D5",
+            "text": "Audience note"
+          }
+        }
+      },
+      "original": "A27: INC-260907\nB27: Customer retest requested\nC27: 2026-09-07 13:29 UTC\nD27: Technical recovery differs from customer confirmation",
+      "id": 45
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A28:D28",
+        "headers": {
+          "A28": {
+            "cell": "A5",
+            "text": "Incident"
+          },
+          "B28": {
+            "cell": "B5",
+            "text": "Milestone"
+          },
+          "C28": {
+            "cell": "C5",
+            "text": "UTC time"
+          },
+          "D28": {
+            "cell": "D5",
+            "text": "Audience note"
+          }
+        }
+      },
+      "original": "A28: INC-260912\nB28: Customer retest requested\nC28: 2026-09-12 09:25 UTC\nD28: Technical recovery differs from customer confirmation",
+      "id": 46
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A29:D29",
+        "headers": {
+          "A29": {
+            "cell": "A5",
+            "text": "Incident"
+          },
+          "B29": {
+            "cell": "B5",
+            "text": "Milestone"
+          },
+          "C29": {
+            "cell": "C5",
+            "text": "UTC time"
+          },
+          "D29": {
+            "cell": "D5",
+            "text": "Audience note"
+          }
+        }
+      },
+      "original": "A29: INC-260919\nB29: Customer retest requested\nC29: 2026-09-19 18:20 UTC\nD29: Technical recovery differs from customer confirmation",
+      "id": 47
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A30:D30",
+        "headers": {
+          "A30": {
+            "cell": "A5",
+            "text": "Incident"
+          },
+          "B30": {
+            "cell": "B5",
+            "text": "Milestone"
+          },
+          "C30": {
+            "cell": "C5",
+            "text": "UTC time"
+          },
+          "D30": {
+            "cell": "D5",
+            "text": "Audience note"
+          }
+        }
+      },
+      "original": "A30: INC-260903\nB30: Summary linked\nC30: 2026-09-05 08:42 UTC\nD30: Summary after review",
+      "id": 48
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A31:D31",
+        "headers": {
+          "A31": {
+            "cell": "A5",
+            "text": "Incident"
+          },
+          "B31": {
+            "cell": "B5",
+            "text": "Milestone"
+          },
+          "C31": {
+            "cell": "C5",
+            "text": "UTC time"
+          },
+          "D31": {
+            "cell": "D5",
+            "text": "Audience note"
+          }
+        }
+      },
+      "original": "A31: INC-260907\nB31: Summary linked\nC31: 2026-09-09 13:21 UTC\nD31: Summary after review",
+      "id": 49
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A32:D32",
+        "headers": {
+          "A32": {
+            "cell": "A5",
+            "text": "Incident"
+          },
+          "B32": {
+            "cell": "B5",
+            "text": "Milestone"
+          },
+          "C32": {
+            "cell": "C5",
+            "text": "UTC time"
+          },
+          "D32": {
+            "cell": "D5",
+            "text": "Audience note"
+          }
+        }
+      },
+      "original": "A32: INC-260912\nB32: Summary linked\nC32: 2026-09-14 09:17 UTC\nD32: Summary after review",
+      "id": 50
+    },
+    {
+      "location": {
+        "sheet": "Updates",
+        "range": "A33:D33",
+        "headers": {
+          "A33": {
+            "cell": "A5",
+            "text": "Incident"
+          },
+          "B33": {
+            "cell": "B5",
+            "text": "Milestone"
+          },
+          "C33": {
+            "cell": "C5",
+            "text": "UTC time"
+          },
+          "D33": {
+            "cell": "D5",
+            "text": "Audience note"
+          }
+        }
+      },
+      "original": "A33: INC-260919\nB33: Summary linked\nC33: 2026-09-21 18:12 UTC\nD33: Summary after review",
+      "id": 51
+    },
+    {
+      "location": {
+        "sheet": "Reporting notes",
+        "range": "A1:A1"
+      },
+      "original": "A1: Rules for communicating the register",
+      "id": 52
+    },
+    {
+      "location": {
+        "sheet": "Reporting notes",
+        "range": "A5:D5"
+      },
+      "original": "A5: Subject\nB5: Value\nC5: Unit\nD5: Interpretation",
+      "id": 53
+    },
+    {
+      "location": {
+        "sheet": "Reporting notes",
+        "range": "A6:D6",
+        "headers": {
+          "A6": {
+            "cell": "A5",
+            "text": "Subject"
+          },
+          "B6": {
+            "cell": "B5",
+            "text": "Value"
+          },
+          "C6": {
+            "cell": "C5",
+            "text": "Unit"
+          },
+          "D6": {
+            "cell": "D5",
+            "text": "Interpretation"
+          }
+        }
+      },
+      "original": "A6: Impact\nB6: Affected region only\nC6: scope\nD6: Do not describe a regional issue as a global outage",
+      "id": 54
+    },
+    {
+      "location": {
+        "sheet": "Reporting notes",
+        "range": "A7:D7",
+        "headers": {
+          "A7": {
+            "cell": "A5",
+            "text": "Subject"
+          },
+          "B7": {
+            "cell": "B5",
+            "text": "Value"
+          },
+          "C7": {
+            "cell": "C5",
+            "text": "Unit"
+          },
+          "D7": {
+            "cell": "D5",
+            "text": "Interpretation"
+          }
+        }
+      },
+      "original": "A7: Updates\nB7: 30\nC7: minutes\nD7: Target update cadence during P1",
+      "id": 55
+    },
+    {
+      "location": {
+        "sheet": "Reporting notes",
+        "range": "A8:D8",
+        "headers": {
+          "A8": {
+            "cell": "A5",
+            "text": "Subject"
+          },
+          "B8": {
+            "cell": "B5",
+            "text": "Value"
+          },
+          "C8": {
+            "cell": "C5",
+            "text": "Unit"
+          },
+          "D8": {
+            "cell": "D5",
+            "text": "Interpretation"
+          }
+        }
+      },
+      "original": "A8: Public summary\nB8: 3\nC8: business days\nD8: After incident resolution",
+      "id": 56
+    },
+    {
+      "location": {
+        "sheet": "Reporting notes",
+        "range": "A9:D9",
+        "headers": {
+          "A9": {
+            "cell": "A5",
+            "text": "Subject"
+          },
+          "B9": {
+            "cell": "B5",
+            "text": "Value"
+          },
+          "C9": {
+            "cell": "C5",
+            "text": "Unit"
+          },
+          "D9": {
+            "cell": "D5",
+            "text": "Interpretation"
+          }
+        }
+      },
+      "original": "A9: Evidence\nB9: Incident ID and UTC range\nC9: fields\nD9: Attach request IDs when available",
+      "id": 57
+    },
+    {
+      "location": {
+        "sheet": "Reporting notes",
+        "range": "A10:D10",
+        "headers": {
+          "A10": {
+            "cell": "A5",
+            "text": "Subject"
+          },
+          "B10": {
+            "cell": "B5",
+            "text": "Value"
+          },
+          "C10": {
+            "cell": "C5",
+            "text": "Unit"
+          },
+          "D10": {
+            "cell": "D5",
+            "text": "Interpretation"
+          }
+        }
+      },
+      "original": "A10: Credit\nB10: Separate eligibility review\nC10: rule\nD10: Elapsed time alone does not approve a credit",
+      "id": 58
+    }
+  ]
+}
